@@ -2,7 +2,7 @@
 
 == Annotated and sorted
 
-=== Tweets
+=== Tweet
 
 ==== Back to basics
 
@@ -84,8 +84,6 @@
 
 * https://twitter.com/addyosmani/status/1085439006433669120
 ** Addy Osmani sur Twitter : \"Tip: Chrome can measure how much unused JavaScript is on your page https://t.co/AYBKnPha0nDevTools > top-right menu > More tools > Coverage… https://t.co/k24W4NCyCQ\"
-
-==== Standards (vs frameworks)
 
 ==== JS
 
@@ -192,67 +190,232 @@
 * https://twitter.com/rauschma/status/1081542850607763456
 ** Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"
 
-== TODO
+== Articles, talks, podcasts...
 
-* https://adactio.com/links/14687
-** Adactio: Links—It’s What You Make, Not How You Make It.
+=== Thinking
 
-* https://adamrackis.dev/state-and-use-reducer/
-** Hooks, State, Closures, and useReducer | Adam Reacts
+* http://simpleprimate.com/blog/make
+** It's What You Make, Not How You Make It.
 
-* https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/
-** AddyOsmani.com - Component Interop With React And Custom Elements
+* http://ideas.ted.com/why-you-think-youre-right-even-when-youre-wrong/
+** Why you think you’re right, even when you’re wrong |
 
-* https://americanexpress.io/clean-code-dirty-code/
-** Clean Code vs. Dirty Code: React Best Practices - American Express Technology
+* http://journal.plausible.io/you-probably-dont-need-a-single-page-app
+** You probably don’t need a single-page application
+
+* https://christianheilmann.com/2019/01/28/html-is-and-always-was-a-compilation-target-can-we-deal-with-that/
+** HTML is and always was a compilation target – can we deal with that? | Christian Heilmann
+
+* https://css-tricks.com/the-great-divide/
+** The Great Divide | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
+* https://en.wikipedia.org/wiki/Escalation_of_commitment
+** Escalation of commitment - Wikipedia
+
+* https://en.wikipedia.org/wiki/Sunk_cost
+** Sunk cost - Wikipedia
+
+* https://hackernoon.com/the-backendification-of-frontend-development-62f218a773d4
+** The “Backendification” of Frontend Development – Hacker Noon
+
+* https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/
+** The care and feeding of software engineers (or, why engineers are grumpy) - Human Who Codes
+
+* https://itnext.io/why-are-we-creating-a-javascript-only-world-wide-web-db8c3a340b9
+** Why are we creating a JavaScript-only World Wide Web?
+
+* https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4
+** Javascript Fatigue – Eric Clemmons – Medium
+
+* https://www.apress.com/us/blog/all-blog-posts/your-front-end-does-not-have-to-be-rich/16537718
+** Your Front-End Does Not Have To Be Rich
+
+* https://www.csrhymes.com/2019/03/08/is-web-development-copying-and-pasting.html
+** Is web development just copying and pasting? - C.S. RhymesIs web development just copying and pasting? | C.S. Rhymes
+
+* https://www.ovalkwiki.com/index.php/The_Seventy_Maxims_of_Maximally_Effective_Mercenaries
+** The Seventy Maxims of Maximally Effective Mercenaries - Ovalkwiki
+
+* https://mcfunley.com/choose-boring-technology
+** Dan McKinley :: Choose Boring TechnologyCrazySane
 
 * https://andy-bell.design/notes/103/
 ** Our boring tech landscape - Andy Bell
 
-* https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z
-** Code Galaxies Visualization
+* https://css-tricks.com/the-bottleneck-of-the-web/
+** The Bottleneck of the Web | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
-* https://areknawo.com/dom-performance-case-study/
-** DOM performance case study
+* https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk
+** My solution is the best! - DEV Community 👩‍💻👨‍💻
 
-* http://asserttrue.blogspot.com/2009/02/inheritance-as-antipattern.html
-** blogorrhea: Inheritance as Antipattern
+=== React, react, react...
 
-* https://bitsofco.de/what-exactly-is-the-dom/
-** What, exactly, is the DOM?
-
-* https://bitsofco.de/what-is-tree-shaking/
-** What is tree shaking and how does it work?
+* https://adamrackis.dev/state-and-use-reducer/
+** Hooks, State, Closures, and useReducer | Adam Reacts
 
 * http://blog.andrewray.me/reactjs-for-stupid-people/
 ** ReactJS For Beginners
 
-* https://blog.angular.io/a-plan-for-version-8-0-and-ivy-b3318dfc19f7
-** A plan for version 8.0 and Ivy – Angular Blog
+* http://erikaybar.name/refactoring-react-extracting-layout-components/
+** Refactoring React - Extracting Layout Components
 
-* https://blog.angular.io/building-a-transaction-service-for-managing-large-scale-editing-experiences-ded666eafd5e
-** Building a transaction service for managing large scale editing experiences
+* https://chrisnoring.gitbooks.io/react/content/testing/nock.html
+** Nock it out of the park, HTTP mocking for React – ITNEXT
 
-* https://blog.angularindepth.com/introducing-to-ng-vdom-a-new-way-to-write-angular-application-60a3be805e59
-** Introducing to NG-VDOM: A new way to write Angular application
+* https://codeburst.io/clean-code-in-react-fe11372f331c
+** Clean Code in React – codeburst
 
-* https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6
-** Top 10 ways to use Interceptors in Angular – Angular In Depth
+* https://css-tricks.com/using-react-loadable-for-code-splitting-by-components-and-routes/
+** Using React Loadable for Code Splitting by Components and Routes | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
-* https://blog.angularindepth.com/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a
-** What every front-end developer should know about change detection in Angular and React
+* https://daveceddia.com/access-redux-store-outside-react/
+** Access the Redux Store Outside a React Component
 
-* https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
-** Vue.js & React.js - Le blog de Clever Age
+* https://daveceddia.com/pure-redux/
+** Pure Redux
 
-* https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/
-** JavaScript predictions for 2019 by npm - DEV Community 👩‍💻👨‍💻
+* https://dev.to/jovidecroock/react-hooks-demystified-n13
+** React Hooks summarized - DEV Community 👩‍💻👨‍💻
 
-* https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
-** 5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog
+* https://dev.to/revskill10/a-react-hook-for-universal-routing-6dk
+** A React Hook for universal routing - DEV Community 👩‍💻👨‍💻
+
+* https://github.com/getify/TNG-Hooks
+** GitHub - getify/TNG-Hooks: Provides React-inspired 'hooks' like useState(..) for stand-alone functions
+
+* https://github.com/mdn/sprints/issues/967
+** React Spike: Rewrite the MDN page header · Issue #967 · mdn/sprints · GitHub
+
+* https://itnext.io/no-more-tears-handling-forms-in-react-using-formik-part-i-55f1400a75ba
+** No more tears, handling Forms in React using Formik, part I
+
+* https://itnext.io/react-suspense-with-the-fetch-api-3ac88280a0de
+** React Suspense with the Fetch API – ITNEXT
+
+* https://lassala.net/2017/11/09/what-does-clean-code-in-react-looks-like/
+** What does clean code in React look like? | Claudio Lassala's Blog
+
+* https://matthewphillips.info/programming/gatsby-pages-manifest.html
+** Writing on your Gatsby blog leads to JavaScript bloat
+
+* https://medium.com/@baphemot/understanding-react-suspense-1c73b4b0b1e6
+** Understanding React “Suspense”
+
+* https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e
+** React hooks: not magic, just arrays – Rudi Yardley – Medium
+
+* https://medium.com/curated-by-versett/dont-eject-your-create-react-app-b123c5247741
+** Don’t eject your Create React App – versett – Medium
+
+* https://news.ycombinator.com/item?id=19093555
+** With React 16.8, React Hooks are available in a stable release | Hacker News
+
+* https://overreacted.io/a-complete-guide-to-useeffect/
+** A Complete Guide to useEffect — Overreacted
+
+* https://overreacted.io/react-as-a-ui-runtime/
+** React as a UI Runtime — Overreacted
+
+* https://overreacted.io/writing-resilient-components/
+** Writing Resilient Components — Overreacted
+
+* https://philippspiess.com/scheduling-in-react/
+** Scheduling in React | Philipp Spiess
+
+* https://react.i18next.com/
+** Introduction - react-i18next documentation
+
+* https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+** You Probably Don't Need Derived State – React Blog
+
+* https://reactjs.org/blog/2019/02/06/react-v16.8.0.html
+** React v16.8: The One With Hooks – React Blog
+
+* https://ssr.gourmetjs.org/docs/guides/using-redux
+** Using Redux · Gourmet SSR
+
+* https://tech.okcupid.com/getting-hooked-on-react-hooks/
+** Getting Hooked on React Hooks
+
+* https://testdriven.io/blog/react-hooks-primer/#.XHaWXde5d08.reddit
+** Primer on React Hooks | TestDriven.io
+
+* https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms/
+** Using Custom React Hooks to Simplify Forms - Upmostly
+
+* https://v3.svelte.technology/blog/virtual-dom-is-pure-overhead
+** Virtual DOM is pure overhead
+
+* https://www.dzurico.com/react-compound-components-with-usecontext-hook/
+** React - Compound components with useContext Hook - Angular and Javascript blog
+
+* https://www.reddit.com/r/javascript/comments/b68o69/react_and_vdom_is_the_final_frontier_of_frontend/
+** React and VDOM is the final frontier of frontend? : javascript
+
+* https://www.robinwieruch.de/react-component-composition/
+** React Component Composition - RWieruch
+
+* https://www.robinwieruch.de/react-component-types/
+** React Component Types: A complete Overview - RWieruch
+
+* https://www.taniarascia.com/getting-started-with-react/
+** Getting Started with React - An Overview and Walkthrough – Tania Rascia
+
+* https://www.toptal.com/react/navigating-the-react-ecosystem
+** React.js Tutorial - A Guide to Tools and Libraries | Toptal
+
+* https://www.youtube.com/watch?v=6g3g0Q_XVb4
+** Dan Abramov - Suspense! - ReactFest 🎡
+
+* https://www.youtube.com/watch?v=6La7jSCnYyk
+** Beyond Web Apps React, JavaScript and WebAssembly - Florian Rival - React Conf 2018
+
+* https://www.youtube.com/watch?v=ByBPyMBTzM0
+** Concurrent Rendering in React - Andrew Clark and Brian Vaughn - React Conf 2018
+
+* https://www.youtube.com/watch?v=dpw9EHDh2bM
+** React Today and Tomorrow and 90% Cleaner React With Hooks
+
+* https://www.youtube.com/watch?v=nLF0n9SACd4
+** Dan Abramov: Beyond React 16 | JSConf Iceland 2018
+
+* https://www.youtube.com/watch?v=soAEB7ltQPk
+** Let React speak your language - Tomáš Ehrlich - React Conf 2018
+
+* https://www.youtube.com/watch?v=tq4vXRT7TU0
+** ⚡️Talk - Syncing Component State Across Tabs with Service Workers - Tyler Clark - React Conf 2018
+
+* https://www.youtube.com/watch?v=V-QO-KO90iQ
+** React Today and Tomorrow - Sophie Alpert and Dan Abramov - React Conf 2018
+
+* https://www.youtube.com/watch?v=wXLf18DsV-I
+** 90% Cleaner React With Hooks - Ryan Florence - React Conf 2018
+
+* http://brianyang.com/clean-code-in-react/
+** Clean Code in React
+
+* https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions
+** Redux: Simplifying the Arrow Functions from @dan_abramov on @eggheadioegghead-logo-whiteegghead-logo-white
+
+* https://www.reddit.com/r/reactjs/comments/aeb428/do_you_guys_use_redux_or_something_else/
+** Do you guys use Redux, or something else? : reactjs
+
+* https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/
+** AddyOsmani.com - Component Interop With React And Custom Elements
+
+=== Design, patterns, architecture...
+
+* https://americanexpress.io/clean-code-dirty-code/
+** Clean Code vs. Dirty Code: React Best Practices - American Express Technology
+
+* http://asserttrue.blogspot.com/2009/02/inheritance-as-antipattern.html
+** blogorrhea: Inheritance as Antipattern
 
 * https://blog.octo.com/architecture-hexagonale-trois-principes-et-un-exemple-dimplementation/
 ** Architecture Hexagonale : trois principes et un exemple d’implémentation | OCTO Talks !
+
+* http://dddcommunity.org/book/evans_2003/
+** Domain-Driven Design by Eric Evans
 
 * https://blog.octo.com/decouplage-decouplage-decouplage/
 ** Découplage, découplage, découplage ! | OCTO Talks !
@@ -275,215 +438,8 @@
 * https://blog.xebia.fr/2018/06/25/craft-les-patterns-tactiques-du-ddd/
 ** Les patterns tactiques du DDD | Blog Xebia - Expertise Technologique & Méthodes AgilesGroup 970close-
 
-* https://blogs.sap.com/2019/02/11/ui5-web-components-the-beta-is-there/
-** UI5 Web Components: the Beta is there! | SAP Blogs
-
-* http://brianyang.com/clean-code-in-react/
-** Clean Code in React
-
-* https://buttercms.com/blog/comparing-angular-vs-vue
-** Comparing Angular vs Vue | ButterCMS
-
-* https://changelog.com/podcast/332
-**  A UI framework without the framework
-
-* https://chriskiehl.com/article/event-sourcing-is-hard
-** Don't Let the Internet Dupe you, Event Sourcing is Hard - Blogomatano
-
-* https://chrisnoring.gitbooks.io/react/content/testing/nock.html
-** Nock it out of the park, HTTP mocking for React – ITNEXT
-
-* https://christianheilmann.com/2019/01/28/html-is-and-always-was-a-compilation-target-can-we-deal-with-that/
-** HTML is and always was a compilation target – can we deal with that? | Christian Heilmann
-
-* https://codeburst.io/clean-code-in-react-fe11372f331c
-** Clean Code in React – codeburst
-
 * https://coderprog.com/mastering-clean-code-javascript/
 ** Mastering Clean Code in JavaScript – CoderProg
-
-* https://codingpotions.com/angular-mejores-librerias/
-** ¿Sabes cuáles son las mejores librerías de componentes para Angular?
-
-* https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/
-** Breaking CSS Custom Properties out of :root Might Be a Good Idea | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/crafting-reusable-html-templates/
-** Crafting Reusable HTML Templates | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/
-** Encapsulating Style and Structure with Shadow DOM | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/the-bottleneck-of-the-web/
-** The Bottleneck of the Web | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/the-great-divide/
-** The Great Divide | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/using-react-loadable-for-code-splitting-by-components-and-routes/
-** Using React Loadable for Code Splitting by Components and Routes | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://css-tricks.com/what-hooks-mean-for-vue/
-** What Hooks Mean for Vue | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
-
-* https://cssdb.org/#nesting-rules
-** cssdb
-
-* https://csswizardry.com/2019/01/bandwidth-or-latency-when-to-optimise-which/
-** Bandwidth or Latency: When to Optimise for Which – CSS Wizardry – CSS Architecture, Web Performance Optimisation, and more, by Harry RobertsCSS Wizardry
-
-* https://daveceddia.com/access-redux-store-outside-react/
-** Access the Redux Store Outside a React Component
-
-* https://daveceddia.com/pure-redux/
-** Pure Redux
-
-* http://dddcommunity.org/book/evans_2003/
-** Domain-Driven Design by Eric Evans
-
-* https://dev.to/bholmesdev/why-sveltejs-may-be-the-best-framework-for-new-web-devs-205i
-** Why SvelteJS may be the best framework for new web devs - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/creeland/intro-to-rxjs-concepts-with-vanilla-javascript-4aji
-** Intro to RxJS Concepts with Vanilla JavaScript - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/evilmartians/css-and-js-are-at-war-heres-how-to-stop-it-158a
-** CSS and JS Are at War, Here’s How to Stop It - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk
-** My solution is the best! - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/jovidecroock/react-hooks-demystified-n13
-** React Hooks summarized - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/phoinixi/two-way-data-binding-in-vanilla-js-poc-4e06
-** Two-way data binding in vanilla JS (POC) - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/revskill10/a-react-hook-for-universal-routing-6dk
-** A React Hook for universal routing - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/selbekk/creating-flexible-components-p7k
-** Creating flexible components - DEV Community 👩‍💻👨‍💻
-
-* https://dev.to/tevko/theres-no-such-thing-as-a-full-stack-developer-1m3i
-** There's no such thing as a full stack developer - DEV Community 👩‍💻👨‍💻
-
-* https://developers.google.com/web/updates/2019/02/rendering-on-the-web
-** Rendering on the Web  |  Web       |  Google Developers
-
-* https://developers.google.com/web/updates/2019/02/rendering-on-the-web
-** Rendering on the Web  |  Web       |  Google Developers
-
-* https://developers.google.com/web/updates/2019/02/rendering-on-the-web
-** Rendering on the Web  |  Web       |  Google Developers
-
-* https://developers.google.com/web/updates/2019/03/kv-storage
-** KV Storage: the Web's First Built-in Module  |  Web       |  Google Developers
-
-* https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu
-** React vs. Angular vs. Vue.js: A Complete Comparison Guide - DZone Web Dev
-
-* https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions
-** Redux: Simplifying the Arrow Functions from @dan_abramov on @eggheadioegghead-logo-whiteegghead-logo-white
-
-* https://en.wikipedia.org/wiki/Escalation_of_commitment
-** Escalation of commitment - Wikipedia
-
-* https://en.wikipedia.org/wiki/Sunk_cost
-** Sunk cost - Wikipedia
-
-* http://erikaybar.name/refactoring-react-extracting-layout-components/
-** Refactoring React - Extracting Layout Components
-
-* http://exploringjs.com/impatient-js/ch_template-literals.html#multi-line-template-literals-and-indentation
-** Using template literals and tagged templates • JavaScript for impatient programmers (beta)
-
-* https://flaviocopes.com/node-modules-size/
-** The node_modules folder size is not a problem. It's a privilege
-
-* https://frontarm.com/james-k-nelson/css-in-js-static-rendering/
-** CSS-in-JS and Static Rendering – Frontend Armory
-
-* https://gist.github.com/0gust1/8ef61eaea5797051841e
-** gist:8ef61eaea5797051841e · GitHub
-
-* https://github.com/Authman2/Mosaic
-** GitHub - Authman2/Mosaic: 🎨 A front-end JavaScript library for building user interfaces.
-
-* https://github.com/Polymer/lit-element/issues/385
-** [docs] Web Components basics · Issue #385 · Polymer/lit-element · GitHub
-
-* https://github.com/Swiip/vanilla-modern-js
-** GitHub - Swiip/vanilla-modern-js: Experimental Web app using no framework, no external source code, but all fancy new standards ;)
-
-* https://github.com/WICG/import-maps
-** GitHub - WICG/import-maps: How to control the behavior of JavaScript imports
-
-* https://github.com/axios/axios/issues/1965
-** Project dead? · Issue #1965 · axios/axios · GitHub
-
-* https://github.com/davellanedam/vue-skeleton-mvp/blob/master/README.md
-** vue-skeleton-mvp/README.md at master · davellanedam/vue-skeleton-mvp · GitHub
-
-* https://github.com/elmsln/lrnwebcomponents/blob/master/elements/to-element/to-element.js
-** lrnwebcomponents/to-element.js at master · elmsln/lrnwebcomponents · GitHub
-
-* https://github.com/getify/TNG-Hooks
-** GitHub - getify/TNG-Hooks: Provides React-inspired 'hooks' like useState(..) for stand-alone functions
-
-* https://github.com/gothinkster/realworld
-** GitHub - gothinkster/realworld: \"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅
-
-* https://github.com/karthikv/purview
-** GitHub - karthikv/purview: A server-side component framework. What if your React components ran on the server-side?
-
-* https://github.com/littledan/proposal-reserved-decorator-like-syntax/blob/master/README.md
-** proposal-reserved-decorator-like-syntax/README.md at master · littledan/proposal-reserved-decorator-like-syntax · GitHub
-
-* https://github.com/mathieuancelin/js-repaint-perfs
-** GitHub - mathieuancelin/js-repaint-perfs: Playground to test repaint rates of JS libs
-
-* https://github.com/mdn/sprints/issues/967
-** React Spike: Rewrite the MDN page header · Issue #967 · mdn/sprints · GitHub
-
-* https://github.com/shawnbot/custom-elements
-** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
-
-* https://github.com/skatejs/skatejs/blob/react-ssr/packages/element-react/src/__tests__/ssr.tsx
-** skatejs/ssr.tsx at react-ssr · skatejs/skatejs · GitHub
-
-* https://github.com/w3c/csswg-drafts/issues/3714
-** [css-selectors] Reference selectors · Issue #3714 · w3c/csswg-drafts · GitHub
-
-* https://github.com/w3c/webcomponents/issues/645
-** HTML Modules · Issue #645 · w3c/webcomponents · GitHub
-
-* https://github.com/whatwg/fetch/issues/878
-** Proposal: Allow servers to take full responsibility for cross-origin access protection · Issue #878 · whatwg/fetch · GitHub
-
-* https://hackernoon.com/the-backendification-of-frontend-development-62f218a773d4
-** The “Backendification” of Frontend Development – Hacker Noon
-
-* https://hackernoon.com/the-backendification-of-frontend-development-62f218a773d4
-** The “Backendification” of Frontend Development – Hacker Noon
-
-* https://hacks.mozilla.org/2019/03/fast-bump-allocated-virtual-doms-with-rust-and-wasm/
-** Fast, Bump-Allocated Virtual DOMs with Rust and Wasm - Mozilla Hacks - the Web developer blog
-
-* https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/
-** The care and feeding of software engineers (or, why engineers are grumpy) - Human Who Codes
-
-* http://ideas.ted.com/why-you-think-youre-right-even-when-youre-wrong/
-** Why you think you’re right, even when you’re wrong |
-
-* https://itnext.io/no-more-tears-handling-forms-in-react-using-formik-part-i-55f1400a75ba
-** No more tears, handling Forms in React using Formik, part I
-
-* https://itnext.io/react-suspense-with-the-fetch-api-3ac88280a0de
-** React Suspense with the Fetch API – ITNEXT
-
-* https://itnext.io/why-are-we-creating-a-javascript-only-world-wide-web-db8c3a340b9
-** Why are we creating a JavaScript-only World Wide Web?
 
 * https://jasonformat.com/application-holotypes/
 ** Application Holotypes: A Guide to Architecture Decisions
@@ -491,206 +447,79 @@
 * https://joreteg.com/blog/architecting-uis-for-change
 ** Architecting UIs for Change
 
-* http://journal.plausible.io/you-probably-dont-need-a-single-page-app
-** You probably don’t need a single-page application
-
-* https://lassala.net/2017/11/09/what-does-clean-code-in-react-looks-like/
-** What does clean code in React look like? | Claudio Lassala's Blog
-
-* https://matthewphillips.info/programming/gatsby-pages-manifest.html
-** Writing on your Gatsby blog leads to JavaScript bloat
-
-* https://mcfunley.com/choose-boring-technology
-** Dan McKinley :: Choose Boring TechnologyCrazySane
-
-* https://medium.com/@baphemot/understanding-react-suspense-1c73b4b0b1e6
-** Understanding React “Suspense”
-
-* https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
-** React vs Angular vs Vue.js — What to choose in 2019? (updated)
-
-* https://medium.com/@codepo8/html-is-and-always-was-a-compilation-target-can-we-deal-with-this-e1a545ad276b
-** HTML is and always was a compilation target — can we deal with this?
-
-* https://medium.com/@cuelogicTech/angular-vs-react-vs-vue-a-2018-comparison-b1ab3a498ac4
-** Angular vs. React vs. Vue: A 2018 Comparison – Cuelogic Technologies – Medium
-
-* https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4
-** Javascript Fatigue – Eric Clemmons – Medium
-
-* https://medium.com/@presactlyalicia/taking-the-plunge-which-programming-language-should-i-start-with-82ecefe9c9d9
-** Taking the plunge: which programming language should I start with?
-
-* https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e
-** React hooks: not magic, just arrays – Rudi Yardley – Medium
-
-* https://medium.com/@sergicontre/reasons-web-components-are-perfect-for-a-big-company-28790d712ad5
-** Reasons Web Components are perfect for a big company.
-
-* https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9
-** Operationalizing Node.js for Server Side Rendering – Airbnb Engineering & Data Science – Medium
-
-* https://medium.com/curated-by-versett/dont-eject-your-create-react-app-b123c5247741
-** Don’t eject your Create React App – versett – Medium
-
-* https://medium.com/google-developer-experts/are-web-components-a-thing-5a116b1da7e4
-** Are Web Components a thing? – Google Developers Experts – Medium
-
-* https://medium.com/google-developers/tradeoffs-in-server-side-and-client-side-rendering-14dad8d4ff8b
-** Tradeoffs in server side and client side rendering – Google Developers – Medium
-
-* https://medium.com/ing-blog/ing-%EF%B8%8F-web-components-f52aacc71d7a
-** ING ❤️ Web Components – ING Blog – Medium
-
-* https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
-** The TypeScript Tax – JavaScript Scene – Medium
-
-* https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
-** The TypeScript Tax – JavaScript Scene – Medium
-
-* https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd
-** Comparing bundlers: Webpack, Rollup & Parcel – js@imaginea – Medium
-
-* https://medium.com/suspended
-** Suspended – Medium
-
-* https://medium.com/the-vue-point/vue-2-6-released-66aa6c8e785e
-** Vue 2.6 released! – The Vue Point – Medium
-
-* https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3
-** 7 Problems you can avoid by using Nuxt.js for your next Vue app
-
-* https://mertindervish.com/why-im-grateful-about-the-state-of-the-web-2019/
-** Why I'm Grateful About the State of The Web 2019 | Mertin Dervish
-
-* http://microjs.com/#
-** Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!
-
-* https://morioh.com/p/02ff38288b16/why-we-choose-vuejs-which-is-not-react-or-angular
-** Social Network for Developers
-
-* https://mxstbr.com/thoughts/css-in-js/
-** Why I Write CSS in JavaScript
-
 * https://my.mindnode.com/xQZyD9Qq8SG1zEpsc1SviR3cjpyUSfvEzLBxApqT#709.4,170.6,2
 ** design-system | myMindNode
-
-* https://news.ycombinator.com/item?id=19093555
-** With React 16.8, React Hooks are available in a stable release | Hacker News
-
-* https://news.ycombinator.com/item?id=19408735
-** Ask HN: Is jQuery on its way out? | Hacker News
-
-* http://nicolasgallagher.com/css-cascade-specificity-inheritance/
-** CSS: the cascade, specificity, and inheritance – Nicolas Gallagher
-
-* https://notlaura.com/writing-css-algorithms/
-** Writing CSS Algorithms | Lara SchenckLara Schenck
-
-* https://open-wc.org/
-** open-wc
-
-* https://overreacted.io/a-complete-guide-to-useeffect/
-** A Complete Guide to useEffect — Overreacted
-
-* https://overreacted.io/react-as-a-ui-runtime/
-** React as a UI Runtime — Overreacted
-
-* https://overreacted.io/writing-resilient-components/
-** Writing Resilient Components — Overreacted
-
-* https://philippspiess.com/scheduling-in-react/
-** Scheduling in React | Philipp Spiess
 
 * https://ponyfoo.com/articles/action-pattern-clean-obvious-testable-code
 ** The Action Pattern: Clean, Obvious, Testable Code
 
-* https://putaindecode.io/articles/comprendre-le-css-in-js-par-l-exemple/
-** Comprendre le CSS in JS par l'exemple | Putain de code
-
-* https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/
-** HTML, CSS and our vanishing industry entry points
-
-* https://react.i18next.com/
-** Introduction - react-i18next documentation
-
-* https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
-** You Probably Don't Need Derived State – React Blog
-
-* https://reactjs.org/blog/2019/02/06/react-v16.8.0.html
-** React v16.8: The One With Hooks – React Blog
-
-* https://seesparkbox.com/foundry/bem_css_organization
-** BEM: 4 Hang-Ups & How It Will Help Your CSS OrganizationSparkbox
-
-* https://spin.atomicobject.com/2019/01/21/replace-unit-test-types/
-** Type-Driven Development – Replacing Unit Tests with Types in Typescript
-
-* https://ssr.gourmetjs.org/docs/guides/using-redux
-** Using Redux · Gourmet SSR
-
-* https://tech.okcupid.com/getting-hooked-on-react-hooks/
-** Getting Hooked on React Hooks
-
-* https://testdriven.io/blog/react-hooks-primer/#.XHaWXde5d08.reddit
-** Primer on React Hooks | TestDriven.io
-
-* https://thanosjs.org/
-** Thanos JS
-
 * https://thehistoryoftheweb.com/comparing-the-why-of-single-page-app-frameworks/
 ** Comparing the \"Why\" of Single Page App Frameworks - The History of the Web
-
-* https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms/
-** Using Custom React Hooks to Simplify Forms - Upmostly
-
-* https://v3.svelte.technology/blog/virtual-dom-is-pure-overhead
-** Virtual DOM is pure overhead
-
-* https://vogloblinsky.github.io/web-components-benchmark/
-** Web Components BenchmarkPage 1
-
-* https://web.dev/fast/remove-unused-code
-** Remove unused code  |  web.dev
-
-* https://webdesign.tutsplus.com/tutorials/examples-of-vues-clean-code--cms-29619
-** Examples of Vue’s Clean Code
-
-* https://websitesetup.org/html5-periodical-table/
-** HTML PERIODIC TABLE
-
-* http://wilsonpage.co.uk/preventing-layout-thrashing/
-** Preventing 'layout thrashing' |  Wilson Page
-
-* https://winxp.now.sh/
-** WinXP
-
-* https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/
-** The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon
-
-* https://www.apress.com/us/blog/all-blog-posts/your-front-end-does-not-have-to-be-rich/16537718
-** Your Front-End Does Not Have To Be Rich
-
-* https://www.bitovi.com/blog/announcing-velocirender
-** Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development
-
-* https://www.csrhymes.com/2019/03/08/is-web-development-copying-and-pasting.html
-** Is web development just copying and pasting? - C.S. RhymesIs web development just copying and pasting? | C.S. Rhymes
 
 * https://www.designsystems.com/
 ** Design Systems
 
-* https://www.dzurico.com/react-compound-components-with-usecontext-hook/
-** React - Compound components with useContext Hook - Angular and Javascript blog
+* https://www.youtube.com/watch?v=dTW7eJsIHDg
+** Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube
 
-* https://www.mindk.com/blog/react-vs-vue/
-** React vs Vue: What is the best choice for 2019? : Web and Mobile Development Blog – MindK.comReact vs Vue: What is the best choice for 2019? – Web and Mobile Development Blog – MindK.com
+* https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
+** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
 
-* https://www.npmjs.com/package/react
-** react  -  npmDownloadsGit
+=== Standards
 
-* https://www.ovalkwiki.com/index.php/The_Seventy_Maxims_of_Maximally_Effective_Mercenaries
-** The Seventy Maxims of Maximally Effective Mercenaries - Ovalkwiki
+* https://bitsofco.de/what-exactly-is-the-dom/
+** What, exactly, is the DOM?
+** How the DOM works, parsing...
+
+* https://mertindervish.com/why-im-grateful-about-the-state-of-the-web-2019/
+** Why I'm Grateful About the State of The Web 2019 | Mertin Dervish
+
+* https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/
+** HTML, CSS and our vanishing industry entry points
+
+* https://developers.google.com/web/updates/2019/02/rendering-on-the-web
+** Rendering on the Web  |  Web       |  Google Developers
+
+=== Perfs
+
+* https://areknawo.com/dom-performance-case-study/
+** DOM performance case study
+** Reflows, batching, paint, layout, DOM perfs
+
+* http://wilsonpage.co.uk/preventing-layout-thrashing/
+** Preventing 'layout thrashing' |  Wilson Page
+
+* https://csswizardry.com/2019/01/bandwidth-or-latency-when-to-optimise-which/
+** Bandwidth or Latency: When to Optimise for Which – CSS Wizardry – CSS Architecture, Web Performance Optimisation, and more, by Harry RobertsCSS Wizardry
+
+* https://flaviocopes.com/node-modules-size/
+** The node_modules folder size is not a problem. It's a privilege
+
+* https://github.com/mathieuancelin/js-repaint-perfs
+** GitHub - mathieuancelin/js-repaint-perfs: Playground to test repaint rates of JS libs
+
+* https://web.dev/fast/remove-unused-code
+** Remove unused code  |  web.dev
+
+* https://www.youtube.com/watch?v=ypPRdtjGooc
+** The Virtue of Laziness: Leveraging Incrementality for Faster Web UI (Chrome Dev Summit 2018) - YouTube
+
+* https://hacks.mozilla.org/2019/03/fast-bump-allocated-virtual-doms-with-rust-and-wasm/
+** Fast, Bump-Allocated Virtual DOMs with Rust and Wasm - Mozilla Hacks - the Web developer blog
+
+* https://www.bitovi.com/blog/announcing-velocirender
+** Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development
+
+=== Tooling (bundlers, compilers...)
+
+* https://bitsofco.de/what-is-tree-shaking/
+** What is tree shaking and how does it work?
+
+* https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd
+** Comparing bundlers: Webpack, Rollup & Parcel – js@imaginea – Medium
+
+* https://thanosjs.org/
+** Thanos JS
 
 * https://www.pikapkg.com/about
 ** Pika | What is Pika?
@@ -698,8 +527,28 @@
 * https://www.pikapkg.com/blog/pika-web-a-future-without-webpack/
 ** Pika | A Future Without Webpack
 
-* https://www.quirksmode.org/blog/archives/2019/03/scope_in_css.html
-** Scope in CSS - QuirksBlog
+* https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/
+** The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon
+
+=== Angular
+
+* https://blog.angular.io/a-plan-for-version-8-0-and-ivy-b3318dfc19f7
+** A plan for version 8.0 and Ivy – Angular Blog
+
+* https://blog.angular.io/building-a-transaction-service-for-managing-large-scale-editing-experiences-ded666eafd5e
+** Building a transaction service for managing large scale editing experiences
+
+* https://blog.angularindepth.com/introducing-to-ng-vdom-a-new-way-to-write-angular-application-60a3be805e59
+** Introducing to NG-VDOM: A new way to write Angular application
+
+* https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6
+** Top 10 ways to use Interceptors in Angular – Angular In Depth
+
+* https://blog.angularindepth.com/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a
+** What every front-end developer should know about change detection in Angular and React
+
+* https://codingpotions.com/angular-mejores-librerias/
+** ¿Sabes cuáles son las mejores librerías de componentes para Angular?
 
 * https://www.quora.com/Is-Angular-js-2-going-to-implement-virtual-DOM
 ** Is Angular.js 2 going to implement virtual DOM? - Quora
@@ -710,35 +559,174 @@
 * https://www.reddit.com/r/Angular2/comments/as895f/angular_state_management_without_using_external/
 ** Angular State Management without using external libraries : Angular2
 
+* https://www.zuehlke.com/blog/en/angularjs-clean-code/
+** AngularJs Clean Code
+
+=== Framework battle
+
+* https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
+** Vue.js & React.js - Le blog de Clever Age
+
+* https://buttercms.com/blog/comparing-angular-vs-vue
+** Comparing Angular vs Vue | ButterCMS
+
+* https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu
+** React vs. Angular vs. Vue.js: A Complete Comparison Guide - DZone Web Dev
+
+* https://github.com/gothinkster/realworld
+** GitHub - gothinkster/realworld: \"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅
+
+* https://medium.com/@cuelogicTech/angular-vs-react-vs-vue-a-2018-comparison-b1ab3a498ac4
+** Angular vs. React vs. Vue: A 2018 Comparison – Cuelogic Technologies – Medium
+
+* https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
+** React vs Angular vs Vue.js — What to choose in 2019? (updated)
+
+* https://morioh.com/p/02ff38288b16/why-we-choose-vuejs-which-is-not-react-or-angular
+** Social Network for Developers
+
+* https://www.mindk.com/blog/react-vs-vue/
+** React vs Vue: What is the best choice for 2019? : Web and Mobile Development Blog – MindK.comReact vs Vue: What is the best choice for 2019? – Web and Mobile Development Blog – MindK.com
+
 * https://www.reddit.com/r/javascript/comments/agpb2b/the_world_beyond_react_vue_angular/
 ** The world beyond React, Vue & Angular : javascript
 
-* https://www.reddit.com/r/javascript/comments/b4co5l/vuejs_amsterdam_2019_evan_you_state_of_the_vuenion/
-** [VueJS Amsterdam 2019] Evan You - State of the Vuenion : javascript
+* https://www.youtube.com/watch?v=DFF9eOlTWzY
+** This.JavaScript - State of Frameworks & Libraries (12 févr. 2019)
 
-* https://www.reddit.com/r/javascript/comments/b68o69/react_and_vdom_is_the_final_frontier_of_frontend/
-** React and VDOM is the final frontier of frontend? : javascript
+* https://www.youtube.com/watch?v=Husw3PKFIpg
+** la-quête-du-graal.js (Siegfried Ehret - Romain Maton) - YouTube
 
-* https://www.reddit.com/r/reactjs/comments/aeb428/do_you_guys_use_redux_or_something_else/
-** Do you guys use Redux, or something else? : reactjs
+* https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
+** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
+
+=== The future
+
+* https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/
+** JavaScript predictions for 2019 by npm - DEV Community 👩‍💻👨‍💻
+
+* https://changelog.com/podcast/332
+**  A UI framework without the framework
+
+* https://dev.to/bholmesdev/why-sveltejs-may-be-the-best-framework-for-new-web-devs-205i
+** Why SvelteJS may be the best framework for new web devs - DEV Community 👩‍💻👨‍💻
+
+* https://developers.google.com/web/updates/2019/03/kv-storage
+** KV Storage: the Web's First Built-in Module  |  Web       |  Google Developers
+
+* https://github.com/w3c/csswg-drafts/issues/3714
+** [css-selectors] Reference selectors · Issue #3714 · w3c/csswg-drafts · GitHub
+
+* https://github.com/w3c/webcomponents/issues/645
+** HTML Modules · Issue #645 · w3c/webcomponents · GitHub
+
+* https://github.com/whatwg/fetch/issues/878
+** Proposal: Allow servers to take full responsibility for cross-origin access protection · Issue #878 · whatwg/fetch · GitHub
+
+* https://github.com/WICG/import-maps
+** GitHub - WICG/import-maps: How to control the behavior of JavaScript imports
+
+=== Web components
+
+* https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
+** 5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog
+
+* http://www.youtube.com/playlist?list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
+** Lightning Web Components - YouTube
+
+* https://blogs.sap.com/2019/02/11/ui5-web-components-the-beta-is-there/
+** UI5 Web Components: the Beta is there! | SAP Blogs
+
+* https://css-tricks.com/crafting-reusable-html-templates/
+** Crafting Reusable HTML Templates | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
+* https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/
+** Encapsulating Style and Structure with Shadow DOM | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
+* https://github.com/elmsln/lrnwebcomponents/blob/master/elements/to-element/to-element.js
+** lrnwebcomponents/to-element.js at master · elmsln/lrnwebcomponents · GitHub
+
+* https://github.com/Polymer/lit-element/issues/385
+** [docs] Web Components basics · Issue #385 · Polymer/lit-element · GitHub
+
+* https://github.com/shawnbot/custom-elements
+** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
+
+* https://github.com/skatejs/skatejs/blob/react-ssr/packages/element-react/src/__tests__/ssr.tsx
+** skatejs/ssr.tsx at react-ssr · skatejs/skatejs · GitHub
+
+* https://medium.com/@sergicontre/reasons-web-components-are-perfect-for-a-big-company-28790d712ad5
+** Reasons Web Components are perfect for a big company.
+
+* https://medium.com/google-developer-experts/are-web-components-a-thing-5a116b1da7e4
+** Are Web Components a thing? – Google Developers Experts – Medium
+
+* https://medium.com/ing-blog/ing-%EF%B8%8F-web-components-f52aacc71d7a
+** ING ❤️ Web Components – ING Blog – Medium
+
+* https://open-wc.org/
+** open-wc
+
+* https://vogloblinsky.github.io/web-components-benchmark/
+** Web Components BenchmarkPage 1
+
+* https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
+** Lightning Web Components: Parent-Child Components - YouTube
+
+=== CSS
+
+* http://nicolasgallagher.com/css-cascade-specificity-inheritance/
+** CSS: the cascade, specificity, and inheritance – Nicolas Gallagher
+
+* https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/
+** Breaking CSS Custom Properties out of :root Might Be a Good Idea | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
+* https://cssdb.org/#nesting-rules
+** cssdb
+
+* https://dev.to/evilmartians/css-and-js-are-at-war-heres-how-to-stop-it-158a
+** CSS and JS Are at War, Here’s How to Stop It - DEV Community 👩‍💻👨‍💻
+
+* https://frontarm.com/james-k-nelson/css-in-js-static-rendering/
+** CSS-in-JS and Static Rendering – Frontend Armory
+
+* https://mxstbr.com/thoughts/css-in-js/
+** Why I Write CSS in JavaScript
+
+* https://notlaura.com/writing-css-algorithms/
+** Writing CSS Algorithms | Lara SchenckLara Schenck
+
+* https://putaindecode.io/articles/comprendre-le-css-in-js-par-l-exemple/
+** Comprendre le CSS in JS par l'exemple | Putain de code
+
+* https://seesparkbox.com/foundry/bem_css_organization
+** BEM: 4 Hang-Ups & How It Will Help Your CSS OrganizationSparkbox
+
+* https://www.quirksmode.org/blog/archives/2019/03/scope_in_css.html
+** Scope in CSS - QuirksBlog
 
 * https://www.reddit.com/r/reactjs/comments/as5ykg/trousers_a_css_in_js_library_thats_like/
 ** Trousers: a CSS in JS library that’s like styled-components + classnames + BEM, wrapped in a lovely Hooks API : reactjs
 
-* https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
-** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
+* https://gist.github.com/0gust1/8ef61eaea5797051841e
+** gist:8ef61eaea5797051841e · GitHub
 
-* https://www.reddit.com/r/vuejs/comments/alxtvk/mevn_stack_help_with_digitalocean/
-** MEVN Stack Help with DigitalOcean : vuejs
+=== Vue
 
-* https://www.robinwieruch.de/react-component-composition/
-** React Component Composition - RWieruch
+* https://css-tricks.com/what-hooks-mean-for-vue/
+** What Hooks Mean for Vue | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
-* https://www.robinwieruch.de/react-component-types/
-** React Component Types: A complete Overview - RWieruch
+* https://github.com/davellanedam/vue-skeleton-mvp/blob/master/README.md
+** vue-skeleton-mvp/README.md at master · davellanedam/vue-skeleton-mvp · GitHub
 
-* https://www.robinwieruch.de/react-component-types/
-** React Component Types: A complete Overview - RWieruch
+* https://medium.com/the-vue-point/vue-2-6-released-66aa6c8e785e
+** Vue 2.6 released! – The Vue Point – Medium
+
+* https://webdesign.tutsplus.com/tutorials/examples-of-vues-clean-code--cms-29619
+** Examples of Vue’s Clean Code
+
+* https://www.reddit.com/r/javascript/comments/b4co5l/vuejs_amsterdam_2019_evan_you_state_of_the_vuenion/
+** [VueJS Amsterdam 2019] Evan You - State of the Vuenion : javascript
 
 * https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/
 ** Replacing jQuery With Vue.js: No Build Step Necessary — Smashing MagazineSearchClear SearchBack to top
@@ -746,74 +734,96 @@
 * https://www.smashingmagazine.com/2019/02/vue-framework-third-party-javascript/
 ** Sliding In And Out Of Vue.js — Smashing MagazineSearchClear SearchBack to top
 
-* https://www.taniarascia.com/getting-started-with-react/
-** Getting Started with React - An Overview and Walkthrough – Tania Rascia
-
-* https://www.toptal.com/react/navigating-the-react-ecosystem
-** React.js Tutorial - A Guide to Tools and Libraries | Toptal
-
-* http://www.youtube.com/playlist?list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
-** Lightning Web Components - YouTube
-
-* https://www.youtube.com/watch?v=AQOEZVG2WY0
-** GOTO 2018 • Why I Was Wrong About TypeScript • TJ VanToll - YouTube
-
-* https://www.youtube.com/watch?v=Husw3PKFIpg
-** la-quête-du-graal.js (Siegfried Ehret - Romain Maton) - YouTube
-
-* https://www.youtube.com/watch?v=dTW7eJsIHDg
-** Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube
-
-* https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
-** Lightning Web Components: Parent-Child Components - YouTube
-
-* https://www.youtube.com/watch?v=ypPRdtjGooc
-** The Virtue of Laziness: Leveraging Incrementality for Faster Web UI (Chrome Dev Summit 2018) - YouTube
-
-* https://www.youtube.com/watch?v=DFF9eOlTWzY
-** This.JavaScript - State of Frameworks & Libraries (12 févr. 2019)
-
-* https://www.youtube.com/watch?v=ByBPyMBTzM0
-** Concurrent Rendering in React - Andrew Clark and Brian Vaughn - React Conf 2018
-
 * https://www.youtube.com/watch?v=zB3HOejXqwk
 ** [VueJS Amsterdam 2019] Evan You - State of the Vuenion
-
-* https://www.youtube.com/watch?v=dpw9EHDh2bM
-** React Today and Tomorrow and 90% Cleaner React With Hooks
-
-* https://www.youtube.com/watch?v=6g3g0Q_XVb4
-** Dan Abramov - Suspense! - ReactFest 🎡
-
-* https://www.youtube.com/watch?v=nLF0n9SACd4
-** Dan Abramov: Beyond React 16 | JSConf Iceland 2018
-
-* https://www.youtube.com/watch?v=V-QO-KO90iQ
-** React Today and Tomorrow - Sophie Alpert and Dan Abramov - React Conf 2018
-
-* https://www.youtube.com/watch?v=1e07uPWpvzI
-** The Path To A Declaratively Animated Future - Matt Perry - React Conf 2018
-
-* https://www.youtube.com/watch?v=soAEB7ltQPk
-** Let React speak your language - Tomáš Ehrlich - React Conf 2018
-
-* https://www.youtube.com/watch?v=6La7jSCnYyk
-** Beyond Web Apps React, JavaScript and WebAssembly - Florian Rival - React Conf 2018
-
-* https://www.youtube.com/watch?v=wXLf18DsV-I
-** 90% Cleaner React With Hooks - Ryan Florence - React Conf 2018
-
-* https://www.youtube.com/watch?v=tq4vXRT7TU0
-** ⚡️Talk - Syncing Component State Across Tabs with Service Workers - Tyler Clark - React Conf 2018
-
-* https://www.zuehlke.com/blog/en/angularjs-clean-code/
-** AngularJs Clean Code
 
 * https://xeestudio.com/examples-of-vues-clean-code/
 ** Examples of Vue’s Clean Code - Xee Studio
 
+=== SSR
+
+* https://github.com/karthikv/purview
+** GitHub - karthikv/purview: A server-side component framework. What if your React components ran on the server-side?
+
+* https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9
+** Operationalizing Node.js for Server Side Rendering – Airbnb Engineering & Data Science – Medium
+
+* https://medium.com/google-developers/tradeoffs-in-server-side-and-client-side-rendering-14dad8d4ff8b
+** Tradeoffs in server side and client side rendering – Google Developers – Medium
+
+* https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3
+** 7 Problems you can avoid by using Nuxt.js for your next Vue app
+
+=== misc
+
+* https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z
+** Code Galaxies Visualization
+** A galaxy visualization of npm packages
+
+* https://dev.to/tevko/theres-no-such-thing-as-a-full-stack-developer-1m3i
+** There's no such thing as a full stack developer - DEV Community 👩‍💻👨‍💻
+
+* http://exploringjs.com/impatient-js/ch_template-literals.html#multi-line-template-literals-and-indentation
+** Using template literals and tagged templates • JavaScript for impatient programmers (beta)
+
+* https://github.com/littledan/proposal-reserved-decorator-like-syntax/blob/master/README.md
+** proposal-reserved-decorator-like-syntax/README.md at master · littledan/proposal-reserved-decorator-like-syntax · GitHub
+
+* https://github.com/Swiip/vanilla-modern-js
+** GitHub - Swiip/vanilla-modern-js: Experimental Web app using no framework, no external source code, but all fancy new standards ;)
+
+* https://news.ycombinator.com/item?id=19408735
+** Ask HN: Is jQuery on its way out? | Hacker News
+
+* https://dev.to/creeland/intro-to-rxjs-concepts-with-vanilla-javascript-4aji
+** Intro to RxJS Concepts with Vanilla JavaScript - DEV Community 👩‍💻👨‍💻
+
+* https://websitesetup.org/html5-periodical-table/
+** HTML PERIODIC TABLE
+
+* https://spin.atomicobject.com/2019/01/21/replace-unit-test-types/
+** Type-Driven Development – Replacing Unit Tests with Types in Typescript
+
+* https://www.youtube.com/watch?v=AQOEZVG2WY0
+** GOTO 2018 • Why I Was Wrong About TypeScript • TJ VanToll - YouTube
+
+* http://microjs.com/#
+** Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!
+
+* https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
+** The TypeScript Tax – JavaScript Scene – Medium
+
+=== OSS
+
+* https://github.com/axios/axios/issues/1965
+** Project dead? · Issue #1965 · axios/axios · GitHub
+
+=== todo
+
+* https://chriskiehl.com/article/event-sourcing-is-hard
+** Don't Let the Internet Dupe you, Event Sourcing is Hard - Blogomatano
+
+* https://dev.to/phoinixi/two-way-data-binding-in-vanilla-js-poc-4e06
+** Two-way data binding in vanilla JS (POC) - DEV Community 👩‍💻👨‍💻
+
+* https://dev.to/selbekk/creating-flexible-components-p7k
+** Creating flexible components - DEV Community 👩‍💻👨‍💻
+
+* https://github.com/Authman2/Mosaic
+** GitHub - Authman2/Mosaic: 🎨 A front-end JavaScript library for building user interfaces.
+
+* https://medium.com/@presactlyalicia/taking-the-plunge-which-programming-language-should-i-start-with-82ecefe9c9d9
+** Taking the plunge: which programming language should I start with?
+
+* https://winxp.now.sh/
+** WinXP
+
+* https://www.reddit.com/r/vuejs/comments/alxtvk/mevn_stack_help_with_digitalocean/
+** MEVN Stack Help with DigitalOcean : vuejs
+
+* https://www.youtube.com/watch?v=1e07uPWpvzI
+** The Path To A Declaratively Animated Future - Matt Perry - React Conf 2018
+
 * https://xlayers.app/#/home
 ** xLayers: Design – Code – Repeat
 
-* https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
-** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
