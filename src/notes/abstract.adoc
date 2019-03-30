@@ -1,0 +1,149 @@
+= Abstract
+
+== Problèmes constatés
+
+* Une bonne partie des devs faisant du frontend a un comportement de fanboy vis à vis de son framework/écosystème préféré
+** Enfermement, vendor lockin, hype lockin, couplage fort des concerns dans le code, CV brandés
+** Très/trop peu de porosité entre les écosystèmes
+** On en oublie les forces et les faiblesses et l'utilité de l'ensemble d'outils qu'on utilise
+** La DX (developer experience) est souvent priorisée par rapport à l'UX
+** On maitrise moins les perfs et la sécu de nos deps et des deps transitives
+* Les standards du Web (leur origine et leur fabrication) sont peu connus
+** On ne pense pas à l'avenir => on subira les évolutions
+** Moins de résilience aux changements
+* La magie apportée par les features des frameworks/écosystèmes/tooling constitue une couche d'abstraction de plus en plus grosse
+* De l'autre côté du miroir, tout faire soit même en vanilla n'est pas non plus une solution
+** Cela a un coût non négligeable
+
+== Conclusion
+
+* Ne vous enfermez pas dans un framework/écosystème !
+* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
+
+== Take away
+
+* J'ai compris l'importance d'analyser, de connaître et de comprendre les parties qui compose le framework/écosystème Web que j'utilise
+* Cela me permet de maîtriser un peu mieux les perfs et la sécu de mon app/code
+* Cela me permet d'inverser mes connaissances/compétences en penser en terme de concepts/pattern/standards et non plus en terme de feature du framework X
+* Cela me permet d'adapter ma manière de coder aujourd'hui pour avoir une base de code plus résiliente/adaptable demain
+* Je sais où chercher les bonnes infos pour faire ma veille
+
+* Je veux que les gens sachent (ou se souviennent):
+** pourquoi ils utilisent un framework web
+** pourquoi ils ont choisi celui là
+** quels choix il impose
+** quels avantages il apporte
+*** À quels problèmes ces fwk apportent-ils des solutions ?
+*** Comment fonctionnent ces solutions ?
+*** Pourquoi ont-elles été implémentées comme ça ?
+** quels inconvénients il apporte
+** comment coder/réfléchir pour un code découplé
+** comment coder/réfléchir pour un code futur friendly (où au fur et à mesure des maj de la plateforme on peut changer des morceaux)
+** sortir de leur silo, comment ça marcher ailleurs
+
+Savoir se remettre en question...
+
+Regardez ailleurs !!
+
+Vous êtes tous des développeurs Web !
+
+== Déroulé simplifié
+
+* Constat des problèmes
+** couplage/adhérence forte aux outils et nons aux concepts/patterns
+** faible résilience aux changements/remplacements (bonnes idées d'autres écosystèmes ou nouveaux standards)
+** On a oublié le point de départ
+* Analyse des features apportées par les différents frameworks/écosystèmes
+** Identification des concepts/patterns
+** Identification des problèmes et solutions
+* Tips and tricks pour isoler et découpler tout ça
+* Evocation de différents standards nouveaux (ou qui arrievent bientôt)
+* Exemple code (live) d'une app avec des composants et un outillage faiblement couplé
+* Conclusion (avec les take aways)
+
+== Abstract
+
+=== FR
+
+Dans le monde merveilleux du frontend Web, les frameworks et leurs écosystèmes vont et viennent.
+Cette course folle fatigue une grande partie des développeurs.
+Pourtant, nous continuons à faire des choix d'architecture qui nous pousseront demain, à jeter et réécrire beaucoup de code.
+
+Il est devenu trop facile de s'enfermer dans un framework/écosystème X ou Y et trop facile de limiter ses connaissances à ce qu'il propose.
+On en oublie les problèmes de bases, les fondamentaux, et le plus souvent cela nous pousse à écrire du code qui mélange les couches (UI, accès au DOM, accès aux données, router, state manager...) et qui résiste mal au temps.
+
+Au menu de cette session, je vous propose de décortiquer les différentes parties qui composent les frameworks Web modernes :
+
+* Pourquoi utilisons-nous ces outils ?
+* Quels problèmes nous aident-ils à résoudre ?
+* Comment réduire l'adhérence et le couplage de notre code avec ces écosystèmes ?
+* Comment produire du code de meilleure qualité, à l'épreuve du temps, de la hype et des évolutions des standards du Web ?
+
+=== EN
+
+In the wonderful world of frontend Web, the frameworks and their ecosystems come and go...
+For a lot of devs, this endless race is getting tiring.
+Nevertheless, we continue to make architecture decisions that will push us tomorrow to throw away and rewrite lots of code.
+
+Step by step, it gets very easy to be locked into a given framework/ecosystem and too easy to limit one's skills to what this ecosystem provides.
+We tend to forget the basics and most of the time it pushes us to write code where all layers and concerns are mixed up (UI, DOM access, data access, router, stage manager, bundling, build...).
+
+In this session, we'll deconstruct the different parts of modern Web frameworks :
+
+* Why are we using those tools?
+* Which problems do they solve?
+* How can we avoid our code to be locked in and mixed up with those ecosystem?
+* How can we produce future-proof code that resists against the hype and evolutions of the Web platform?
+
+== Message pour le comité
+
+=== FR
+
+L'objectif principal de ce talk est de "réveiller" les devs frontends un peu trop souvent enfermés dans un écosystème/framework X ou Y et d'aider ceux qui sont un peu perdu dans cette jungle d'outils.
+
+Cela se fait en plusieurs étapes :
+
+* Comprendre les différentes parties qui composent ces écosystèmes/frameworks
+* Comprendre quels problèmes sont résolus et avec quelles solutions
+* Remettre en perspective les patterns et standards qui sont derrières ces solutions (ou qui peuvent les remplacer)
+* Alerter sur les dangers (trop souvent rencontrés) de mélanger toutes ces couches/concerns : UI, accès au DOM, accès aux données, router, state manager, bundling, build...
+
+"Take away" pour les participants :
+
+* J'ai des exemples, des réflexes et des pistes pour mieux découpler les différentes couches/concerns de mon code frontend en fonction de mon contexte
+* Ainsi ma base de code devient plus résiliente aux évolutions des outils que j'ai choisi
+* Après-demain, je peux remplacer certaines parties de mon code par des nouveaux standards quand ils arrivent ou par des implémentations plus pértinentes qui répondent au même problème
+
+=== EN
+
+The main goal of this talk is to "wake up" frontend devs who too often, get hyped and locked into a given framework/ecosystem and to help those who are a bit lost in this jungle of tools.
+
+This will be done in several steps:
+
+* Understand the different parts composing those frameworks/ecosystems
+* Get the big picture of the patterns and standards behing those solutions
+* Warn about the dangers (I see too often) of mixing up the differnent layers/concerns : UI, DOM access, data access, router, stage manager, bundling, build...
+
+Take aways:
+
+* I got examples, tips and tricks on how to decouple the different layer of my code
+* With this, my code base gets more resilient towards the evolutions of the tools I chose
+* In the next future, I'll be able to replace given parts of my code with new standards when they come up or by more relevant implementations of solutions to the same problem
+
+== Idées de titre
+
+* Le Web, ses frameworks et ses standards : déconstruire pour mieux (re?)construire
+* Deconstructing Web frameworks for a more resilient code base
+
+=== autres
+
+* Frameworks et écosystèmes Web : déconstruire pour mieux construire
+* Frameworks Web : un découplage s'impose
+* React, Angular, Vue : un découplage s'impose
+* Découplons nos frameworks Web
+* Architecture frontend : découplons nos frameworks Web préférés
+* Architecture frontend : déconstruisons nos frameworks/écosystèmes Web préférés
+* Architecture frontend : déconstruire pour mieux construire
