@@ -4,8 +4,30 @@
 
 === Tweets
 
+==== Back to basics
+
 * https://twitter.com/_developit/status/1083906683984904192
 ** Jason Miller 🦊⚛ sur Twitter : \"I often flip this on it's head:Never underestimate how far a static app delivered via CDN hitting a monolithic API powered by a single-threaded JS runtime running on a potato (or a $5 VPS) can get you in terms of delivering real value to your customers.… https://t.co/9dIWtMuCSF\"
+
+* https://twitter.com/brad_frost/status/1097908466935652352
+** Brad Frost sur Twitter : \"That depressing realization that the thing you're slogging through in a modern JS framework could have taken you 10 minutes in jQuery.\"
+
+* https://twitter.com/chriscoyier/status/1090610522750251008
+** Chris Coyier sur Twitter : \"The CHRIS stack:【C】SS【H】TMLJa【R】vascript【I】s this really what's important? How can one ever know? We can't measure everything. Sometimes we're just following our hearts.【S】andwicheshttps://t.co/O1YgXJ6fOO\"
+
+* https://twitter.com/davidwells/status/1110307412186025984
+** David Wells sur Twitter : \"I kick off my workshops by having students mine for silicon.Its hard work but it results in 10x devs with a fallback plan once internet goes away… https://t.co/FaztPjdRC5\"
+
+* https://twitter.com/henrikjoreteg/status/364989455414726657
+** Henrik Joreteg sur Twitter : \"If you don’t actively fight for simplicity in software, complexity will win.…and it will suck.\"
+
+* https://twitter.com/walidchergui/status/1092421919893262336
+** Walid Chergui sur Twitter : "A chaque fois que j'utilise Docker, je me pose la question: Docker ça résout quelle problématique ? 🙄"
+
+* https://twitter.com/importantshock/status/1085740688283746304
+** patrick thomson sur Twitter : \"I love to use¹ dependency² injection³¹ pass² values³ to functions\"
+
+==== React is react
 
 * https://twitter.com/_jayphelps/status/1111396063532011521
 ** Jay Phelps @ Reactathon sur Twitter : \"Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?\"
@@ -13,26 +35,8 @@
 * https://twitter.com/adamklein500/status/1072457324932067329
 ** Adam Klein sur Twitter : \"In tribute to the hype around Hooks, I made a table of all (current) libraries of Redux Hooks, and divided them to \"art movements\" :) Enjoy #redux #hooks… https://t.co/pXQ82IFJdo\"
 
-* https://twitter.com/addyosmani/status/1085439006433669120
-** Addy Osmani sur Twitter : \"Tip: Chrome can measure how much unused JavaScript is on your page https://t.co/AYBKnPha0nDevTools > top-right menu > More tools > Coverage… https://t.co/k24W4NCyCQ\"
-
-* https://twitter.com/bmeurer/status/1091069954110246913
-** Benedikt Meurer sur Twitter : \"For the record: I think decorators should be mostly a build time feature, period.… \"
-
-* https://twitter.com/brad_frost/status/1097908466935652352
-** Brad Frost sur Twitter : \"That depressing realization that the thing you're slogging through in a modern JS framework could have taken you 10 minutes in jQuery.\"
-
-* https://twitter.com/ccdzine/status/1100445531669651456
-** Greg Sweet sur Twitter : \"@davatron5000 Rare photograph of faithful Old Guard Rupert still posted outside of the dilapidated Colonel Standards residence.… https://t.co/0l4M9fhpXb\"
-
-* https://twitter.com/chriscoyier/status/1090610522750251008
-** Chris Coyier sur Twitter : \"The CHRIS stack:【C】SS【H】TMLJa【R】vascript【I】s this really what's important? How can one ever know? We can't measure everything. Sometimes we're just following our hearts.【S】andwicheshttps://t.co/O1YgXJ6fOO\"
-
 * https://twitter.com/cute_n_squish/status/1109863561562636288
 ** Cute N Squishy sur Twitter : \"Hamsters doing important hamster things.… \"
-
-* https://twitter.com/dan_abramov/status/1096784072943300608
-** Dan Abramov sur Twitter : \"Something I’m seeing a lot.Beginners: This makes sense, we understand it.Experienced developers: There’s no way beginners would understand it. It’s not like <a thing I learned ten years ago>.\"
 
 * https://twitter.com/dan_abramov/status/1108887662017028096
 ** Dan Abramov sur Twitter : \"How do learning curves of Hooks and class components compare? Here’s my impression based on teaching both patterns. Does this match your experience?… https://t.co/RAjF71x8WE\"
@@ -40,107 +44,23 @@
 * https://twitter.com/dan_abramov/status/1109461037391187968
 ** Dan Abramov sur Twitter : \"Unpopular opinion: @reactjs editionBring it on 🔥\"
 
-* https://twitter.com/dan_abramov/status/1109461037391187968
-** Dan Abramov sur Twitter : \"Unpopular opinion: @reactjs editionBring it on 🔥\"
-
-* https://twitter.com/davidwells/status/1110307412186025984
-** David Wells sur Twitter : \"I kick off my workshops by having students mine for silicon.Its hard work but it results in 10x devs with a fallback plan once internet goes away… https://t.co/FaztPjdRC5\"
-
 * https://twitter.com/devongovett/status/1095518197518745601
 ** Devon Govett sur Twitter : \"Current status: rewriting everything in hooks! ⚛️ ⚓🤯Seriously, this is going to be amazing. My dream UI library is finally possible! 😍\"
-
-* https://twitter.com/dhh/status/1088499778294407168
-** DHH sur Twitter : \"Designing for the web ought to mean making HTML and CSS. When that's getting too hard to do because of complexity sprawl of JavaScript, it's time to revisit your assumptions of how to work.  https://t.co/CjlRcwi4Sz… https://t.co/3YAAUPAH5T\"
 
 * https://twitter.com/firt/status/1107785093207203840
 ** Maximiliano Firtman sur Twitter : \"What's next? Adidas Angular? Who's taking Vue?… \"
 
-* https://twitter.com/getify/status/1087514283817267201
-** getify sur Twitter : \"The \"great frontend divide\" exists, but not because of which skills people pick or what's listed in job descriptions.\"
-
-* https://twitter.com/getify/status/1111004737263075329
-** getify sur Twitter : \"Are we expecting/envisioning a future where webassembly is like doing direct GPU instructions to draw pixels to the screen, to display an app's UI... so when that kind of app is loaded into a browser, it completely bypasses the entire DOM (and JS and CSS)?\"
-
-* https://twitter.com/henrikjoreteg/status/364989455414726657
-** Henrik Joreteg sur Twitter : \"If you don’t actively fight for simplicity in software, complexity will win.…and it will suck.\"
-
-* https://twitter.com/heydonworks/status/1086163975128170496
-** @heydon@mastodon.social sur Twitter : \"Great. TypeScript is becoming required knowledge, because *checks notes* everyone is adopting it out of FOMO. Just great.\"
-
 * https://twitter.com/horse_js/status/1099329712608997376
 ** Horse JS sur Twitter : \"React could be replaced by something better\"
 
-* https://twitter.com/housecor/status/1110657232885243906
-** Cory House 🏠 sur Twitter : \"When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available\"
-
-* https://twitter.com/hsablonniere/status/1089836788930265089
-** Hubert SABLONNIÈRE 😎 sur Twitter : \"🗣️ I proposed a talk about the Web, its frameworks and its standards:🤔 a reflexion on how & why we use them, following trends vs. solving problems🤯 This weekend tweetstorm confirmed me there's something to be discussed🙏 Now we wait @DevoxxFR @DevoxxUK @mixitconf @GDGLille\"
-
-* https://twitter.com/hsablonniere/status/1092570395922911235
-** Hubert SABLONNIÈRE 😎 sur Twitter : \"👍 C'est exactement le point de départ de mon talk 2019 mais je l'applique au lon du frontend Web et de ses frameworks.… https://t.co/MdVOyEPmEw\"
-
-* https://twitter.com/importantshock/status/1085740688283746304
-** patrick thomson sur Twitter : \"I love to use¹ dependency² injection³¹ pass² values³ to functions\"
-
-* https://twitter.com/jaffathecake/status/1084781707725848578
-** Jake Archibald sur Twitter : \"I feel like CSS modules are overlooked in the whole CSS vs JS debate.➡️ You write .css files➡️ Can use preprocessors like Sass➡️ Encourages flatter CSS (like BEM and similar conventions)➡️ But you can still use the cascade➡️ Unique class names➡️ Tree-shaking➡️ .css output\"
-
-* https://twitter.com/jaffathecake/status/1098129712486985728
-** Jake Archibald sur Twitter : \"That article made it to the front of HN. There appears to be many championing the article.… \"
+* https://twitter.com/domenic/status/1098121238952562689
+** Domenic Denicola sur Twitter : "This is such a self-inflicted problem. React could easily call event handlers with the correct this value, like other frameworks (or like the DOM itself!), but it doesn't. Thus confusing a generation of JS developers and leading to this silly hooks "solution".… https://t.co/geSvdeMhvh"
 
 * https://twitter.com/jfhbrook/status/1109484970018553856
 ** Josh Holbrook sur Twitter : \"I kinda have this secret opinion that the web components work should be refactored into \"like react\" or thrown out/replaced <_<;;;… https://t.co/m9bHDgZHb6\"
 
-* https://twitter.com/justinfagnani/status/1090689540312858625
-** Justin Fagnani sur Twitter : \"I was reminded by @passle_ of a useful description of Web Components I made a while back. A thread...\"
-
-* https://twitter.com/justinfagnani/status/1090689547107655680
-** Justin Fagnani sur Twitter : \"To illustrate how low-level WCs are, it's useful to compare the features to native elements:native Element ↔️ Custom Elementnative Shadow DOM ↔️ Shadow DOMpseudo-element ↔️ ::part() and ::theme()pseudo-class ↔️ custom pseudo-classWe're still working through this list...\"
-
-* https://twitter.com/justinfagnani/status/1093229305662889985
-** Justin Fagnani sur Twitter : \"Watching people try to figure out CSS-in-JS tools reminds me to remind you that Shadow DOM fixes CSS. *Especially* with Constructible StyleSheets.Here's how easy LitElement makes it to use Shadow DOM with super-efficient native scoped styles via Constructible StyleSheets:… https://t.co/5J97YeebFf\"
-
-* https://twitter.com/kentcdodds/status/1101540161584693248
-** Kent C. Dodds sur Twitter : \"Understanding how your abstractions work will enable you to use them more effectively.\"
-
-* https://twitter.com/letropeur/status/1101043350587822081
-** Le Tropeur sur Twitter : \"Vous savez ce qui est important à gérer, mais que personne ne vous a appris ?Avoir tort.#Thread\"
-
-* https://twitter.com/malchata/status/1108108474632802305
-** Jeremy Wagner sur Twitter : \"The current state of web development is really depressing to me. So much of what I have to chase to get paid is framework-driven shit. I think I'd be much more engaged and productive if I was able to focus on the web platform itself.\"
-
-* https://twitter.com/manuelkiessling/status/1083642207758962688
-** Manuel Kießling sur Twitter : \"Never underestimate how far web apps with Server-Side Page Rendering that do Full Page Reloads On Every Click powered by a One Thread Per Request Language running as a Monolithic Service On A Non-Distributed System can get you in terms of generating real value for real customers.\"
-
-* https://twitter.com/marcintreder/status/1085386025923502081
-** Marcin Treder sur Twitter : \"A design tool that can access *production* React.js code and import *interactive* components? 🤯 Done. 👋 upcoming @uxpin Merge 🔥. /Gif shows import of Material UI with theme editing./… https://t.co/jEb8jefHCN\"
-
-* https://twitter.com/markdalgleish/status/1110306504739938307
-** Mark Dalgleish sur Twitter : \"It's a mistake to learn a framework without first learning the fundamentals. That's why, when dealing with beginners, I always start off by making them build their own CPU, programming language and operating system.\"
-
-* https://twitter.com/mehulkar/status/1100159921180561409
-** Mehul Kar sur Twitter : \"Does anyone except @slightlylate even talk about web dev anymore on Twitter without subscribing to a JS framework.\"
-
-* https://twitter.com/meyerweb/status/1110571854375333888
-** Eric Meyer sur Twitter : \"A reminder: it’s okay if the thing everybody loves doesn’t work for you, and it’s okay if the thing you love doesn’t work for other people.\"
-
-* https://twitter.com/necolas/status/1088508941179338752
-** NOT FOUND
-
-* https://twitter.com/necolas/status/1089234445675028480
-** Nicolas sur Twitter : \"There are good relationships between the teams working on web frameworks and those working on web browsers. The browsers are working to standardise new lower level APIs that frameworks need and currently build for themselves. There's no antagonism… https://t.co/ivlR8w7uIN\"
-
-* https://twitter.com/qffwffq/status/1101477073682608128
-** Qffwffq sur Twitter : \"Vous vous rappelez du biais de l'arrêt de bus ?Non ?Alors voilà comment ça marche. Dans une expérience, une personne voit deux arrêts de bus à un carrefour. Sa mission est d'en prendre un, quel qu'il soit.Elle s'arrête devant l'un d'entre eux.\"
-
-* https://twitter.com/rauschma/status/1081542850607763456
-** Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"
-
 * https://twitter.com/rickhanlonii/status/1092946051370283008
 ** Rick in the Bae sur Twitter : \"zzz　＜⌒／ヽ-､_＿_／＜_/＿＿＿＿／￣￣￣￣￣￣￣　　　∧_∧　　 (　･ω･) HOOKS!?　 ＿|　⊃／(＿＿_／　└-(＿＿＿_／￣￣￣￣￣￣￣　　　∧_∧　　 (　-ω-) aw no　 ＿|　⊃／(＿＿_／　└-(＿＿＿_／￣￣￣￣￣￣￣zzz　＜⌒／ヽ-､_＿_／＜_/＿＿＿＿／\"
-
-* https://twitter.com/samccone/status/1081258888698068995
-** Sam Saccone sur Twitter : \"Last evening I saw a demo of a SSR @angular app that had partial client-side component hydration triggered only by a mutating user action.This meant that not only was there 0 JS overhead to render the app, but that users only paid the runtime cost for what they interacted with\"
 
 * https://twitter.com/sebmarkbage/status/1098310123796062209
 ** Sebastian Markbåge sur Twitter : \"You may have noticed that most other frameworks don’t have HoCs, render props or anything like React.Children. These account for a lot the differences between React and other frameworks. How would you solve these use cases if you had to switch to [other framework]?\"
@@ -151,29 +71,8 @@
 * https://twitter.com/sebmarkbage/status/1106754371226763264
 ** Sebastian Markbåge sur Twitter : \"I don't think React has become popular because it's more \"intuitive\" to people. It's not an iPad that toddlers just naturally interact with. It has become popular after a network of teachers taught the principles and patterns that empower people to solve complex problems.\"
 
-* https://twitter.com/sindresorhus/status/1089075390327316480
-** Sindre Sorhus sur Twitter : \"I learned web development in the early days (long before GitHub) with the \"View source\" button. The trend of generated class-names makes me sad...… https://t.co/0I9g2Y7tKA\"
-
-* https://twitter.com/slightlylate/status/1100246591544254465
-** Alex Russell sur Twitter : \"I'm anti-wrong-tools-for-the-job. Most often, the correct choice is appropriate framework vs. inappropriate, not some vs. none.That might leave your favourite tool in the cold, but you can't say it's \"anti-framework\". Not by a long shot.… https://t.co/zTjXNOYHiq\"
-
-* https://twitter.com/sonniesedge/status/1089832801027919872
-** Charlie \"Don't Surf\" Owen sur Twitter : \"Why are you building with these tools? Is it because it's beneficial to the project? Or is it because it looks good on a CV?\"
-
 * https://twitter.com/sophiebits/status/1090514421900664832
 ** Sophie Alpert sur Twitter : \"I was really scared React Hooks would leak before we knew what we wanted to say. I figured that if we didn't have clear messaging it could easily lead to FUD. (If our secrecy annoyed you, blame me.)\"
-
-* https://twitter.com/theystolemynick/status/1105168883659563008
-** Jean-Pierre Vincent sur Twitter : \"- les classiques trop grand nombre d'exécutions lourdes comme des Regexp, manipulations de string, manipulation de dates ... bref du code métier indépendant du framework de base… https://t.co/thTuRcxoa6\"
-
-* https://twitter.com/tobie/status/1083316137826365442
-** Tobie Langel sur Twitter : \"We're seeing the same thing today with CSS that we've seen seen with HTML/JS before and which led to the current JS framework situation. A thread👇\"
-
-* https://twitter.com/tolmasky/status/1092116247406243841
-** Francisco Tolmasky sur Twitter : \"Tree-shaking could be an anti-optimization. The ideal is for your libraries, which change less often than your app code, to be codesplit separately & be barely tree-shaken if at all, so that updates to your app result in unchanged library “chunks” and minimal cache busting (1/x)\"
-
-* https://twitter.com/tomdale/status/1088517392618188800
-** Tom Dale sur Twitter : \"The example code on https://t.co/glnWl886Ok no longer works in Chrome because it uses an older version of Polymer. Works in Safari. The irony is so thick you could drizzle it over pancakes. If you're gonna Use the Platform, make sure that Platform is nailed down to something!\"
 
 * https://twitter.com/tomdale/status/1092613088191410176
 ** Tom Dale sur Twitter : \"Truly loving the people who have persuaded themselves classes are useless due to the power and innovation of React hooks. Gonna age these like a fine wine in my tweet cellar.\"
@@ -181,11 +80,117 @@
 * https://twitter.com/tomdale/status/1093335223775956992
 ** Tom Dale sur Twitter : \"While I understand that React hooks solve tricky cross-cutting composability problems very elegantly, I still find every example using hooks harder to read and understand than the class-based equivalent. At this point, I don’t think it’s just due to unfamiliarity.\"
 
-* https://twitter.com/walidchergui/status/1092421919893262336
-** Walid Chergui sur Twitter : \"A chaque fois que j'utilise Docker, je me pose la question: Docker ça résout quelle problématique ? 🙄\"
+==== Tips
+
+* https://twitter.com/addyosmani/status/1085439006433669120
+** Addy Osmani sur Twitter : \"Tip: Chrome can measure how much unused JavaScript is on your page https://t.co/AYBKnPha0nDevTools > top-right menu > More tools > Coverage… https://t.co/k24W4NCyCQ\"
+
+==== Standards (vs frameworks)
+
+==== JS
 
 * https://twitter.com/wycats/status/1091388399179583488
 ** Yehuda Katz 🥨 sur Twitter : \"I'm curious (and please answer with as much nuance as you can muster):How would you feel if decorators in JS could never be standardized because classes with decorators would have an unavoidable performance penalty relative to the same code written by hand?\"
+
+* https://twitter.com/bmeurer/status/1091069954110246913
+** Benedikt Meurer sur Twitter : \"For the record: I think decorators should be mostly a build time feature, period.… \"
+
+* https://twitter.com/dan_abramov/status/1096784072943300608
+** Dan Abramov sur Twitter : \"Something I’m seeing a lot.Beginners: This makes sense, we understand it.Experienced developers: There’s no way beginners would understand it. It’s not like <a thing I learned ten years ago>.\"
+
+* https://twitter.com/dhh/status/1088499778294407168
+** DHH sur Twitter : \"Designing for the web ought to mean making HTML and CSS. When that's getting too hard to do because of complexity sprawl of JavaScript, it's time to revisit your assumptions of how to work.  https://t.co/CjlRcwi4Sz… https://t.co/3YAAUPAH5T\"
+
+* https://twitter.com/heydonworks/status/1086163975128170496
+** @heydon@mastodon.social sur Twitter : \"Great. TypeScript is becoming required knowledge, because *checks notes* everyone is adopting it out of FOMO. Just great.\"
+
+* https://twitter.com/kentcdodds/status/1101540161584693248
+** Kent C. Dodds sur Twitter : \"Understanding how your abstractions work will enable you to use them more effectively.\"
+
+* https://twitter.com/markdalgleish/status/1110306504739938307
+** Mark Dalgleish sur Twitter : \"It's a mistake to learn a framework without first learning the fundamentals. That's why, when dealing with beginners, I always start off by making them build their own CPU, programming language and operating system.\"
+
+* https://twitter.com/mehulkar/status/1100159921180561409
+** Mehul Kar sur Twitter : \"Does anyone except @slightlylate even talk about web dev anymore on Twitter without subscribing to a JS framework.\"
+
+* https://twitter.com/sindresorhus/status/1089075390327316480
+** Sindre Sorhus sur Twitter : \"I learned web development in the early days (long before GitHub) with the \"View source\" button. The trend of generated class-names makes me sad...… https://t.co/0I9g2Y7tKA\"
+
+* https://twitter.com/slightlylate/status/1100246591544254465
+** Alex Russell sur Twitter : \"I'm anti-wrong-tools-for-the-job. Most often, the correct choice is appropriate framework vs. inappropriate, not some vs. none.That might leave your favourite tool in the cold, but you can't say it's \"anti-framework\". Not by a long shot.… https://t.co/zTjXNOYHiq\"
+
+* https://twitter.com/theystolemynick/status/1105168883659563008
+** Jean-Pierre Vincent sur Twitter : \"- les classiques trop grand nombre d'exécutions lourdes comme des Regexp, manipulations de string, manipulation de dates ... bref du code métier indépendant du framework de base… https://t.co/thTuRcxoa6\"
+
+* https://twitter.com/tomdale/status/1088517392618188800
+** Tom Dale sur Twitter : \"The example code on https://t.co/glnWl886Ok no longer works in Chrome because it uses an older version of Polymer. Works in Safari. The irony is so thick you could drizzle it over pancakes. If you're gonna Use the Platform, make sure that Platform is nailed down to something!\"
+
+==== CSS
+
+* https://twitter.com/jaffathecake/status/1084781707725848578
+** Jake Archibald sur Twitter : \"I feel like CSS modules are overlooked in the whole CSS vs JS debate.➡️ You write .css files➡️ Can use preprocessors like Sass➡️ Encourages flatter CSS (like BEM and similar conventions)➡️ But you can still use the cascade➡️ Unique class names➡️ Tree-shaking➡️ .css output\"
+
+* https://twitter.com/tobie/status/1083316137826365442
+** Tobie Langel sur Twitter : \"We're seeing the same thing today with CSS that we've seen seen with HTML/JS before and which led to the current JS framework situation. A thread👇\"
+
+==== future
+
+* https://twitter.com/getify/status/1111004737263075329
+** getify sur Twitter : \"Are we expecting/envisioning a future where webassembly is like doing direct GPU instructions to draw pixels to the screen, to display an app's UI... so when that kind of app is loaded into a browser, it completely bypasses the entire DOM (and JS and CSS)?\"
+
+* https://twitter.com/marcintreder/status/1085386025923502081
+** Marcin Treder sur Twitter : \"A design tool that can access *production* React.js code and import *interactive* components? 🤯 Done. 👋 upcoming @uxpin Merge 🔥. /Gif shows import of Material UI with theme editing./… https://t.co/jEb8jefHCN\"
+
+* https://twitter.com/necolas/status/1089234445675028480
+** Nicolas sur Twitter : \"There are good relationships between the teams working on web frameworks and those working on web browsers. The browsers are working to standardise new lower level APIs that frameworks need and currently build for themselves. There's no antagonism… https://t.co/ivlR8w7uIN\"
+
+* https://twitter.com/samccone/status/1081258888698068995
+** Sam Saccone sur Twitter : \"Last evening I saw a demo of a SSR @angular app that had partial client-side component hydration triggered only by a mutating user action.This meant that not only was there 0 JS overhead to render the app, but that users only paid the runtime cost for what they interacted with\"
+
+* https://twitter.com/tolmasky/status/1092116247406243841
+** Francisco Tolmasky sur Twitter : \"Tree-shaking could be an anti-optimization. The ideal is for your libraries, which change less often than your app code, to be codesplit separately & be barely tree-shaken if at all, so that updates to your app result in unchanged library “chunks” and minimal cache busting (1/x)\"
+
+==== components best practices
+
+* https://twitter.com/housecor/status/1110657232885243906
+** Cory House 🏠 sur Twitter : \"When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available\"
+
+* https://twitter.com/justinfagnani/status/1090689540312858625
+** Justin Fagnani sur Twitter : \"I was reminded by @passle_ of a useful description of Web Components I made a while back. A thread...\"
+
+* https://twitter.com/justinfagnani/status/1090689547107655680
+** Justin Fagnani sur Twitter : \"To illustrate how low-level WCs are, it's useful to compare the features to native elements:native Element ↔️ Custom Elementnative Shadow DOM ↔️ Shadow DOMpseudo-element ↔️ ::part() and ::theme()pseudo-class ↔️ custom pseudo-classWe're still working through this list...\"
+
+* https://twitter.com/justinfagnani/status/1093229305662889985
+** Justin Fagnani sur Twitter : \"Watching people try to figure out CSS-in-JS tools reminds me to remind you that Shadow DOM fixes CSS. *Especially* with Constructible StyleSheets.Here's how easy LitElement makes it to use Shadow DOM with super-efficient native scoped styles via Constructible StyleSheets:… https://t.co/5J97YeebFf\"
+
+==== job hunting
+
+* https://twitter.com/malchata/status/1108108474632802305
+** Jeremy Wagner sur Twitter : \"The current state of web development is really depressing to me. So much of what I have to chase to get paid is framework-driven shit. I think I'd be much more engaged and productive if I was able to focus on the web platform itself.\"
+
+* https://twitter.com/manuelkiessling/status/1083642207758962688
+** Manuel Kießling sur Twitter : \"Never underestimate how far web apps with Server-Side Page Rendering that do Full Page Reloads On Every Click powered by a One Thread Per Request Language running as a Monolithic Service On A Non-Distributed System can get you in terms of generating real value for real customers.\"
+
+* https://twitter.com/sonniesedge/status/1089832801027919872
+** Charlie \"Don't Surf\" Owen sur Twitter : \"Why are you building with these tools? Is it because it's beneficial to the project? Or is it because it looks good on a CV?\"
+
+* https://twitter.com/getify/status/1087514283817267201
+** getify sur Twitter : \"The \"great frontend divide\" exists, but not because of which skills people pick or what's listed in job descriptions.\"
+
+==== random
+
+* https://twitter.com/letropeur/status/1101043350587822081
+** Le Tropeur sur Twitter : \"Vous savez ce qui est important à gérer, mais que personne ne vous a appris ?Avoir tort.#Thread\"
+
+* https://twitter.com/meyerweb/status/1110571854375333888
+** Eric Meyer sur Twitter : \"A reminder: it’s okay if the thing everybody loves doesn’t work for you, and it’s okay if the thing you love doesn’t work for other people.\"
+
+* https://twitter.com/qffwffq/status/1101477073682608128
+** Qffwffq sur Twitter : \"Vous vous rappelez du biais de l'arrêt de bus ?Non ?Alors voilà comment ça marche. Dans une expérience, une personne voit deux arrêts de bus à un carrefour. Sa mission est d'en prendre un, quel qu'il soit.Elle s'arrête devant l'un d'entre eux.\"
+
+* https://twitter.com/rauschma/status/1081542850607763456
+** Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"
 
 == TODO
 
@@ -497,6 +502,9 @@
 
 * https://mcfunley.com/choose-boring-technology
 ** Dan McKinley :: Choose Boring TechnologyCrazySane
+
+* https://medium.com/@baphemot/understanding-react-suspense-1c73b4b0b1e6
+** Understanding React “Suspense”
 
 * https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
 ** React vs Angular vs Vue.js — What to choose in 2019? (updated)
