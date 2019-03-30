@@ -190,9 +190,9 @@
 * https://twitter.com/rauschma/status/1081542850607763456
 ** Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"
 
-== Articles, talks, podcasts...
+=== Articles, talks, podcasts...
 
-=== Thinking
+==== Thinking
 
 * http://simpleprimate.com/blog/make
 ** It's What You Make, Not How You Make It.
@@ -248,7 +248,7 @@
 * https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk
 ** My solution is the best! - DEV Community 👩‍💻👨‍💻
 
-=== React, react, react...
+==== React, react, react...
 
 * https://adamrackis.dev/state-and-use-reducer/
 ** Hooks, State, Closures, and useReducer | Adam Reacts
@@ -403,7 +403,7 @@
 * https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/
 ** AddyOsmani.com - Component Interop With React And Custom Elements
 
-=== Design, patterns, architecture...
+==== Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
 ** Clean Code vs. Dirty Code: React Best Practices - American Express Technology
@@ -465,7 +465,7 @@
 * https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
 ** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
 
-=== Standards
+==== Standards
 
 * https://bitsofco.de/what-exactly-is-the-dom/
 ** What, exactly, is the DOM?
@@ -480,7 +480,7 @@
 * https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 ** Rendering on the Web  |  Web       |  Google Developers
 
-=== Perfs
+==== Perfs
 
 * https://areknawo.com/dom-performance-case-study/
 ** DOM performance case study
@@ -510,7 +510,7 @@
 * https://www.bitovi.com/blog/announcing-velocirender
 ** Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development
 
-=== Tooling (bundlers, compilers...)
+==== Tooling (bundlers, compilers...)
 
 * https://bitsofco.de/what-is-tree-shaking/
 ** What is tree shaking and how does it work?
@@ -530,7 +530,7 @@
 * https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/
 ** The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon
 
-=== Angular
+==== Angular
 
 * https://blog.angular.io/a-plan-for-version-8-0-and-ivy-b3318dfc19f7
 ** A plan for version 8.0 and Ivy – Angular Blog
@@ -562,7 +562,7 @@
 * https://www.zuehlke.com/blog/en/angularjs-clean-code/
 ** AngularJs Clean Code
 
-=== Framework battle
+==== Framework battle
 
 * https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
 ** Vue.js & React.js - Le blog de Clever Age
@@ -600,7 +600,7 @@
 * https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
 ** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
 
-=== The future
+==== The future
 
 * https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/
 ** JavaScript predictions for 2019 by npm - DEV Community 👩‍💻👨‍💻
@@ -626,7 +626,7 @@
 * https://github.com/WICG/import-maps
 ** GitHub - WICG/import-maps: How to control the behavior of JavaScript imports
 
-=== Web components
+==== Web components
 
 * https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
 ** 5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog
@@ -673,7 +673,7 @@
 * https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
 ** Lightning Web Components: Parent-Child Components - YouTube
 
-=== CSS
+==== CSS
 
 * http://nicolasgallagher.com/css-cascade-specificity-inheritance/
 ** CSS: the cascade, specificity, and inheritance – Nicolas Gallagher
@@ -711,7 +711,7 @@
 * https://gist.github.com/0gust1/8ef61eaea5797051841e
 ** gist:8ef61eaea5797051841e · GitHub
 
-=== Vue
+==== Vue
 
 * https://css-tricks.com/what-hooks-mean-for-vue/
 ** What Hooks Mean for Vue | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
@@ -740,7 +740,7 @@
 * https://xeestudio.com/examples-of-vues-clean-code/
 ** Examples of Vue’s Clean Code - Xee Studio
 
-=== SSR
+==== SSR
 
 * https://github.com/karthikv/purview
 ** GitHub - karthikv/purview: A server-side component framework. What if your React components ran on the server-side?
@@ -754,7 +754,7 @@
 * https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3
 ** 7 Problems you can avoid by using Nuxt.js for your next Vue app
 
-=== misc
+==== misc
 
 * https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z
 ** Code Galaxies Visualization
@@ -793,12 +793,12 @@
 * https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
 ** The TypeScript Tax – JavaScript Scene – Medium
 
-=== OSS
+==== OSS
 
 * https://github.com/axios/axios/issues/1965
 ** Project dead? · Issue #1965 · axios/axios · GitHub
 
-=== todo
+=== TODO
 
 * https://chriskiehl.com/article/event-sourcing-is-hard
 ** Don't Let the Internet Dupe you, Event Sourcing is Hard - Blogomatano
