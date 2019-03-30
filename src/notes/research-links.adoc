@@ -403,6 +403,19 @@
 * https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/
 ** AddyOsmani.com - Component Interop With React And Custom Elements
 
+* https://read.reduxbook.com/
+** Introduction · Human Redux
+** The point is: there's a strong case to be made for decoupling data fetching from whatever components happen to be showing at the time.
+
+* https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/
+** 7 architectural attributes of a reliable React component
+
+* https://medium.com/differential/react-context-and-component-coupling-86e535e2d599
+** React Context and Component Coupling – Differential – Medium
+
+* https://reactjs.org/docs/handling-events.html
+** Handling Events – React
+
 === Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
@@ -465,6 +478,13 @@
 * https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
 ** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
 
+=== Micro frontends
+
+* https://www.youtube.com/watch?v=shINdgtPv0o
+** Micro Frontend: the microservice puzzle extended to frontend by Audrey Neveu
+** Multiple approaches tested to mix different frameworks and code bases
+** End-up with layout as lib (the main layout with the menus is a library)
+
 === Standards
 
 * https://bitsofco.de/what-exactly-is-the-dom/
@@ -479,6 +499,9 @@
 
 * https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 ** Rendering on the Web  |  Web       |  Google Developers
+
+* https://www.youtube.com/watch?v=fALZtwCv99M
+** ESM Les EcmaScript Modules dans votre browser et votre backend NodeJS  It's about time ! (S. Pertus) - YouTube
 
 === Perfs
 
@@ -562,6 +585,13 @@
 * https://www.zuehlke.com/blog/en/angularjs-clean-code/
 ** AngularJs Clean Code
 
+* https://youtu.be/tBV4IQwPssU
+** Mad science with the Angular Compiler - MINKO GECHEV
+** Template compilation helps to know which css is useless
+
+* https://www.youtube.com/watch?v=TrDqaABq-UY
+** RxJS Les clefs pour comprendre les observables (T. Chatel) - YouTube
+
 === Framework battle
 
 * https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
@@ -593,9 +623,58 @@
 
 * https://www.youtube.com/watch?v=DFF9eOlTWzY
 ** This.JavaScript - State of Frameworks & Libraries (12 févr. 2019)
+** Preact does differential loading (one modern module for modern browsers one other module for old browsers)
+** Polymer team works on:
+*** Lit-html streaming ssr, build time optimisation
+*** Lit-element streaming ssr
+*** Chrome dev summit justin async
+*** Template instantiation spec proposal
+** Interesting slide from justin about web components vs classic components
+*** Element = custom element
+*** Shadow root = shadow dom
+*** Pseudo element = ::part ::theme
+*** Pseudo class = custom state (proposal)
+** Each framework author/maintainer talks about "community"
 
 * https://www.youtube.com/watch?v=Husw3PKFIpg
 ** la-quête-du-graal.js (Siegfried Ehret - Romain Maton) - YouTube
+** chronology of frameworks
+*** we are under influence of framework fashion
+** xkcd 927
+** comparison:
+*** history of jquery
+**** plugins
+**** stupid battle JS vs jQuery
+*** backbone
+**** marionette js
+**** chaplin.js
+**** giraffe.js
+**** too minimalist
+**** rendrjs / rendr
+*** emberjs
+**** all in one
+**** fastboot (no rehydration)
+**** ember-cli
+*** angular.js
+**** pushed by google
+**** 2 way data binding
+**** dependency injection
+**** test included: karma, ng-mock
+**** big community
+**** form handling
+*** angular
+**** typescript
+**** SSR (angular universal)
+**** links with WC
+*** react
+**** component oriented
+**** perf ++
+**** react native
+**** virtual DOM
+*** WC
+*** polymer
+**** sugar over WC
+*** vuejs
 
 * https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
 ** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
@@ -673,6 +752,135 @@
 * https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
 ** Lightning Web Components: Parent-Child Components - YouTube
 
+* https://youtu.be/0BikjL858OQ
+** Thoughtful Component Design - JEREMY ELBOURN and MILES MALERBA
+** Very interesting way to compose web components
+
+* https://www.youtube.com/watch?v=izBshf4DawQ
+** Mixité dans le monde des webcomponents (Cyril Balit - Horacio Gonzalez) (Devoxx 2017)
+** Well known list: Web Components = 4 standards
+** Recaps on attributes, properties, methods, events
+** Why do we want to code something timeproof
+** "a few years ago, I was a huge Angular fan"
+** example of migratin some code from angular to react...
+** example of Web Component usage in Angular.js
+*** Angular.js does not listen to native custom events
+** example of Web Component usage in Angular
+*** You need to add CUSTOM_ELEMENTS_SCHEMA
+** example of Web Component usage in React
+*** react polymer to handle events
+** example of Web Component usage in Vue
+
+* https://www.youtube.com/watch?v=R-Dn5A5toX8
+** Chaque framework support un concept de composant mais vient avec ses trucs à lui
+** Each framework comes with a concept of component with its own specificity
+** We need timeproof stuffs
+** custom events are important
+
+* https://www.youtube.com/watch?v=IXBcboy4zaw
+** Le ShadowDOM pour les nuls (Romain Linsolas) (Devoxx 2017)
+** Well known list: Web Components = 4 standards
+** Explains the feature and how it works
+*** Me: Yes but why do we need this?
+*** Me: How would we do this without that?
+** Present the general behaviour, usages, limits, polyfills
+
+* https://www.youtube.com/watch?v=WZ1MEHuxHGg
+** Dominik Lubański — Taste the Future with Functional Web Components — ConFrontJS 2018
+** hybrids.js
+** Very interesting ideas and concepts
+** DX seems very nice
+** Very object based
+** HMR
+** A bit too opinionated
+*** No time to focus on SSR https://github.com/hybridsjs/hybrids/issues/24
+*** Thinks we don't need to expose methods and custom events would be enough https://github.com/hybridsjs/hybrids/issues/43
+*** Thinks attribute should never reflect property values https://github.com/hybridsjs/hybrids/issues/26
+
+* https://bulma.io/documentation/form/general/
+** Form controls | Bulma: Free, open source, & modern CSS framework based on Flexbox
+
+* https://github.com/PolymerLabs/split-element
+** GitHub - PolymerLabs/split-element: Lazy loaded LitElements
+
+* https://github.com/shawnbot/custom-elements
+** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
+
+* https://trailhead.salesforce.com/fr/sample-gallery
+** Sample Gallery
+
+* https://developer.mozilla.org/en-US/docs/Web/Web_Components
+** Web Components | MDNGithubTwitterGitHubTwitterFacebookInstagram
+
+* https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements
+** Using custom elements - Web Components | MDNGithubTwitterGitHubTwitterFacebookInstagram
+
+* https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
+** Using templates and slots - Web Components | MDNGithubTwitterGitHubTwitterFacebookInstagram
+
+* https://www.youtube.com/watch?v=we3lLo-UFtk
+** PWA starter kit: build fast, scalable, modern apps with Web Components (Google I/O '18) - YouTube
+
+* https://webcomponents.club/
+** A web components learning journal - Web Components Club
+
+==== Web Component libs (base elements libraries)
+
+* https://github.com/jgthms/bulma
+** GitHub - jgthms/bulma: Modern CSS framework based on Flexbox
+
+* https://github.com/material-components/material-components-web
+** GitHub - material-components/material-components-web: Modular and customizable Material Design UI components for the web
+
+* https://github.com/material-components/material-components-web-components
+** GitHub - material-components/material-components-web-components: Material Web Components - Material Design implemented aWeb Components",
+
+==== Web Component libs (to write or generate WC)
+
+* https://github.com/Polymer/lit-element
+** Polymer/lit-element: A simple base class for creating fast, lightweight web components
+
+* https://github.com/web-padawan/awesome-lit-html
+** GitHub - web-padawan/awesome-lit-html: A curated list of awesome lit-html resources.
+
+* https://github.com/hybridsjs/hybrids
+** GitHub - hybridsjs/hybrids: 👾 UI library for creating Web Components with simple and functional API
+
+* https://github.com/skatejs/skatejs
+** GitHub - skatejs/skatejs: Skate is a functional reactive abstraction over the web component standards as a set of packages that enables you to write small, fast and scalable web components using popular view libraries such as React, Preact and LitHTML.
+
+* http://slim.js.org/
+** slim.js | Fast & Robust Front-End Micro-framework based on modern standards
+
+* https://stenciljs.com/
+** Stencil
+
+* https://v3.svelte.technology/
+** Svelte • The magical disappearing UI framework
+
+=== HMR
+
+* https://github.com/hybridsjs/hybrids/blob/master/src/define.js
+** hybrids/define.js at master · hybridsjs/hybrids · GitHub
+
+* https://github.com/vuejs/vue-hot-reload-api/blob/master/src/index.js
+** vue-hot-reload-api/index.js at master · vuejs/vue-hot-reload-api · GitHub
+
+* https://karol-f.github.io/vue-custom-element/#/
+** Vue-custom-element
+
+* https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd
+** Comparing bundlers: Webpack, Rollup & Parcel – js@imaginea – Medium
+
+* https://stackoverflow.com/questions/26291836/es6-proxies-cant-be-functions
+** javascript - ES6 proxies can't be functions? - Stack Overflow
+
+* https://survivejs.com/webpack/appendices/hmr/
+** Hot Module Replacement
+
+* https://webpack.js.org/guides/hot-module-replacement/#other-code-and-frameworks
+** Hot Module Replacement | webpack
+
 === CSS
 
 * http://nicolasgallagher.com/css-cascade-specificity-inheritance/
@@ -711,6 +919,12 @@
 * https://gist.github.com/0gust1/8ef61eaea5797051841e
 ** gist:8ef61eaea5797051841e · GitHub
 
+* https://github.com/css-modules/css-modules
+** GitHub - css-modules/css-modules: Documentation about css-modules
+
+* https://www.styled-components.com
+** styled-componentsspectrumspectrum
+
 === Vue
 
 * https://css-tricks.com/what-hooks-mean-for-vue/
@@ -740,6 +954,18 @@
 * https://xeestudio.com/examples-of-vues-clean-code/
 ** Examples of Vue’s Clean Code - Xee Studio
 
+* https://cli.vuejs.org/guide/cli-service.html#using-the-binary
+** CLI Service | Vue CLI
+
+* https://router.vuejs.org/guide/advanced/data-fetching.html#fetching-after-navigation
+** Data Fetching | Vue Router
+
+* https://router.vuejs.org/guide/advanced/navigation-guards.html#in-component-guards
+** Navigation Guards | Vue Router
+
+* https://vuejs.org/v2/guide/components.html
+** Components Basics — Vue.js
+
 === SSR
 
 * https://github.com/karthikv/purview
@@ -753,6 +979,9 @@
 
 * https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3
 ** 7 Problems you can avoid by using Nuxt.js for your next Vue app
+
+* https://thewebplatformpodcast.com/98-server-side-web-components-0
+** The Web Platform Podcast
 
 === misc
 
@@ -827,3 +1056,5 @@
 * https://xlayers.app/#/home
 ** xLayers: Design – Code – Repeat
 
+* https://www.youtube.com/watch?v=bYODgsCkt90
+** Surchargés Live ! (JF. Garreau, H. Gonzalez) - YouTube
