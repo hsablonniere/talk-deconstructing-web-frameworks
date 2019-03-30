@@ -1,0 +1,3 @@
+= Le Web, ses frameworks et ses standards : déconstruire pour mieux (re?)construire
+
+Dépôt de travail pour mon talk de 2019 autour du Web, de ses standards et ses frameworks...
