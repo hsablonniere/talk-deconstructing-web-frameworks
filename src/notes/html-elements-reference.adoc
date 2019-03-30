@@ -1,0 +1,401 @@
+= HTML elements/tags reference
+
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+== List of tags
+
+=== Main root
+
+* <html>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLHtmlElement
+
+=== Document metadata
+
+* <head>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadElement
+* <title>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTitleElement
+* <meta>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLMetaElement
+* <link>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement
+* <style>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement
+* <base>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLBaseElement
+
+=== Sectionning root
+
+* <body>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLBodyElement
+
+=== Content sectioning
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+
+* <address>
+* <article>
+* <aside>
+* <footer>
+* <header>
+* <hgroup>
+* <main>
+* <nav>
+* <section>
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement
+
+* <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+
+=== Text content
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+
+* <dd>
+* <dt>
+* <figcaption>
+* <figure>
+* <main>
+
+
+* <blockquote>
+** https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+* <div>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDivElement
+* <dl>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDListElement
+* <hr>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLHRElement
+* <li>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLLIElement
+* <ol>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLOListElement
+* <p>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLParagraphElement
+* <pre>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLPreElement
+* <ul>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLUListElement
+
+=== Inline text semantics
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+* <abbr>
+* <b>
+* <bdi>
+* <bdo>
+* <cite>
+* <code>
+* <data>
+* <rb>
+* <rp>
+* <rt>
+* <rtc>
+* <ruby>
+* <s>
+* <samp>
+* <small>
+* <strong>
+* <sub>
+* <sup>
+* <u>
+* <var>
+* <wbr>
+
+* <a>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement
+* <br>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLBRElement
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataElement
+* <dfn>
+* <em>
+* <i>
+* <kbd>
+* <mark>
+* <q>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLQuoteElement
+* <span>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLSpanElement
+* <time>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTimeElement
+
+=== Image and multimedia
+
+* <area>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLAreaElement
+* <audio>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
+* <img>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
+* <map>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLMapElement
+* <track>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement
+* <video>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
+
+=== Embedded content
+
+// * <applet>
+* <embed>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLEmbedElement
+* <iframe>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement
+* <object>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLObjectElement
+* <param>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLParamElement
+* <picture>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLPictureElement
+* <source>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLSourceElement
+
+=== Scripting
+
+* <canvas>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement
+* <noscript>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+* <script>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement
+
+=== Demarcating edits
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLModElement
+
+* <del>
+* <ins>
+
+=== Table content
+
+* <caption>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCaptionElement
+* <col>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableColElement
+* <colgroup>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableColElement
+* <table>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement
+* <tbody>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableSectionElement
+* <td>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableDataCellElement
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement
+* <tfoot>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableSectionElement
+* <th>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableHeaderCellElement
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement
+* <thead>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableSectionElement
+* <tr>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableRowElement
+
+=== Forms
+
+* <button>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement
+* <datalist>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataListElement
+* <fieldset>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLFieldSetElement
+* <form>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement
+* <input>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement
+* <label>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLLabelElement
+* <legend>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLLegendElement
+* <meter>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLMeterElement
+* <optgroup>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptGroupElement
+* <option>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionElement
+* <output>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLOutputElement
+* <progress>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLProgressElement
+* <select>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement
+* <textarea>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement
+
+=== Interactive elements
+
+* <details>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDetailsElement
+* <dialog>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement
+* <menu>
+** ???
+* <menuitem>
+** ???
+* <summary>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+
+=== Web Components
+
+// * <content>
+// * <element>
+// * <shadow>
+* <slot>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement
+* <template>
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement
+
+== Global attributes
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+
+== Those with methods
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/blur
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/addTextTrack
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekToNextFrame
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setMediaKeys
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setSinkId
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decode
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/captureStream
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen
+* https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+** all methods on context
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createTHead
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteTHead
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createTFoot
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createCaption
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteCaption
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/insertRow
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteRow
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableRowElement/insertCell
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/checkValidity
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/setSelectionRange
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/setRangeText
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/add
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/item
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/namedItem
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/remove
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/assignedNodes
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/assignedElements
+
+== Those with properties (not string/boolean)
+
+Not that interesting
+
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement/relList
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement/sizes
+
+Numbers
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/played
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate
+
+Real object
+
+* RO https://developer.mozilla.org/en-US/docs/Web/API/LinkStyle/sheet
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/buffered
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controller
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controlsList
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/mediaKeys
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks
+* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement/track
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/contentWindow
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/validity
+
+Ref to children/parent
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/caption
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tHead
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tFoot
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/rows
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tBodies
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement/form
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement/labels
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements
+
+== Those with special events
+
+* Animation Events https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement#Animation_events
+* Pointer Events https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement#Pointer_events
+* Transition Events https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement#Transition_events
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/onencrypted
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/onwaitingforkey
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplay_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplay_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplaythrough_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/durationchange_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/emptied_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadeddata_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playing_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/progress_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ratechange_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeked_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeking_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/stalled_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/suspend_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volumechange_event
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/waiting_event
+
+== Constructors
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement#Constructor
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement#Constructor
+
+== Discoveries
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLHyperlinkElementUtils
+* https://developer.mozilla.org/en-US/docs/Web/API/FormData
+
+== Those who do network calls
+
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement
+** if there is an @import
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement
+** if clicked
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
+** https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLEmbedElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLPictureElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLSourceElement
+* https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement
