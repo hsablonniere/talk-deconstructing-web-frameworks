@@ -2,11 +2,9 @@
 :toc:
 :toclevels: 4
 
-== Annotated and sorted
+== Tweet
 
-=== Tweet
-
-==== Back to basics
+=== Back to basics
 
 * https://twitter.com/_developit/status/1083906683984904192
 ** Jason Miller 🦊⚛ sur Twitter : \"I often flip this on it's head:Never underestimate how far a static app delivered via CDN hitting a monolithic API powered by a single-threaded JS runtime running on a potato (or a $5 VPS) can get you in terms of delivering real value to your customers.… https://t.co/9dIWtMuCSF\"
@@ -29,7 +27,7 @@
 * https://twitter.com/importantshock/status/1085740688283746304
 ** patrick thomson sur Twitter : \"I love to use¹ dependency² injection³¹ pass² values³ to functions\"
 
-==== React is react
+=== React is react
 
 * https://twitter.com/_jayphelps/status/1111396063532011521
 ** Jay Phelps @ Reactathon sur Twitter : \"Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?\"
@@ -82,12 +80,12 @@
 * https://twitter.com/tomdale/status/1093335223775956992
 ** Tom Dale sur Twitter : \"While I understand that React hooks solve tricky cross-cutting composability problems very elegantly, I still find every example using hooks harder to read and understand than the class-based equivalent. At this point, I don’t think it’s just due to unfamiliarity.\"
 
-==== Tips
+=== Tips
 
 * https://twitter.com/addyosmani/status/1085439006433669120
 ** Addy Osmani sur Twitter : \"Tip: Chrome can measure how much unused JavaScript is on your page https://t.co/AYBKnPha0nDevTools > top-right menu > More tools > Coverage… https://t.co/k24W4NCyCQ\"
 
-==== JS
+=== JS
 
 * https://twitter.com/wycats/status/1091388399179583488
 ** Yehuda Katz 🥨 sur Twitter : \"I'm curious (and please answer with as much nuance as you can muster):How would you feel if decorators in JS could never be standardized because classes with decorators would have an unavoidable performance penalty relative to the same code written by hand?\"
@@ -125,7 +123,7 @@
 * https://twitter.com/tomdale/status/1088517392618188800
 ** Tom Dale sur Twitter : \"The example code on https://t.co/glnWl886Ok no longer works in Chrome because it uses an older version of Polymer. Works in Safari. The irony is so thick you could drizzle it over pancakes. If you're gonna Use the Platform, make sure that Platform is nailed down to something!\"
 
-==== CSS
+=== CSS
 
 * https://twitter.com/jaffathecake/status/1084781707725848578
 ** Jake Archibald sur Twitter : \"I feel like CSS modules are overlooked in the whole CSS vs JS debate.➡️ You write .css files➡️ Can use preprocessors like Sass➡️ Encourages flatter CSS (like BEM and similar conventions)➡️ But you can still use the cascade➡️ Unique class names➡️ Tree-shaking➡️ .css output\"
@@ -133,7 +131,7 @@
 * https://twitter.com/tobie/status/1083316137826365442
 ** Tobie Langel sur Twitter : \"We're seeing the same thing today with CSS that we've seen seen with HTML/JS before and which led to the current JS framework situation. A thread👇\"
 
-==== future
+=== future
 
 * https://twitter.com/getify/status/1111004737263075329
 ** getify sur Twitter : \"Are we expecting/envisioning a future where webassembly is like doing direct GPU instructions to draw pixels to the screen, to display an app's UI... so when that kind of app is loaded into a browser, it completely bypasses the entire DOM (and JS and CSS)?\"
@@ -150,7 +148,7 @@
 * https://twitter.com/tolmasky/status/1092116247406243841
 ** Francisco Tolmasky sur Twitter : \"Tree-shaking could be an anti-optimization. The ideal is for your libraries, which change less often than your app code, to be codesplit separately & be barely tree-shaken if at all, so that updates to your app result in unchanged library “chunks” and minimal cache busting (1/x)\"
 
-==== components best practices
+=== components best practices
 
 * https://twitter.com/housecor/status/1110657232885243906
 ** Cory House 🏠 sur Twitter : \"When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available\"
@@ -164,7 +162,7 @@
 * https://twitter.com/justinfagnani/status/1093229305662889985
 ** Justin Fagnani sur Twitter : \"Watching people try to figure out CSS-in-JS tools reminds me to remind you that Shadow DOM fixes CSS. *Especially* with Constructible StyleSheets.Here's how easy LitElement makes it to use Shadow DOM with super-efficient native scoped styles via Constructible StyleSheets:… https://t.co/5J97YeebFf\"
 
-==== job hunting
+=== job hunting
 
 * https://twitter.com/malchata/status/1108108474632802305
 ** Jeremy Wagner sur Twitter : \"The current state of web development is really depressing to me. So much of what I have to chase to get paid is framework-driven shit. I think I'd be much more engaged and productive if I was able to focus on the web platform itself.\"
@@ -178,7 +176,7 @@
 * https://twitter.com/getify/status/1087514283817267201
 ** getify sur Twitter : \"The \"great frontend divide\" exists, but not because of which skills people pick or what's listed in job descriptions.\"
 
-==== random
+=== random
 
 * https://twitter.com/letropeur/status/1101043350587822081
 ** Le Tropeur sur Twitter : \"Vous savez ce qui est important à gérer, mais que personne ne vous a appris ?Avoir tort.#Thread\"
@@ -192,9 +190,9 @@
 * https://twitter.com/rauschma/status/1081542850607763456
 ** Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"
 
-=== Articles, talks, podcasts...
+== Articles, talks, podcasts...
 
-==== Thinking
+=== Thinking
 
 * http://simpleprimate.com/blog/make
 ** It's What You Make, Not How You Make It.
@@ -250,7 +248,7 @@
 * https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk
 ** My solution is the best! - DEV Community 👩‍💻👨‍💻
 
-==== React, react, react...
+=== React, react, react...
 
 * https://adamrackis.dev/state-and-use-reducer/
 ** Hooks, State, Closures, and useReducer | Adam Reacts
@@ -405,7 +403,7 @@
 * https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/
 ** AddyOsmani.com - Component Interop With React And Custom Elements
 
-==== Design, patterns, architecture...
+=== Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
 ** Clean Code vs. Dirty Code: React Best Practices - American Express Technology
@@ -467,7 +465,7 @@
 * https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
 ** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
 
-==== Standards
+=== Standards
 
 * https://bitsofco.de/what-exactly-is-the-dom/
 ** What, exactly, is the DOM?
@@ -482,7 +480,7 @@
 * https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 ** Rendering on the Web  |  Web       |  Google Developers
 
-==== Perfs
+=== Perfs
 
 * https://areknawo.com/dom-performance-case-study/
 ** DOM performance case study
@@ -512,7 +510,7 @@
 * https://www.bitovi.com/blog/announcing-velocirender
 ** Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development
 
-==== Tooling (bundlers, compilers...)
+=== Tooling (bundlers, compilers...)
 
 * https://bitsofco.de/what-is-tree-shaking/
 ** What is tree shaking and how does it work?
@@ -532,7 +530,7 @@
 * https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/
 ** The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon
 
-==== Angular
+=== Angular
 
 * https://blog.angular.io/a-plan-for-version-8-0-and-ivy-b3318dfc19f7
 ** A plan for version 8.0 and Ivy – Angular Blog
@@ -564,7 +562,7 @@
 * https://www.zuehlke.com/blog/en/angularjs-clean-code/
 ** AngularJs Clean Code
 
-==== Framework battle
+=== Framework battle
 
 * https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
 ** Vue.js & React.js - Le blog de Clever Age
@@ -602,7 +600,7 @@
 * https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
 ** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
 
-==== The future
+=== The future
 
 * https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/
 ** JavaScript predictions for 2019 by npm - DEV Community 👩‍💻👨‍💻
@@ -628,7 +626,7 @@
 * https://github.com/WICG/import-maps
 ** GitHub - WICG/import-maps: How to control the behavior of JavaScript imports
 
-==== Web components
+=== Web components
 
 * https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
 ** 5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog
@@ -675,7 +673,7 @@
 * https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD
 ** Lightning Web Components: Parent-Child Components - YouTube
 
-==== CSS
+=== CSS
 
 * http://nicolasgallagher.com/css-cascade-specificity-inheritance/
 ** CSS: the cascade, specificity, and inheritance – Nicolas Gallagher
@@ -713,7 +711,7 @@
 * https://gist.github.com/0gust1/8ef61eaea5797051841e
 ** gist:8ef61eaea5797051841e · GitHub
 
-==== Vue
+=== Vue
 
 * https://css-tricks.com/what-hooks-mean-for-vue/
 ** What Hooks Mean for Vue | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
@@ -742,7 +740,7 @@
 * https://xeestudio.com/examples-of-vues-clean-code/
 ** Examples of Vue’s Clean Code - Xee Studio
 
-==== SSR
+=== SSR
 
 * https://github.com/karthikv/purview
 ** GitHub - karthikv/purview: A server-side component framework. What if your React components ran on the server-side?
@@ -756,7 +754,7 @@
 * https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3
 ** 7 Problems you can avoid by using Nuxt.js for your next Vue app
 
-==== misc
+=== misc
 
 * https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z
 ** Code Galaxies Visualization
@@ -795,12 +793,12 @@
 * https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
 ** The TypeScript Tax – JavaScript Scene – Medium
 
-==== OSS
+=== OSS
 
 * https://github.com/axios/axios/issues/1965
 ** Project dead? · Issue #1965 · axios/axios · GitHub
 
-=== TODO
+== TODO
 
 * https://chriskiehl.com/article/event-sourcing-is-hard
 ** Don't Let the Internet Dupe you, Event Sourcing is Hard - Blogomatano
