@@ -6,6 +6,9 @@
 
 === Back to basics
 
+* https://twitter.com/iamdevloper/status/636455478093029376
+** I Am Devloper sur Twitter : "Morpheus: “Do you take the blue pill or the red pill?”JavaScript community: “We didn’t _quite_ like either pill, so we made a green one”."
+
 * https://twitter.com/_developit/status/1083906683984904192
 ** Jason Miller 🦊⚛ sur Twitter : \"I often flip this on it's head:Never underestimate how far a static app delivered via CDN hitting a monolithic API powered by a single-threaded JS runtime running on a potato (or a $5 VPS) can get you in terms of delivering real value to your customers.… https://t.co/9dIWtMuCSF\"
 
@@ -260,6 +263,15 @@
 * https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk
 ** My solution is the best! - DEV Community 👩‍💻👨‍💻
 
+* http://chadfowler.com/2006/12/27/the-big-rewrite.html
+** The Big Rewrite
+
+* https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+** Things You Should Never Do, Part I – Joel on Software
+
+* https://www.neilgunton.com/doc/?o=1mr&doc_id=8583
+** Rewrites Considered Harmful?, by Neil Gunton
+
 === React, react, react...
 
 * https://adamrackis.dev/state-and-use-reducer/
@@ -431,6 +443,12 @@
 * https://github.com/topheman/nextjs-movie-browser
 ** GitHub - topheman/nextjs-movie-browser: A NextJS implementation of the themoviedb.org website
 
+* https://reactjs.org/docs/higher-order-components.html
+** Higher-Order Components – React
+
+* https://shoptalkshow.com/episodes/347/
+** 347: Jason Miller and PreactJS - ShopTalk
+
 === Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
@@ -496,6 +514,33 @@
 * https://alistapart.com/article/responsible-javascript-part-1
 ** Responsible JavaScript: Part I · An A List Apart Article
 
+* http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+** ArticleS.UncleBob.PrinciplesOfOod
+
+* https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start
+** Getting a SOLID start. - Clean Coder
+
+* https://en.wikipedia.org/wiki/SOLID
+** SOLID - Wikipedia
+
+* https://github.com/sfauvart/vuejs-ioc-poc/blob/master/src/main.js
+** vuejs-ioc-poc/main.js at master · sfauvart/vuejs-ioc-poc · GitHub
+
+* https://en.wikipedia.org/wiki/Separation_of_concerns
+** Separation of concerns - Wikipedia
+
+* https://en.wikipedia.org/wiki/Second-system_effect
+** Second-system effect - Wikipedia
+
+* http://petr-kubac.blog.cz/1810/second-system-effect
+** Second system effect | Nekorektní blog Petra Kubáče
+
+* https://www.w3.org/TR/html-design-principles/#separation-of-concerns
+** HTML Design Principles
+
+* https://jasonformat.com/application-holotypes/
+** Application Holotypes: A Guide to Architecture Decisions
+
 === Micro frontends
 
 * https://www.youtube.com/watch?v=shINdgtPv0o
@@ -551,6 +596,21 @@
 * https://www.bitovi.com/blog/announcing-velocirender
 ** Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development
 
+* https://2019.jsconf.eu/news/how-we-built-the-fastest-conference-website-in-the-world/
+** How we built the fastest conference website in the worldJSConf EU
+
+* https://bocoup.com/blog/porting-scratch-from-flash-to-javascript-performance-interoperability-and-extensions
+** Porting Scratch from Flash to JavaScript: Performance, Interoperability and Extensions - Bocoup
+
+* https://developers.google.com/web/fundamentals/performance/prpl-pattern/
+** The PRPL Pattern  |  Web Fundamentals       |  Google Developers
+
+* https://v8.dev/blog/scanner
+** Blazingly fast parsing, part 1: optimizing the scanner · V8
+
+* http://wilsonpage.co.uk/preventing-layout-thrashing/
+** Preventing 'layout thrashing' |  Wilson Page
+
 === Tooling (bundlers, compilers...)
 
 * https://bitsofco.de/what-is-tree-shaking/
@@ -570,6 +630,29 @@
 
 * https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/
 ** The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon
+
+* https://bundlephobia.com
+** react-dom@16.8.5 | BundlePhobiaGithub Link
+
+* https://github.com/airbnb/lottie-web
+** GitHub - airbnb/lottie-web: Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/
+
+* https://polyfill.io/v3/url-builder/
+** Polyfill.io
+
+=== tests
+
+* https://docs.cypress.io/guides/overview/why-cypress.html
+** Why Cypress? | Cypress Documentation
+
+* https://docs.cypress.io/guides/references/bundled-tools.html
+** Bundled Tools | Cypress Documentation
+
+* https://www.cypress.io/
+** JavaScript End to End Testing Framework | Cypress.io  GitHub icon
+
+* https://www.cypress.io/how-it-works/
+** End to End Testing Framework | Cypress.io
 
 === Angular
 
@@ -949,6 +1032,30 @@
 * https://css-tricks.com/css-houdini-could-change-the-way-we-write-and-manage-css/
 ** CSS Houdini Could Change the Way We Write and Manage CSS | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
+* https://alistapart.com/article/meaningful-css-style-like-you-mean-it
+** Meaningful CSS: Style Like You Mean It · An A List Apart Article
+
+* https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/
+** The Debate Around "Do We Even Need CSS Anymore?" | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
+* https://emilkowalski.github.io/css-effects-snippets/
+** CSSeffectsSnippets.
+
+* https://keithjgrant.com/posts/2017/03/css-is-not-broken/
+** CSS is Not BrokencommentheartrepostTwitter logoGithub logo
+
+* https://m-css.com/guide/#introduction
+** modular-css | Guide
+
+* https://medium.com/@zamarrowski/css-is-broken-5138773e17a5
+** CSS is broken – Sergio Zamarro – Medium
+
+* https://tachyons.io/
+** TACHYONS - Css Toolkit
+
+* https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+** CSS Inheritance, The Cascade And Global Scope: Your New Old Worst Best Friends — Smashing MagazineSearchClear SearchBack to top
+
 === Vue
 
 * https://css-tricks.com/what-hooks-mean-for-vue/
@@ -1007,6 +1114,9 @@
 * https://thewebplatformpodcast.com/98-server-side-web-components-0
 ** The Web Platform Podcast
 
+* https://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/
+** You’re Missing the Point of Server-Side Rendered JavaScript Apps - tomdale.net
+
 === misc
 
 * https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z
@@ -1051,6 +1161,11 @@
 * https://github.com/axios/axios/issues/1965
 ** Project dead? · Issue #1965 · axios/axios · GitHub
 
+=== i18n
+
+* https://www.i18next.com/
+** Introduction - i18next documentation
+
 == TODO
 
 * https://chriskiehl.com/article/event-sourcing-is-hard
@@ -1085,3 +1200,9 @@
 
 * https://blog.eyas.sh/2018/12/observables-side-effects-and-subscriptions/
 ** Observables, Side-effects, and Subscriptions | Eyas's Blog
+
+* https://tenmilesquare.com/optimistic-ui-does-not-guarantee-an-intuitive-ux/
+** Optimistic UI does not Guarantee an Intuitive UX – Tenmilesquare
+
+* https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/
+** True Lies Of Optimistic User Interfaces — Smashing MagazineSearchClear SearchBack to top
