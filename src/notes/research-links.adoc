@@ -80,6 +80,9 @@
 * https://twitter.com/tomdale/status/1093335223775956992
 ** Tom Dale sur Twitter : \"While I understand that React hooks solve tricky cross-cutting composability problems very elegantly, I still find every example using hooks harder to read and understand than the class-based equivalent. At this point, I don’t think it’s just due to unfamiliarity.\"
 
+* https://twitter.com/_jayphelps/status/1111396063532011521
+** Jay Phelps @ Reactathon sur Twitter : "Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?"
+
 === Tips
 
 * https://twitter.com/addyosmani/status/1085439006433669120
@@ -148,7 +151,10 @@
 * https://twitter.com/tolmasky/status/1092116247406243841
 ** Francisco Tolmasky sur Twitter : \"Tree-shaking could be an anti-optimization. The ideal is for your libraries, which change less often than your app code, to be codesplit separately & be barely tree-shaken if at all, so that updates to your app result in unchanged library “chunks” and minimal cache busting (1/x)\"
 
-=== components best practices
+* https://github.com/request/request/issues/3142
+** Request’s Past, Present and Future · Issue #3142 · request/request · GitHub
+
+=== web components
 
 * https://twitter.com/housecor/status/1110657232885243906
 ** Cory House 🏠 sur Twitter : \"When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available\"
@@ -161,6 +167,12 @@
 
 * https://twitter.com/justinfagnani/status/1093229305662889985
 ** Justin Fagnani sur Twitter : \"Watching people try to figure out CSS-in-JS tools reminds me to remind you that Shadow DOM fixes CSS. *Especially* with Constructible StyleSheets.Here's how easy LitElement makes it to use Shadow DOM with super-efficient native scoped styles via Constructible StyleSheets:… https://t.co/5J97YeebFf\"
+
+* https://twitter.com/justinfagnani/status/1112049650050068480
+** Justin Fagnani sur Twitter : "Frameworks have not done this better. They've been slow, bloated, fragmented the web dev community, and only existed in the first place because the web accidentally grew into an app platform and didn't have a component model from the beginning like any other platform would.… https://t.co/QHg066iN2L"
+
+* https://twitter.com/justinfagnani/status/1112052414159282176
+** Justin Fagnani sur Twitter : "So... WCs bring:Basics: app platforms should have UI component modelsCapabilities: true DOM and style scopingInterop: break down silos, work w/ tools that understand HTML, DevTools...Dev productivity: knowledge transfer btwn projectsStability: web APIs live long… https://t.co/mYMxwMrw2E"
 
 === job hunting
 
@@ -416,6 +428,9 @@
 * https://reactjs.org/docs/handling-events.html
 ** Handling Events – React
 
+* https://github.com/topheman/nextjs-movie-browser
+** GitHub - topheman/nextjs-movie-browser: A NextJS implementation of the themoviedb.org website
+
 === Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
@@ -477,6 +492,9 @@
 
 * https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
 ** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
+
+* https://alistapart.com/article/responsible-javascript-part-1
+** Responsible JavaScript: Part I · An A List Apart Article
 
 === Micro frontends
 
@@ -835,6 +853,9 @@
 * https://github.com/material-components/material-components-web-components
 ** GitHub - material-components/material-components-web-components: Material Web Components - Material Design implemented aWeb Components",
 
+* https://natuive.net/#home
+** natUIve
+
 ==== Web Component libs (to write or generate WC)
 
 * https://github.com/Polymer/lit-element
@@ -924,6 +945,9 @@
 
 * https://www.styled-components.com
 ** styled-componentsspectrumspectrum
+
+* https://css-tricks.com/css-houdini-could-change-the-way-we-write-and-manage-css/
+** CSS Houdini Could Change the Way We Write and Manage CSS | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
 === Vue
 
@@ -1058,3 +1082,6 @@
 
 * https://www.youtube.com/watch?v=bYODgsCkt90
 ** Surchargés Live ! (JF. Garreau, H. Gonzalez) - YouTube
+
+* https://blog.eyas.sh/2018/12/observables-side-effects-and-subscriptions/
+** Observables, Side-effects, and Subscriptions | Eyas's Blog
