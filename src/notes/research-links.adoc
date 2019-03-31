@@ -1156,6 +1156,10 @@
 * https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b
 ** The TypeScript Tax – JavaScript Scene – Medium
 
+=== history
+
+* https://www.w3.org/People/Raggett/book4/ch02.html
+
 === OSS
 
 * https://github.com/axios/axios/issues/1965
