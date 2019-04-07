@@ -75,6 +75,7 @@ Parfois on a l'impression qu'il s'intéresse plus à sa voiture, il aimerait êt
 (web devs omnibulés par les outils plus que par les utilisateurs)
 
 Point de vue du "dev fwk X":
+
 * Je suis vendor locké et opinionated locké
 * Locking "hype" (hooks react)
 * Les différents "concerns" de mon app sont couplés (router, state manager)
@@ -90,6 +91,7 @@ Point de vue du pro vanilla JS (make your own stack/framework):
 * documenter
 
 Vendor lockin:
+
 * Entretenu par les meetups les confs les CV investissement personnel
 * Resilient au temps pr les projets et pour soi meme
 * Pas de shadow dom si pas reutilisable
@@ -135,7 +137,7 @@ Enfant qui laisse tomber ses jouets quand un nouveau arrive
 
 About fwks, What if I choose wrong ?
 
-=== Job hunting
+==== Job hunting
 
 On veut des tueurs ou des tueuses pr bosser sur le fwk X/Y mais du coup ils viennent d'où
 
@@ -162,6 +164,7 @@ Pourquoi j'utilise un framework Web ? (react, vue, angular, polymer, ember...)
 À quels problèmes ces fwk apportent-ils des solutions ?
 
 Une webapp, c'est une boite qui :
+
 * reçoit des signaux (event) de l'utilisateur
 ** clics
 ** key* clavier
@@ -176,6 +179,7 @@ Une webapp, c'est une boite qui :
 * instancie et manipule le DOM (pour afficher des infos à l'utilisateur)
 
 Une webapp c'est quoi ?
+
 * Un truc qui stimule les sens de l'utilisateur (qui produit de l'information)
 ** la vue avec l'écran (texte, images, vidéos)
 ** l'ouïe avec les haut parleurs (texte via lecteur d'écran, audio, audio des vidéos)
@@ -196,6 +200,7 @@ Une webapp c'est quoi ?
 ** USB
 
 Décortiquer des UIs Web:
+
 * Slack
 * AWS Console
 * GCP Console
@@ -211,6 +216,7 @@ Décortiquer des UIs Web:
 * Google Keep
 
 Element globaux à toute une app:
+
 * Gestion des données (appels REST)
 * Gestion de l'état
 * Global progress indicator
@@ -219,6 +225,7 @@ Element globaux à toute une app:
 // coupling ^^
 
 Singleton in webpage:
+
 * Keyboard shortcuts
 * Authenticated network request
 * Especially for sse and ws
@@ -235,11 +242,13 @@ A force d'utiliser sa voiture tout le temps, on en oublie quel problème on rés
 Ça n'a aucune sens quand on doit faire 500m pour aller acheter du pain.
 
 => cheap/fast/good
+
 * on veut aller vite (DX, plaisir et concentration)
 ** on ne veut pas de complexité sur les outils et la courbe d'apprentissage
 * on veut de la qualité (se baser sur des libs/standards existant)
 
 Contextes liés au cheap/fast/good:
+
 * Contexte éditeur, projet longue vie investissement dans le temps
 * Contexte grand compte avec prestas et turn over
 * Context esn
@@ -255,6 +264,7 @@ The Virtual DOM was always a big marketing argument to sell React but why would 
 It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
 Parties d'un framework Web:
+
 * Manipulation intelligente du DOM
 ** lit-element, virtual DOM, (innerHTML)
 * Templating
@@ -287,6 +297,7 @@ Parties d'un framework Web:
 Ne pas oublier les features de dev comme les messages d'erreur
 
 À classer:
+
 * docs
 * storybook
 * bibliothèques de composants
@@ -311,6 +322,7 @@ Mvc, mvvm, template + vue model, computed properties
 Frameworks are also their to prevent browser quirks
 
 What's new in vue 3:
+
 * Vue new SSR
 * Vue 3 compile time improvement
 * Vue 3 switching to typescript..
@@ -338,6 +350,7 @@ Vue is a bit in the middle
 Separation of concerns !== separation of files
 
 Element globaux à toute une app:
+
 * Gestion des données (appels REST)
 * Gestion de l'état
 * Global progress indicator
@@ -345,16 +358,19 @@ Element globaux à toute une app:
 * Global modal boxes
 
 La poupée russe par dessus le composant UI qui se branche sur une source de données doit:
+
 * Émettre des événements (loadstart, loadend, error)
 * Gérer les race conditions
 
 Microservices
+
 * Small and specialized teams
 * freedom stack's choices
 * easier to deploy
 * easier to scale
 
 Micro frontends benefits
+
 * Small customer centric team
 * freedom in stack's choices
 * autonomous development
@@ -381,6 +397,7 @@ When creating reusable components, it's useful to have a checklist of states to 
 Amener progressivement au skeleton screen
 
 Les customs elements c'est une API avec 4 fonctions + une prop statique:
+
 * connectedCallback
 * disconnectedCallback
 * adoptedCallback
@@ -388,6 +405,7 @@ Les customs elements c'est une API avec 4 fonctions + une prop statique:
 * static get observedAttributes met
 
 Les customs elements, comme n'importe quel noeud natif du DOM, c'est :
+
 * des attributs
 * des propriétés
 * des méthodes
@@ -397,6 +415,7 @@ Les customs elements, comme n'importe quel noeud natif du DOM, c'est :
 ** Custom Element Reactions diagram
 
 Éléments qui font des requêtes HTTP:
+
 * <form> GET/POST
 * <img> GET
 * <video> GET
@@ -406,6 +425,7 @@ Les customs elements, comme n'importe quel noeud natif du DOM, c'est :
 // see html-elements-reference.adoc
 
 Lister les éléments HTML5 et les classer avec:
+
 * ceux qui font des appels REST
 * ceux qui ont des méthodes
 * ceux qui émettent des événements
@@ -423,6 +443,7 @@ https://github.com/Polymer/lit-html/issues/187
 
 https://developers.google.com/web/fundamentals/web-components/best-practices
 Un bon composant UI:
+
 * Est responsable de ce qu'il affiche
 * N'est pas responsable d'où vient la données
 * Est capable d'avoir un état loading
@@ -447,6 +468,7 @@ Quels sont les problèmes et les limites des Web Components ?
 
 Point de vue,
 Le modèle de de composants de LitElement (surcharger HTMLElement avec une classe) rend difficile :
+
 * Le rechargement à chaud
 * Le server side rendering
 * L'extraction du CSS (quoique)
@@ -469,6 +491,7 @@ Car on a tendance à créer plein de code qui est lié au reste et particulière
 Comment on faisait à la jQuery avec des templates dans <script lang="x-template"></script>
 
 scénario de démo:
+
 * je créé un custom element avec des attributs, des propriétés et des événements (méthode)
 ** avec innerHTML
 ** ensuite je vais utiliser lit-html
@@ -499,15 +522,16 @@ Compile time parameters pour
 * le i18n (inliné)
 * pour enable/disable des features
 
-ideas to inline translations
-https://babeljs.io/docs/en/babel-plugin-transform-inline-environment-variables
-https://babeljs.io/docs/en/babel-plugin-transform-inline-consecutive-adds
-https://babeljs.io/docs/en/babel-plugin-minify-builtins
-https://babeljs.io/docs/en/babel-plugin-minify-constant-folding
-https://babeljs.io/docs/en/babel-plugin-minify-dead-code-elimination
-https://babeljs.io/docs/en/babel-plugin-minify-replace
-https://babeljs.io/docs/en/babel-plugin-transform-property-literals
-https://github.com/kazupon/vue-i18n
+ideas to inline translations:
+
+* https://babeljs.io/docs/en/babel-plugin-transform-inline-environment-variables
+* https://babeljs.io/docs/en/babel-plugin-transform-inline-consecutive-adds
+* https://babeljs.io/docs/en/babel-plugin-minify-builtins
+* https://babeljs.io/docs/en/babel-plugin-minify-constant-folding
+* https://babeljs.io/docs/en/babel-plugin-minify-dead-code-elimination
+* https://babeljs.io/docs/en/babel-plugin-minify-replace
+* https://babeljs.io/docs/en/babel-plugin-transform-property-literals
+* https://github.com/kazupon/vue-i18n
 
 La notion de séparer les polyfills du reste
 Babel core js

@@ -121,7 +121,7 @@ Eras of Web development:
 // if we look into what they propose (and what other propose), we can adapt our code to evolve
 // separation of concerns
 
-== Come back to coupling problem
+=== Come back to coupling problem
 
 // Pb with frameworks
 
@@ -141,6 +141,7 @@ Eras of Web development:
 === Ideal solution, looking into the future?
 
 isolate concerns:
+
 * loading data
 * displaying data
 * navigating
@@ -158,6 +159,7 @@ attention à vouloir créer des composants plug-and-play
 // let your code be ready for what's coming
 
 what's the catch with web components:
+
 * packaged as a JavaScript module
 ** css is a string (sad)
 ** html is a template string (not that big of a deal)
