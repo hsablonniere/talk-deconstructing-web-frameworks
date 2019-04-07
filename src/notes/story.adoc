@@ -1,0 +1,226 @@
+= Deconstructing Web Frameworks
+:toc:
+:toclevels: 4
+
+== Story
+
+=== Prologue
+
+// aka Intro at the doctor's
+
+Play a scene where I go to my doctor/psychologist.
+
+Him: Oh, Mr. Sablonnière, I haven't seen you in 10 years!
+Him: Last time you were just starting your first job, are you still suffering from the trauma we discussed last time?
+Me: Oh, the tabs vs. space debate? Yeah, I solved that problem years ago, it's fine.
+Him: And have you settled on how to pronounce ggif?
+Me: Yeah, and it's pronounced jif
+Him: OK, so why are you here, what is troubling you?
+Me: Well, I've been working on lots of projects, I specialized in Web stuffs, especially on the frontend and I feel old, fatigued and lost
+Him: Tell me more, tell me how you feel...
+Me: I have mean thoughts about some stuffs but I cannot share them in a conference
+Him: But it's just the two of us, we're covered by secrecy, nobody will hear you here
+...
+// "Over-sad" state about the global state of the Web
+Me: I feel like a lot of developers are following fashions like sheeps
+Me: When I watch a react conference, I feel like attending an Apple Keynote from the good old Steve Jobs era.
+Me: I want people to build more robust code, that is less subject to time and fashion
+...
+Me: It's what I feel, I'm about to talk about this topic in a big conference but I cannot say it like that.
+Him: Your an engineer Mr. Sablonnière, remember your teachings, approach this problem with a scientific and balanced point of view
+Him: I'm sure you'll find a way to share your frustrations without calling React developers fanboys.
+
+=== Hello (with talk title)
+
+Hello everyone, my name is Hubert Sablonnière, I'm a Web Developer at Clever Cloud and today, I'd like to talk about,
+my TV.
+
+// Move the TV analogy ot the intro?
+
+10 years ago, I save some money during my last intership and then I bought a brand new TV after my first month as an employee.
+// my TV is just a TV
+// not a smart TV with WiFi and lame apps
+// no integrated VCR
+// no integrated DVD player
+// Along the years I plugged various stuffs on it
+// Giant horizontal PC as a media center
+// Raspberry pi (media center)
+// Raspberry pi (media center + video game emulators)
+// Chromecast
+// Firefox Chromecast
+// nexus player
+// Nintendo Switch
+Today, my TV works exactly the same as it did 10 years ago.
+I cannot say the same for the code I wrote when I started working 10 years ago.
+(the code I wrote, the tools I used, the way I developped)
+// note that my nexus player plays very well with other tvs when I travel
+
+=== How did we get here?
+
+// we went from a document era to and apps era
+
+Eras of Web development:
+
+// sort and simplify this
+// where is flash in this?
+
+* Documents era
+** Navigation only
+* Document with forms era
+** first user interactions
+* + CSS
+** this looks good
+* + JS: DHTML era
+** snowflakes
+// flash?
+// frameset
+* + AJAX
+** partial reloads
+// jquery
+* SPA era
+** client side routing
+** client side templating
+// angularjs, backbone...
+* RWD era
+** mobile web arise
+* + modern JS features (Promises, Classes, Modules, Workers)
+* + Service Workers
+* PWA era
+* + Web Components
+* SPA era II (modern frameworks, everything is a component, SPA+SSR...)
+** local cache
+** GraphQL
+** State manager
+** Modern tooling CLIs
+
+// this latest apps era is crowded with tools, frameworks...
+// We're all fascinated by what frameworks do, what features they have (and sometimes how) but we don't often stop to ask, what was the problem.
+// We're so fascinated we don't look at what the others do? (frameworks and standards)
+// we're so fascinated we only use foobar* features/tools that goes with foobar without thinking
+// jquery-date anyone
+// we got lost
+
+=== What was the problem anyway?
+
+// when building a modern web app, we need to:
+// list stuffs we need
+
+// if we understand the original problems we need to solve, we can figure out what kind of tools we need
+// problems to solve and what standards propose (in the brain)
+
+// load data
+// display stuffs
+// react to user inputs
+// transform data
+// upload data
+
+=== What do frameworks bring to the table?
+
+// what are the different parts of a framework
+// if we disect what frameworks propose (which parts), we can stop using them as buy all blackboxes
+// if we look into what they propose (and what other propose), we can adapt our code to evolve
+// separation of concerns
+
+== Come back to coupling problem
+
+// Pb with frameworks
+
+=== What do standards bring to the table?
+
+// if we look into what's coming, we can adapt our code to that
+// yesterday, today and tomorrow
+// web components
+// what is an HTML element
+// slide justin with native elements vs custom elements
+// analogy of the good isolation model of custom elements
+
+=== Demo, Clever Cloud example
+
+// examples
+
+=== Ideal solution, looking into the future?
+
+isolate concerns:
+* loading data
+* displaying data
+* navigating
+
+what are the singletons of a browser?
+
+examples with clever console
+
+attention à vouloir créer des composants plug-and-play
+
+// disappearing frameworks
+// build time vs runtime
+// if possible the build process should just be an improvement over the runtime
+// what would be the dream?
+// let your code be ready for what's coming
+
+what's the catch with web components:
+* packaged as a JavaScript module
+** css is a string (sad)
+** html is a template string (not that big of a deal)
+** shadom dom cannot be declarative (sad for ssr)
+** shadow dom, required for CSS needs JS, there fore, it's hard/useless to use it for ssr
+
+=== Conclusion
+
+* Ne vous enfermez pas dans un framework/écosystème !
+* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
+
+== Summary of the talk
+
+1. We have problems!
+2. What would be the perfect solution?
+3. How do we get close to it?
+
+== Important parts
+
+* What are the problems?
+** Too much fashion
+** DX vs UX
+** Too much incompatibilities
+** Too much coupling
+** Not enough change resistance
+*** Resistance against new stuffs from own Frameworks
+*** Resistance against new stuffs from other Frameworks
+*** Resistance against new stuffs from Web Standards
+
+> I want to target the perfect solution which does not exist and see how I get there...
+
+* What is a Web App?
+** What has changed in the past 10 years?
+** What did not change in the past 10 years?
+** => What can we predict
+
+// https://web.archive.org/web/20090227063235/http://plugins.jquery.com/project/Plugins/category/53
+// https://web.archive.org/web/20090209020826/http://plugins.jquery.com/project/Plugins/category/57
+// https://web.archive.org/web/20090302094547/http://plugins.jquery.com/project/Plugins/category/56
+// https://harvesthq.github.io/chosen/
+
+* What tools do we need to create a modern Webapp?
+** Ideal target
+
+* React, Vue, Angular: what's in the box?
+** Where do they come from?
+** They are opinionated
+** How do they solve those problems?
+
+* Decoupling these parts is very important, it's a responsibility towards:
+* your users
+* your codebase and therefore you colleagues and your company
+* yourself and your carreer
+
+* What would be the best future compatible format? (the HDMI of the Web)
+** What is a Web Component?
+** What is the interface
+
+* UX vs DX
+
+* runtime vs build time features
+
+* Open on what's coming, how our tooling will evolve
