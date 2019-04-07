@@ -1,0 +1,551 @@
+= Thoughts and ideas
+:toc:
+:toclevels: 4
+
+== Global
+
+J'aime bien ce design:
+https://twitter.com/triblondon/status/1093069156491120640
+
+Je ne suis pas intéressé par le débat framework vs libs sur React, Vue, Angular
+Ce sont des écosystèmes fermé (très peu poreux)
+
+Tout faire soit même sans framework quand on y connait rien c'est dangereux et couteux, ça se réfléchis, c'est possible mais ça dépend du contexte
+Choisir un outil magique en ne connaissant pas du tout ce qu'il fait, pourquoi il le fait comme ça, ça implique également des impacts
+En fait, avec ces 2 phrases j'approche de ma conclusion et donc de mon abstract
+
+Appeler Hubert du futur et discuter avec lui
+
+On a tjs eu plein de nouveaux frameworks car les outils qu'on utilise sont codés de la même manière que le code qu'on tape. Si les navigateurs étaient codés en JS, on en aurait plein.
+
+Mettre tous ses oeufs dans le même panier
+
+Virtual dom vs shadow dom
+
+Avoir un compteur de troll qu'un membre du public peut actionner
+
+== Random Questions
+
+* Pourquoi redux & co ne sont pas basé sur les événements du DOM ?
+* Comment packager/builder les dépendances communes (images, fonts, css)
+* Comment gérer les races conditions ?
+* Comment surcharger des styles ?
+* Build uniquement du vanilla ?
+* SSR, comment gérer l'hydratation ?
+* Split build en fontion du router ?
+* Comment builder intelligemment un ensemble de composants qui utilisent 1 même lib sans coupler le code ? (Utils date, client http)
+* Peut-on limiter les appels réseaux aux composants top level (proche du router)
+* Un WE ne connait pas son parent
+** Il regarde tjs vers le bas
+** Il envoie des messages en haut
+* Dans quel cas cette restriction pose problème
+** react context
+** slots
+* chaque composant est responsable de son état (pending, unknown, skeleton screen)
+* Un WE n'a pas à gérer les APIS manquantes, c'est le build système qui gère les polyfills
+* toute app doit avoir une zone libre pour afficher des messages, toasts, notifs
+* toute app doit avoir un endroit global qui indique une activité (loading)
+* toute app doit pouvoir afficher une modale²
+
+== Intro/Prologue
+// list problems
+
+=== mise en scène
+
+Idée film noir ou film d'auteur avec voix off
+Noir et blanc, titre blanc a la woody allen
+Surjouer le questionnement existentiel
+Afficher la mort des technos comme au cesars
+afficher une tête de lego qui pense en voix off
+
+J'ai le droit de dire ce que je pense dans le cadre privée de mon medecin.
+
+Intro images d'outils et frameworks morts
+
+=== contenu
+
+UX vs DX ?
+Écosystème, locking
+Outillage, tooling complexity
+Compétences, job hunting
+Mises à jour, maintainability
+
+Analogie du chauffeur de taxi:
+Parfois on a l'impression qu'il s'intéresse plus à sa voiture, il aimerait être pilote de course et il n'est pas super intéressé par le but de son métier : transporter des gens.
+(web devs omnibulés par les outils plus que par les utilisateurs)
+
+Point de vue du "dev fwk X":
+* Je suis vendor locké et opinionated locké
+* Locking "hype" (hooks react)
+* Les différents "concerns" de mon app sont couplés (router, state manager)
+** un composant connait l'existance d'un route, d'un state manager, de la forme d'accès aux données
+* Je ne connais pas bien les standards et je cherche forcément une lib fwk-x-foo pour résoudre mon problème foo (à la jQuery)
+* Bcp de couche d'abstraction magiques
+** La magie c'est cool si tu sais comment on fait le tour
+* On ne connait/maitrise pas ses deps (perf, secu)
+
+Point de vue du pro vanilla JS (make your own stack/framework):
+* surcoût mis en place de la stack
+* surcoût maintenance
+* documenter
+
+Vendor lockin:
+* Entretenu par les meetups les confs les CV investissement personnel
+* Resilient au temps pr les projets et pour soi meme
+* Pas de shadow dom si pas reutilisable
+* Effet de mode
+* Fondamentaux de c’est quoi une webapp
+* Comment faire des composants agnostiques
+
+Trouver des analogies avec les lego, avec le vendor locking d'apple qui ne marche qu'avec apple.
+
+React conf 26:30
+?? quel conf?
+Shrug class vs hooks
+React c'est apple en fait, c'est des supers idées mais c'est compatible qu'avec apple
+
+Pourquoi choisi t-on les outils qu'on utilise ?
+On aime se convaincre qu'on a fait des choix intelligent et éclairés mais peut-être vraiment le faire ?
+Il faut être conscient des biais qui s'impose à nous.
+https://fr.wikipedia.org/wiki/Biais_de_confirmation
+https://fr.wikipedia.org/wiki/Proph%C3%A9tie_autor%C3%A9alisatrice
+
+Faire le constat des refontes techniques juste pour avoir tout le framework
+
+Faire le constat de la fermeture des frameworks/écosystèmes à ce qui vient de l'exterieur
+
+Plug-and-play components (avec gestion des erreurs et de la gestion des données) [un peu comme la freebox delta]
+vs un composant plus bas niveau comparable au nexus player
+story telling du salon
+
+Analogie Smart TV, j'ai commencé à bosser il y a 10ans et je me suis acheté une TV, j'ai branché dessus un PC avec linux, un raspberry pi, un chromecast, une nexus player, un pc, une switch (attributs, props)
+La couche réseau analogie avec le Chromecast
+Analogie slot ou composant enfant : le Home cinéma, le casque bluetooth
+
+Analogie dock ipod avec le port original
+
+Trouver une télé, magnétoscope, lecteur dvd
+
+Voix qui se questionne sur le sens de la vie, space/tabs, comment prononcer gif, typage fort ou pas, quel framework utiliser
+Bonjour à ts, je m'appelle HS, je suis dev Web chez Clever Cloud, j'ai bcp de choses à partager avec voys aujourd'hui, des réflexions des inquiétudes et des idées mais d'abord je voudrais commencer par vous parler de ma télé.
+
+Notre industrie fabrique elle meme ses propres outils et le plus souvent en oss, du coup on a un attachement à ces outils qui n’est pas forcément rationnel (comparaison avec un architecte ou un designer)
+
+Enfant qui laisse tomber ses jouets quand un nouveau arrive
+
+About fwks, What if I choose wrong ?
+
+=== Job hunting
+
+On veut des tueurs ou des tueuses pr bosser sur le fwk X/Y mais du coup ils viennent d'où
+
+* les connaissances que j'ai dans mon cerveau à Propos d'Angular
+** bcp ne me sont plus utiles en l'état
+* jQuery('selector') => document.querySelectorAll('selector')
+** cette connaissance me sert encore aujourd'hui
+=> il faut un moyen d'avoir les connaissances de base et de les mapper rapidement à des approches ou des implems
+
+== How did we get here?
+
+eras of web
+dates of frameworks
+
+Tech radar thought works
+
+Qu'est ce qui a changé dans les browsers depuis 10ans ?
+
+Schémas cascade temps reseau csr vs ssr
+
+== What was the problem anyway?
+
+Pourquoi j'utilise un framework Web ? (react, vue, angular, polymer, ember...)
+À quels problèmes ces fwk apportent-ils des solutions ?
+
+Une webapp, c'est une boite qui :
+* reçoit des signaux (event) de l'utilisateur
+** clics
+** key* clavier
+** autres (capteurs, gamepad...)
+** changements d'URL (navigation)
+* reçoit des signaux du réseau
+** web socket
+** sse
+* récupère des données de différentes sources
+** caches et stockage local
+** appels réseaux (REST, GraphQL...)
+* instancie et manipule le DOM (pour afficher des infos à l'utilisateur)
+
+Une webapp c'est quoi ?
+* Un truc qui stimule les sens de l'utilisateur (qui produit de l'information)
+** la vue avec l'écran (texte, images, vidéos)
+** l'ouïe avec les haut parleurs (texte via lecteur d'écran, audio, audio des vidéos)
+** le touché avec les vibrations, retours haptiques, (lecteurs braille)
+* Un truc qui reçoit des signaux/commandes de l'utilisateur via des périphériques
+** Clavier
+** Souris/Trackpad
+** Touchscreen
+** Caméra
+** Micro
+** Bluetooth
+** USB
+* Un truc qui transforme de l'information (via le CPU)
+* Un truc qui demande des trucs à des tiers
+** Réseau
+** Stockage (localstorage, indexeddb...)
+** Bluetooth
+** USB
+
+Décortiquer des UIs Web:
+* Slack
+* AWS Console
+* GCP Console
+* Heroku Console
+* Digital Ocean Console
+* Gmail
+* YouTube
+* Google Docs
+* GitLab
+* AirBnB
+* Twitter
+* Sens Critique
+* Google Keep
+
+Element globaux à toute une app:
+* Gestion des données (appels REST)
+* Gestion de l'état
+* Global progress indicator
+* Global messages (errors, info...)
+* Global modal boxes
+// coupling ^^
+
+Singleton in webpage:
+* Keyboard shortcuts
+* Authenticated network request
+* Especially for sse and ws
+* Router
+* Loader indicator
+* Alert
+* Title
+* Favicon
+* Modal
+* Navigation
+
+Analogie de la voiture:
+A force d'utiliser sa voiture tout le temps, on en oublie quel problème on résout : se déplacer.
+Ça n'a aucune sens quand on doit faire 500m pour aller acheter du pain.
+
+=> cheap/fast/good
+* on veut aller vite (DX, plaisir et concentration)
+** on ne veut pas de complexité sur les outils et la courbe d'apprentissage
+* on veut de la qualité (se baser sur des libs/standards existant)
+
+Contextes liés au cheap/fast/good:
+* Contexte éditeur, projet longue vie investissement dans le temps
+* Contexte grand compte avec prestas et turn over
+* Context esn
+* Contexte petite startup
+
+== What do frameworks bring to the table?
+
+Comment fonctionnent ces solutions ?
+Pourquoi ont-elles été implémentées comme ça ?
+Qu'apportent-ils d'autre ?
+
+The Virtual DOM was always a big marketing argument to sell React but why would we care.
+It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
+
+Parties d'un framework Web:
+* Manipulation intelligente du DOM
+** lit-element, virtual DOM, (innerHTML)
+* Templating
+** vue <template>, lit-element, jsx
+* Système de composants
+** Custom elements, lifecycle, events/props, composition
+* Isolation du CSS
+** shadow DOM, scoped vue, CSS-in-JS react
+* gestion des modules (DI)
+* Client HTTP
+** axios, ...
+* Router
+** Code splitting
+* State container (state manager)
+** Redux, (peut-on mettre RXJS dans ce lot)
+* langages
+** Typescript, @decorators
+* bundler, CLI, build system
+** dev server
+*** HMR
+** build
+*** minify
+*** bundle
+*** Babel
+* SSR
+* gestion des formulaires
+* GraphQL and others?
+* bonne pratiques, organisations du code, concepts nommés, patterns
+
+Ne pas oublier les features de dev comme les messages d'erreur
+
+À classer:
+* docs
+* storybook
+* bibliothèques de composants
+* mobile
+* tests
+* dependency injection
+* PWA, service workers ??
+* Fragments
+* HOC
+* hooks
+* https://reactjs.org/docs/web-components.html
+* https://reactjs.org/docs/integrating-with-other-libraries.html
+
+Essayer de comprendre pourquoi on a des nouveaux frameworks ?
+Qu'est ce que chacun a apporté ?
+
+Mvc, mvvm, template + vue model, computed properties
+
+* http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+** React lifecycle methods diagram
+
+Frameworks are also their to prevent browser quirks
+
+What's new in vue 3:
+* Vue new SSR
+* Vue 3 compile time improvement
+* Vue 3 switching to typescript..
+* Vue 3 time slicing + progressive hydration
+* Vue 3 replace mixins with hooks like something
+
+React is the only major fwk not playing well with custom elements
+
+React lazy suspense, data fetching
+React concurrent, They experimented workers
+
+Hooks vs pure function, wtf
+
+Un framework ça aide contre les quirks de browser
+Generating DOM: XSS (attention)
+
+Angular and ember are opinionated
+React is supposed to be unopinionated
+Vue is a bit in the middle
+
+== Come back to coupling problem
+
+// see intro
+
+Separation of concerns !== separation of files
+
+Element globaux à toute une app:
+* Gestion des données (appels REST)
+* Gestion de l'état
+* Global progress indicator
+* Global messages (errors, info...)
+* Global modal boxes
+
+La poupée russe par dessus le composant UI qui se branche sur une source de données doit:
+* Émettre des événements (loadstart, loadend, error)
+* Gérer les race conditions
+
+Microservices
+* Small and specialized teams
+* freedom stack's choices
+* easier to deploy
+* easier to scale
+
+Micro frontends benefits
+* Small customer centric team
+* freedom in stack's choices
+* autonomous development
+* autonomous release of features
+* application's evolution made easier
+
+Module metier pour le routeur avec interpolation des routes
+
+== What do standards bring to the table?
+
+Quels standards (en cours et à venir) vont pouvoir aider à simplifier ces outils ?
+
+Analogie des dongles à la Apple:
+Un custom element est très bas niveau, il présente une interface standard.
+Si vous voulez écrire votre composant avec une série d'outils, OK mais exposez une interface standard.
+Si vous voulez que votre composant s'adapte bien avec le fwk X ou Y, exposez une interface standard et fournissez un petit dongle (la glue).
+
+A rest service is and interface, we don't care about the language and framework behind
+=> compiling frameworks
+
+https://twitter.com/housecor/status/1110657232885243906
+When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these: - Loading - Loading timed out - API call error - Lack of permissions - No data available
+
+Amener progressivement au skeleton screen
+
+Les customs elements c'est une API avec 4 fonctions + une prop statique:
+* connectedCallback
+* disconnectedCallback
+* adoptedCallback
+* attributeChangedCallback
+* static get observedAttributes met
+
+Les customs elements, comme n'importe quel noeud natif du DOM, c'est :
+* des attributs
+* des propriétés
+* des méthodes
+* des événements émits
+
+* https://andyogo.github.io/custom-element-reactions-diagram/
+** Custom Element Reactions diagram
+
+Éléments qui font des requêtes HTTP:
+* <form> GET/POST
+* <img> GET
+* <video> GET
+* <audio> GET
+* <iframe> GET
+* <object>?
+// see html-elements-reference.adoc
+
+Lister les éléments HTML5 et les classer avec:
+* ceux qui font des appels REST
+* ceux qui ont des méthodes
+* ceux qui émettent des événements
+* ceux qui acceptent des propriétés qui ne sont pas des string/boolean (pas redondant avec les attributs string/boolean)
+
+// idée de ne pas systématiquement define des customs elements et faire du DI
+
+HMR avec les WebComponents:
+Le fait que le constructor d'une classe soit un peu un truc à part complique beaucoup le changement à chaud
+Le connectedCallback, disconnectedCallback et adoptedCallback sont les 3 hooks d'API vraiment utile
+On ne peut pas changer à chaud les attribus observés (mais cette API a du sens en prod) (attributeChangedCallback static get observedAttributes)
+
+SSR lit-html
+https://github.com/Polymer/lit-html/issues/187
+
+https://developers.google.com/web/fundamentals/web-components/best-practices
+Un bon composant UI:
+* Est responsable de ce qu'il affiche
+* N'est pas responsable d'où vient la données
+* Est capable d'avoir un état loading
+* Ne pas savoir qui l'utilise (routeur, etc...)
+* Générer des événements d'erreur ou de message
+* Gérer lui même son aspect responsive
+* Exposer le plus possible la configuration de sa UI
+* Exposer le plus possible la configuration de ses trads
+* Documenter ce qu'il expose:
+** Attributs
+** Propriétés
+** Méthodes
+** Événements
+** custom props CSS
+** trads
+
+Comment gérer une cohérence visuelle quand on fait des composants réutilisables et indépendants?
+
+On est encore trop dans la phase chaque projet fournissant des web components propose lui même (voir package avec) les polyfills
+
+Quels sont les problèmes et les limites des Web Components ?
+
+Point de vue,
+Le modèle de de composants de LitElement (surcharger HTMLElement avec une classe) rend difficile :
+* Le rechargement à chaud
+* Le server side rendering
+* L'extraction du CSS (quoique)
+* L'injection de dépendances (il faut arrêter de faire defineElement dans la classe)
+
+Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+
+Disappearing frameworks => compiler instead of runtime frameworks
+Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
+
+See WC as the bytecode of the component isolation concept. It can be a compile to target
+
+People don't have to worry on the sugar
+
+== Demo, Clever Cloud example
+
+Story telling partant du cas de la console Clever qui n'utilise pas de framework particulier.
+Du coup, si je devais tout recommencer en Vue, React ou Angular, on devrait tout jeter...
+Car on a tendance à créer plein de code qui est lié au reste et particulièrement à l'implémentation.
+Comment on faisait à la jQuery avec des templates dans <script lang="x-template"></script>
+
+scénario de démo:
+* je créé un custom element avec des attributs, des propriétés et des événements (méthode)
+** avec innerHTML
+** ensuite je vais utiliser lit-html
+** si react devait refaire ça aujourd'hui, il ferait autrement (la preuve : HTM)
+* je le wrappe avec un truc qui emmet des actions Redux
+* je le wrappe avec un truc qui emmet des truc RxJS
+* j'ajoute un wrapper qui prend les données de qq part
+* j'ajoute un routeur
+
+Commencer par un petit composant jQuery
+En faire un custom element
+Ajout lit-html
+Remonter du composant à une app complète et voir ce qu'il nous manque pour bosser
+Aller jusqu'au routeur
+Aller jusqu'au SSR
+Aller jusqu'au state manager
+Aller jusqu'à la gestion des données
+
+== Ideal solution, looking into the future?
+
+Méfiez vous de ceux qui predisent le futur
+
+Approche "comment les standards du Web vont s'immiscer dans mon framework"
+
+YOU NEED A DESIGN SYSTEM
+
+Compile time parameters pour
+* le i18n (inliné)
+* pour enable/disable des features
+
+ideas to inline translations
+https://babeljs.io/docs/en/babel-plugin-transform-inline-environment-variables
+https://babeljs.io/docs/en/babel-plugin-transform-inline-consecutive-adds
+https://babeljs.io/docs/en/babel-plugin-minify-builtins
+https://babeljs.io/docs/en/babel-plugin-minify-constant-folding
+https://babeljs.io/docs/en/babel-plugin-minify-dead-code-elimination
+https://babeljs.io/docs/en/babel-plugin-minify-replace
+https://babeljs.io/docs/en/babel-plugin-transform-property-literals
+https://github.com/kazupon/vue-i18n
+
+La notion de séparer les polyfills du reste
+Babel core js
+
+Disappearing frameworks => compiler instead of runtime frameworks
+Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
+
+Injection de dépendance avec webpack
+
+Ce qui devrait se faire au build, ce qui devrait se faire au runtime.
+* i18n
+
+Convaincre les gens que :
+Le passé se répète
+Les outils vont et viennent
+La constante, c'est le modèle des éléments du DOM (sorte de HDMI du Web)
+Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d'apprentissage
+Ne pas hésiter à questionner les standards ou les frameworks à la mode
+Qu'est-ce qui est important ? L'UX, la DX, les perfs ?
+On est trop dépendant de nos outils
+On est pas tjs assez exigent avec nos outils
+Il faut plus de compilation (html, css, js) et donc une étape intermédiaire
+Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
+Compiler le i18n
+
+Réfléchir comment les html modules pourraient changer les choses...
+Css modules
+
+A lib/fwk will have a 2.0 version (aka the big rewrite), when it’s just internal, it can be OK but my point is, your tooling will evolve and break.
+
+Article sur les differentes manières de récupérer la donnés dans un contexte front + back
+Appels explicites wrappés vs injection de dépendances
+
+== Conclusion
+
+// see abstract
+
+Savoir se remettre en question...
+Regardez ailleurs !!
+Vous êtes tous des développeurs Web !
+Soyez exigeant avec vos outils, exisgez qu'ils disparaissent et ne vous enchainent pas
