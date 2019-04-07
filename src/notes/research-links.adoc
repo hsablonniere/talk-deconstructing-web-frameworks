@@ -86,6 +86,9 @@
 * https://twitter.com/_jayphelps/status/1111396063532011521
 ** Jay Phelps @ Reactathon sur Twitter : "Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?"
 
+* https://twitter.com/addyosmani/status/1079279037074223108
+** Addy Osmani sur Twitter : "2019 wishlist for a React framework 🤞 📦 Small initial vendor bundle ✂️ Automated code-splitting (route/component) 💰 JS perf budgets (dev/prod) ⚡️ Constraints to stay on the fast path 🍽 Differential bundling ES2015+ 💄 Extract & optimize CSS 🚿 Progressive hydration for SSR"
+
 === Tips
 
 * https://twitter.com/addyosmani/status/1085439006433669120
@@ -137,6 +140,9 @@
 * https://twitter.com/tobie/status/1083316137826365442
 ** Tobie Langel sur Twitter : \"We're seeing the same thing today with CSS that we've seen seen with HTML/JS before and which led to the current JS framework situation. A thread👇\"
 
+* https://github.com/w3c/csswg-drafts/issues/3714
+** [css-selectors] Reference selectors · Issue #3714 · w3c/csswg-drafts · GitHub
+
 === future
 
 * https://twitter.com/getify/status/1111004737263075329
@@ -157,6 +163,12 @@
 * https://github.com/request/request/issues/3142
 ** Request’s Past, Present and Future · Issue #3142 · request/request · GitHub
 
+* https://github.com/justinfagnani/pending-state-protocol
+** GitHub - justinfagnani/pending-state-protocol: An open protocol for interoperable asynchronous Web Components
+
+* https://github.com/w3c/webcomponents/issues/776
+** Editor support for WebComponents · Issue #776 · w3c/webcomponents · GitHub
+
 === web components
 
 * https://twitter.com/housecor/status/1110657232885243906
@@ -176,6 +188,21 @@
 
 * https://twitter.com/justinfagnani/status/1112052414159282176
 ** Justin Fagnani sur Twitter : "So... WCs bring:Basics: app platforms should have UI component modelsCapabilities: true DOM and style scopingInterop: break down silos, work w/ tools that understand HTML, DevTools...Dev productivity: knowledge transfer btwn projectsStability: web APIs live long… https://t.co/mYMxwMrw2E"
+
+* https://twitter.com/justinfagnani/status/1114175719456657410
+** Justin Fagnani sur Twitter : "To me the solution isn't to abstract away the browser, but add to it the composition features that frameworks/bundlers (and every other app platform) have: modules, components, encapsulation, and a dependency systems that admits the actual resources used...… https://t.co/s0Ca7fnq8D"
+
+* https://twitter.com/kennethrohde/status/1113916380062076947
+** KΞNNΞTH C.⚡🇩🇰 sur Twitter : "It's really win-win, and the experience today has been quite stellar. Great modern browser support, workable with polyfills in older browsers, Microsoft moving to Chrome and implementing HTML modules, lit being super awesome with good vc code plugin, fast by default! Readable dom… https://t.co/bdX9mQ9W4D"
+
+* https://twitter.com/kentcdodds/status/1114208524857266177
+** Kent C. Dodds sur Twitter : "Web Components will not replace your frontend framework ™️"
+
+* https://twitter.com/runemehlsen/status/1113883403462553600
+** Rune Mehlsen sur Twitter : "I actually built a general web component analyzer that provides linting and documentation generation for web components and I’m planning on extracting lit-plugin functionality into a lit specific CLI: https://t.co/TK4TKrWIly… https://t.co/bBxJtNniRQ"
+
+* https://twitter.com/housecor/status/1110657232885243906
+** Cory House 🏠 sur Twitter : "When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available"
 
 === job hunting
 
@@ -271,6 +298,15 @@
 
 * https://www.neilgunton.com/doc/?o=1mr&doc_id=8583
 ** Rewrites Considered Harmful?, by Neil Gunton
+
+* https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
+** You Are Not Google – Bradfield
+
+* https://changelog.com/posts/stop-limiting-your-open-source-librarys-potential
+** Stop limiting your open source library’s potential - DEV Community 👩‍💻👨‍💻
+
+* https://css-tricks.com/simple-boring/
+** Simple & Boring | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
 
 === React, react, react...
 
@@ -369,6 +405,8 @@
 
 * https://v3.svelte.technology/blog/virtual-dom-is-pure-overhead
 ** Virtual DOM is pure overhead
+** Why do frameworks use the virtual DOM then?
+*** Virtual DOM is valuable because it allows you to build apps without thinking about state transitions, with performance that is generally good enough.
 
 * https://www.dzurico.com/react-compound-components-with-usecontext-hook/
 ** React - Compound components with useContext Hook - Angular and Javascript blog
@@ -449,6 +487,104 @@
 * https://shoptalkshow.com/episodes/347/
 ** 347: Jason Miller and PreactJS - ShopTalk
 
+* https://github.com/n0ruSh/blogs/issues/21
+** Controlled and uncontrolled component design pattern in React · Issue #21 · n0ruSh/blogs · GitHub
+
+* https://github.com/sokra/rawact
+** GitHub - sokra/rawact: [POC] A babel plugin which compiles React.js components into native DOM instructions to eliminate the need for the react library at runtime.
+
+* https://www.youtube.com/watch?v=GW0rj4sNH2w
+** [JSConfUS 2013] Tom Occhino and Jordan Walke: JS Apps at Facebook - YouTube
+
+* https://www.youtube.com/watch?v=OZaPaRh83sA
+** EmberConf 2019 - Comparing Patterns in React and Ember by Preston Sego - YouTube
+** HOC, composition, domless components
+** Redux : Data Down, actions up
+*** Me: (events up you mean :p)
+** Ember simple auth ?
+** Redux saga ?
+** List concepts he writes in blue bg
+
+* https://www.youtube.com/watch?v=x7cQ3mrcKaY
+** Pete Hunt: React: Rethinking best practices -- JSConf EU 2013 - YouTube
+** React is the V in MVC
+** It is agnostic to data fetching
+** Display and logic and tightly coupled => JSX
+** Template separate techs not concerns
+*** Me: yes but what about skills (HTML dev vs JS dev)
+** Picks on template systems like handlebars
+*** He prefers to mix View and Model than to prepare a ViewModel and pass it to the template
+** Picks on angularjs directives
+** React: loosely coupled components, reusable, composable, unit testable
+** Only put display logic in your component
+** JSX was designed for designers so they could have html like syntax
+** Data changing over time is the root of all evil
+** React components are just idempotent functions
+** Rerendering on every change makes things simple
+** Virtual DOM AND virtual event system
+
+* https://www.youtube.com/watch?v=yiCnfJ1rflI
+** 006 - Origins of React - YouTube
+
+* https://github.com/enaqx/awesome-react
+** GitHub - enaqx/awesome-react: A collection of awesome things regarding React ecosystem.
+
+* https://www.toptal.com/react/navigating-the-react-ecosystem
+** React.js Tutorial - A Guide to Tools and Libraries | Toptal
+
+* https://parastudios.de/modern-and-clean-routing-with-hooks/
+** Modern and clean routing with hooks
+
+* https://redux-saga.js.org/
+** Read Me · Redux-Saga
+
+* https://github.com/rstacruz/remount
+** GitHub - rstacruz/remount: Mount React components to the DOM using custom elements
+
+* https://github.com/emotion-js/emotion
+** GitHub - emotion-js/emotion: CSS-in-JS library designed for high performance style composition
+
+==== React Fiber
+
+* https://edgecoders.com/react-16-features-and-fiber-explanation-e779544bb1b7
+** What’s New in React 16 and Fiber Explanation – jsComplete EdgeCoders
+
+* https://giamir.com/what-is-react-fiber
+** What is React Fiber ? | Giamir Buoncristiani
+
+* https://gist.github.com/duivvv/2ba00d413b8ff7bc1fa5a2e51c61ba43
+** What is React Fiber? And how can I try it out today? · GitHub
+
+* http://isfiberreadyyet.com/
+** Is Fiber Ready Yet?
+
+* https://reactjs.org/blog/2015/10/07/react-v0.14.html
+** React v0.14 – React Blog
+
+* https://reactjs.org/blog/2016/04/07/react-v15.html
+** React v15.0 – React Blog
+
+* https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html
+** Mixins Considered Harmful – React Blog
+
+* https://reactjs.org/blog/2016/08/05/relay-state-of-the-state.html
+** Relay: State of the State – React Blog
+
+* https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html
+** React v16.2.0: Improved Support for Fragments – React Blog
+
+* https://reactjs.org/blog/2018/03/29/react-v-16-3.html
+** React v16.3.0: New lifecycles and context API – React Blog
+
+* https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+** You Probably Don't Need Derived State – React Blog
+
+* https://reactjs.org/blog/2018/11/27/react-16-roadmap.html#modernizing-react-dom
+** React 16.x Roadmap – React Blog
+
+* https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/
+** Facebook announces React Fiber, a rewrite of its React framework – TechCrunch
+
 === Design, patterns, architecture...
 
 * https://americanexpress.io/clean-code-dirty-code/
@@ -492,6 +628,10 @@
 
 * https://joreteg.com/blog/architecting-uis-for-change
 ** Architecting UIs for Change
+** The three predominant approaches we've seen to building stateful UIs on the Web in the last decade have essentially been:
+** Model and Collection objects (think Backbone.js, Ember.js, etc.)
+** Component all the things! (React state, very little code lives outside the files that defining components)
+** State "god objects" paired with something that is a "view layer" this could be anything, but commonly Redux and React.
 
 * https://my.mindnode.com/xQZyD9Qq8SG1zEpsc1SviR3cjpyUSfvEzLBxApqT#709.4,170.6,2
 ** design-system | myMindNode
@@ -504,9 +644,6 @@
 
 * https://www.designsystems.com/
 ** Design Systems
-
-* https://www.youtube.com/watch?v=dTW7eJsIHDg
-** Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube
 
 * https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/
 ** Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs
@@ -541,12 +678,30 @@
 * https://jasonformat.com/application-holotypes/
 ** Application Holotypes: A Guide to Architecture Decisions
 
+* https://css-tricks.com/make-it-hard-to-screw-up-driven-development/
+** Make it hard to screw up driven development | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star
+
 === Micro frontends
 
 * https://www.youtube.com/watch?v=shINdgtPv0o
 ** Micro Frontend: the microservice puzzle extended to frontend by Audrey Neveu
 ** Multiple approaches tested to mix different frameworks and code bases
 ** End-up with layout as lib (the main layout with the menus is a library)
+
+* https://www.youtube.com/watch?v=dTW7eJsIHDg
+** Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube
+
+* https://gustafnk.github.io/microservice-websites/
+** Microservice Websites
+
+* https://micro-frontends.org/
+** Micro Frontends - extending the microservice idea to frontend development
+
+* https://www.youtube.com/watch?v=dTW7eJsIHDg
+** Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube
+
+* https://micro-frontends.org/
+** Micro Frontends - extending the microservice idea to frontend development
 
 === Standards
 
@@ -693,6 +848,16 @@
 * https://www.youtube.com/watch?v=TrDqaABq-UY
 ** RxJS Les clefs pour comprendre les observables (T. Chatel) - YouTube
 
+* https://github.com/PatrickJS/awesome-angular
+** GitHub - PatrickJS/awesome-angular: A curated list of awesome Angular resources
+
+* https://is-angular-ivy-ready.firebaseapp.com/#/status
+** Is Angular Ivy Ready
+
+* https://www.youtube.com/watch?v=tBV4IQwPssU
+** Mad science with the Angular Compiler - MINKO GECHEV - YouTube
+** Template compilation helps to know which css is useless
+
 === Framework battle
 
 * https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/
@@ -780,6 +945,9 @@
 * https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html
 ** Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC
 
+* https://ferdychristant.com/custom-elements-v1-vs-js-frameworks-e086638cd1a9
+** Custom Elements V1 vs JS Frameworks – Ferdy Christant
+
 === The future
 
 * https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/
@@ -806,6 +974,18 @@
 * https://github.com/WICG/import-maps
 ** GitHub - WICG/import-maps: How to control the behavior of JavaScript imports
 
+* https://shoptalkshow.com/episodes/349/
+** 349: Talking Svelte with Rich Harris - ShopTalk
+** Rich harris: React is maybe the one that'll have the most difficulties to follow this "compile AOT" movement* https://shoptalkshow.com/episodes/350/
+** 350: Maintaining Vue.js with Evan You - ShopTalk
+** Evan You does not see the interest of using web components if reuse is not a prerequisite
+
+* https://tomdale.net/2017/09/compilers-are-the-new-frameworks/
+** Compilers are the New Frameworks - tomdale.net
+
+* https://www.youtube.com/watch?v=zB3HOejXqwk
+** [VueJS Amsterdam 2019] Evan You - State of the Vuenion - YouTube
+
 === Web components
 
 * https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
@@ -829,9 +1009,6 @@
 * https://github.com/Polymer/lit-element/issues/385
 ** [docs] Web Components basics · Issue #385 · Polymer/lit-element · GitHub
 
-* https://github.com/shawnbot/custom-elements
-** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
-
 * https://github.com/skatejs/skatejs/blob/react-ssr/packages/element-react/src/__tests__/ssr.tsx
 ** skatejs/ssr.tsx at react-ssr · skatejs/skatejs · GitHub
 
@@ -843,9 +1020,6 @@
 
 * https://medium.com/ing-blog/ing-%EF%B8%8F-web-components-f52aacc71d7a
 ** ING ❤️ Web Components – ING Blog – Medium
-
-* https://open-wc.org/
-** open-wc
 
 * https://vogloblinsky.github.io/web-components-benchmark/
 ** Web Components BenchmarkPage 1
@@ -888,21 +1062,6 @@
 
 * https://www.youtube.com/watch?v=WZ1MEHuxHGg
 ** Dominik Lubański — Taste the Future with Functional Web Components — ConFrontJS 2018
-** hybrids.js
-** Very interesting ideas and concepts
-** DX seems very nice
-** Very object based
-** HMR
-** A bit too opinionated
-*** No time to focus on SSR https://github.com/hybridsjs/hybrids/issues/24
-*** Thinks we don't need to expose methods and custom events would be enough https://github.com/hybridsjs/hybrids/issues/43
-*** Thinks attribute should never reflect property values https://github.com/hybridsjs/hybrids/issues/26
-
-* https://bulma.io/documentation/form/general/
-** Form controls | Bulma: Free, open source, & modern CSS framework based on Flexbox
-
-* https://github.com/PolymerLabs/split-element
-** GitHub - PolymerLabs/split-element: Lazy loaded LitElements
 
 * https://github.com/shawnbot/custom-elements
 ** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
@@ -925,10 +1084,54 @@
 * https://webcomponents.club/
 ** A web components learning journal - Web Components Club
 
+* https://julienrenaux.fr/2019/04/01/lit-element-rendering-strategies-explained/
+** Lit Element rendering strategies explained // Julien Renaux Blog
+
+* https://blog.usejournal.com/web-components-will-replace-your-frontend-framework-3b17a580831c
+** Web Components will replace your frontend framework
+
+* https://www.smashingmagazine.com/2019/04/z-index-component-based-web-application/
+** Managing Z-Index In A Component-Based Web Application — Smashing MagazineSearchClear SearchBack to top
+
+* https://shoptalkshow.com/episodes/348/
+** 348: Getting lit-html with Justin Fagnani - ShopTalk
+
+* https://dev.to/dakmor/type-safe-web-components-with-jsdoc-4icf
+** Type-Safe Web Components with JSDoc - DEV Community 👩‍💻👨‍💻
+
+* https://equinsuocha.io/blog/web-components-the-right-way/
+** Web Components — the right way
+
+* https://github.com/cheeaun/awesome-hacker-news
+** GitHub - cheeaun/awesome-hacker-news: Awesome Hacker News: a collection of awesome Hacker News apps, libraries, resources and shiny things.
+
+* https://github.com/gothinkster/realworld
+** GitHub - gothinkster/realworld: "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅
+
+* https://github.com/mateusortiz/webcomponents-the-right-way
+** GitHub - mateusortiz/webcomponents-the-right-way: This is a guide intended to introduce to Web Components. Everyone can contribute here!
+
+* https://github.com/webcomponents/gold-standard/wiki
+** Home · webcomponents/gold-standard Wiki · GitHub
+** Interesting points
+** Dates from 2015
+** Lots of a11y
+
+* https://scotch.io/bar-talk/an-overview-of-the-most-exciting-proposals-for-the-web-platform-related-to-web-components
+** An Overview of the Most Exciting Proposals for the Web Platform Related to Web Components ― Scotch.io
+
+* https://www.smashingmagazine.com/2018/07/reusable-components-custom-elements-shadow-dom-npm/
+** The Holy Grail Of Reusable Components: Custom Elements, Shadow DOM, And NPM — Smashing MagazineSearchClear SearchBack to top
+
+* https://www.youtube.com/watch?v=0BikjL858OQ
+** Thoughtful Component Design - JEREMY ELBOURN and MILES MALERBA - YouTube
+** Super interessant sur la composition de custom elements
+
 ==== Web Component libs (base elements libraries)
 
 * https://github.com/jgthms/bulma
 ** GitHub - jgthms/bulma: Modern CSS framework based on Flexbox
+** not web component but...
 
 * https://github.com/material-components/material-components-web
 ** GitHub - material-components/material-components-web: Modular and customizable Material Design UI components for the web
@@ -938,6 +1141,62 @@
 
 * https://natuive.net/#home
 ** natUIve
+
+* https://github.com/web-padawan/aybolit/
+** web-padawan/aybolit: Lightweight web components library built with LitElement.
+
+* https://ionicframework.com/docs/
+** Ionic Framework - Ionic Documentation
+
+* https://github.com/vaadin/vaadin-text-fieldhttps://github.com/vaadin/vaadin-text-field
+** vaadin/vaadin-text-field: The themable Web Component providing input controls. Part of the Vaadin components.
+
+* https://sap.github.io/ui5-webcomponents/index.html
+** UI5 Web Components
+
+* https://github.com/wiredjs/wired-elements
+** GitHub - wiredjs/wired-elements: Collection of elements that appear hand drawn. Great for wireframes.
+
+* https://github.com/prasannavl/icomponent
+** GitHub - prasannavl/icomponent: A super simple, render-agnostic component library for the modern web that emphasizes framework and renderer freedom
+
+* https://github.com/anubhavsrivastava/awesome-ui-component-library/blob/master/README.md
+** awesome-ui-component-library/README.md at master · anubhavsrivastava/awesome-ui-component-library · GitHub
+
+==== Web Component tools
+
+* https://github.com/andreasbm/lit-translate
+** GitHub - andreasbm/lit-translate: A blazing-fast lightweight internationalization (i18n) library for your next web-based project
+
+* https://github.com/cfware/babel-plugin-template-html-minifier
+** GitHub - cfware/babel-plugin-template-html-minifier: Minify HTML in tagged template strings using html-minifier
+
+* https://github.com/shawnbot/custom-elements
+** GitHub - shawnbot/custom-elements: All about HTML Custom Elements
+
+* https://open-wc.org/
+** open-wc
+
+* https://github.com/PolymerLabs/split-element
+** GitHub - PolymerLabs/split-element: Lazy loaded LitElements
+
+* https://github.com/matthewp/haunted
+** GitHub - matthewp/haunted: React's Hooks API implemented for web components 👻
+
+* https://github.com/PolymerX/lit-loader
+** GitHub - PolymerX/lit-loader: LitElement Single File Component loader for Webpack.
+
+* https://github.com/kriasoft/universal-router
+** GitHub - kriasoft/universal-router: A simple middleware-style router for isomorphic JavaScript web apps
+
+* https://github.com/runem/web-component-analyzer
+** GitHub - runem/web-component-analyzer: CLI that analyzes web components and produces documentation + diagnostics
+
+* https://medium.com/@pjmolina/quid-6d89b0ec58d5
+** Quid – Pedro J. Molina – Medium
+
+* https://github.com/cfware/babel-plugin-template-html-minifier
+** GitHub - cfware/babel-plugin-template-html-minifier: Minify HTML in tagged template strings using html-minifier
 
 ==== Web Component libs (to write or generate WC)
 
@@ -949,18 +1208,46 @@
 
 * https://github.com/hybridsjs/hybrids
 ** GitHub - hybridsjs/hybrids: 👾 UI library for creating Web Components with simple and functional API
+** Very interesting ideas and concepts
+** DX seems very nice
+** Very object based
+** HMR
+** A bit too opinionated
+*** No time to focus on SSR https://github.com/hybridsjs/hybrids/issues/24
+*** Thinks we don't need to expose methods and custom events would be enough https://github.com/hybridsjs/hybrids/issues/43
+*** Thinks attribute should never reflect property values https://github.com/hybridsjs/hybrids/issues/26
+
+* https://github.com/hybridsjs/hybrids/issues/41
+** appreciate your feedback for custom element reactions diagram · Issue #41 · hybridsjs/hybrids · GitHub
 
 * https://github.com/skatejs/skatejs
 ** GitHub - skatejs/skatejs: Skate is a functional reactive abstraction over the web component standards as a set of packages that enables you to write small, fast and scalable web components using popular view libraries such as React, Preact and LitHTML.
+** docs is either really light or with broken links :-(
 
 * http://slim.js.org/
 ** slim.js | Fast & Robust Front-End Micro-framework based on modern standards
+** meh
 
 * https://stenciljs.com/
 ** Stencil
+** Virtual DOM
+** Async rendering (inspired by React Fiber)
+** Reactive data-binding
+** TypeScript
+** JSX
 
 * https://v3.svelte.technology/
 ** Svelte • The magical disappearing UI framework
+** very very promising
+
+* https://github.com/aggre/ullr
+** GitHub - aggre/ullr: Functional Web Components
+
+* https://github.com/HenriqueLimas/osagai
+** GitHub - HenriqueLimas/osagai: 🀄️A tiny library for creating WebComponents in a Functional way
+
+* https://github.com/corpusculejs/corpuscule
+** GitHub - corpusculejs/corpuscule: Lightweight framework based on WebComponents and decorators
 
 === HMR
 
@@ -1056,6 +1343,9 @@
 * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
 ** CSS Inheritance, The Cascade And Global Scope: Your New Old Worst Best Friends — Smashing MagazineSearchClear SearchBack to top
 
+* https://www.theguardian.com/info/2019/apr/04/revisiting-the-rendering-tier
+** Revisiting the rendering tier | Info | The Guardian
+
 === Vue
 
 * https://css-tricks.com/what-hooks-mean-for-vue/
@@ -1070,9 +1360,6 @@
 * https://webdesign.tutsplus.com/tutorials/examples-of-vues-clean-code--cms-29619
 ** Examples of Vue’s Clean Code
 
-* https://www.reddit.com/r/javascript/comments/b4co5l/vuejs_amsterdam_2019_evan_you_state_of_the_vuenion/
-** [VueJS Amsterdam 2019] Evan You - State of the Vuenion : javascript
-
 * https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/
 ** Replacing jQuery With Vue.js: No Build Step Necessary — Smashing MagazineSearchClear SearchBack to top
 
@@ -1081,6 +1368,9 @@
 
 * https://www.youtube.com/watch?v=zB3HOejXqwk
 ** [VueJS Amsterdam 2019] Evan You - State of the Vuenion
+** WC Valuable as distribution or interop mechanism
+** Web assembly does not fit the ui frontend model
+*** ???
 
 * https://xeestudio.com/examples-of-vues-clean-code/
 ** Examples of Vue’s Clean Code - Xee Studio
@@ -1096,6 +1386,13 @@
 
 * https://vuejs.org/v2/guide/components.html
 ** Components Basics — Vue.js
+
+* https://shoptalkshow.com/episodes/350/
+** 350: Maintaining Vue.js with Evan You - ShopTalk
+** Evan You does not see the interest of using web components if reuse is not a prerequisite
+
+* https://github.com/vuejs/awesome-vue
+** GitHub - vuejs/awesome-vue: 🎉 A curated list of awesome things related to Vue.js
 
 === SSR
 
@@ -1116,6 +1413,98 @@
 
 * https://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/
 ** You’re Missing the Point of Server-Side Rendered JavaScript Apps - tomdale.net
+
+==== With Web compontents
+
+* https://dev.to/bennypowers/lets-build-web-components-part-8-mythbusters-edition-3la
+** Lets Build Web Components! Part 8: Mythbusters Edition - DEV Community 👩‍💻👨‍💻
+
+* https://gist.github.com/Rich-Harris/587df5060fc895cda607139e7d41b95c
+** SSR and web components · GitHub
+
+* https://github.com/AshleyScirra/import-as-and-html-modules
+** GitHub - AshleyScirra/import-as-and-html-modules: importAs() and HTML modules proof-of-concept
+
+* https://github.com/Polymer/polymer/issues/3955
+** support server side rendering · Issue #3955 · Polymer/polymer · GitHub
+
+* https://github.com/pimterry/server-components
+** GitHub - pimterry/server-components: A simple, lightweight tool for composable HTML rendering in Node.js, based on web components.
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Custom-Elements-Strawman.md
+** webcomponents/Declarative-Custom-Elements-Strawman.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md
+** webcomponents/Declarative-Shadow-DOM.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Imperative-Shadow-DOM-Distribution-API.md
+** webcomponents/Imperative-Shadow-DOM-Distribution-API.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/Template-Instantiation.md
+** webcomponents/Template-Instantiation.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md
+** webcomponents/html-modules-explainer.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/blob/gh-pages/proposals/html-modules-proposal.md
+** webcomponents/html-modules-proposal.md at gh-pages · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/issues/645
+** HTML Modules · Issue #645 · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/issues/71
+** [Shadow]: Declarative Shadow DOM (bugzilla: 28441) · Issue #71 · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/issues/759
+** CSS Modules · Issue #759 · w3c/webcomponents · GitHub
+
+* https://github.com/w3c/webcomponents/issues/788
+** Serialize shadow DOM for use in javascript disabled user agents · Issue #788 · w3c/webcomponents · GitHub
+
+* https://github.com/whatwg/dom/issues/510
+** Declarative Shadow DOM · Issue #510 · whatwg/dom · GitHub
+
+* https://github.com/whatwg/html/issues/2791
+** Client side include feature for HTML · Issue #2791 · whatwg/html · GitHub
+
+* https://github.com/zeit/next.js/issues/22
+** Style isolation through Shadow DOM · Issue #22 · zeit/next.js · GitHub
+
+* https://koukia.ca/server-side-rendering-web-components-fc99715e38f5
+** Server Side Rendering Web Components – Aram Koukia
+
+* https://pimterry.github.io/server-components/
+** Server Components by pimterry
+
+* https://scotch.io/tutorials/server-side-web-components-how-and-why
+** Server-side Web Components: How and Why? ― Scotch.io
+
+* https://twitter.com/justinfagnani/status/1087111719275483136
+** Justin Fagnani sur Twitter : "The core lit-html / LitElement team is working on SSR this quarter. Not much to report yet, but we'll be focusing on end-to-end streaming & incremental rehydration with lit-html first, and after that the same for LitElement & Shadow DOM next.… https://t.co/TBrtzqAA6a"
+
+* https://twitter.com/justinfagnani/status/1088218448570785797
+** Justin Fagnani sur Twitter : "Thanks 🤩We're working on SSR this quarter. Stay tuned!… "
+
+* https://twitter.com/justinfagnani/status/1092880272675065857
+** Justin Fagnani sur Twitter : "Even in pre-release we've seen major enterprises deploy lit-html & LitElement in production. I'm *super* excited to offer API stability so that even more will, and now focus on even better perf, tools, and new use cases like SSR."
+
+* https://twitter.com/justinfagnani/status/1100121670373695488
+** Justin Fagnani sur Twitter : "Would love to do that. Especially as I'm working on SSR for lit-html & LitElement right now.… "
+
+* https://twitter.com/justinfagnani/status/1104053519412191237
+** Justin Fagnani sur Twitter : "I think references are generally useful, not just in JavaScript. It could be used in CSS (ruleset composition / mixins) and HTML (apply declarations) as well.I think a way to import and apply references in HTML might be the path forward for SSR.… https://t.co/yGTiL8dqrk"
+
+* https://twitter.com/rich_harris/status/862765813203423233
+** Rich Harris sur Twitter : "Under-appreciated irony of web components vs JS frameworks debates: only the JS frameworks let you build a site that works without JS"
+
+* https://twitter.com/threepointone/status/1103565134339948544
+** Sunil Pai sur Twitter : "👀 https://t.co/EYGZ5JvK66"
+
+* https://twitter.com/treshugart/status/1106431439975833601
+** TreSS-in-JS sur Twitter : "I feel this is a much better solution that a generic SSR solution because framework consumers don't need to change how they SSR. It also means that the generic solution doesn't have to cater to every framework."
+
+* https://www.youtube.com/watch?v=yT-EsESAmgA
+** SSR Web Components (Polymer Summit 2017) - YouTube
 
 === misc
 
@@ -1159,6 +1548,9 @@
 === history
 
 * https://www.w3.org/People/Raggett/book4/ch02.html
+
+* https://2018.ar.al/notes/the-documents-to-applications-continuum/
+** Aral Balkan — Sites vs. Apps defined: the Documents‐to‐Applications Continuum.
 
 === OSS
 
@@ -1210,3 +1602,6 @@
 
 * https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/
 ** True Lies Of Optimistic User Interfaces — Smashing MagazineSearchClear SearchBack to top
+
+* https://paulhammant.com/categories.html#Cookie_Cutter_Scaling
+** Categories
