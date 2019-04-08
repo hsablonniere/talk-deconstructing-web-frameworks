@@ -1,49 +1,20 @@
 [data-slide="poster"] {
+    --hue: 108;
     background-color: #000;
-    background-color: #fff;
     background-color: #cf4f22;
-    background-color: hsl(108, 13%, 44%);
-    background-color: hsl(108, 13%, 85%);
-    color: #fff;
-    /* color: #000; */
-    /* color: #cf4f22; */
+    background-color: #fff;
+    background-color: hsl(var(--hue), 13%, 44%);
+    background-color: hsl(var(--hue), 13%, 85%);
     /* fat letters */
     /* font-family: Anton; */
     /* font-size: 3rem; */
     /* Looks like whiteboard marker */
     /* font-family: Boogaloo; */
     /* font-size: 3rem; */
-    /* Crazy display */
-    /* font-family: Bungee Shade; */
-    /* font-size: 3rem; */
-    /* Elegant but large */
-    /* font-family: Catamaran; */
-    /* font-size: 3rem; */
     /* Nice and narrow (a bit thin) */
     /* font-family: Fjalla; */
     /* font-size: 3rem; */
-    /* happy not too strict */
-    /* font-family: Francois; */
-    /* font-size: 3rem; */
-    /* bold version is nice (a bit large) */
-    /* font-family: Josefin; */
-    /* font-size: 3rem; */
-    /* FAT/BLACK nice! */
-    /* font-family: Passion; */
-    /* font-size: 3rem; */
-    /* A bit too gotham city */
-    /* font-family: Squada; */
-    /* font-size: 3rem; */
-    /* A bit too gotham city too */
-    /* font-family: Teko; */
-    /* font-size: 4rem; */
-    /*  */
-    /* font-family: Barlow; */
-    /* font-size: 4rem; */
-    /*  */
-    /* font-family: Chunk; */
-    /* font-size: 4rem; */
-    /*  */
+    /* nice!!!!! */
     font-family: League Spartan;
     font-size: 3rem;
     display: flex;
@@ -57,10 +28,10 @@
 [data-slide="poster"] .header {}
 
 [data-slide="poster"] .title {
-    border: 1rem hsl(108, 13%, 80%) solid;
-    border: 1rem hsl(108, 13%, 44%) solid;
-    border: 0.75rem hsl(108, 13%, 44%) solid;
-    background-color: hsl(108, 13%, 44%);
+    border: 1rem hsl(var(--hue), 13%, 80%) solid;
+    border: 1rem hsl(var(--hue), 13%, 44%) solid;
+    border: 0.75rem hsl(var(--hue), 13%, 44%) solid;
+    /* background-color: hsl(var(--hue), 13%, 44%); */
     padding: 1.25rem 1.5rem 0.5rem;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -69,14 +40,14 @@
 
 [data-slide="poster"] .title :nth-child(2n+1) {
     text-align: right;
-    color: hsl(108, 13%, 80%);
+    color: hsl(var(--hue), 13%, 80%);
     color: #000;
     flex: 1 1 0;
 }
 
 [data-slide="poster"] .title :nth-child(2n) {
-    color: hsl(108, 13%, 44%);
-    color: #fff;
+    color: hsl(var(--hue), 13%, 44%);
+    /* color: #fff; */
 
     text-transform: uppercase;
 }
@@ -87,7 +58,7 @@
     font-family: Boogaloo;
     text-align: right;
     margin-top: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: lowercase;
     font-style: italic;
     color: #000;
@@ -101,7 +72,7 @@
     width: 100%;
     justify-content: space-between;
     margin-bottom: 1rem;
-    color: hsl(108, 13%, 44%);
+    color: hsl(var(--hue), 13%, 44%);
 }
 
 [data-slide="poster"] .details > :not(:last-child) {
@@ -110,5 +81,5 @@
 
 [data-slide="poster"] .details > :nth-child(2n) {
     margin-right: 1rem;
-    color: hsl(108, 13%, 50%);
+    color: hsl(var(--hue), 13%, 50%);
 }

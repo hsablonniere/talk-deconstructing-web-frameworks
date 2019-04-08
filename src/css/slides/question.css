@@ -1,4 +1,15 @@
 [data-slide="question"] {
+    --hue: 200;
+    background-color: hsl(var(--hue), 60%, 30%);
+    font-family: Boogaloo;
+    font-family: League Spartan;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
 }
 
 [data-slide="question"] .text {

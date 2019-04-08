@@ -17,6 +17,11 @@ Intro
 [slide=blank]
 outro
 
+[slide=question]
+// How did we get here?
+Comment en est-on arrivé là ?
+
+
 .merci  beaucoup !
 // .thank  you!
 [slide=poster]
