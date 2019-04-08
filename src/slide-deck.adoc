@@ -1,4 +1,6 @@
-= Le Web, ses frameworks et ses standards : déconstruire pour mieux (re?)construire...
+= le  Web,  ses  Frameworks  et ses  Standards : déconstruire pour mieux (re?)construire...
+// = the  Web,  its  Frameworks  & its  Standards : deconstructing them for a more resilient code base...
+// = le  Bon,  la  Brute  et le  Truand : un super western de ouf...
 Hubert Sablonnière
 :author-twitter: @hsablonniere
 :author-avatar: img/hsablonniere-profil-2017.jpg
@@ -15,7 +17,8 @@ Intro
 [slide=blank]
 outro
 
-.Merci beaucoup !
+.merci  beaucoup !
+// .thank  you!
 [slide=poster]
 Outro
 

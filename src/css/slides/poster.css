@@ -3,7 +3,7 @@
     background-color: #fff;
     background-color: #cf4f22;
     background-color: hsl(108, 13%, 44%);
-    background-color: hsl(108, 13%, 80%);
+    background-color: hsl(108, 13%, 85%);
     color: #fff;
     /* color: #000; */
     /* color: #cf4f22; */
@@ -45,12 +45,11 @@
     /* font-size: 4rem; */
     /*  */
     font-family: League Spartan;
-    font-size: 3.5rem;
+    font-size: 3rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
-    /* text-transform: uppercase; */
     text-align: left;
     padding-left: 2rem;
 }
@@ -58,29 +57,28 @@
 [data-slide="poster"] .header {}
 
 [data-slide="poster"] .title {
-    border: 1rem #000 solid;
     border: 1rem hsl(108, 13%, 80%) solid;
     border: 1rem hsl(108, 13%, 44%) solid;
+    border: 0.75rem hsl(108, 13%, 44%) solid;
+    background-color: hsl(108, 13%, 44%);
     padding: 1.25rem 1.5rem 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 1rem;
 }
 
-[data-slide="poster"] .title .line {
-    display: flex;
-}
-
-[data-slide="poster"] .title .key {
+[data-slide="poster"] .title :nth-child(2n+1) {
     text-align: right;
     color: hsl(108, 13%, 80%);
-    /* color: #fff; */
     color: #000;
-    padding-right: 1rem;
     flex: 1 1 0;
 }
 
-[data-slide="poster"] .title .word {
+[data-slide="poster"] .title :nth-child(2n) {
     color: hsl(108, 13%, 44%);
+    color: #fff;
+
     text-transform: uppercase;
-    width: 27rem;
 }
 
 [data-slide="poster"] .subtitle {
@@ -88,24 +86,29 @@
     font-family: Francois;
     font-family: Boogaloo;
     text-align: right;
-    padding-top: 0.5rem;
-    font-size: 0.5em;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
     text-transform: lowercase;
     font-style: italic;
     color: #000;
-    /* background-color: #cf4f22;
-    padding: 1rem;
-    color: #fff; */
 }
 
 [data-slide="poster"] .details {
-    display: none;
+    font-family: Boogaloo;
+    font-size: 1.5rem;
+    color: #000;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: hsl(108, 13%, 44%);
 }
 
-[data-slide="poster"] .details_author {
-    display: none;
+[data-slide="poster"] .details > :not(:last-child) {
+    margin-right: 1rem;
 }
 
-[data-slide="poster"] .details_event {
-    display: none;
+[data-slide="poster"] .details > :nth-child(2n) {
+    margin-right: 1rem;
+    color: hsl(108, 13%, 50%);
 }
