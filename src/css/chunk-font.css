@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Chunk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/chunk-master/webfonts/ChunkFive-Regular.woff2') format('woff2');
+}

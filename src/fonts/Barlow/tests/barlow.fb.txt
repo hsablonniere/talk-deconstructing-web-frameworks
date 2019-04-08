@@ -1,0 +1,1148 @@
+There is a total of 125 tests on <Section: Default>.
+Start ... running 1808 individual test executions.
+>> [1;36;40mcom.google.fonts/test/028[0m
+   [1;35;40mCheck font has a license.[0m
+ * [1;31;40mFAIL[0m: No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: none]
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 536 but should be 537 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[0]', '../../barlow/fonts/ttf/Barlow-Black.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, dcaron, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[1]', '../../barlow/fonts/ttf/Barlow-BlackItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, dcaron, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 526 but should be 527 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[2]', '../../barlow/fonts/ttf/Barlow-Bold.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[3]', '../../barlow/fonts/ttf/Barlow-BoldItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 531 but should be 532 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[4]', '../../barlow/fonts/ttf/Barlow-ExtraBold.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow ExtraBold' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 515 but should be 516 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Oslash, oslash, oslashacute]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[5]', '../../barlow/fonts/ttf/Barlow-ExtraBoldItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Barlow' / SUBFAMILY_NAME = 'ExtraBold Italic'
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow ExtraBold' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 506 but should be 507 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[6]', '../../barlow/fonts/ttf/Barlow-ExtraLight.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow ExtraLight' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 491 but should be 492 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[7]', '../../barlow/fonts/ttf/Barlow-ExtraLightItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Barlow' / SUBFAMILY_NAME = 'ExtraLight Italic'
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow ExtraLight' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 497 but should be 498 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[8]', '../../barlow/fonts/ttf/Barlow-Italic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 509 but should be 510 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[9]', '../../barlow/fonts/ttf/Barlow-Light.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[10]', '../../barlow/fonts/ttf/Barlow-LightItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[11]', '../../barlow/fonts/ttf/Barlow-Medium.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 502 but should be 503 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[12]', '../../barlow/fonts/ttf/Barlow-MediumItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[13]', '../../barlow/fonts/ttf/Barlow-Regular.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[14]', '../../barlow/fonts/ttf/Barlow-SemiBold.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow SemiBold' / SUBFAMILY_NAME = 'Regular'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 506 but should be 507 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/163[0m with ((u'font[15]', '../../barlow/fonts/ttf/Barlow-SemiBoldItalic.ttf'),)
+   [1;35;40mCombined length of family and style must not exceed 20 characters.[0m
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Barlow' / SUBFAMILY_NAME = 'SemiBold Italic'
+ * [1;31;40mFAIL[0m: The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Barlow SemiBold' / SUBFAMILY_NAME = 'Italic'
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 504 but should be 505 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[16]', '../../barlow/fonts/ttf/Barlow-Thin.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/018[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mChecking OS/2 achVendID[0m
+ * [1;37;41mERROR[0m: The condtion <FontBakeryCondition:registered_vendor_ids> had an error: AttributeError: 'NoneType' object has no attribute 'findAll'
+         Traceback (most recent call last):
+           File "/Library/Python/2.7/site-packages/fontbakery/testrunner.py", line 375, in _evaluate_condition
+             return None, condition(**args)
+           File "/Library/Python/2.7/site-packages/fontbakery/callable.py", line 78, in __call__
+             return self._func(*args, **kwds)
+           File "/Library/Python/2.7/site-packages/fontbakery/specifications/googlefonts.py", line 490, in registered_vendor_ids
+             for row in table.findAll('tr'):
+         AttributeError: 'NoneType' object has no attribute 'findAll'
+         
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/034[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mCheck if OS/2 xAvgCharWidth is correct.[0m
+ * [1;31;40mFAIL[0m: OS/2 xAvgCharWidth is 489 but should be 490 which corresponds to the average of all glyph widths in the font
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/036[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mChecking with ots-sanitize.[0m
+ * [1;37;41mERROR[0m: ots-sanitize is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ots Actual error message was: '[Errno 2] No such file or directory'
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/037[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mChecking with Microsoft Font Validator.[0m
+ * [1;37;41mERROR[0m: Mono runtime and/or Microsoft Font Validator are not available!
+
+   Result: [1;37;41mERROR[0m
+
+>> [1;36;40mcom.google.fonts/test/046[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mFont contains the first few mandatory glyphs (.null or NULL, CR and space)?[0m
+ * [1;33;40mWARN[0m: Font is missing glyphs for the following mandatory codepoints: 0x0000.
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/054[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mShow hinting filesize impact.[0m
+ * [1;33;40mWARN[0m: ttfautohint is not available! You really MUST check the fonts with this tool. To install it, see https://github.com/googlefonts/gf-docs/blob/master/ProjectChecklist.md#ttfautohint
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/064[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mIs there a caret position declared for every ligature?[0m
+ * [1;33;40mWARN[0m: This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+   Result: [1;33;40mWARN[0m
+
+>> [1;36;40mcom.google.fonts/test/065[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mIs there kerning info for non-ligated sequences?[0m
+ * [1;31;40mFAIL[0m: GPOS table lacks kerning info for the following non-ligated sequences: [u'g_j', u'f_f', u'f_i', u'f_l', u'I_J', u'hyphen_hyphen', u'l_periodcentered', u'uni0306_gravecomb', u'uni0306_acutecomb', u'uni0306_tildecomb', u'uni0306_hookabovecomb', u'i_j', u'uni0302_gravecomb', u'uni0302_acutecomb', u'uni0302_tildecomb', u'uni0302_hookabovecomb']
+
+   Result: [1;31;40mFAIL[0m
+
+>> [1;36;40mcom.google.fonts/test/153[0m with ((u'font[17]', '../../barlow/fonts/ttf/Barlow-ThinItalic.ttf'),)
+   [1;35;40mCheck if each glyph has the recommended amount of contours.[0m
+ * [1;33;40mWARN[0m: Following glyphs do not have the recommended number of contours [Uhorn, uni1EE8, uni1EEA, uni1EEC, uni1EEE, uni1EF0]
+
+   Result: [1;33;40mWARN[0m
+
+======== <Section: Default> ========
+1808 tests in section
+
+
+Section results:
+
+    [1;37;41mERROR[0m: 54
+    [1;31;40mFAIL[0m: 37
+    [1;33;40mWARN[0m: 68
+    [1;34;40mSKIP[0m: 593
+    [1;36;40mINFO[0m: 56
+    [1;32;40mPASS[0m: 1000
+
+======== END <Section: Default> ========
+
+Total:
+
+    [1;37;41mERROR[0m: 54
+    [1;31;40mFAIL[0m: 37
+    [1;33;40mWARN[0m: 68
+    [1;34;40mSKIP[0m: 593
+    [1;36;40mINFO[0m: 56
+    [1;32;40mPASS[0m: 1000
+
+
+DONE!
+

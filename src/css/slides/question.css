@@ -1,0 +1,18 @@
+[data-slide="question"] {
+}
+
+[data-slide="question"] .text {
+}
+
+[data-slide="question"][data-position="before"],
+[data-slide="question"][data-position="after"] {
+}
+
+[data-slide="question"] .text {
+}
+
+[data-slide="question"][data-position="current"] .text {
+}
+
+[data-slide="question"] .text code {
+}

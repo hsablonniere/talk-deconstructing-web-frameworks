@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  /* src: url('../fonts/Catamaran/Catamaran-Medium.ttf') format('truetype'); */
+  src: url('../fonts/Catamaran/Catamaran-Black.ttf') format('truetype');
+}

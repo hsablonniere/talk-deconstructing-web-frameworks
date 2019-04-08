@@ -1,0 +1,111 @@
+[data-slide="poster"] {
+    background-color: #000;
+    background-color: #fff;
+    background-color: #cf4f22;
+    background-color: hsl(108, 13%, 44%);
+    background-color: hsl(108, 13%, 80%);
+    color: #fff;
+    /* color: #000; */
+    /* color: #cf4f22; */
+    /* fat letters */
+    /* font-family: Anton; */
+    /* font-size: 3rem; */
+    /* Looks like whiteboard marker */
+    /* font-family: Boogaloo; */
+    /* font-size: 3rem; */
+    /* Crazy display */
+    /* font-family: Bungee Shade; */
+    /* font-size: 3rem; */
+    /* Elegant but large */
+    /* font-family: Catamaran; */
+    /* font-size: 3rem; */
+    /* Nice and narrow (a bit thin) */
+    /* font-family: Fjalla; */
+    /* font-size: 3rem; */
+    /* happy not too strict */
+    /* font-family: Francois; */
+    /* font-size: 3rem; */
+    /* bold version is nice (a bit large) */
+    /* font-family: Josefin; */
+    /* font-size: 3rem; */
+    /* FAT/BLACK nice! */
+    /* font-family: Passion; */
+    /* font-size: 3rem; */
+    /* A bit too gotham city */
+    /* font-family: Squada; */
+    /* font-size: 3rem; */
+    /* A bit too gotham city too */
+    /* font-family: Teko; */
+    /* font-size: 4rem; */
+    /*  */
+    /* font-family: Barlow; */
+    /* font-size: 4rem; */
+    /*  */
+    /* font-family: Chunk; */
+    /* font-size: 4rem; */
+    /*  */
+    font-family: League Spartan;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* text-transform: uppercase; */
+    text-align: left;
+    padding-left: 2rem;
+}
+
+[data-slide="poster"] .header {}
+
+[data-slide="poster"] .title {
+    border: 1rem #000 solid;
+    border: 1rem hsl(108, 13%, 80%) solid;
+    border: 1rem hsl(108, 13%, 44%) solid;
+    padding: 1.25rem 1.5rem 0.5rem;
+}
+
+[data-slide="poster"] .title .line {
+    display: flex;
+}
+
+[data-slide="poster"] .title .key {
+    text-align: right;
+    color: hsl(108, 13%, 80%);
+    /* color: #fff; */
+    color: #000;
+    padding-right: 1rem;
+    flex: 1 1 0;
+}
+
+[data-slide="poster"] .title .word {
+    color: hsl(108, 13%, 44%);
+    text-transform: uppercase;
+    width: 27rem;
+}
+
+[data-slide="poster"] .subtitle {
+    font-family: Fjalla;
+    font-family: Francois;
+    font-family: Boogaloo;
+    text-align: right;
+    padding-top: 0.5rem;
+    font-size: 0.5em;
+    text-transform: lowercase;
+    font-style: italic;
+    color: #000;
+    /* background-color: #cf4f22;
+    padding: 1rem;
+    color: #fff; */
+}
+
+[data-slide="poster"] .details {
+    display: none;
+}
+
+[data-slide="poster"] .details_author {
+    display: none;
+}
+
+[data-slide="poster"] .details_event {
+    display: none;
+}

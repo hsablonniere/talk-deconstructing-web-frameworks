@@ -1,0 +1,15 @@
+= TODO
+
+* Create slidedeck base (theme, firsts and lasts slides)
+* Create console project
+* Init example component
+* Triage from research.adoc
+* Schémas
+** C'est quoi une WebApp ?
+** Il y a quoi dans un framework web et dans son écosystème ?
+
+== This weekend
+
+* Annotate some interesting links
+* Triage of random thoughts
+* Test ideas for theme

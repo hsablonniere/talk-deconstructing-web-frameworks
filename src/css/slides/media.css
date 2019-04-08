@@ -1,0 +1,54 @@
+[data-slide="media"] {
+}
+
+[data-slide="media"].dark {
+}
+
+[data-slide="media"] .element {
+}
+
+[data-slide="media"] .element--svg svg {
+}
+
+[data-slide="media"].big .element {
+}
+
+[data-slide="media"].top .element {
+}
+
+[data-slide="media"].light .element {
+}
+
+[data-slide="media"] .author {
+}
+
+[data-slide="media"] .caption {
+}
+
+/* LOGO */
+
+[data-slide="media"].logo {
+}
+
+[data-slide="media"].logo .element {
+}
+
+[data-slide="media"].logo .caption {
+}
+
+/* BROWSER */
+
+[data-slide="media"] .browser {
+}
+
+[data-slide="media"] .url {
+}
+
+[data-slide="media"] .url a {
+}
+
+[data-slide="media"] .url a:hover {
+}
+
+[data-slide="media"] .browser .element {
+}

@@ -1,0 +1,12 @@
+/* just-another-hand-400normal - latin */
+@font-face {
+  font-family: 'Just Another Hand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Just Another Hand Regular '),
+    local('Just Another Hand-Regular'),
+    url('../fonts/just-another-hand-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/just-another-hand-latin-400.woff') format('woff'); /* Modern Browsers */
+}

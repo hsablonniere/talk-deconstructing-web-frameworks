@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://alistapart.com/article/responsible-javascript-part-1",
+    "title": "Responsible JavaScript: Part I · An A List Apart Article",
+    "hostname": "alistapart.com"
+  },
+  {
+    "url": "https://blog.eyas.sh/2018/12/observables-side-effects-and-subscriptions/",
+    "title": "Observables, Side-effects, and Subscriptions | Eyas's Blog",
+    "hostname": "blog.eyas.sh"
+  },
+  {
+    "url": "https://css-tricks.com/css-houdini-could-change-the-way-we-write-and-manage-css/",
+    "title": "CSS Houdini Could Change the Way We Write and Manage CSS | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://github.com/omridevk/ng-keyboard-shortcuts",
+    "title": "GitHub - omridevk/ng-keyboard-shortcuts: Dead simple Keyboard shortcuts management for Angular 2/7",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/request/request/issues/3142",
+    "title": "Request’s Past, Present and Future · Issue #3142 · request/request · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/topheman/nextjs-movie-browser",
+    "title": "GitHub - topheman/nextjs-movie-browser: A NextJS implementation of the themoviedb.org website",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://natuive.net/#home",
+    "title": "natUIve",
+    "hostname": "natuive.net"
+  },
+  {
+    "url": "https://twitter.com/_jayphelps/status/1111396063532011521",
+    "title": "Jay Phelps @ Reactathon sur Twitter : \"Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/justinfagnani/status/1112049650050068480",
+    "title": "Justin Fagnani sur Twitter : \"Frameworks have not done this better. They've been slow, bloated, fragmented the web dev community, and only existed in the first place because the web accidentally grew into an app platform and didn't have a component model from the beginning like any other platform would.… https://t.co/QHg066iN2L\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/justinfagnani/status/1112052414159282176",
+    "title": "Justin Fagnani sur Twitter : \"So... WCs bring:Basics: app platforms should have UI component modelsCapabilities: true DOM and style scopingInterop: break down silos, work w/ tools that understand HTML, DevTools...Dev productivity: knowledge transfer btwn projectsStability: web APIs live long… https://t.co/mYMxwMrw2E\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://www.pikapkg.com/blog/pika-web-a-future-without-webpack",
+    "title": "Pika | A Future Without Webpack",
+    "hostname": "www.pikapkg.com"
+  }
+]

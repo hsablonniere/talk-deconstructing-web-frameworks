@@ -1,0 +1,12 @@
+https://github.com/s-leroux/asciidoctor.js-template/blob/master/lib/index.js
+https://github.com/Mogztter?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=
+https://github.com/Mogztter/asciidoctor.js-integration-webpack
+https://github.com/asciidoctor/asciidoctor.js/blob/d574d7990fee6a9324c40fbbcefc3395ff25c3c4/src/asciidoctor-extensions-api.js
+https://github.com/asciidoctor/asciidoctor/blob/master/lib/asciidoctor/converter/html5.rb
+https://github.com/Mogztter/asciidoctor-inline-parser
+https://blog.yuzutech.fr/blog/1.0/
+https://blog.yuzutech.fr/blog/1.0/custom-converter/index.html
+https://blog.yuzutech.fr/blog/1.0/in-memory-logger/index.html
+https://blog.yuzutech.fr/blog/1.0/asciidoctor-broken-links/index.html
+https://blog.yuzutech.fr/blog/1.0/write-a-gist-extension/index.html
+https://astexplorer.net/

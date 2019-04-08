@@ -1,0 +1,4 @@
+https://github.com/TheLarkInn/unity-component-specification
+https://blog.hackages.io/angular-single-file-component-4a9eed8c80d5
+https://medium.com/content-uneditable/implementing-single-file-web-components-22adeaa0cd17
+https://webpack.academy/p/the-core-concepts

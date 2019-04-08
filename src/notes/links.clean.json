@@ -1,0 +1,1277 @@
+[
+  {
+    "url": "https://adactio.com/links/14687",
+    "title": "Adactio: Links—It’s What You Make, Not How You Make It.",
+    "hostname": "adactio.com"
+  },
+  {
+    "url": "https://adamrackis.dev/state-and-use-reducer/",
+    "title": "Hooks, State, Closures, and useReducer | Adam Reacts",
+    "hostname": "adamrackis.dev"
+  },
+  {
+    "url": "https://addyosmani.com/blog/component-interop-with-react-and-custom-elements/",
+    "title": "AddyOsmani.com - Component Interop With React And Custom Elements",
+    "hostname": "addyosmani.com"
+  },
+  {
+    "url": "https://americanexpress.io/clean-code-dirty-code/",
+    "title": "Clean Code vs. Dirty Code: React Best Practices - American Express Technology",
+    "hostname": "americanexpress.io"
+  },
+  {
+    "url": "https://andy-bell.design/notes/103/",
+    "title": "Our boring tech landscape - Andy Bell",
+    "hostname": "andy-bell.design"
+  },
+  {
+    "url": "https://anvaka.github.io/pm/#/galaxy/npm?cx=-1717&cy=1033&cz=5148&lx=-0.0044&ly=-0.9994&lz=-0.0200&lw=-0.0276&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z",
+    "title": "Code Galaxies Visualization",
+    "hostname": "anvaka.github.io"
+  },
+  {
+    "url": "https://areknawo.com/dom-performance-case-study/",
+    "title": "DOM performance case study",
+    "hostname": "areknawo.com"
+  },
+  {
+    "url": "http://asserttrue.blogspot.com/2009/02/inheritance-as-antipattern.html",
+    "title": "blogorrhea: Inheritance as Antipattern",
+    "hostname": "asserttrue.blogspot.com"
+  },
+  {
+    "url": "https://bitsofco.de/what-exactly-is-the-dom/",
+    "title": "What, exactly, is the DOM?",
+    "hostname": "bitsofco.de"
+  },
+  {
+    "url": "https://bitsofco.de/what-is-tree-shaking/",
+    "title": "What is tree shaking and how does it work?",
+    "hostname": "bitsofco.de"
+  },
+  {
+    "url": "http://blog.andrewray.me/reactjs-for-stupid-people/",
+    "title": "ReactJS For Beginners",
+    "hostname": "blog.andrewray.me"
+  },
+  {
+    "url": "https://blog.angular.io/a-plan-for-version-8-0-and-ivy-b3318dfc19f7",
+    "title": "A plan for version 8.0 and Ivy – Angular Blog",
+    "hostname": "blog.angular.io"
+  },
+  {
+    "url": "https://blog.angular.io/building-a-transaction-service-for-managing-large-scale-editing-experiences-ded666eafd5e",
+    "title": "Building a transaction service for managing large scale editing experiences",
+    "hostname": "blog.angular.io"
+  },
+  {
+    "url": "https://blog.angularindepth.com/introducing-to-ng-vdom-a-new-way-to-write-angular-application-60a3be805e59",
+    "title": "Introducing to NG-VDOM: A new way to write Angular application",
+    "hostname": "blog.angularindepth.com"
+  },
+  {
+    "url": "https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6",
+    "title": "Top 10 ways to use Interceptors in Angular – Angular In Depth",
+    "hostname": "blog.angularindepth.com"
+  },
+  {
+    "url": "https://blog.angularindepth.com/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a",
+    "title": "What every front-end developer should know about change detection in Angular and React",
+    "hostname": "blog.angularindepth.com"
+  },
+  {
+    "url": "https://blog.clever-age.com/fr/2018/12/03/vue-js-react-js/",
+    "title": "Vue.js & React.js - Le blog de Clever Age",
+    "hostname": "blog.clever-age.com"
+  },
+  {
+    "url": "https://blog.graphqleditor.com/javascript-predictions-for-2019-by-npm/",
+    "title": "JavaScript predictions for 2019 by npm - DEV Community 👩‍💻👨‍💻",
+    "hostname": "blog.graphqleditor.com"
+  },
+  {
+    "url": "https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/",
+    "title": "5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog",
+    "hostname": "blog.ionicframework.com"
+  },
+  {
+    "url": "https://blog.octo.com/architecture-hexagonale-trois-principes-et-un-exemple-dimplementation/",
+    "title": "Architecture Hexagonale : trois principes et un exemple d’implémentation | OCTO Talks !",
+    "hostname": "blog.octo.com"
+  },
+  {
+    "url": "https://blog.octo.com/decouplage-decouplage-decouplage/",
+    "title": "Découplage, découplage, découplage ! | OCTO Talks !",
+    "hostname": "blog.octo.com"
+  },
+  {
+    "url": "https://blog.octo.com/domain-driven-design-des-armes-pour-affronter-la-complexite/",
+    "title": "Domain Driven Design : des armes pour affronter la complexité | OCTO Talks !",
+    "hostname": "blog.octo.com"
+  },
+  {
+    "url": "https://blog.octo.com/les-indispensables-dun-projet-frontend-limiter-la-logique-dans-les-composants/",
+    "title": "Les indispensables d’un projet frontend – Limiter la logique dans les composants | OCTO Talks !",
+    "hostname": "blog.octo.com"
+  },
+  {
+    "url": "https://blog.octo.com/les-indispensables-dun-projet-frontend-separer-les-responsabilites-entre-composants-intelligents-et-composants-de-presentation/",
+    "title": "Les indispensables d’un projet frontend – Séparer les responsabilités entre Composants Intelligents et Composants de Présentation | OCTO Talks !",
+    "hostname": "blog.octo.com"
+  },
+  {
+    "url": "https://blog.xebia.fr/2016/03/16/perennisez-votre-metier-avec-larchitecture-hexagonale/",
+    "title": "Pérennisez votre métier avec l'architecture hexagonale | Blog Xebia - Expertise Technologique & Méthodes AgilesGroup 970close-",
+    "hostname": "blog.xebia.fr"
+  },
+  {
+    "url": "https://blog.xebia.fr/2017/06/19/retour-sur-lapres-midi-du-domain-driven-design/",
+    "title": "Retour sur l'après-midi du Domain-Driven Design | Blog Xebia - Expertise Technologique & Méthodes AgilesGroup 970close-",
+    "hostname": "blog.xebia.fr"
+  },
+  {
+    "url": "https://blog.xebia.fr/2018/06/25/craft-les-patterns-tactiques-du-ddd/",
+    "title": "Les patterns tactiques du DDD | Blog Xebia - Expertise Technologique & Méthodes AgilesGroup 970close-",
+    "hostname": "blog.xebia.fr"
+  },
+  {
+    "url": "https://blogs.sap.com/2019/02/11/ui5-web-components-the-beta-is-there/",
+    "title": "UI5 Web Components: the Beta is there! | SAP Blogs",
+    "hostname": "blogs.sap.com"
+  },
+  {
+    "url": "http://brianyang.com/clean-code-in-react/",
+    "title": "Clean Code in React",
+    "hostname": "brianyang.com"
+  },
+  {
+    "url": "https://buttercms.com/blog/comparing-angular-vs-vue",
+    "title": "Comparing Angular vs Vue | ButterCMS",
+    "hostname": "buttercms.com"
+  },
+  {
+    "url": "https://chriskiehl.com/article/event-sourcing-is-hard",
+    "title": "Don't Let the Internet Dupe you, Event Sourcing is Hard - Blogomatano",
+    "hostname": "chriskiehl.com"
+  },
+  {
+    "url": "https://chrisnoring.gitbooks.io/react/content/testing/nock.html",
+    "title": "Nock it out of the park, HTTP mocking for React – ITNEXT",
+    "hostname": "chrisnoring.gitbooks.io"
+  },
+  {
+    "url": "https://christianheilmann.com/2019/01/28/html-is-and-always-was-a-compilation-target-can-we-deal-with-that/",
+    "title": "HTML is and always was a compilation target – can we deal with that? | Christian Heilmann",
+    "hostname": "christianheilmann.com"
+  },
+  {
+    "url": "https://codeburst.io/clean-code-in-react-fe11372f331c",
+    "title": "Clean Code in React – codeburst",
+    "hostname": "codeburst.io"
+  },
+  {
+    "url": "https://coderprog.com/mastering-clean-code-javascript/",
+    "title": "Mastering Clean Code in JavaScript – CoderProg",
+    "hostname": "coderprog.com"
+  },
+  {
+    "url": "https://codingpotions.com/angular-mejores-librerias/",
+    "title": "¿Sabes cuáles son las mejores librerías de componentes para Angular?",
+    "hostname": "codingpotions.com"
+  },
+  {
+    "url": "https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/",
+    "title": "Breaking CSS Custom Properties out of :root Might Be a Good Idea | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/crafting-reusable-html-templates/",
+    "title": "Crafting Reusable HTML Templates | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/",
+    "title": "Encapsulating Style and Structure with Shadow DOM | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/the-bottleneck-of-the-web/",
+    "title": "The Bottleneck of the Web | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/the-great-divide/",
+    "title": "The Great Divide | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/using-react-loadable-for-code-splitting-by-components-and-routes/",
+    "title": "Using React Loadable for Code Splitting by Components and Routes | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://css-tricks.com/what-hooks-mean-for-vue/",
+    "title": "What Hooks Mean for Vue | CSS-Tricks  mticon-linkicon-logo-staricon-searchicon-star",
+    "hostname": "css-tricks.com"
+  },
+  {
+    "url": "https://cssdb.org/#nesting-rules",
+    "title": "cssdb",
+    "hostname": "cssdb.org"
+  },
+  {
+    "url": "https://csswizardry.com/2019/01/bandwidth-or-latency-when-to-optimise-which/",
+    "title": "Bandwidth or Latency: When to Optimise for Which – CSS Wizardry – CSS Architecture, Web Performance Optimisation, and more, by Harry RobertsCSS Wizardry",
+    "hostname": "csswizardry.com"
+  },
+  {
+    "url": "https://daveceddia.com/access-redux-store-outside-react/",
+    "title": "Access the Redux Store Outside a React Component",
+    "hostname": "daveceddia.com"
+  },
+  {
+    "url": "https://daveceddia.com/pure-redux/",
+    "title": "Pure Redux",
+    "hostname": "daveceddia.com"
+  },
+  {
+    "url": "http://dddcommunity.org/book/evans_2003/",
+    "title": "Domain-Driven Design by Eric Evans",
+    "hostname": "dddcommunity.org"
+  },
+  {
+    "url": "https://dev.to/bholmesdev/why-sveltejs-may-be-the-best-framework-for-new-web-devs-205i",
+    "title": "Why SvelteJS may be the best framework for new web devs - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/creeland/intro-to-rxjs-concepts-with-vanilla-javascript-4aji",
+    "title": "Intro to RxJS Concepts with Vanilla JavaScript - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/evilmartians/css-and-js-are-at-war-heres-how-to-stop-it-158a",
+    "title": "CSS and JS Are at War, Here’s How to Stop It - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/jhotterbeekx/my-solution-is-the-best-1pjk",
+    "title": "My solution is the best! - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/jovidecroock/react-hooks-demystified-n13",
+    "title": "React Hooks summarized - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/phoinixi/two-way-data-binding-in-vanilla-js-poc-4e06",
+    "title": "Two-way data binding in vanilla JS (POC) - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/revskill10/a-react-hook-for-universal-routing-6dk",
+    "title": "A React Hook for universal routing - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/selbekk/creating-flexible-components-p7k",
+    "title": "Creating flexible components - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://dev.to/tevko/theres-no-such-thing-as-a-full-stack-developer-1m3i",
+    "title": "There's no such thing as a full stack developer - DEV Community 👩‍💻👨‍💻",
+    "hostname": "dev.to"
+  },
+  {
+    "url": "https://developers.google.com/web/updates/2019/02/rendering-on-the-web",
+    "title": "Rendering on the Web  |  Web       |  Google Developers",
+    "hostname": "developers.google.com"
+  },
+  {
+    "url": "https://developers.google.com/web/updates/2019/02/rendering-on-the-web",
+    "title": "Rendering on the Web  |  Web       |  Google Developers",
+    "hostname": "developers.google.com"
+  },
+  {
+    "url": "https://developers.google.com/web/updates/2019/02/rendering-on-the-web",
+    "title": "Rendering on the Web  |  Web       |  Google Developers",
+    "hostname": "developers.google.com"
+  },
+  {
+    "url": "https://developers.google.com/web/updates/2019/03/kv-storage",
+    "title": "KV Storage: the Web's First Built-in Module  |  Web       |  Google Developers",
+    "hostname": "developers.google.com"
+  },
+  {
+    "url": "https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu",
+    "title": "React vs. Angular vs. Vue.js: A Complete Comparison Guide - DZone Web Dev",
+    "hostname": "dzone.com"
+  },
+  {
+    "url": "https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions",
+    "title": "Redux: Simplifying the Arrow Functions from @dan_abramov on @eggheadioegghead-logo-whiteegghead-logo-white",
+    "hostname": "egghead.io"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
+    "title": "Escalation of commitment - Wikipedia",
+    "hostname": "en.wikipedia.org"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sunk_cost",
+    "title": "Sunk cost - Wikipedia",
+    "hostname": "en.wikipedia.org"
+  },
+  {
+    "url": "http://erikaybar.name/refactoring-react-extracting-layout-components/",
+    "title": "Refactoring React - Extracting Layout Components",
+    "hostname": "erikaybar.name"
+  },
+  {
+    "url": "http://exploringjs.com/impatient-js/ch_template-literals.html#multi-line-template-literals-and-indentation",
+    "title": "Using template literals and tagged templates • JavaScript for impatient programmers (beta)",
+    "hostname": "exploringjs.com"
+  },
+  {
+    "url": "https://flaviocopes.com/node-modules-size/",
+    "title": "The node_modules folder size is not a problem. It's a privilege",
+    "hostname": "flaviocopes.com"
+  },
+  {
+    "url": "https://frontarm.com/james-k-nelson/css-in-js-static-rendering/",
+    "title": "CSS-in-JS and Static Rendering – Frontend Armory",
+    "hostname": "frontarm.com"
+  },
+  {
+    "url": "https://gist.github.com/0gust1/8ef61eaea5797051841e",
+    "title": "gist:8ef61eaea5797051841e · GitHub",
+    "hostname": "gist.github.com"
+  },
+  {
+    "url": "https://github.com/Authman2/Mosaic",
+    "title": "GitHub - Authman2/Mosaic: 🎨 A front-end JavaScript library for building user interfaces.",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/Polymer/lit-element/issues/385",
+    "title": "[docs] Web Components basics · Issue #385 · Polymer/lit-element · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/Swiip/vanilla-modern-js",
+    "title": "GitHub - Swiip/vanilla-modern-js: Experimental Web app using no framework, no external source code, but all fancy new standards ;)",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/WICG/import-maps",
+    "title": "GitHub - WICG/import-maps: How to control the behavior of JavaScript imports",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/axios/axios/issues/1965",
+    "title": "Project dead? · Issue #1965 · axios/axios · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/davellanedam/vue-skeleton-mvp/blob/master/README.md",
+    "title": "vue-skeleton-mvp/README.md at master · davellanedam/vue-skeleton-mvp · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/elmsln/lrnwebcomponents/blob/master/elements/to-element/to-element.js",
+    "title": "lrnwebcomponents/to-element.js at master · elmsln/lrnwebcomponents · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/getify/TNG-Hooks",
+    "title": "GitHub - getify/TNG-Hooks: Provides React-inspired 'hooks' like useState(..) for stand-alone functions",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/gothinkster/realworld",
+    "title": "GitHub - gothinkster/realworld: \"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/karthikv/purview",
+    "title": "GitHub - karthikv/purview: A server-side component framework. What if your React components ran on the server-side?",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/littledan/proposal-reserved-decorator-like-syntax/blob/master/README.md",
+    "title": "proposal-reserved-decorator-like-syntax/README.md at master · littledan/proposal-reserved-decorator-like-syntax · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/mathieuancelin/js-repaint-perfs",
+    "title": "GitHub - mathieuancelin/js-repaint-perfs: Playground to test repaint rates of JS libs",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/mdn/sprints/issues/967",
+    "title": "React Spike: Rewrite the MDN page header · Issue #967 · mdn/sprints · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/shawnbot/custom-elements",
+    "title": "GitHub - shawnbot/custom-elements: All about HTML Custom Elements",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/skatejs/skatejs/blob/react-ssr/packages/element-react/src/__tests__/ssr.tsx",
+    "title": "skatejs/ssr.tsx at react-ssr · skatejs/skatejs · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/w3c/csswg-drafts/issues/3714",
+    "title": "[css-selectors] Reference selectors · Issue #3714 · w3c/csswg-drafts · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/w3c/webcomponents/issues/645",
+    "title": "HTML Modules · Issue #645 · w3c/webcomponents · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://github.com/whatwg/fetch/issues/878",
+    "title": "Proposal: Allow servers to take full responsibility for cross-origin access protection · Issue #878 · whatwg/fetch · GitHub",
+    "hostname": "github.com"
+  },
+  {
+    "url": "https://hackernoon.com/the-backendification-of-frontend-development-62f218a773d4",
+    "title": "The “Backendification” of Frontend Development – Hacker Noon",
+    "hostname": "hackernoon.com"
+  },
+  {
+    "url": "https://hackernoon.com/the-backendification-of-frontend-development-62f218a773d4",
+    "title": "The “Backendification” of Frontend Development – Hacker Noon",
+    "hostname": "hackernoon.com"
+  },
+  {
+    "url": "https://hacks.mozilla.org/2019/03/fast-bump-allocated-virtual-doms-with-rust-and-wasm/",
+    "title": "Fast, Bump-Allocated Virtual DOMs with Rust and Wasm - Mozilla Hacks - the Web developer blog",
+    "hostname": "hacks.mozilla.org"
+  },
+  {
+    "url": "https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/",
+    "title": "The care and feeding of software engineers (or, why engineers are grumpy) - Human Who Codes",
+    "hostname": "humanwhocodes.com"
+  },
+  {
+    "url": "http://ideas.ted.com/why-you-think-youre-right-even-when-youre-wrong/",
+    "title": "Why you think you’re right, even when you’re wrong |",
+    "hostname": "ideas.ted.com"
+  },
+  {
+    "url": "https://itnext.io/no-more-tears-handling-forms-in-react-using-formik-part-i-55f1400a75ba",
+    "title": "No more tears, handling Forms in React using Formik, part I",
+    "hostname": "itnext.io"
+  },
+  {
+    "url": "https://itnext.io/react-suspense-with-the-fetch-api-3ac88280a0de",
+    "title": "React Suspense with the Fetch API – ITNEXT",
+    "hostname": "itnext.io"
+  },
+  {
+    "url": "https://itnext.io/why-are-we-creating-a-javascript-only-world-wide-web-db8c3a340b9",
+    "title": "Why are we creating a JavaScript-only World Wide Web?",
+    "hostname": "itnext.io"
+  },
+  {
+    "url": "https://jasonformat.com/application-holotypes/",
+    "title": "Application Holotypes: A Guide to Architecture Decisions",
+    "hostname": "jasonformat.com"
+  },
+  {
+    "url": "https://joreteg.com/blog/architecting-uis-for-change",
+    "title": "Architecting UIs for Change",
+    "hostname": "joreteg.com"
+  },
+  {
+    "url": "http://journal.plausible.io/you-probably-dont-need-a-single-page-app",
+    "title": "You probably don’t need a single-page application",
+    "hostname": "journal.plausible.io"
+  },
+  {
+    "url": "https://lassala.net/2017/11/09/what-does-clean-code-in-react-looks-like/",
+    "title": "What does clean code in React look like? | Claudio Lassala's Blog",
+    "hostname": "lassala.net"
+  },
+  {
+    "url": "https://matthewphillips.info/programming/gatsby-pages-manifest.html",
+    "title": "Writing on your Gatsby blog leads to JavaScript bloat",
+    "hostname": "matthewphillips.info"
+  },
+  {
+    "url": "https://mcfunley.com/choose-boring-technology",
+    "title": "Dan McKinley :: Choose Boring TechnologyCrazySane",
+    "hostname": "mcfunley.com"
+  },
+  {
+    "url": "https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d",
+    "title": "React vs Angular vs Vue.js — What to choose in 2019? (updated)",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@codepo8/html-is-and-always-was-a-compilation-target-can-we-deal-with-this-e1a545ad276b",
+    "title": "HTML is and always was a compilation target — can we deal with this?",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@cuelogicTech/angular-vs-react-vs-vue-a-2018-comparison-b1ab3a498ac4",
+    "title": "Angular vs. React vs. Vue: A 2018 Comparison – Cuelogic Technologies – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4",
+    "title": "Javascript Fatigue – Eric Clemmons – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@presactlyalicia/taking-the-plunge-which-programming-language-should-i-start-with-82ecefe9c9d9",
+    "title": "Taking the plunge: which programming language should I start with?",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e",
+    "title": "React hooks: not magic, just arrays – Rudi Yardley – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/@sergicontre/reasons-web-components-are-perfect-for-a-big-company-28790d712ad5",
+    "title": "Reasons Web Components are perfect for a big company.",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9",
+    "title": "Operationalizing Node.js for Server Side Rendering – Airbnb Engineering & Data Science – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/curated-by-versett/dont-eject-your-create-react-app-b123c5247741",
+    "title": "Don’t eject your Create React App – versett – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/google-developer-experts/are-web-components-a-thing-5a116b1da7e4",
+    "title": "Are Web Components a thing? – Google Developers Experts – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/google-developers/tradeoffs-in-server-side-and-client-side-rendering-14dad8d4ff8b",
+    "title": "Tradeoffs in server side and client side rendering – Google Developers – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/ing-blog/ing-%EF%B8%8F-web-components-f52aacc71d7a",
+    "title": "ING ❤️ Web Components – ING Blog – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b",
+    "title": "The TypeScript Tax – JavaScript Scene – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b",
+    "title": "The TypeScript Tax – JavaScript Scene – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd",
+    "title": "Comparing bundlers: Webpack, Rollup & Parcel – js@imaginea – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/suspended",
+    "title": "Suspended – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/the-vue-point/vue-2-6-released-66aa6c8e785e",
+    "title": "Vue 2.6 released! – The Vue Point – Medium",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://medium.com/vue-mastery/7-problems-you-can-avoid-by-using-nuxt-js-for-your-next-vue-app-963afd5047d3",
+    "title": "7 Problems you can avoid by using Nuxt.js for your next Vue app",
+    "hostname": "medium.com"
+  },
+  {
+    "url": "https://mertindervish.com/why-im-grateful-about-the-state-of-the-web-2019/",
+    "title": "Why I'm Grateful About the State of The Web 2019 | Mertin Dervish",
+    "hostname": "mertindervish.com"
+  },
+  {
+    "url": "http://microjs.com/#",
+    "title": "Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!",
+    "hostname": "microjs.com"
+  },
+  {
+    "url": "https://morioh.com/p/02ff38288b16/why-we-choose-vuejs-which-is-not-react-or-angular",
+    "title": "Social Network for Developers",
+    "hostname": "morioh.com"
+  },
+  {
+    "url": "https://mxstbr.com/thoughts/css-in-js/",
+    "title": "Why I Write CSS in JavaScript",
+    "hostname": "mxstbr.com"
+  },
+  {
+    "url": "https://my.mindnode.com/xQZyD9Qq8SG1zEpsc1SviR3cjpyUSfvEzLBxApqT#709.4,170.6,2",
+    "title": "design-system | myMindNode",
+    "hostname": "my.mindnode.com"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=19093555",
+    "title": "With React 16.8, React Hooks are available in a stable release | Hacker News",
+    "hostname": "news.ycombinator.com"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=19408735",
+    "title": "Ask HN: Is jQuery on its way out? | Hacker News",
+    "hostname": "news.ycombinator.com"
+  },
+  {
+    "url": "http://nicolasgallagher.com/css-cascade-specificity-inheritance/",
+    "title": "CSS: the cascade, specificity, and inheritance – Nicolas Gallagher",
+    "hostname": "nicolasgallagher.com"
+  },
+  {
+    "url": "https://notlaura.com/writing-css-algorithms/",
+    "title": "Writing CSS Algorithms | Lara SchenckLara Schenck",
+    "hostname": "notlaura.com"
+  },
+  {
+    "url": "https://open-wc.org/",
+    "title": "open-wc",
+    "hostname": "open-wc.org"
+  },
+  {
+    "url": "https://overreacted.io/a-complete-guide-to-useeffect/",
+    "title": "A Complete Guide to useEffect — Overreacted",
+    "hostname": "overreacted.io"
+  },
+  {
+    "url": "https://overreacted.io/react-as-a-ui-runtime/",
+    "title": "React as a UI Runtime — Overreacted",
+    "hostname": "overreacted.io"
+  },
+  {
+    "url": "https://overreacted.io/writing-resilient-components/",
+    "title": "Writing Resilient Components — Overreacted",
+    "hostname": "overreacted.io"
+  },
+  {
+    "url": "https://philippspiess.com/scheduling-in-react/",
+    "title": "Scheduling in React | Philipp Spiess",
+    "hostname": "philippspiess.com"
+  },
+  {
+    "url": "https://ponyfoo.com/articles/action-pattern-clean-obvious-testable-code",
+    "title": "The Action Pattern: Clean, Obvious, Testable Code",
+    "hostname": "ponyfoo.com"
+  },
+  {
+    "url": "https://putaindecode.io/articles/comprendre-le-css-in-js-par-l-exemple/",
+    "title": "Comprendre le CSS in JS par l'exemple | Putain de code",
+    "hostname": "putaindecode.io"
+  },
+  {
+    "url": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/",
+    "title": "HTML, CSS and our vanishing industry entry points",
+    "hostname": "rachelandrew.co.uk"
+  },
+  {
+    "url": "https://react.i18next.com/",
+    "title": "Introduction - react-i18next documentation",
+    "hostname": "react.i18next.com"
+  },
+  {
+    "url": "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html",
+    "title": "You Probably Don't Need Derived State – React Blog",
+    "hostname": "reactjs.org"
+  },
+  {
+    "url": "https://reactjs.org/blog/2019/02/06/react-v16.8.0.html",
+    "title": "React v16.8: The One With Hooks – React Blog",
+    "hostname": "reactjs.org"
+  },
+  {
+    "url": "https://seesparkbox.com/foundry/bem_css_organization",
+    "title": "BEM: 4 Hang-Ups & How It Will Help Your CSS OrganizationSparkbox",
+    "hostname": "seesparkbox.com"
+  },
+  {
+    "url": "https://spin.atomicobject.com/2019/01/21/replace-unit-test-types/",
+    "title": "Type-Driven Development – Replacing Unit Tests with Types in Typescript",
+    "hostname": "spin.atomicobject.com"
+  },
+  {
+    "url": "https://ssr.gourmetjs.org/docs/guides/using-redux",
+    "title": "Using Redux · Gourmet SSR",
+    "hostname": "ssr.gourmetjs.org"
+  },
+  {
+    "url": "https://tech.okcupid.com/getting-hooked-on-react-hooks/",
+    "title": "Getting Hooked on React Hooks",
+    "hostname": "tech.okcupid.com"
+  },
+  {
+    "url": "https://testdriven.io/blog/react-hooks-primer/#.XHaWXde5d08.reddit",
+    "title": "Primer on React Hooks | TestDriven.io",
+    "hostname": "testdriven.io"
+  },
+  {
+    "url": "https://thanosjs.org/",
+    "title": "Thanos JS",
+    "hostname": "thanosjs.org"
+  },
+  {
+    "url": "https://thehistoryoftheweb.com/comparing-the-why-of-single-page-app-frameworks/",
+    "title": "Comparing the \"Why\" of Single Page App Frameworks - The History of the Web",
+    "hostname": "thehistoryoftheweb.com"
+  },
+  {
+    "url": "https://twitter.com/_developit/status/1083906683984904192",
+    "title": "Jason Miller 🦊⚛ sur Twitter : \"I often flip this on it's head:Never underestimate how far a static app delivered via CDN hitting a monolithic API powered by a single-threaded JS runtime running on a potato (or a $5 VPS) can get you in terms of delivering real value to your customers.… https://t.co/9dIWtMuCSF\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/_jayphelps/status/1111396063532011521",
+    "title": "Jay Phelps @ Reactathon sur Twitter : \"Do you think future, new languages, should have a JSX-like syntax built-in?Why or why not? Alternatives?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/adamklein500/status/1072457324932067329",
+    "title": "Adam Klein sur Twitter : \"In tribute to the hype around Hooks, I made a table of all (current) libraries of Redux Hooks, and divided them to \"art movements\" :) Enjoy #redux #hooks… https://t.co/pXQ82IFJdo\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/addyosmani/status/1085439006433669120",
+    "title": "Addy Osmani sur Twitter : \"Tip: Chrome can measure how much unused JavaScript is on your page https://t.co/AYBKnPha0nDevTools > top-right menu > More tools > Coverage… https://t.co/k24W4NCyCQ\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/bmeurer/status/1091069954110246913",
+    "title": "Benedikt Meurer sur Twitter : \"For the record: I think decorators should be mostly a build time feature, period.… \"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/brad_frost/status/1097908466935652352",
+    "title": "Brad Frost sur Twitter : \"That depressing realization that the thing you're slogging through in a modern JS framework could have taken you 10 minutes in jQuery.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/ccdzine/status/1100445531669651456",
+    "title": "Greg Sweet sur Twitter : \"@davatron5000 Rare photograph of faithful Old Guard Rupert still posted outside of the dilapidated Colonel Standards residence.… https://t.co/0l4M9fhpXb\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/chriscoyier/status/1090610522750251008",
+    "title": "Chris Coyier sur Twitter : \"The CHRIS stack:【C】SS【H】TMLJa【R】vascript【I】s this really what's important? How can one ever know? We can't measure everything. Sometimes we're just following our hearts.【S】andwicheshttps://t.co/O1YgXJ6fOO\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/cute_n_squish/status/1109863561562636288",
+    "title": "Cute N Squishy sur Twitter : \"Hamsters doing important hamster things.… \"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/dan_abramov/status/1096784072943300608",
+    "title": "Dan Abramov sur Twitter : \"Something I’m seeing a lot.Beginners: This makes sense, we understand it.Experienced developers: There’s no way beginners would understand it. It’s not like <a thing I learned ten years ago>.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/dan_abramov/status/1108887662017028096",
+    "title": "Dan Abramov sur Twitter : \"How do learning curves of Hooks and class components compare? Here’s my impression based on teaching both patterns. Does this match your experience?… https://t.co/RAjF71x8WE\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/dan_abramov/status/1109461037391187968",
+    "title": "Dan Abramov sur Twitter : \"Unpopular opinion: @reactjs editionBring it on 🔥\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/dan_abramov/status/1109461037391187968",
+    "title": "Dan Abramov sur Twitter : \"Unpopular opinion: @reactjs editionBring it on 🔥\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/davidwells/status/1110307412186025984",
+    "title": "David Wells sur Twitter : \"I kick off my workshops by having students mine for silicon.Its hard work but it results in 10x devs with a fallback plan once internet goes away… https://t.co/FaztPjdRC5\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/devongovett/status/1095518197518745601",
+    "title": "Devon Govett sur Twitter : \"Current status: rewriting everything in hooks! ⚛️ ⚓🤯Seriously, this is going to be amazing. My dream UI library is finally possible! 😍\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/dhh/status/1088499778294407168",
+    "title": "DHH sur Twitter : \"Designing for the web ought to mean making HTML and CSS. When that's getting too hard to do because of complexity sprawl of JavaScript, it's time to revisit your assumptions of how to work.  https://t.co/CjlRcwi4Sz… https://t.co/3YAAUPAH5T\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/firt/status/1107785093207203840",
+    "title": "Maximiliano Firtman sur Twitter : \"What's next? Adidas Angular? Who's taking Vue?… \"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/getify/status/1087514283817267201",
+    "title": "getify sur Twitter : \"The \"great frontend divide\" exists, but not because of which skills people pick or what's listed in job descriptions.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/getify/status/1111004737263075329",
+    "title": "getify sur Twitter : \"Are we expecting/envisioning a future where webassembly is like doing direct GPU instructions to draw pixels to the screen, to display an app's UI... so when that kind of app is loaded into a browser, it completely bypasses the entire DOM (and JS and CSS)?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/henrikjoreteg/status/364989455414726657",
+    "title": "Henrik Joreteg sur Twitter : \"If you don’t actively fight for simplicity in software, complexity will win.…and it will suck.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/heydonworks/status/1086163975128170496",
+    "title": "@heydon@mastodon.social sur Twitter : \"Great. TypeScript is becoming required knowledge, because *checks notes* everyone is adopting it out of FOMO. Just great.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/horse_js/status/1099329712608997376",
+    "title": "Horse JS sur Twitter : \"React could be replaced by something better\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/housecor/status/1110657232885243906",
+    "title": "Cory House 🏠 sur Twitter : \"When creating reusable components, it's useful to have a checklist of states to consider. It's easy to forget some of these:- Loading- Loading timed out- API call error- Lack of permissions- No data available\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/hsablonniere/status/1089836788930265089",
+    "title": "Hubert SABLONNIÈRE 😎 sur Twitter : \"🗣️ I proposed a talk about the Web, its frameworks and its standards:🤔 a reflexion on how & why we use them, following trends vs. solving problems🤯 This weekend tweetstorm confirmed me there's something to be discussed🙏 Now we wait @DevoxxFR @DevoxxUK @mixitconf @GDGLille\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/hsablonniere/status/1092570395922911235",
+    "title": "Hubert SABLONNIÈRE 😎 sur Twitter : \"👍 C'est exactement le point de départ de mon talk 2019 mais je l'applique au lon du frontend Web et de ses frameworks.… https://t.co/MdVOyEPmEw\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/importantshock/status/1085740688283746304",
+    "title": "patrick thomson sur Twitter : \"I love to use¹ dependency² injection³¹ pass² values³ to functions\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/jaffathecake/status/1084781707725848578",
+    "title": "Jake Archibald sur Twitter : \"I feel like CSS modules are overlooked in the whole CSS vs JS debate.➡️ You write .css files➡️ Can use preprocessors like Sass➡️ Encourages flatter CSS (like BEM and similar conventions)➡️ But you can still use the cascade➡️ Unique class names➡️ Tree-shaking➡️ .css output\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/jaffathecake/status/1098129712486985728",
+    "title": "Jake Archibald sur Twitter : \"That article made it to the front of HN. There appears to be many championing the article.… \"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/jfhbrook/status/1109484970018553856",
+    "title": "Josh Holbrook sur Twitter : \"I kinda have this secret opinion that the web components work should be refactored into \"like react\" or thrown out/replaced <_<;;;… https://t.co/m9bHDgZHb6\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/justinfagnani/status/1090689540312858625",
+    "title": "Justin Fagnani sur Twitter : \"I was reminded by @passle_ of a useful description of Web Components I made a while back. A thread...\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/justinfagnani/status/1090689547107655680",
+    "title": "Justin Fagnani sur Twitter : \"To illustrate how low-level WCs are, it's useful to compare the features to native elements:native Element ↔️ Custom Elementnative Shadow DOM ↔️ Shadow DOMpseudo-element ↔️ ::part() and ::theme()pseudo-class ↔️ custom pseudo-classWe're still working through this list...\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/justinfagnani/status/1093229305662889985",
+    "title": "Justin Fagnani sur Twitter : \"Watching people try to figure out CSS-in-JS tools reminds me to remind you that Shadow DOM fixes CSS. *Especially* with Constructible StyleSheets.Here's how easy LitElement makes it to use Shadow DOM with super-efficient native scoped styles via Constructible StyleSheets:… https://t.co/5J97YeebFf\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/kentcdodds/status/1101540161584693248",
+    "title": "Kent C. Dodds sur Twitter : \"Understanding how your abstractions work will enable you to use them more effectively.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/letropeur/status/1101043350587822081",
+    "title": "Le Tropeur sur Twitter : \"Vous savez ce qui est important à gérer, mais que personne ne vous a appris ?Avoir tort.#Thread\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/malchata/status/1108108474632802305",
+    "title": "Jeremy Wagner sur Twitter : \"The current state of web development is really depressing to me. So much of what I have to chase to get paid is framework-driven shit. I think I'd be much more engaged and productive if I was able to focus on the web platform itself.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/manuelkiessling/status/1083642207758962688",
+    "title": "Manuel Kießling sur Twitter : \"Never underestimate how far web apps with Server-Side Page Rendering that do Full Page Reloads On Every Click powered by a One Thread Per Request Language running as a Monolithic Service On A Non-Distributed System can get you in terms of generating real value for real customers.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/marcintreder/status/1085386025923502081",
+    "title": "Marcin Treder sur Twitter : \"A design tool that can access *production* React.js code and import *interactive* components? 🤯 Done. 👋 upcoming @uxpin Merge 🔥. /Gif shows import of Material UI with theme editing./… https://t.co/jEb8jefHCN\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/markdalgleish/status/1110306504739938307",
+    "title": "Mark Dalgleish sur Twitter : \"It's a mistake to learn a framework without first learning the fundamentals. That's why, when dealing with beginners, I always start off by making them build their own CPU, programming language and operating system.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/mehulkar/status/1100159921180561409",
+    "title": "Mehul Kar sur Twitter : \"Does anyone except @slightlylate even talk about web dev anymore on Twitter without subscribing to a JS framework.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/meyerweb/status/1110571854375333888",
+    "title": "Eric Meyer sur Twitter : \"A reminder: it’s okay if the thing everybody loves doesn’t work for you, and it’s okay if the thing you love doesn’t work for other people.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/necolas/status/1088508941179338752",
+    "title": "NOT FOUND",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/necolas/status/1089234445675028480",
+    "title": "Nicolas sur Twitter : \"There are good relationships between the teams working on web frameworks and those working on web browsers. The browsers are working to standardise new lower level APIs that frameworks need and currently build for themselves. There's no antagonism… https://t.co/ivlR8w7uIN\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/qffwffq/status/1101477073682608128",
+    "title": "Qffwffq sur Twitter : \"Vous vous rappelez du biais de l'arrêt de bus ?Non ?Alors voilà comment ça marche. Dans une expérience, une personne voit deux arrêts de bus à un carrefour. Sa mission est d'en prendre un, quel qu'il soit.Elle s'arrête devant l'un d'entre eux.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/rauschma/status/1081542850607763456",
+    "title": "Axel Rauschmayer sur Twitter : \"If you don’t see the downsides of using your favorite language then you are probably missing something!\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/rickhanlonii/status/1092946051370283008",
+    "title": "Rick in the Bae sur Twitter : \"zzz　＜⌒／ヽ-､_＿_／＜_/＿＿＿＿／￣￣￣￣￣￣￣　　　∧_∧　　 (　･ω･) HOOKS!?　 ＿|　⊃／(＿＿_／　└-(＿＿＿_／￣￣￣￣￣￣￣　　　∧_∧　　 (　-ω-) aw no　 ＿|　⊃／(＿＿_／　└-(＿＿＿_／￣￣￣￣￣￣￣zzz　＜⌒／ヽ-､_＿_／＜_/＿＿＿＿／\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/samccone/status/1081258888698068995",
+    "title": "Sam Saccone sur Twitter : \"Last evening I saw a demo of a SSR @angular app that had partial client-side component hydration triggered only by a mutating user action.This meant that not only was there 0 JS overhead to render the app, but that users only paid the runtime cost for what they interacted with\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sebmarkbage/status/1098310123796062209",
+    "title": "Sebastian Markbåge sur Twitter : \"You may have noticed that most other frameworks don’t have HoCs, render props or anything like React.Children. These account for a lot the differences between React and other frameworks. How would you solve these use cases if you had to switch to [other framework]?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sebmarkbage/status/1101690609457258496",
+    "title": "Sebastian Markbåge sur Twitter : \"React has lazy evaluation for components. It comes with some overhead but gives us things like suspense, memoization, time slicing, parallelization among children, lazy computation. Hooks are eager and will undo all of those benefits.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sebmarkbage/status/1106754371226763264",
+    "title": "Sebastian Markbåge sur Twitter : \"I don't think React has become popular because it's more \"intuitive\" to people. It's not an iPad that toddlers just naturally interact with. It has become popular after a network of teachers taught the principles and patterns that empower people to solve complex problems.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sindresorhus/status/1089075390327316480",
+    "title": "Sindre Sorhus sur Twitter : \"I learned web development in the early days (long before GitHub) with the \"View source\" button. The trend of generated class-names makes me sad...… https://t.co/0I9g2Y7tKA\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/slightlylate/status/1100246591544254465",
+    "title": "Alex Russell sur Twitter : \"I'm anti-wrong-tools-for-the-job. Most often, the correct choice is appropriate framework vs. inappropriate, not some vs. none.That might leave your favourite tool in the cold, but you can't say it's \"anti-framework\". Not by a long shot.… https://t.co/zTjXNOYHiq\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sonniesedge/status/1089832801027919872",
+    "title": "Charlie \"Don't Surf\" Owen sur Twitter : \"Why are you building with these tools? Is it because it's beneficial to the project? Or is it because it looks good on a CV?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/sophiebits/status/1090514421900664832",
+    "title": "Sophie Alpert sur Twitter : \"I was really scared React Hooks would leak before we knew what we wanted to say. I figured that if we didn't have clear messaging it could easily lead to FUD. (If our secrecy annoyed you, blame me.)\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/theystolemynick/status/1105168883659563008",
+    "title": "Jean-Pierre Vincent sur Twitter : \"- les classiques trop grand nombre d'exécutions lourdes comme des Regexp, manipulations de string, manipulation de dates ... bref du code métier indépendant du framework de base… https://t.co/thTuRcxoa6\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/tobie/status/1083316137826365442",
+    "title": "Tobie Langel sur Twitter : \"We're seeing the same thing today with CSS that we've seen seen with HTML/JS before and which led to the current JS framework situation. A thread👇\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/tolmasky/status/1092116247406243841",
+    "title": "Francisco Tolmasky sur Twitter : \"Tree-shaking could be an anti-optimization. The ideal is for your libraries, which change less often than your app code, to be codesplit separately & be barely tree-shaken if at all, so that updates to your app result in unchanged library “chunks” and minimal cache busting (1/x)\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/tomdale/status/1088517392618188800",
+    "title": "Tom Dale sur Twitter : \"The example code on https://t.co/glnWl886Ok no longer works in Chrome because it uses an older version of Polymer. Works in Safari. The irony is so thick you could drizzle it over pancakes. If you're gonna Use the Platform, make sure that Platform is nailed down to something!\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/tomdale/status/1092613088191410176",
+    "title": "Tom Dale sur Twitter : \"Truly loving the people who have persuaded themselves classes are useless due to the power and innovation of React hooks. Gonna age these like a fine wine in my tweet cellar.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/tomdale/status/1093335223775956992",
+    "title": "Tom Dale sur Twitter : \"While I understand that React hooks solve tricky cross-cutting composability problems very elegantly, I still find every example using hooks harder to read and understand than the class-based equivalent. At this point, I don’t think it’s just due to unfamiliarity.\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/walidchergui/status/1092421919893262336",
+    "title": "Walid Chergui sur Twitter : \"A chaque fois que j'utilise Docker, je me pose la question: Docker ça résout quelle problématique ? 🙄\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://twitter.com/wycats/status/1091388399179583488",
+    "title": "Yehuda Katz 🥨 sur Twitter : \"I'm curious (and please answer with as much nuance as you can muster):How would you feel if decorators in JS could never be standardized because classes with decorators would have an unavoidable performance penalty relative to the same code written by hand?\"",
+    "hostname": "twitter.com"
+  },
+  {
+    "url": "https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms/",
+    "title": "Using Custom React Hooks to Simplify Forms - Upmostly",
+    "hostname": "upmostly.com"
+  },
+  {
+    "url": "https://v3.svelte.technology/blog/virtual-dom-is-pure-overhead",
+    "title": "Virtual DOM is pure overhead",
+    "hostname": "v3.svelte.technology"
+  },
+  {
+    "url": "https://vogloblinsky.github.io/web-components-benchmark/",
+    "title": "Web Components BenchmarkPage 1",
+    "hostname": "vogloblinsky.github.io"
+  },
+  {
+    "url": "https://web.dev/fast/remove-unused-code",
+    "title": "Remove unused code  |  web.dev",
+    "hostname": "web.dev"
+  },
+  {
+    "url": "https://webdesign.tutsplus.com/tutorials/examples-of-vues-clean-code--cms-29619",
+    "title": "Examples of Vue’s Clean Code",
+    "hostname": "webdesign.tutsplus.com"
+  },
+  {
+    "url": "https://websitesetup.org/html5-periodical-table/",
+    "title": "HTML PERIODIC TABLE",
+    "hostname": "websitesetup.org"
+  },
+  {
+    "url": "http://wilsonpage.co.uk/preventing-layout-thrashing/",
+    "title": "Preventing 'layout thrashing' |  Wilson Page",
+    "hostname": "wilsonpage.co.uk"
+  },
+  {
+    "url": "https://winxp.now.sh/",
+    "title": "WinXP",
+    "hostname": "winxp.now.sh"
+  },
+  {
+    "url": "https://www.altexsoft.com/blog/engineering/javascript-ecosystem-38-tools-for-front-and-back-end-development/",
+    "title": "The JavaScript Ecosystem’s 38 Most Important Tools – Hacker Noon",
+    "hostname": "www.altexsoft.com"
+  },
+  {
+    "url": "https://www.apress.com/us/blog/all-blog-posts/your-front-end-does-not-have-to-be-rich/16537718",
+    "title": "Your Front-End Does Not Have To Be Rich",
+    "hostname": "www.apress.com"
+  },
+  {
+    "url": "https://www.bitovi.com/blog/announcing-velocirender",
+    "title": "Faster Load Times For Any FrameworkBitovi Blog - UX and UI design, JavaScript and Front-end development",
+    "hostname": "www.bitovi.com"
+  },
+  {
+    "url": "https://www.csrhymes.com/2019/03/08/is-web-development-copying-and-pasting.html",
+    "title": "Is web development just copying and pasting? - C.S. RhymesIs web development just copying and pasting? | C.S. Rhymes",
+    "hostname": "www.csrhymes.com"
+  },
+  {
+    "url": "https://www.designsystems.com/",
+    "title": "Design Systems",
+    "hostname": "www.designsystems.com"
+  },
+  {
+    "url": "https://www.dzurico.com/react-compound-components-with-usecontext-hook/",
+    "title": "React - Compound components with useContext Hook - Angular and Javascript blog",
+    "hostname": "www.dzurico.com"
+  },
+  {
+    "url": "https://www.mindk.com/blog/react-vs-vue/",
+    "title": "React vs Vue: What is the best choice for 2019? : Web and Mobile Development Blog – MindK.comReact vs Vue: What is the best choice for 2019? – Web and Mobile Development Blog – MindK.com",
+    "hostname": "www.mindk.com"
+  },
+  {
+    "url": "https://www.npmjs.com/package/react",
+    "title": "react  -  npmDownloadsGit",
+    "hostname": "www.npmjs.com"
+  },
+  {
+    "url": "https://www.ovalkwiki.com/index.php/The_Seventy_Maxims_of_Maximally_Effective_Mercenaries",
+    "title": "The Seventy Maxims of Maximally Effective Mercenaries - Ovalkwiki",
+    "hostname": "www.ovalkwiki.com"
+  },
+  {
+    "url": "https://www.pikapkg.com/about",
+    "title": "Pika | What is Pika?",
+    "hostname": "www.pikapkg.com"
+  },
+  {
+    "url": "https://www.pikapkg.com/blog/pika-web-a-future-without-webpack/",
+    "title": "Pika | A Future Without Webpack",
+    "hostname": "www.pikapkg.com"
+  },
+  {
+    "url": "https://www.quirksmode.org/blog/archives/2019/03/scope_in_css.html",
+    "title": "Scope in CSS - QuirksBlog",
+    "hostname": "www.quirksmode.org"
+  },
+  {
+    "url": "https://www.quora.com/Is-Angular-js-2-going-to-implement-virtual-DOM",
+    "title": "Is Angular.js 2 going to implement virtual DOM? - Quora",
+    "hostname": "www.quora.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/Angular2/comments/ap8bdo/simple_state_management_in_angular_with_only/",
+    "title": "Simple state management in Angular with only Services and RxJS : Angular2",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/Angular2/comments/as895f/angular_state_management_without_using_external/",
+    "title": "Angular State Management without using external libraries : Angular2",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/javascript/comments/agpb2b/the_world_beyond_react_vue_angular/",
+    "title": "The world beyond React, Vue & Angular : javascript",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/javascript/comments/b4co5l/vuejs_amsterdam_2019_evan_you_state_of_the_vuenion/",
+    "title": "[VueJS Amsterdam 2019] Evan You - State of the Vuenion : javascript",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/javascript/comments/b68o69/react_and_vdom_is_the_final_frontier_of_frontend/",
+    "title": "React and VDOM is the final frontier of frontend? : javascript",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/reactjs/comments/aeb428/do_you_guys_use_redux_or_something_else/",
+    "title": "Do you guys use Redux, or something else? : reactjs",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/reactjs/comments/as5ykg/trousers_a_css_in_js_library_thats_like/",
+    "title": "Trousers: a CSS in JS library that’s like styled-components + classnames + BEM, wrapped in a lovely Hooks API : reactjs",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/vuejs/comments/akeycw/is_it_considered_a_good_practice_to_wrap_all/",
+    "title": "Is it considered a good practice to wrap ALL axios/fetch inside Vuex actions? : vuejs",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.reddit.com/r/vuejs/comments/alxtvk/mevn_stack_help_with_digitalocean/",
+    "title": "MEVN Stack Help with DigitalOcean : vuejs",
+    "hostname": "www.reddit.com"
+  },
+  {
+    "url": "https://www.robinwieruch.de/react-component-composition/",
+    "title": "React Component Composition - RWieruch",
+    "hostname": "www.robinwieruch.de"
+  },
+  {
+    "url": "https://www.robinwieruch.de/react-component-types/",
+    "title": "React Component Types: A complete Overview - RWieruch",
+    "hostname": "www.robinwieruch.de"
+  },
+  {
+    "url": "https://www.robinwieruch.de/react-component-types/",
+    "title": "React Component Types: A complete Overview - RWieruch",
+    "hostname": "www.robinwieruch.de"
+  },
+  {
+    "url": "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+    "title": "Replacing jQuery With Vue.js: No Build Step Necessary — Smashing MagazineSearchClear SearchBack to top",
+    "hostname": "www.smashingmagazine.com"
+  },
+  {
+    "url": "https://www.smashingmagazine.com/2019/02/vue-framework-third-party-javascript/",
+    "title": "Sliding In And Out Of Vue.js — Smashing MagazineSearchClear SearchBack to top",
+    "hostname": "www.smashingmagazine.com"
+  },
+  {
+    "url": "https://www.taniarascia.com/getting-started-with-react/",
+    "title": "Getting Started with React - An Overview and Walkthrough – Tania Rascia",
+    "hostname": "www.taniarascia.com"
+  },
+  {
+    "url": "https://www.toptal.com/react/navigating-the-react-ecosystem",
+    "title": "React.js Tutorial - A Guide to Tools and Libraries | Toptal",
+    "hostname": "www.toptal.com"
+  },
+  {
+    "url": "http://www.youtube.com/playlist?list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD",
+    "title": "Lightning Web Components - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=AQOEZVG2WY0",
+    "title": "GOTO 2018 • Why I Was Wrong About TypeScript • TJ VanToll - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Husw3PKFIpg",
+    "title": "la-quête-du-graal.js (Siegfried Ehret - Romain Maton) - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dTW7eJsIHDg",
+    "title": "Michael Geers: Micro Frontends - Think Smaller, Avoid the Monolith, ❤️the Backend | Web Rebels 2018 - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=s-EbUAiccn4&list=PLgIMQe2PKPSJ0hK7DInqhLlw7QK5Pt6fD",
+    "title": "Lightning Web Components: Parent-Child Components - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ypPRdtjGooc",
+    "title": "The Virtue of Laziness: Leveraging Incrementality for Faster Web UI (Chrome Dev Summit 2018) - YouTube",
+    "hostname": "www.youtube.com"
+  },
+  {
+    "url": "https://www.zuehlke.com/blog/en/angularjs-clean-code/",
+    "title": "AngularJs Clean Code",
+    "hostname": "www.zuehlke.com"
+  },
+  {
+    "url": "https://xeestudio.com/examples-of-vues-clean-code/",
+    "title": "Examples of Vue’s Clean Code - Xee Studio",
+    "hostname": "xeestudio.com"
+  },
+  {
+    "url": "https://xlayers.app/#/home",
+    "title": "xLayers: Design – Code – Repeat",
+    "hostname": "xlayers.app"
+  },
+  {
+    "url": "https://zendev.com/2019/01/15/frontend-development-topics-to-learn-in-2019.html",
+    "title": "Top 5 Frontend Development Topics To Learn in 2019Top 5 Frontend Development Topics To Learn in 2019 | ZenDev, LLC",
+    "hostname": "zendev.com"
+  }
+]

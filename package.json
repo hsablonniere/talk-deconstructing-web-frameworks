@@ -1,0 +1,22 @@
+{
+    "name": "talk-deconstructing-web-frameworks",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "node lib/build-prod.js",
+        "dev": "node lib/run-dev-mode.js"
+    },
+    "dependencies": {
+        "asciidoctor.js": "^1.5.7-rc.1",
+        "browser-sync": "^2.26.3",
+        "cheerio": "^1.0.0-rc.2",
+        "chokidar": "^2.1.2",
+        "del": "^4.0.0",
+        "fs-extra": "^7.0.1",
+        "highlight.js": "^9.15.6",
+        "lodash": "^4.17.11",
+        "puppeteer": "^1.13.0",
+        "superagent": "^5.0.2",
+        "tldjs": "^2.3.1",
+        "workbox-build": "^4.1.1"
+    }
+}

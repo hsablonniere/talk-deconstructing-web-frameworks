@@ -1,0 +1,23 @@
+= Le Web, ses frameworks et ses standards : déconstruire pour mieux (re?)construire...
+Hubert Sablonnière
+:author-twitter: @hsablonniere
+:author-avatar: img/hsablonniere-profil-2017.jpg
+:author-company: Clever Cloud
+:author-company-logo: img/clever-cloud-logo.svg
+:hashtags: #WebFrameworks
+:event: DevoxxFR
+:date: 17 avril 2019
+:city: Paris
+
+[slide=poster]
+Intro
+
+[slide=blank]
+outro
+
+.Merci beaucoup !
+[slide=poster]
+Outro
+
+[slide=question]
+Questions ?
