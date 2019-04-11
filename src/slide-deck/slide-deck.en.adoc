@@ -1,0 +1,46 @@
+= the  Web,  its  Frameworks  and its  Standards : deconstructing them for a more resilient code base...
+Hubert Sablonnière
+:author-twitter: @hsablonniere
+:author-avatar: img/hsablonniere-profil-2017.jpg
+:author-company: Clever Cloud
+:author-company-logo: img/clever-cloud-logo.svg
+:hashtags: #WebFrameworks
+:event: Voxxed CERN
+:date: may 1st, 2019
+:city: Geneva
+
+[slide=poster]
+Intro
+
+//[slide=blank]
+//outro
+
+[.old]
+== Prologue...
+
+== *How* did we  get here?
+
+[slide=todo]
+schéma eras of web
+
+== What was the  *problem* anyway?
+
+== What do *frameworks*  bring to the table?
+
+== Let's *separate*  our concerns
+
+== What do *standards*  bring to the table?
+
+== The *perfect*  solution!
+
+== Looking into  the *future*...
+
+[.old]
+== ...Epilogue
+
+.thank  you!
+[slide=poster]
+Outro
+
+[slide=question]
+Questions ?

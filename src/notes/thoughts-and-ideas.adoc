@@ -7,6 +7,10 @@
 J'aime bien ce design:
 https://twitter.com/triblondon/status/1093069156491120640
 
+movie projector
+https://www.youtube.com/watch?v=KtZwp4kBP4M
+https://www.youtube.com/channel/UCoPp2H6ZF0KT-Ij432rwjVg/videos
+
 Je ne suis pas intéressé par le débat framework vs libs sur React, Vue, Angular
 Ce sont des écosystèmes fermé (très peu poreux)
 
@@ -262,6 +266,13 @@ Qu'apportent-ils d'autre ?
 
 The Virtual DOM was always a big marketing argument to sell React but why would we care.
 It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
+
+Angular used to propose JS support:
+
+* 2015 https://web.archive.org/web/20150305220156/https://angular.io/docs/js/latest/quickstart.html
+* 2016 https://web.archive.org/web/20160314135815/https://angular.io/docs/js/latest/quickstart.html
+* 2017/01 https://web.archive.org/web/20170104080147/https://angular.io/docs/js/latest/quickstart.html
+* ~2017/08 nothing
 
 Parties d'un framework Web:
 

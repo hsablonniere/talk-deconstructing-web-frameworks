@@ -1,4 +1,5 @@
 [data-slide="blank"] {
+  background-color: #000;
 }
 
 [data-slide="blank"].empty {

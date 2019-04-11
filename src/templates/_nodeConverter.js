@@ -10,6 +10,7 @@ const poster = require('./poster');
 const question = require('./question');
 const section = require('./section');
 const text = require('./text');
+const todo = require('./todo');
 const video = require('./video');
 
 module.exports = {
@@ -23,6 +24,9 @@ module.exports = {
     }
     if (attrs.slide === 'question') {
       return question(node);
+    }
+    if (attrs.slide === 'todo') {
+      return todo(node);
     }
     if (attrs.slide === 'text') {
       return text(node);

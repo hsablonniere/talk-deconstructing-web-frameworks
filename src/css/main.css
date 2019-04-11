@@ -1,4 +1,4 @@
-@import "highlight.js/atom-one-light.css";
+/*@import "../vendors/highlight.js/atom-one-light.css";*/
 @import "font-just-another-hand.css";
 @import "font-pt-sans-narrow.css";
 @import "new-font-01.css";
@@ -14,6 +14,7 @@
 @import "barlow-font.css";
 @import "chunk-font.css";
 @import "league-spartan-font.css";
+@import "bodoni-font.css";
 @import "responsive-slides.css";
 @import "animations.css";
 @import "base.css";
@@ -25,4 +26,5 @@
 @import "slides/question.css";
 @import "slides/section.css";
 @import "slides/text.css";
+@import "slides/todo.css";
 @import "states.css";

@@ -1,9 +1,6 @@
 [data-slide="question"] {
     --hue: 200;
     background-color: hsl(var(--hue), 60%, 30%);
-    font-family: Boogaloo;
-    font-family: League Spartan;
-    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +9,16 @@
     text-align: center;
 }
 
+[data-slide="question"] .title {
+    /*font-family: Boogaloo;*/
+    font-family: League Spartan;
+    font-size: 2rem;
+}
+
 [data-slide="question"] .text {
+    font-family: Boogaloo;
+    /*font-family: League Spartan;*/
+    font-size: 5rem;
 }
 
 [data-slide="question"][data-position="before"],

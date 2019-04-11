@@ -114,6 +114,10 @@ Eras of Web development:
 // transform data
 // upload data
 
+// solving problems to improve UX
+// solving problems to improve DX
+// solving problems to improve ?? (SEO, marketing)
+
 === What do frameworks bring to the table?
 
 // what are the different parts of a framework
@@ -134,11 +138,12 @@ Eras of Web development:
 // slide justin with native elements vs custom elements
 // analogy of the good isolation model of custom elements
 
-=== Demo, Clever Cloud example
+=== Perfect solution !
 
+// Demo, Clever Cloud example
 // examples
 
-=== Ideal solution, looking into the future?
+=== Looking into the future...
 
 isolate concerns:
 
