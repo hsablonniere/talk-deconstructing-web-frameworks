@@ -68,6 +68,8 @@ Intro images d'outils et frameworks morts
 
 === contenu
 
+Rant sur les exemples de code décorés apple
+
 UX vs DX ?
 Écosystème, locking
 Outillage, tooling complexity
@@ -161,6 +163,9 @@ Tech radar thought works
 Qu'est ce qui a changé dans les browsers depuis 10ans ?
 
 Schémas cascade temps reseau csr vs ssr
+
+Jquery ui
+Find something, do something
 
 == What was the problem anyway?
 
@@ -264,6 +269,9 @@ Comment fonctionnent ces solutions ?
 Pourquoi ont-elles été implémentées comme ça ?
 Qu'apportent-ils d'autre ?
 
+Doc data binding angular 💪🤘
+Le rappel de la doc d’angular sur attr vs prop est top
+
 The Virtual DOM was always a big marketing argument to sell React but why would we care.
 It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
@@ -273,6 +281,8 @@ Angular used to propose JS support:
 * 2016 https://web.archive.org/web/20160314135815/https://angular.io/docs/js/latest/quickstart.html
 * 2017/01 https://web.archive.org/web/20170104080147/https://angular.io/docs/js/latest/quickstart.html
 * ~2017/08 nothing
+
+Dans la liste des besoins qu’on a de la part d’un fwk, on peut lister en fonction de dx vs ux
 
 Parties d'un framework Web:
 
@@ -357,6 +367,8 @@ Vue is a bit in the middle
 == Come back to coupling problem
 
 // see intro
+
+Code should be disposable, it's far easier to do when things are decoupled
 
 Separation of concerns !== separation of files
 
@@ -501,6 +513,8 @@ Du coup, si je devais tout recommencer en Vue, React ou Angular, on devrait tout
 Car on a tendance à créer plein de code qui est lié au reste et particulièrement à l'implémentation.
 Comment on faisait à la jQuery avec des templates dans <script lang="x-template"></script>
 
+Encapsulation data + ui, poupées russes (retrouver l’exemple du mec de la prez React/ember)
+
 scénario de démo:
 
 * je créé un custom element avec des attributs, des propriétés et des événements (méthode)
@@ -522,6 +536,8 @@ Aller jusqu'au state manager
 Aller jusqu'à la gestion des données
 
 == Ideal solution, looking into the future?
+
+Ne pas proposer de solution tout faite pr decoupler son code, solution qui sera perimee demain mais proposer des questions à se poser pr s’adapter au contexte
 
 Méfiez vous de ceux qui predisent le futur
 

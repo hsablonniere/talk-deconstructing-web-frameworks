@@ -1,15 +1,100 @@
 = TODO
 
-* Create slidedeck base (theme, firsts and lasts slides)
-* Create console project
-* Init example component
-* Triage from research.adoc
-* Schémas
-** C'est quoi une WebApp ?
-** Il y a quoi dans un framework web et dans son écosystème ?
+== En gros
 
-== This weekend
+* Avancer sur le texte de l'histoire (notes)
+* Avancer sur les slides TODO
+* Avancer sur les schémas papier
 
-* Annotate some interesting links
-* Triage of random thoughts
-* Test ideas for theme
+=== Problèmes Vrac
+
+Les problèmes en intro :
+
+//Constat : il y a bcp trop d'effet de mode et de hype dans le frontend web
+//Constat : les effets de mode et hype dans le frontend web nous pousse à faire des choix pas forcément rationels
+Constat : les effets de mode et hype dans le frontend web nous rendent dépendant de nos outils
+
+Impacts :
+
+* On en oublie le problème qu'on veut résoudre tout en connaissant déjà la solution à utiliser
+** Par ce qu'elle est cool (DX vs UX)
+** Par ce qu'elle est utilisée/créée par GAFAM X,Y
+** Les recruteurs demandent tous cet outil, du coup, je me suis formé dessus
+** Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
+** Et pourtant vous n'avez peut-être pas le même contexte que les gens qui trouvent cette solution utile
+
+
+3. Ecosystème disparait / évolue => jette du code et des connaissances
+4. On couple trop les différentes parties de notre code moins résistant au changements du framework, moins résistant aux changements
+4. On se prépare mal à l'arrivée des standards et de comment ils fittent dans notres toolkit
+
+
+* Les devs mélangent un peu trop les préoccupation/concerns de leurs apps/composants
+
+Le talk :
+
+* Le talk aborde les parties d'un framework.
+* Le talk aborde certains standards qui arrivent.
+* Le talk propose une manière de concevoir/penser son site et ses composants (découplage, isolation)
+
+La conclusion :
+
+
+==== fff
+
+1. On est
+
+* On est trop dépendant de nos outils
+** On
+
+1. On a oublié le problème qu'on veut résoudre et pourtant on a déjà la solution
+2. mode, DX vs UX, Vendor lockin, hype, CV, meetups, communautés, fanboy
+3. Ecosystème disparait / évolue => jette du code et des connaissances
+4. On couple trop les différentes parties de notre code moins résistant au changements du framework, moins résistant aux changements
+4. On se prépare mal à l'arrivée des standards et de comment ils fittent dans notres toolkit
+
+=== Problèmes début/fin
+
+
+[slide=todo]
+Problème numéro 1
+
+H: Problème numéro 1...
+H: On choisit des outils mais on a oublié les problèmes qu'on essaye de résoudre
+et en plus, on utilise parfois des solutions adaptés à des problèmes qu'on a pas vraiment.
+// Analogie de la voiture
+// À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
+// en oubliant se problème, on en vient à utiliser tout le temps la même solution sans se soucier des paramètres de départ
+// et on finit par aller acheter du pain à 500m en polluant la planète.
+// Aaahhh
+
+[slide=todo]
+Problème numéro 2
+
+H: Problème numéro 2...
+H: On choisi des outils par effet de mode, un peu trop souvent à mon goût par interêt pour le développeur plus que pour l'utilisateur.
+H: Vendor lockin, hype, CV, meetups, communautés
+// Isolation en silo
+// Analogie de la voiture
+// Analogie conférences Apple
+
+[slide=todo]
+Problème numéro 3
+
+H: Problème numéro 3...
+H: Quand un écosystème disparait, devient moins pertinent
+H: On jette à la poubelle plein de connaissances
+H: On jette à la poubelle plein de code
+H: Du coup, on a du mal à remplacer une partie sans jeter le reste
+// On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
+// On a trop couplé notre code métier au outils qu'on utilise
+// Analogie de la TV
+
+[slide=todo]
+Problème numéro 4
+
+H: Problème numéro 4...
+H: Quand un standard arrive on s'en fout un peu, on passe à côté.
+H: On a oublié que moins on ship de code mieux c'est pour l'utilisateur.
+// Sizzle, ajax, promise (voir tweet)
+// Analogie de la voiture

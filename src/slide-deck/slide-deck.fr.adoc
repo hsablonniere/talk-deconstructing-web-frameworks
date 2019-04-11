@@ -152,9 +152,17 @@ schéma ères du web (SSR + hydratation + code splitting)
 [.old]
 == ...Epilogue
 
+// Revenir sur les problèmes et les solutions qu'on y a apporté
+
 .merci  beaucoup !
 [slide=poster]
 Outro
+
+* Ne vous enfermez pas dans un framework/écosystème !
+* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
 
 //[slide=question]
 //Questions ?
