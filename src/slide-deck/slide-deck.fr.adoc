@@ -145,6 +145,8 @@ schéma ères du web (SSR + hydratation + code splitting)
 
 == Ce que les *standards*  nous apportent ?
 
+Est-ce que votre outil est prêt demain à adopter un standard et jetter son implem pour vous faire profiter du support natif ?
+
 == La solution  *parfaite* !
 
 == Ce que le *futur*  nous réserve...

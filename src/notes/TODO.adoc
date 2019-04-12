@@ -16,6 +16,7 @@ Constat : les effets de mode et hype dans le frontend web nous rendent dépendan
 
 Impacts :
 
+// ~Voiture
 * On en oublie le problème qu'on veut résoudre tout en connaissant déjà la solution à utiliser
 ** Par ce qu'elle est cool (DX vs UX)
 ** Par ce qu'elle est utilisée/créée par GAFAM X,Y
@@ -23,22 +24,45 @@ Impacts :
 ** Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
 ** Et pourtant vous n'avez peut-être pas le même contexte que les gens qui trouvent cette solution utile
 
+// Conférence Apple
+* On s'enferme dans un ecosystème
+** On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
+** On code l'énième version de feature/composant X ou Y pour cet écosystème
+** Difficile de revenir en arrière quand on a investi du temps d'apprentissage
+** On ne voit plus les défauts de nos propres outils
+** On soutient des fonctionnalités sans les comprendre
+** On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert
+** On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 
-3. Ecosystème disparait / évolue => jette du code et des connaissances
-4. On couple trop les différentes parties de notre code moins résistant au changements du framework, moins résistant aux changements
-4. On se prépare mal à l'arrivée des standards et de comment ils fittent dans notres toolkit
+// La télé
+* On produit du code qui subit mal les effets du temps
+** Du code trop couplé au framework lui même
+** Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
+** Les changements de son propre ecosystème
+** Voire même sa disparition
+** L'arrivée de nouveaux standards
 
+// Attention à ne pas être trop négatif
+À la base, c'est outils sont censé nous aider
+C'est encore, le cas, je reste persuadé que le ratio de ce qu'ils apportent et des problèmes que j'évoque est du côté positif mais cela ne m'empêche pas de m'inquiéter.
 
-* Les devs mélangent un peu trop les préoccupation/concerns de leurs apps/composants
+///////////
+///////////
 
 Le talk :
 
 * Le talk aborde les parties d'un framework.
 * Le talk aborde certains standards qui arrivent.
+* Le talk aborde la pérénité des standards du Web.
 * Le talk propose une manière de concevoir/penser son site et ses composants (découplage, isolation)
 
 La conclusion :
 
+* Ne vous enfermez pas dans un framework/écosystème !
+* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
 
 ==== fff
 
