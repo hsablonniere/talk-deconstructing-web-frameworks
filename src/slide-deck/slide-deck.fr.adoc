@@ -4,10 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:hashtags: #WebFrameworks
 :event: DevoxxFR
 :date: 17 avril 2019
-:city: Paris
 
 [slide=poster]
 Intro
@@ -17,53 +15,71 @@ Fondu vers le noir
 
 [.old]
 == Prologue...
-// Mettre la musique (Jazzopedie)
 
-#Grosse voix off#
-Perdu dans la jungle du Web moderne, ses frameworks, ses standards, ses outils, ses modes qui vont et qui viennent...
-Notre personnage principal était perdu.
-Il repensait à tous ces outils qu'il avait utilisé depuis le début de sa carrière et qui aujourd'hui avaient disparus.
+#Mettre la musique (Jazzopedie)#
+#Voix off, grave, triste#
+Perdu dans la jungle du Web moderne, de ses frameworks et ses standards, notre personnage principal est perdu.
+Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
 
 [slide=todo]
-logos et noms des frameworks avec RIP et pierres tombales
+logos et noms des frameworks avec RIP et pierres tombales (laisser un espace oh milieu)
 
-Ayant de besoin de prendre une décision pour son projet chez Clever Cloud,
-notre personnage principal alla voir un thérapeuthe.
+C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande...
+#Un peu de respect pour les disparus SVP!#
+
+[slide=todo]
+react, angular et vue dans le centre du coolitude radar
+
+...qui s'ils n'ont pas déjà disparu de nos projets ont déjà disparu de nos radars de coolitude.
+Cette situation l'inquiète, le questionne et l'empêche de dormir.
+Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
+C'est à ce moment là que notre personnage pris la décision d'aller voir un thérapeuthe.
+
+[slide=todo]
+tete des personnages qui vont se parler
+
 // Musique
-
-[slide=todo]
-tete des personnages
-
-H: Bonjour docteur.
-D: Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène cette fois-ci ?
-D: La dernière fois que je vous ai vu, c'était il y a bien 10 ans.
-D: Vous commenciez votre premier job et vous étiez en pleine crise existentielle sur "est-ce qu'il faut utiliser des espaces ou des tabulations" et sur la "prononciation du mot guiffes animé"...
-H: Des jifs, vous voulez-dire ?
-H: Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
+😎 Bonjour docteur.
+👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène ?
+👩‍⚕️ La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
+👩‍⚕️ Vous commenciez votre premier job et vous étiez en pleine crise existentielle sur "est-ce qu'il faut utiliser des espaces ou des tabulations" et sur la "prononciation des guiffes animé"...
+😎 Des jifs, vous voulez-dire ?
+😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 
 [slide=todo]
 Personnage H qui pense que les espaces c'est mieux.
 
-D: Bon alors c'est quoi votre problème cette fois ci du coup ?
+😎 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
+😎 Les effets de mode et de hype nous rendent beaucoup trop dépendant de nos outils.
+👩‍⚕️ Humm, dites mois en plus, je vois pas trop quel problèmes ça implique.
 
 [slide=todo]
 Problème numéro 1
 
-H: Problème numéro 1...
-D: Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
+// illustrer les pb avec des tweets
+
+😎 Problème numéro 1...
+👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
 
 [slide=todo]
 Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
 
-H: Bah ouais pourquoi, je vois pas le problème.
-H: Bref.
+😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
 [slide=todo]
 Problème numéro 1
 
-H: Problème numéro 1...
-H: On choisit des outils mais on a oublié les problèmes qu'on essaye de résoudre
-et en plus, on utilise parfois des solutions adaptés à des problèmes qu'on a pas vraiment.
+😎 Problème numéro 1...
+😎 Quand on choisi un framework (ou une lib) frontend
+//, mais finalement, c'est assez vrai avec n'importe quel outil,
+😎 on en oublie souvent le problème qu'on voulait résoudre à la base et pourtant on a l'impression d'avoir trouvé la bonne réponse, la solution à utiliser.
+😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
+👩‍⚕️ Mais pourquoi vous faites ça ?
+😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
+😎 Parfois parcequ'elle est utilisée/créée par un géant du Web
+😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
+😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
+😎 Et pourtant vous n'avez peut-être pas le même contexte que les gens qui trouvent cette solution utile
 // Analogie de la voiture
 // À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
 // en oubliant se problème, on en vient à utiliser tout le temps la même solution sans se soucier des paramètres de départ
@@ -73,31 +89,39 @@ et en plus, on utilise parfois des solutions adaptés à des problèmes qu'on a 
 [slide=todo]
 Problème numéro 2
 
-H: Problème numéro 2...
-H: On choisi des outils par effet de mode, un peu trop souvent à mon goût par interêt pour le développeur plus que pour l'utilisateur.
-H: Vendor lockin, hype, CV, meetups, communautés
-// Isolation en silo
-// Analogie de la voiture
+😎 Problème numéro 2...
+😎 On fois qu'on a choisi un ecosystème (fwk/lib), on a tendance à s'enferme dedans
+😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
+😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
+😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
+😎 On ne voit plus les défauts de nos propres outils
+😎 On soutient des fonctionnalités sans les comprendre
+😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert
+😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 // Analogie conférences Apple
+// On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 
 [slide=todo]
 Problème numéro 3
 
-H: Problème numéro 3...
-H: Quand un écosystème disparait, devient moins pertinent
-H: On jette à la poubelle plein de connaissances
-H: On jette à la poubelle plein de code
-H: Du coup, on a du mal à remplacer une partie sans jeter le reste
+😎 Problème numéro 3...
+😎 On produit du code qui subit mal les effets du temps
+😎 Les changements de son propre ecosystème
+😎 Du code trop couplé au framework lui même
+😎 L'arrivée de nouveaux standards
+😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
+😎 Voire même sa disparition
+😎 On jette à la poubelle plein de connaissances
+😎 On jette à la poubelle plein de code
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
-// On a trop couplé notre code métier au outils qu'on utilise
 // Analogie de la TV
 
 [slide=todo]
 Problème numéro 4
 
-H: Problème numéro 4...
-H: Quand un standard arrive on s'en fout un peu, on passe à côté.
-H: On a oublié que moins on ship de code mieux c'est pour l'utilisateur.
+😎 Problème numéro 4...
+😎 Quand un standard arrive on s'en fout un peu, on passe à côté.
+😎 On a oublié que moins on ship de code mieux c'est pour l'utilisateur.
 // Sizzle, ajax, promise (voir tweet)
 // Analogie de la voiture
 
@@ -155,16 +179,15 @@ Est-ce que votre outil est prêt demain à adopter un standard et jetter son imp
 == ...Epilogue
 
 // Revenir sur les problèmes et les solutions qu'on y a apporté
+Ne vous enfermez pas dans un framework/écosystème !
+Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
 
 .merci  beaucoup !
 [slide=poster]
 Outro
-
-* Ne vous enfermez pas dans un framework/écosystème !
-* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
-* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
-* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
-* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
 
 //[slide=question]
 //Questions ?

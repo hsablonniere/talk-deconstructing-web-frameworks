@@ -1,104 +1,114 @@
 [data-slide="poster"] {
-    --hue: 108;
-    background-color: #000;
-    background-color: #cf4f22;
-    background-color: #fff;
-    background-color: hsl(var(--hue), 13%, 44%);
-    background-color: hsl(var(--hue), 13%, 85%);
-    background-color: hsl(60, 100%, 90%);
-    /* fat letters */
-    /* font-family: Anton; */
-    /* font-size: 3rem; */
-    /* Looks like whiteboard marker */
-    /* font-family: Boogaloo; */
-    /* font-size: 3rem; */
-    /* Nice and narrow (a bit thin) */
-    /* font-family: Fjalla; */
-    /* font-size: 3rem; */
-    /* nice!!!!! */
-    font-family: League Spartan, sans-serif;
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
+  --hue: 108;
+  background-color: #000;
+  background-color: #cf4f22;
+  background-color: #fff;
+  background-color: hsl(var(--hue), 13%, 44%);
+  background-color: hsl(var(--hue), 13%, 85%);
+  background-color: hsl(60, 100%, 92%);
+  /* fat letters */
+  /* font-family: Anton; */
+  /* font-size: 3rem; */
+  /* Looks like whiteboard marker */
+  /* font-family: Boogaloo; */
+  /* font-size: 3rem; */
+  /* Nice and narrow (a bit thin) */
+  /* font-family: Fjalla; */
+  /* font-size: 3rem; */
+  /* nice!!!!! */
+  font-family: League Spartan, sans-serif;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
 }
 
-[data-slide="poster"] .header {}
-
 [data-slide="poster"] .title {
-    border: 1rem hsl(var(--hue), 13%, 80%) solid;
-    border: 1rem hsl(var(--hue), 13%, 44%) solid;
-    border: 0.75rem hsl(var(--hue), 13%, 44%) solid;
-    /* background-color: hsl(var(--hue), 13%, 44%); */
-    padding: 1.25rem 1.5rem 0.5rem;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 1rem;
-    background-color: #fff;
+  border: 1rem hsl(var(--hue), 13%, 80%) solid;
+  border: 1rem hsl(var(--hue), 13%, 44%) solid;
+  border: 0.75rem hsl(var(--hue), 13%, 44%) solid;
+  /* background-color: hsl(var(--hue), 13%, 44%); */
+  padding: 1.25rem 1.5rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 1rem;
+  background-color: #fff;
 }
 
 [data-slide="poster"] .title :nth-child(2n+1) {
-    text-align: right;
-    color: hsl(var(--hue), 13%, 80%);
-    color: #000;
-    flex: 1 1 0;
+  text-align: right;
+  color: #000;
+  flex: 1 1 0;
 }
 
 [data-slide="poster"] .title :nth-child(2n) {
-    color: hsl(var(--hue), 13%, 44%);
-    /* color: #fff; */
-
-    text-transform: uppercase;
+  color: hsl(var(--hue), 13%, 44%);
+  text-transform: uppercase;
 }
 
 [data-slide="poster"] .subtitle {
-    font-family: Fjalla;
-    font-family: Francois;
-    font-family: Boogaloo;
-    text-align: right;
-    margin-top: 0.5rem;
-    font-size: 1.75rem;
-    text-transform: lowercase;
-    font-style: italic;
-    color: #000;
+  font-family: Fjalla;
+  font-family: Francois;
+  font-family: Boogaloo;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 1.75rem;
+  text-transform: lowercase;
+  font-style: italic;
+  color: #000;
 }
 
 [data-slide="poster"] .details {
-    font-family: Boogaloo;
-
-
-    font-family: 'Barlow';
-    /*font-family: 'Anton';*/
-    /*font-family: 'Boogaloo';*/
-    /*font-family: 'Fjalla';*/
-    /*font-family: 'Squada';*/
-    /*font-family: 'Teko';*/
-
-
-
-    font-weight: 150;
-    font-stretch: 340%;
-    font-size: 1.3rem;
-    line-height: 1.666;
-
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    color: hsl(var(--hue), 13%, 44%);
-    color: #000;
-    color: #444;
+  font-family: 'Barlow';
+  font-weight: 150;
+  font-stretch: 340%;
+  font-size: 1.3rem;
+  line-height: 1.666;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: hsl(var(--hue), 13%, 44%);
+  color: #000;
+  color: #444;
 }
 
 [data-slide="poster"] .details > :not(:last-child) {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 [data-slide="poster"] .details > :nth-child(2n) {
-    margin-right: 1rem;
-    color: hsl(var(--hue), 13%, 44%);
-    /*color: hsl(var(--hue), 13%, 30%);*/
-    /*color: #333;*/
+  margin-right: 1rem;
+  color: hsl(var(--hue), 13%, 44%);
+  /*color: hsl(var(--hue), 13%, 30%);*/
+  /*color: #333;*/
+}
+
+.title *,
+.subtitle,
+.details {
+  transition: 300ms opacity 100ms ease-in-out;
+}
+
+.state-one [data-slide="poster"] .title *,
+.state-two [data-slide="poster"] .title *,
+.state-three [data-slide="poster"] .title *,
+.state-four [data-slide="poster"] .title *,
+.state-one [data-slide="poster"] .subtitle,
+.state-two [data-slide="poster"] .subtitle,
+.state-three [data-slide="poster"] .subtitle,
+.state-four [data-slide="poster"] .subtitle,
+.state-one [data-slide="poster"] .details,
+.state-two [data-slide="poster"] .details,
+.state-three [data-slide="poster"] .details,
+.state-four [data-slide="poster"] .details {
+  opacity: 0.35;
+}
+
+.state-one [data-slide="poster"] .title :nth-child(2),
+.state-two [data-slide="poster"] .title :nth-child(4),
+.state-three [data-slide="poster"] .title :nth-child(6) {
+  opacity: 1;
 }

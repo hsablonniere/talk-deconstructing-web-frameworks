@@ -42,6 +42,8 @@ Impacts :
 ** Voire même sa disparition
 ** L'arrivée de nouveaux standards
 
+// On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
+
 // Attention à ne pas être trop négatif
 À la base, c'est outils sont censé nous aider
 C'est encore, le cas, je reste persuadé que le ratio de ce qu'ils apportent et des problèmes que j'évoque est du côté positif mais cela ne m'empêche pas de m'inquiéter.
