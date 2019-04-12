@@ -8,7 +8,7 @@ Hubert Sablonnière
 :date: 17 avril 2019
 
 [slide=poster]
-Intro
+Poster
 
 [slide=blank]
 Fondu vers le noir
@@ -97,9 +97,9 @@ Problème numéro 2
 😎 On ne voit plus les défauts de nos propres outils
 😎 On soutient des fonctionnalités sans les comprendre
 😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert
+😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 // Analogie conférences Apple
-// On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 
 [slide=todo]
 Problème numéro 3
@@ -117,13 +117,27 @@ Problème numéro 3
 // Analogie de la TV
 
 [slide=todo]
-Problème numéro 4
+Visages qui parlent
 
-😎 Problème numéro 4...
-😎 Quand un standard arrive on s'en fout un peu, on passe à côté.
-😎 On a oublié que moins on ship de code mieux c'est pour l'utilisateur.
-// Sizzle, ajax, promise (voir tweet)
-// Analogie de la voiture
+// Attention à ne pas être trop négatif
+À la base, ces outils sont censés nous aider
+C'est encore, le cas, je reste persuadé que le ratio de ce qu'ils apportent et des problèmes que j'évoque est du côté positif mais cela ne m'empêche pas de m'inquiéter.
+// Bon, j'ai pas tout compris alors
+// je vous prescris une thérapie de groupe
+// vous allez m'analyser tous ces trucs en détails comme vous savez faire
+// vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
+// et vous leur partagez vos préoccupation, votre analyse et votre démarche
+// wow, mais ça fait peur non ?
+// Allez, ça va bien se passer
+
+[slide=poster]
+Bonjour à *toutes* et tous !
+J'm'appelle Hubert Sablonnière,
+J'suis développeur Web chez #Clever Cloud#,
+et aujourd'hui, j'ai envie de vous parler :
+du Web,
+de ses frameworks et autres librairies
+et de ses standards.
 
 == *Comment* en est-on  arrivé là ?
 
