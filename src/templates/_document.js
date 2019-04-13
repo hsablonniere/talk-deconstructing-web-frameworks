@@ -25,6 +25,7 @@ module.exports = (node) => {
 </head>
 <body>
 ${node.getContent()}
+<audio id="gymnopedie" src="audio/gymnopedie-1.mp3" loop></audio>
 </body>
 </html>`;
 };

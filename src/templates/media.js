@@ -9,6 +9,10 @@ module.exports = (node) => {
   const attrs = node.getAttributes();
   const classes = node.getRoles();
 
+  const $video = node.getRoles().includes('old')
+    ? `<video src="./videos/old-movie.webm" muted loop></video>`
+    : '';
+
   // let svgFile
   // if (attrs.target.endsWith('.svg')) {
   //   svgFile = fs.readFileSync(path.resolve('src', attrs.target), 'utf-8');
@@ -52,5 +56,6 @@ module.exports = (node) => {
 
   return slide('media', node, classes, `<img class="element" src="${attrs.target}">
   ${author}
-  ${figcaption}`);
+  ${figcaption}
+  ${$video}`);
 };

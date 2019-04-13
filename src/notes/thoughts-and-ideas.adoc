@@ -11,6 +11,10 @@ movie projector
 https://www.youtube.com/watch?v=KtZwp4kBP4M
 https://www.youtube.com/channel/UCoPp2H6ZF0KT-Ij432rwjVg/videos
 
+erik satie - creative commons
+https://incompetech.com/email.html
+Kevin MacLeod
+
 Je ne suis pas intéressé par le débat framework vs libs sur React, Vue, Angular
 Ce sont des écosystèmes fermé (très peu poreux)
 

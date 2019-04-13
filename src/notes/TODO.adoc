@@ -22,3 +22,4 @@ La conclusion :
 * Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
 * Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
 * Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
+ii

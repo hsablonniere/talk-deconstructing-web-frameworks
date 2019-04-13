@@ -1,32 +1,29 @@
 'use strict';
 
+import _debounce from './_debounce.js'
+
 export default function configurePlugin () {
 
   return function initPlugin (deck) {
 
-    const sherlock = document.querySelector('#sherlock-sound');
-    const sherlockFull = document.querySelector('#sherlock-sound-full');
+    const music = document.querySelector('#gymnopedie');
+
+    const toggleMusic = _debounce(() => {
+      console.log('toggle')
+      if (music.paused) {
+        music.play();
+      }
+      else {
+        music.pause();
+        music.currentTime = 0;
+      }
+    }, 300);
 
     deck.on('toggle-slide-deck-state', ({ state, enabled }) => {
       document.body.classList.toggle(`state-${state}`, enabled);
       if (state === 'four') {
-        if (deck.slide() < 5) {
-          if (enabled) {
-            sherlock.play();
-          }
-          else {
-            sherlock.pause();
-            sherlock.currentTime = 0;
-          }
-        }
-        if (deck.slide() > deck.slides.length - 4) {
-          if (enabled) {
-            sherlockFull.play();
-          }
-          else {
-            sherlockFull.pause();
-            sherlockFull.currentTime = 0;
-          }
+        if (deck.slide() < 20 || deck.slide() > deck.slides.length - 4) {
+          toggleMusic()
         }
       }
     });
