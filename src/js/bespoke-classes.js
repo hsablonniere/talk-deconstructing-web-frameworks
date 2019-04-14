@@ -7,7 +7,10 @@ export default function configurePlugin () {
   return function initPlugin (deck) {
 
     deck.on('activate', ({ index }) => {
-      deck.slides.forEach((slide, slideIdx) => {
+      deck.slides.forEach((slide, slideIdx, allSlides) => {
+        if (slideIdx + 1 < allSlides.length && allSlides[slideIdx + 1].dataset.slide === 'blank') {
+          slide.classList.add('before-blank');
+        }
         if (slideIdx < index) {
           slide.dataset.position = 'before';
         }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,0,-2360)">
-        <g id="talking-legos" transform="matrix(1,0,0,1,-3940,2360)">
+    <g transform="matrix(1,0,0,1,-2020,-2360)">
+        <g id="talking-legos-l-thinks" transform="matrix(1,0,0,1,-1920,2360)">
             <rect x="3940" y="0" width="1920" height="1080"/>
             <g transform="matrix(0.720227,0,0,0.720227,4173.15,298.176)">
                 <g>
@@ -25,6 +25,11 @@
                 <g transform="matrix(1.38845,0,0,1.38845,-594.477,-409.329)">
                     <path d="M1470.33,889.127C1489.46,908.265 1530.2,901.135 1552.01,890.408" style="fill:none;stroke:white;stroke-width:10px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.5,0,0;"/>
                 </g>
+            </g>
+            <g transform="matrix(1,0,0,1,3991.83,-2.72848)">
+                <path d="M546.74,461.638C608.013,471.312 807.312,440.54 854.737,402.044C878.972,382.372 894.262,358.012 907.898,330.576C962.029,221.664 860.408,135.638 765.452,103.685C723.499,89.567 675.413,88.032 631.513,88.704C592.957,89.294 554.384,93.76 515.765,94.786C385.255,98.251 231.758,94.953 134.735,197.969C49.476,288.494 99.823,369.328 190.919,423.119C214.763,437.198 243.068,450.579 270.184,456.69C330.966,470.388 496.961,473.536 562.669,461.746" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
+                <path d="M627.923,493.537C609.707,492.626 587.838,495.315 572.383,506.023C570.274,507.485 568.23,509.099 566.545,511.045C550.796,529.228 584.286,537.779 596.74,538.144C615.467,538.693 633.434,534.257 651.846,532.419C660.525,531.553 675.091,528.567 680.611,520.665C685.384,513.833 676.663,506.682 671.35,503.536C657.281,495.207 641.904,490.363 625.377,491.173" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
+                <path d="M565.259,577.893C555.212,573.663 540.691,575.157 531.945,581.894C521.14,590.215 528.539,602.302 539.877,605.582C552.26,609.164 576.541,610.63 586.146,599.443C595.645,588.379 574.865,575.857 565.818,575.839" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
             </g>
         </g>
     </g>

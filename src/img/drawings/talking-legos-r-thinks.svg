@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,0,-2360)">
-        <g id="talking-legos" transform="matrix(1,0,0,1,-3940,2360)">
+    <g transform="matrix(1,0,0,1,-4040,-2360)">
+        <g id="talking-legos-r-thinks" transform="matrix(1,0,0,1,100,2360)">
             <rect x="3940" y="0" width="1920" height="1080"/>
             <g transform="matrix(0.720227,0,0,0.720227,4173.15,298.176)">
                 <g>
@@ -25,6 +25,11 @@
                 <g transform="matrix(1.38845,0,0,1.38845,-594.477,-409.329)">
                     <path d="M1470.33,889.127C1489.46,908.265 1530.2,901.135 1552.01,890.408" style="fill:none;stroke:white;stroke-width:10px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.5,0,0;"/>
                 </g>
+            </g>
+            <g transform="matrix(1,0,0,1,3991.83,-2.72848)">
+                <path d="M1297.92,192.24C1275.7,189.772 1254.5,194.071 1232.28,195.267C1141.19,200.174 1030.4,208.706 955.831,268.395C909.222,305.701 875.407,381.097 910.592,436.504C919.257,450.149 932.608,459.848 944.366,470.56C1042.75,560.199 1181.7,543.527 1305.12,545.132C1372.72,546.012 1440.13,549.052 1506.77,534.764C1558.74,523.62 1616.43,514.027 1660.87,482.512C1741.18,425.554 1734.07,314.28 1663.04,251.994C1589.89,187.85 1493.43,189.072 1402.12,185.189C1372.86,183.944 1321.49,175.961 1293.67,191.134" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
+                <path d="M1183.5,574.749C1158.08,564.282 1120.36,606.734 1156.33,618.516C1174.91,624.6 1199.4,623.755 1217.56,617.317C1224.39,614.897 1233.42,611.779 1236.59,604.515C1239.83,597.076 1233.34,590.619 1227.77,586.102C1215.63,576.255 1194.87,572.003 1179.47,573.716" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
+                <path d="M1257.74,650.043C1250.56,645.257 1238.48,651.111 1232.57,655.804C1229.26,658.424 1225.45,662.055 1228.45,666.376C1237.05,678.805 1269.81,678.405 1276.85,663.866C1281.21,654.849 1265.49,645.78 1258.25,646.762" style="fill:none;stroke:white;stroke-width:9.21px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.46,0,0;"/>
             </g>
         </g>
     </g>

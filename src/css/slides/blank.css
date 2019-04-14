@@ -1,6 +1,20 @@
-[data-slide="blank"] {
-  background-color: #000;
+[data-slide="blank"],
+.before-blank {
+  transition: opacity 2s ease-in-out;
+  position: absolute;
 }
 
-[data-slide="blank"].empty {
+[data-slide="blank"][data-relative-index="0"],
+.before-blank[data-relative-index="0"] {
+  opacity: 1;
+}
+
+[data-slide="blank"][data-relative-index="1"],
+.before-blank[data-relative-index="-1"] {
+  display: flex !important;
+  opacity: 0;
+}
+
+[data-slide="blank"] {
+  background-color: #000;
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,0,-2360)">
-        <g id="talking-legos" transform="matrix(1,0,0,1,-3940,2360)">
+    <g transform="matrix(1,0,0,1,-6060,-2360)">
+        <g id="talking-legos-l-talks" transform="matrix(1,0,0,1,2120,2360)">
             <rect x="3940" y="0" width="1920" height="1080"/>
             <g transform="matrix(0.720227,0,0,0.720227,4173.15,298.176)">
                 <g>
@@ -25,6 +25,9 @@
                 <g transform="matrix(1.38845,0,0,1.38845,-594.477,-409.329)">
                     <path d="M1470.33,889.127C1489.46,908.265 1530.2,901.135 1552.01,890.408" style="fill:none;stroke:white;stroke-width:10px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.5,0,0;"/>
                 </g>
+            </g>
+            <g transform="matrix(1.1356,0,0,1.00422,3862.57,10.3127)">
+                <path d="M285.762,83.997C285.762,83.997 510.062,85.492 667.096,86.356C720.583,86.65 875.19,76.126 904.396,90.602C928.112,102.356 936.753,105.033 937.489,142.894C938.014,169.909 939.914,224.484 938.736,251.098C937,290.335 940.267,412.079 931.025,431.278C923.729,446.435 852.474,449.327 830.121,446.845C804.304,443.979 682.205,535.858 682.205,535.858C682.205,535.858 734.022,443.809 709.686,444.261C655.699,445.264 444.764,445.438 372.306,441.395C347.4,440.005 231.893,455.997 216.466,440.435C190.385,414.127 199.803,334.958 201.5,302.287C203.815,257.714 191.431,118.391 212.383,97.453C228.399,81.448 264.281,83.197 285.762,83.997Z" style="fill:none;stroke:white;stroke-width:8.59px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.43,0,0;"/>
             </g>
         </g>
     </g>
