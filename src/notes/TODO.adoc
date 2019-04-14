@@ -1,24 +1,28 @@
 = TODO
 
-== En gros
+== Slides HTML CSS
 
-* Lister le plus possible de slide todo
-* AVancer sur une version simple de chaque schéma
+[slide=todo-problem]
+Problème numéro x
+Sous texte: bla bla
 
-=== Problèmes Vrac
+[slide=todo-needs]
+titre besoins utilisateur et besoins développeur
+avec la liste
 
-Le talk :
+[slide=todo-needs-solution]
+titre besoins utilisateur et besoins développeur
+avec la liste highligted
+=> avec nom de solution d'un framework
 
-* Le talk aborde les parties d'un framework.
-* Le talk aborde certains standards qui arrivent.
-* Le talk aborde la pérénité des standards du Web.
-* Le talk propose une manière de concevoir/penser son site et ses composants (découplage, isolation)
+[slide=todo-quote]
+quote
 
-La conclusion :
+[slide=todo-text]
+simple text/title used from time to time
 
-* Ne vous enfermez pas dans un framework/écosystème !
-* Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
-* Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
-* Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
-* Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
-ii
+[slide=todo-css]
+slide standard du web (CE, shadow DOM...)
+
+[slide=wc-limits]
+slide limitation d'un standard du web (CE, shadow DOM...)

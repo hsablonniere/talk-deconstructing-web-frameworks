@@ -21,10 +21,10 @@ Fondu vers le noir
 Perdu dans la jungle du Web moderne, de ses frameworks et ses standards, notre personnage principal est perdu.
 Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
 
-[slide=todo]
+[slide=todo-schema]
 personnage perdu qui regarde en l'air
 
-[slide=todo]
+[slide=todo-schema]
 personnage perdu qui regarde en l'air vers les technos abandonnées
 // TODO : ajouter (sublime text, bower, ExtJS, KnockoutJS, CoffeeScript, Traceur, Grunt, Jasmine, jshint, jscs)
 
@@ -32,14 +32,14 @@ C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, libra
 
 //image::img/drawings/rip.svg[]
 // logos et noms des frameworks avec RIP et pierres tombales (laisser un espace oh milieu)
-[slide=todo]
+[slide=todo-schema]
 slide d'avant mais pierre tombale à la place du perso
 
 #Un peu de respect pour les disparus SVP!#
 
 //[.old]
 //image::img/drawings/radar.svg[]
-[slide=todo]
+[slide=todo-schema]
 slide d'avant mais pierre radar à la place de la pierre tombale
 // TODO : ajouter (Webpack, ESlint, Prettier, TypeScript)
 
@@ -48,10 +48,10 @@ Cette situation l'inquiète, le questionne et l'empêche de dormir.
 Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
 C'est à ce moment là que notre personnage pris la décision d'aller voir un thérapeuthe.
 
-[slide=todo]
+[slide=todo-schema]
 plaque Dr. Sigma Fraude
 
-[slide=todo]
+[slide=todo-schema]
 deux personnages lego
 //image::img/drawings/talking-legos.svg[]
 
@@ -64,14 +64,14 @@ deux personnages lego
 😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 
 //image::img/drawings/talking-legos.svg[]
-[slide=todo]
+[slide=todo-schema]
 Personnage H qui pense que les espaces c'est mieux.
 
 😎 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
 😎 Les effets de mode et de hype nous rendent beaucoup trop dépendant de nos outils.
 👩‍⚕️ Humm, dites mois en plus, je vois pas trop quel problèmes ça implique.
 
-[slide=todo]
+[slide=todo-schema]
 Problème numéro 1 sur un écran de projection
 
 // illustrer les pb avec des tweets
@@ -79,12 +79,12 @@ Problème numéro 1 sur un écran de projection
 😎 Problème numéro 1...
 👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
 
-[slide=todo]
+[slide=todo-schema]
 Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
 
 😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 1 (même style qu'avant mais en grand)
 Sous texte: La solution avant/sans le problème
 
@@ -95,25 +95,25 @@ Sous texte: La solution avant/sans le problème
 😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
 
-[slide=todo]
+[slide=todo-schema]
 DX > UX ?
 
 😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
 
-[slide=todo]
+[slide=todo-schema]
 Géant du Web (utitliser les lettres GAFAMs)
 // https://i.pinimg.com/originals/9e/68/fc/9e68fc9933c28fbcdf01d9271fecc874.jpg
 
 😎 Parfois parcequ'elle est utilisée/créée par un géant du Web
 
-[slide=todo]
+[slide=todo-schema]
 cercle fermé
 
 😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
 😎 job hunting
 😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 1 (même style qu'avant mais en grand)
 Sous texte: La solution avant/sans le problème
 
@@ -126,7 +126,7 @@ Sous texte: La solution avant/sans le problème
 // Euh, oui c'est un peu ça.
 // Oui bon après, on a quand même une majorité des bons exemples
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 2
 Sous texte: On s'enferme dans son propre écosystème
 
@@ -139,30 +139,30 @@ Sous texte: On s'enferme dans son propre écosystème
 
 😎 On fois qu'on a choisi un ecosystème (fwk/lib), on a tendance à s'enferme dedans
 
-[slide=todo]
+[slide=todo-screenshot]
 jquery date (ou autre exemple)
 
 😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
 😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
 
-[slide=todo]
+[slide=todo-schema]
 cerveau avec conaissances fwk
 
 😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
 😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 
-[slide=todo]
+[slide=todo-schema]
 cerveau avec conaissances un peu plus universelles
 
 😎 On ne voit plus les défauts de nos propres outils
 😎 On soutient des fonctionnalités sans les comprendre
 
-[slide=todo]
-silo/couloirs avec React/Vue/Angular et des lampes torches qui cherchent
+[slide=todo-schema]
+silo/couloirs/portes séparés avec React/Vue/Angular
 
 😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 2
 Sous texte: On s'enferme dans son propre écosystème
 
@@ -173,14 +173,14 @@ Sous texte: On s'enferme dans son propre écosystème
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 3
 Du code fortement couplé qui subit mal les effets du temps
 
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
 
-[slide=todo]
+[slide=todo-schema]
 slide qui mélange les couches
 
 😎 Les changements de son propre ecosystème
@@ -189,40 +189,40 @@ slide qui mélange les couches
 😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
 😎 Voire même sa disparition
 
-[slide=todo]
+[slide=todo-schema]
 cerveau + corbeille
 
 😎 On jette à la poubelle plein de connaissances
 
-[slide=todo]
+[slide=todo-schema]
 code + corbeille
 
 😎 On jette à la poubelle plein de code
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
 // Analogie de la TV
 
-[slide=todo]
+[slide=todo-schema]
 télé
 
-[slide=todo]
+[slide=todo-schema]
 télé + freebox
 
-[slide=todo]
+[slide=todo-schema]
 télé + raspberry pi
 
-[slide=todo]
+[slide=todo-schema]
 télé + chromecast
 
-[slide=todo]
+[slide=todo-schema]
 télé + switch
 
-[slide=todo]
+[slide=todo-schema]
 télé + magnétoscope
 
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
 
-[slide=todo]
+[slide=todo-schema]
 lego qui conseille une thérapie de groupe
 
 // Attention à ne pas être trop négatif
@@ -234,7 +234,7 @@ lego qui conseille une thérapie de groupe
 // vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
 // et vous leur partagez vos préoccupations, votre analyse et votre démarche et puis voilà
 
-[slide=todo]
+[slide=todo-schema]
 j'y vais mais j'ai peur
 
 // wow, mais ça fait peur non ?
@@ -251,14 +251,14 @@ et de ses standards.
 
 == C'était quoi  le *problème* ?
 
-[slide=todo]
+[slide=todo-needs]
 titre besoins utilisateur et besoins développeur
 
 // j'ai essayé de spéparer en 2 :
 // * les problèmes qu'on a nous quand on écrit du code
 // * et les problèmes qu'on veut résoudre pour aider nos utilisateurs
 
-[slide=todo]
+[slide=todo-needs]
 titre besoins utilisateur et besoins développeur
 + list des besoins (un par un)
 
@@ -294,45 +294,45 @@ listes besoins développeur
 // mais pourquoi c'est aussi compliqué
 // on a vraiment besoin d'autant d'outils
 
-[slide=todo]
+[slide=todo-quote]
 quote: Pour comprendre où on va, il faut savoir d'où on vient.
 
 // schémas avec le triangle
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (vide)
 
 bon anniversaire le web
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (old school ssr)
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (images)
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (forms)
 // interactivité
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (SSR + JS)
 // ajout du JS
 // validation de form
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (AJAX with jQuery)
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (SPA era, client side templating)
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (SPA era, routing)
 // anchor/hash => push state
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (the mega bundle era with empty body)
 
-[slide=todo]
+[slide=todo-schema]
 schéma ères du web (SSR + hydratation + code splitting)
 
 == Ce que les *frameworks*  nous apportent ?
@@ -346,8 +346,11 @@ schéma ères du web (SSR + hydratation + code splitting)
 //jquery
 //Frameworks are also their to prevent browser quirks
 
-[slide=todo]
-remettre les 3 silos avec les 3 lampes torche
+[slide=todo-schema]
+remettre les 3 portes aves les 3 frameworks
+
+[slide=todo-schema]
+afficher le plan vu de dessus 3 couloirs isolés
 
 //Angular and ember are opinionated
 //React is supposed to be unopinionated
@@ -355,8 +358,9 @@ remettre les 3 silos avec les 3 lampes torche
 
 // special mention to ember
 
-[slide=todo]
+[slide=todo-schema]
 vision horizontal avec des solutions à des problèmes
+etagères
 
 // mentionner les étapes qui nécessitent un outil de build
 // est-ce que la source de l'outil de build est spécifique ou est-elle un peu standard ?
@@ -364,14 +368,14 @@ vision horizontal avec des solutions à des problèmes
 
 // points importants à aborder
 
-[slide=todo]
+[slide=todo-needs-solution]
 Component system (API + runtime)
 DX isolation impacts
 DX réutilisabilité code
 DX ne pas dépendre de mes outils, exit strat
 // => props, attrs, slots, methods, events, lifecycle
 
-[slide=todo]
+[slide=todo-needs-solution]
 Component authoring (DX)
 DX gagner du temps
 DX moins de code possible
@@ -384,35 +388,35 @@ UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => output pur JS, vs JS + CSS
 // Mvc, mvvm, template + vue model, computed properties
 
-[slide=todo]
+[slide=todo-needs-solution]
 CSS authoring
 DX isolation des impacts
 UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => BEM, CSS-in-JS lib, encapsulation system
 
-[slide=todo]
+[slide=todo-needs-solution]
 Manipulation du DOM
 UX Fluidité, Pas trop de lag (async and scheduling microtask...)
 // => Direct binding vs Virtual DOM (+ scheduling microtask...)
 //The Virtual DOM was always a big marketing argument to sell React but why would we care.
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
-[slide=todo]
+[slide=todo-needs-solution]
 Routing
 UX chargerment rapide
 UX fluidité
 // dock ipod
 
-[slide=todo]
+[slide=todo-needs-solution]
 State management
 DX modèle de pensée simple
 DX écrire un code propre
 
-[slide=todo]
+[slide=todo-needs-solution]
 SSR
 déjà abordé pas mal de fois
 
-[slide=todo]
+[slide=todo-needs-solution]
 en vrac car moins important pour notre discussion
 CLI
 Devtools
@@ -428,7 +432,7 @@ tests
 // https://alligator.io/react/axios-react/
 // https://www.npmjs.com/package/react-axios
 
-[slide=todo]
+[slide=todo-schema]
 recap ?
 
 // en terme de conception de d'organisation des composants (et de séparation des concerns etc)
@@ -438,18 +442,18 @@ recap ?
 
 // exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
-[slide=todo]
+[slide=todo-text]
 web components
 
-[slide=todo]
+[slide=todo-schema]
 // UTILISER LE SCHEMA DE LA TV
 schéma de la télé => analogie avec le Web component
 
-[slide=todo]
-1. custom element
+[slide=todo-text]
+1.custom element
 // custom element => modèle de composant avec lifecycle methods et "data binding" sur les attributs
 
-[slide=todo]
+[slide=todo-schema]
 schéma de la télé => analogie avec le Web component
 API (attr, prop, methods, events) + lifecycle methods
 // une API standard entrée/sortie (attr, prop, methods, events)
@@ -469,10 +473,10 @@ exemples de noeuds du DOM avec des méthodes
 [slide=todo]
 exemples de noeuds du DOM avec des événements un peu custom
 
-[slide=todo]
+[slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo]
+[slide=todo-wc-limits]
 evoquer les "pb"
 // native elements
 // il faut des proxy ou des getter/setter pour le databinding sur autre chose que des strings ou des booleens
@@ -482,11 +486,11 @@ evoquer les "pb"
 // lazy definition propal
 // form associated elements
 
-[slide=todo]
-2. shadow DOM
+[slide=todo-text]
+2.shadow DOM
 //shadow DOM => isolation du CSS
 
-[slide=todo]
+[slide=todo-schema]
 schéma de la télé => analogie avec le Web component
 Ajouter à l'API les custom prop, les slots et les ::part
 // la suite de l'API standard entrée/sortie (custom prop, ::part)
@@ -497,34 +501,45 @@ Ajouter à l'API les custom prop, les slots et les ::part
 [slide=todo]
 exemples de noeuds du DOM avec des ::part ou des custom prop
 
-[slide=todo]
+[slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo]
+[slide=todo-wc-limits]
 evoquer les "pb"
 // custom pseudo class propal
 // pas de système simple pour faire du SSR
 // => propal pour un décorative shadow DOM, custom elements
 
-[slide=todo]
-3. <template>
+[slide=todo-text]
+3.<template>
 // <template>, une manière "efficace" de cloner du DOM
 
-[slide=todo]
+[slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo]
+[slide=todo-wc-limits]
 evoquer les "pb"
 // pas d'interpolation et de binding
 // une propal mais elle restera simple car pas de repeat (template instanciation)
 // HTML module propal
 
-[slide=todo]
+[slide=todo-screenshot]
 web component best practice
 https://developers.google.com/web/fundamentals/web-components/best-practices
 
-[slide=todo]
-comment surveiller la suite
+//comment surveiller la suite
+
+[slide=todo-screenshot]
+TC39
+
+[slide=todo-screenshot]
+web-components github
+
+[slide=todo-screenshot]
+css ?
+
+[slide=todo-screenshot]
+compte tweeter / RSS des features browser
 
 // des resources pour surveiller les specs et les implems dans les browsers
 // TC39
@@ -535,7 +550,7 @@ comment surveiller la suite
 
 //== Le découplage chez *Clever Cloud*
 
-[slide=todo]
+[slide=todo-text]
 notre contexte chez CC
 // une webapp qui a un peu vieilli (jquery, baconjs, routeur maison)
 // donnée qui vient d'appels REST et/ou de SSE
@@ -545,20 +560,20 @@ notre contexte chez CC
 // Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
 // third party integration
 
-[slide=todo]
+[slide=todo-quote]
 quote: Code should be disposable, it's far easier to do when things are decoupled
 
-[slide=todo]
+[slide=todo-text]
 Separation of concerns !== separation of files
 
-[slide=todo]
+[slide=todo-screenshot]
 storybook driven development
 //YOU NEED A DESIGN SYSTEM
 
-[slide=todo]
+[slide=todo-schema]
 design (papier) en partant du top => bottom
 
-[slide=todo]
+[slide=todo-schema]
 implem bottom => top
 // memento
 // tu ne sais pas qu'il y a un router
@@ -598,27 +613,26 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 
 == Ce que le *futur*  nous réserve...
 
-[slide=todo]
+[slide=todo-text]
 Méfiez vous de ceux qui predisent le futur
 
-See WC as the bytecode of the component isolation concept. It can be a compile to target
+//See WC as the bytecode of the component isolation concept. It can be a compile to target
+//People don't have to worry on the sugar
 
-People don't have to worry on the sugar
-
-[slide=todo]
+[slide=todo-screenshot]
 // disappearing frameworks
 un article de rich harris (ou parler de svelte)
 
-[slide=todo]
+[slide=todo-screenshot]
 article de tom dale sur le compiler framework
 //* le i18n (inliné)
 
 //Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
 
-[slide=todo]
+[slide=todo-screenshot]
 Web Assembly
 
-[slide=todo]
+[slide=todo-text]
 // framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
 // bon ou mauvais ?
@@ -645,19 +659,19 @@ schéma browser avec le code qui passe du runtime et vers des implem du browser
 // Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
 // j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son contexte
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 1 (même style qu'avant mais en grand)
 Sous texte: La solution avant/sans le problème
 // J'ai essayé d'adresser le problème numéro 1 en remettant en lumière les besoins et les problèmes à régler quand on développe une web app
 // J'ai aussi essayé de déconstruire les différentes fonctionnalités des 3 écosystème du moment pour qu'on puisse avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 2
 Sous texte: On s'enferme dans son propre écosystème
 // Ça adresse également le problème numéro 2 car en comprenant mieux ces parties, on a moins peur des les remplacer par des implems plus simples ou mieux adaptés ou des nouveaux standard
 // Et vous leur avez parlé des TV magnétoscopes
 
-[slide=todo]
+[slide=todo-problem]
 Problème numéro 3
 Du code fortement couplé qui subit mal les effets du temps
 // Oui, le problème numéro 3, enfin, j'ai essayé ça reste un principe, il y a tjs des exceptions
