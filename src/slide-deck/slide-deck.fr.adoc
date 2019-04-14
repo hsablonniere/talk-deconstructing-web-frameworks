@@ -21,24 +21,39 @@ Fondu vers le noir
 Perdu dans la jungle du Web moderne, de ses frameworks et ses standards, notre personnage principal est perdu.
 Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
 
-//[.old]
-image::img/drawings/rip.svg[]
-//logos et noms des frameworks avec RIP et pierres tombales (laisser un espace oh milieu)
+[slide=todo]
+personnage perdu qui regarde en l'air
+
+[slide=todo]
+personnage perdu qui regarde en l'air vers les technos abandonnées
+// TODO : ajouter (sublime text, bower, ExtJS, KnockoutJS, CoffeeScript, Traceur, Grunt, Jasmine, jshint, jscs)
 
 C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande...
+
+//image::img/drawings/rip.svg[]
+// logos et noms des frameworks avec RIP et pierres tombales (laisser un espace oh milieu)
+[slide=todo]
+slide d'avant mais pierre tombale à la place du perso
+
 #Un peu de respect pour les disparus SVP!#
 
-//[slide=todo]
-//react, angular et vue dans le centre du coolitude radar
 //[.old]
-image::img/drawings/radar.svg[]
+//image::img/drawings/radar.svg[]
+[slide=todo]
+slide d'avant mais pierre radar à la place de la pierre tombale
+// TODO : ajouter (Webpack, ESlint, Prettier, TypeScript)
 
 ...qui s'ils n'ont pas déjà disparu de nos projets ont déjà disparu de nos radars de coolitude.
 Cette situation l'inquiète, le questionne et l'empêche de dormir.
 Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
 C'est à ce moment là que notre personnage pris la décision d'aller voir un thérapeuthe.
 
-image::img/drawings/talking-legos.svg[]
+[slide=todo]
+plaque Dr. Sigma Fraude
+
+[slide=todo]
+deux personnages lego
+//image::img/drawings/talking-legos.svg[]
 
 // Musique
 😎 Bonjour docteur.
@@ -48,28 +63,30 @@ image::img/drawings/talking-legos.svg[]
 😎 Des jifs, vous voulez-dire ?
 😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 
-.Personnage H qui pense que les espaces c'est mieux.
-image::img/drawings/talking-legos.svg[]
+//image::img/drawings/talking-legos.svg[]
+[slide=todo]
+Personnage H qui pense que les espaces c'est mieux.
 
 😎 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
 😎 Les effets de mode et de hype nous rendent beaucoup trop dépendant de nos outils.
 👩‍⚕️ Humm, dites mois en plus, je vois pas trop quel problèmes ça implique.
 
 [slide=todo]
-Problème numéro 1
+Problème numéro 1 sur un écran de projection
 
 // illustrer les pb avec des tweets
 
 😎 Problème numéro 1...
 👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
 
-.Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
-image::img/drawings/talking-legos.svg[]
+[slide=todo]
+Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
 
 😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
 [slide=todo]
-Problème numéro 1
+Problème numéro 1 (même style qu'avant mais en grand)
+Sous texte: La solution avant/sans le problème
 
 😎 Problème numéro 1...
 😎 Quand on choisi un framework (ou une lib) frontend
@@ -77,34 +94,78 @@ Problème numéro 1
 😎 on en oublie souvent le problème qu'on voulait résoudre à la base et pourtant on a l'impression d'avoir trouvé la bonne réponse, la solution à utiliser.
 😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
+
+[slide=todo]
+DX > UX ?
+
 😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
+
+[slide=todo]
+Géant du Web (utitliser les lettres GAFAMs)
+// https://i.pinimg.com/originals/9e/68/fc/9e68fc9933c28fbcdf01d9271fecc874.jpg
+
 😎 Parfois parcequ'elle est utilisée/créée par un géant du Web
+
+[slide=todo]
+cercle fermé
+
 😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
 😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
-😎 Et pourtant vous n'avez peut-être pas le même contexte que les gens qui trouvent cette solution utile
+
+[slide=todo]
+Problème numéro 1 (même style qu'avant mais en grand)
+Sous texte: La solution avant/sans le problème
+
 // Analogie de la voiture
 // À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
 // en oubliant se problème, on en vient à utiliser tout le temps la même solution sans se soucier des paramètres de départ
 // et on finit par aller acheter du pain à 500m en polluant la planète.
 // Aaahhh
-
 // Ah oui, je vois, c'est un peu comme quand on est habitué à prendre sa voiture tout le temps, qu'on aime les belles bagnoles et que du coup on finit par l'utiliser pour aller chercher du pain à 500m.
 // Euh, oui c'est un peu ça.
+// Oui bon après, on a quand même une majorité des bons exemples
 
 [slide=todo]
 Problème numéro 2
+Sous texte: On s'enferme dans son propre écosystème
 
 😎 Problème numéro 2...
+
+//https://en.wikipedia.org/wiki/Escalation_of_commitment
+//https://fr.wikipedia.org/wiki/Escalade_d%27engagement
+//https://en.wikipedia.org/wiki/Sunk_cost
+//https://fr.wikipedia.org/wiki/Co%C3%BBt_irr%C3%A9cup%C3%A9rable
+
 😎 On fois qu'on a choisi un ecosystème (fwk/lib), on a tendance à s'enferme dedans
+
+[slide=todo]
+jquery date (ou autre exemple)
+
 😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
 😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
+
+[slide=todo]
+cerveau avec conaissances fwk
+
 😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
 😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
-// cerveau
+
+[slide=todo]
+cerveau avec conaissances un peu plus universelles
+
 😎 On ne voit plus les défauts de nos propres outils
 😎 On soutient des fonctionnalités sans les comprendre
-😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert
-😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
+
+[slide=todo]
+silo/couloirs avec React/Vue/Angular et des lampes torches qui cherchent
+
+😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
+
+[slide=todo]
+Problème numéro 2
+Sous texte: On s'enferme dans son propre écosystème
+
+//😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 // Analogie conférences Apple
 
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
@@ -113,23 +174,55 @@ Problème numéro 2
 
 [slide=todo]
 Problème numéro 3
+Du code fortement couplé qui subit mal les effets du temps
 
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
+
+[slide=todo]
+slide qui mélange les couches
+
 😎 Les changements de son propre ecosystème
 😎 Du code trop couplé au framework lui même
 😎 L'arrivée de nouveaux standards
 😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
 😎 Voire même sa disparition
+
+[slide=todo]
+cerveau + corbeille
+
 😎 On jette à la poubelle plein de connaissances
+
+[slide=todo]
+code + corbeille
+
 😎 On jette à la poubelle plein de code
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
 // Analogie de la TV
 
+[slide=todo]
+télé
+
+[slide=todo]
+télé + freebox
+
+[slide=todo]
+télé + raspberry pi
+
+[slide=todo]
+télé + chromecast
+
+[slide=todo]
+télé + switch
+
+[slide=todo]
+télé + magnétoscope
+
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
 
-image::img/drawings/talking-legos.svg[]
+[slide=todo]
+lego qui conseille une thérapie de groupe
 
 // Attention à ne pas être trop négatif
 //À la base, ces outils sont censés nous aider
@@ -139,6 +232,10 @@ image::img/drawings/talking-legos.svg[]
 // vous allez m'analyser tous ces trucs en détails comme vous savez faire
 // vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
 // et vous leur partagez vos préoccupations, votre analyse et votre démarche et puis voilà
+
+[slide=todo]
+j'y vais mais j'ai peur
+
 // wow, mais ça fait peur non ?
 // Mais non allez, ça va bien se passer
 
@@ -154,11 +251,15 @@ et de ses standards.
 == C'était quoi  le *problème* ?
 
 [slide=todo]
-todo
+titre besoins utilisateur et besoins développeur
 
 // j'ai essayé de spéparer en 2 :
 // * les problèmes qu'on a nous quand on écrit du code
 // * et les problèmes qu'on veut résoudre pour aider nos utilisateurs
+
+[slide=todo]
+titre besoins utilisateur et besoins développeur
++ list des besoins (un par un)
 
 // il faut vraiment que ça soit, en tant que, je veux
 listes besoins utilisateurs
@@ -193,7 +294,9 @@ listes besoins développeur
 // on a vraiment besoin d'autant d'outils
 
 [slide=todo]
-quote Pour comprendre où on va, il faut savoir d'où on vient.
+quote: Pour comprendre où on va, il faut savoir d'où on vient.
+
+// schémas avec le triangle
 
 [slide=todo]
 schéma ères du web (vide)
@@ -233,21 +336,126 @@ schéma ères du web (SSR + hydratation + code splitting)
 
 == Ce que les *frameworks*  nous apportent ?
 
-// découpage vertical => découpage horizontal
+[slide=todo]
+remettre les 3 silos avec les 3 lampes torche
+
+// special mention to ember
+
+[slide=todo]
+vision horizontal avec des solutions à des problèmes
+
+// mentionner les étapes qui nécessitent un outil de build
+// est-ce que la source de l'outil de build est spécifique ou est-elle un peu standard ?
+// mentionner des détails sur les implémentations
+
+// points importants à aborder
+
+[slide=todo]
+Component system (API + runtime)
+DX isolation impacts
+DX réutilisabilité code
+DX ne pas dépendre de mes outils, exit strat
+// => props, attrs, slots, methods, events, lifecycle
+
+[slide=todo]
+Component authoring (DX)
+DX gagner du temps
+DX moins de code possible
+DX modèle de pensée simple
+DX ne pas réinventer la roue
+DX faciliter le boulot du designer
+UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
+// => JSX, templates
+// => 1 file vs several files
+// => output pur JS, vs JS + CSS
+
+[slide=todo]
+CSS authoring
+DX isolation des impacts
+UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
+// => BEM, CSS-in-JS lib, encapsulation system
+
+[slide=todo]
+Manipulation du DOM
+UX Fluidité, Pas trop de lag (async and scheduling microtask...)
+// => Direct binding vs Virtual DOM (+ scheduling microtask...)
+
+[slide=todo]
+Routing
+UX chargerment rapide
+UX fluidité
+
+[slide=todo]
+State management
+DX modèle de pensée simple
+DX écrire un code propre
+
+[slide=todo]
+SSR
+déjà abordé pas mal de fois
+
+[slide=todo]
+en vrac car moins important pour notre discussion
+CLI
+Devtools
+HTTP client
+Module system
+Dep inj
+i18n
+tests
 
 // https://www.npmjs.com/package/vue-axios
 // https://github.com/imcvampire/vue-axios
 // https://alligator.io/react/axios-react/
 // https://www.npmjs.com/package/react-axios
 
+[slide=todo]
+recap ?
+
+// en terme de conception de d'organisation des composants (et de séparation des concerns etc)
+// les 3 communautés ont des choses intéressantes à dire
+
 == Ce que les *standards*  nous apportent ?
 
 // exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
-// UTILISER LE SCHEMA DE LA TV
+[slide=todo]
+web components
 
+[slide=todo]
+// UTILISER LE SCHEMA DE LA TV
+schéma de la télé => analogie avec le Web component
+
+[slide=todo]
+1. custom element
 // custom element => modèle de composant avec lifecycle methods et "data binding" sur les attributs
+
+[slide=todo]
+schéma de la télé => analogie avec le Web component
+API (attr, prop, methods, events) + lifecycle methods
 // une API standard entrée/sortie (attr, prop, methods, events)
+
+[slide=todo]
+exemple de code de custom element
+
+[slide=todo]
+exemples de noeuds du DOM avec des attributs
+
+[slide=todo]
+exemples de noeuds du DOM avec des propriétés non string/boolean
+
+[slide=todo]
+exemples de noeuds du DOM avec des méthodes
+
+[slide=todo]
+exemples de noeuds du DOM avec des événements un peu custom
+
+[slide=todo]
+où ça se place dans notre tableau de solutions ?
+
+[slide=todo]
+evoquer les "pb"
+// native elements
 // il faut des proxy ou des getter/setter pour le databinding sur autre chose que des strings ou des booleens
 // global registry & pas de rechargement à chaud
 // => pas de système simple pour le HMR
@@ -255,35 +463,138 @@ schéma ères du web (SSR + hydratation + code splitting)
 // lazy definition propal
 // form associated elements
 
-// shadow DOM => isolation du CSS
+[slide=todo]
+2. shadow DOM
+//shadow DOM => isolation du CSS
+
+[slide=todo]
+schéma de la télé => analogie avec le Web component
+Ajouter à l'API les custom prop, les slots et les ::part
 // la suite de l'API standard entrée/sortie (custom prop, ::part)
 // système de slots :+1
 // transperce le shadow root avec des custom props
 // transperce le shadow root avec des ::part (et ::theme)
+
+[slide=todo]
+exemples de noeuds du DOM avec des ::part ou des custom prop
+
+[slide=todo]
+où ça se place dans notre tableau de solutions ?
+
+[slide=todo]
+evoquer les "pb"
 // custom pseudo class propal
 // pas de système simple pour faire du SSR
 // => propal pour un décorative shadow DOM, custom elements
 
+[slide=todo]
+3. <template>
 // <template>, une manière "efficace" de cloner du DOM
+
+[slide=todo]
+où ça se place dans notre tableau de solutions ?
+
+[slide=todo]
+evoquer les "pb"
 // pas d'interpolation et de binding
 // une propal mais elle restera simple car pas de repeat (template instanciation)
 // HTML module propal
 
+[slide=todo]
+comment surveiller la suite
+
 // des resources pour surveiller les specs et les implems dans les browsers
 // TC39
 
-Est-ce que votre outil est prêt demain à adopter un standard et jetter son implem pour vous faire profiter du support natif ?
+//Est-ce que votre outil est prêt demain à adopter un standard et jetter son implem pour vous faire profiter du support natif ?
 
 == *Séparons* nos  préoccupations
 
 //== Le découplage chez *Clever Cloud*
 
+[slide=todo]
+notre contexte chez CC
+// une webapp qui a un peu vieilli (jquery, baconjs, routeur maison)
+// donnée qui vient d'appels REST et/ou de SSE
+// on va pas tout jeter pour tout réécrire
+// on va introduire des nouvelles technos feature après feature
+// le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
+// Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+// third party integration
+
+[slide=todo]
+quote: Code should be disposable, it's far easier to do when things are decoupled
+
+[slide=todo]
+Separation of concerns !== separation of files
+
+[slide=todo]
+storybook driven development
+//YOU NEED A DESIGN SYSTEM
+
+[slide=todo]
+design (papier) en partant du top => bottom
+
+[slide=todo]
+implem bottom => top
+// memento
+// tu ne sais pas qu'il y a un router
+// tu ne sais pas qu'il y a un state manager
+// tu ne sais pas d'où vient la donnée
+
+[slide=todo]
+composition pour ajouter des layers
+// layer data aware
+// layer auth aware
+
+[slide=todo]
+exemple des vars d'env et comment s'isolation au bon niveau, nous permet de passer du mode simple au mode expert
+
+//The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
+// https://hueniverse.com/http-frameworks-must-die-717a37b6b164
+
+// i18n
+// packaging
+// Tests: do it like a  screen reader user wood do it
+// Tests: no a great fan of snapshots
+
 == Ce que le *futur*  nous réserve...
 
-// framework runtime => compilers
-// bon ou mauvais
-// l'idéal serait que l'input du compiler fonctionne sans build step et que l'output soit optimisé aux petits oignons, comme ce qu'on fait quand on minifie
+[slide=todo]
+Méfiez vous de ceux qui predisent le futur
+
+[slide=todo]
 // disappearing frameworks
+un article de rich harris (ou parler de svelte)
+
+[slide=todo]
+article de tom dale sur le compiler framework
+//* le i18n (inliné)
+
+//Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
+
+[slide=todo]
+Web Assembly
+
+[slide=todo]
+// framework runtime => compilers
+schéma browser avec le code qui passe du runtime au build
+// bon ou mauvais ?
+// l'idéal serait que l'input du compiler fonctionne sans build step et que l'output soit optimisé aux petits oignons, comme ce qu'on fait quand on minifie
+schéma browser avec le code qui passe du runtime et vers des implem du browser
+
+//Convaincre les gens que :
+//Le passé se répète
+//Les outils vont et viennent
+//La constante, c'est le modèle des éléments du DOM (sorte de HDMI du Web)
+//Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d'apprentissage
+//Ne pas hésiter à questionner les standards ou les frameworks à la mode
+//Qu'est-ce qui est important ? L'UX, la DX, les perfs ?
+//On est trop dépendant de nos outils
+//On est pas tjs assez exigent avec nos outils
+//Il faut plus de compilation (html, css, js) et donc une étape intermédiaire
+//Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
+//Compiler le i18n
 
 [.old]
 == ...Epilogue
@@ -291,21 +602,35 @@ Est-ce que votre outil est prêt demain à adopter un standard et jetter son imp
 // Alors, comment ça s'est passé cette thérapie de groupe
 // Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
 // j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son contexte
+
+[slide=todo]
+Problème numéro 1 (même style qu'avant mais en grand)
+Sous texte: La solution avant/sans le problème
 // J'ai essayé d'adresser le problème numéro 1 en remettant en lumière les besoins et les problèmes à régler quand on développe une web app
 // J'ai aussi essayé de déconstruire les différentes fonctionnalités des 3 écosystème du moment pour qu'on puisse avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale
+
+[slide=todo]
+Problème numéro 2
+Sous texte: On s'enferme dans son propre écosystème
 // Ça adresse également le problème numéro 2 car en comprenant mieux ces parties, on a moins peur des les remplacer par des implems plus simples ou mieux adaptés ou des nouveaux standard
 // Et vous leur avez parlé des TV magnétoscopes
+
+[slide=todo]
+Problème numéro 3
+Du code fortement couplé qui subit mal les effets du temps
 // Oui, le problème numéro 3, enfin, j'ai essayé ça reste un principe, il y a tjs des exceptions
 // En tout cas, ça va un peu mieux, je vous remercie beaucoup docteur
 // et je tiens également à remercie tous les membres du groupes qui m'ont écouté
 // merci bcp !
 
+//In the end, frameworks are just tools. Let's all be smart persons and use them for the great things they bring us without worshiping them blindly and getting alienated...
+
 // Revenir sur les problèmes et les solutions qu'on y a apporté
-Ne vous enfermez pas dans un framework/écosystème !
-Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
-Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
-Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
-Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
+//Ne vous enfermez pas dans un framework/écosystème !
+//Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
+//Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
+//Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
+//Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
 
 .merci  beaucoup !
 [slide=poster]

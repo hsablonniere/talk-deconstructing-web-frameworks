@@ -2,9 +2,8 @@
 
 == En gros
 
-* Avancer sur le texte de l'histoire (notes)
-* Avancer sur les slides TODO
-* Avancer sur les schémas papier
+* Lister le plus possible de slide todo
+* AVancer sur une version simple de chaque schéma
 
 === Problèmes Vrac
 
