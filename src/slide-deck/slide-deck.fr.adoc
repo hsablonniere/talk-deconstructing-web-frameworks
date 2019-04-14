@@ -110,6 +110,7 @@ Géant du Web (utitliser les lettres GAFAMs)
 cercle fermé
 
 😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
+😎 job hunting
 😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
 
 [slide=todo]
@@ -336,8 +337,21 @@ schéma ères du web (SSR + hydratation + code splitting)
 
 == Ce que les *frameworks*  nous apportent ?
 
+// framework => cadre de travail
+// opinionated set of libs/tools
+// problem is when this set of libs/tools is only compatible with itself
+// de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
+
+// historique
+//jquery
+//Frameworks are also their to prevent browser quirks
+
 [slide=todo]
 remettre les 3 silos avec les 3 lampes torche
+
+//Angular and ember are opinionated
+//React is supposed to be unopinionated
+//Vue is a bit in the middle
 
 // special mention to ember
 
@@ -368,6 +382,7 @@ UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => JSX, templates
 // => 1 file vs several files
 // => output pur JS, vs JS + CSS
+// Mvc, mvvm, template + vue model, computed properties
 
 [slide=todo]
 CSS authoring
@@ -379,11 +394,14 @@ UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 Manipulation du DOM
 UX Fluidité, Pas trop de lag (async and scheduling microtask...)
 // => Direct binding vs Virtual DOM (+ scheduling microtask...)
+//The Virtual DOM was always a big marketing argument to sell React but why would we care.
+//It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
 [slide=todo]
 Routing
 UX chargerment rapide
 UX fluidité
+// dock ipod
 
 [slide=todo]
 State management
@@ -399,6 +417,7 @@ en vrac car moins important pour notre discussion
 CLI
 Devtools
 HTTP client
+Form handling
 Module system
 Dep inj
 i18n
@@ -501,6 +520,10 @@ evoquer les "pb"
 // HTML module propal
 
 [slide=todo]
+web component best practice
+https://developers.google.com/web/fundamentals/web-components/best-practices
+
+[slide=todo]
 comment surveiller la suite
 
 // des resources pour surveiller les specs et les implems dans les browsers
@@ -546,6 +569,21 @@ implem bottom => top
 composition pour ajouter des layers
 // layer data aware
 // layer auth aware
+// elements qui font des appels REST
+
+[slide=todo]
+remonter l'accès à la donnée le plus haut possible
+
+[slide=todo]
+réduire la surface de trucs qui sont globaux
+//* Gestion des données (appels REST)
+//* Gestion de l'état
+//* Global progress indicator
+//* Global messages (errors, info...)
+//* title
+//* favicon
+//* keyboard shortcuts
+//* Global modal boxes
 
 [slide=todo]
 exemple des vars d'env et comment s'isolation au bon niveau, nous permet de passer du mode simple au mode expert
@@ -562,6 +600,10 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 
 [slide=todo]
 Méfiez vous de ceux qui predisent le futur
+
+See WC as the bytecode of the component isolation concept. It can be a compile to target
+
+People don't have to worry on the sugar
 
 [slide=todo]
 // disappearing frameworks
