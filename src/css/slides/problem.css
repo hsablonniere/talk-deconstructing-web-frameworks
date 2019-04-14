@@ -1,0 +1,24 @@
+[data-slide="problem"] {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Boogaloo, sans-serif;
+  text-align: center;
+}
+
+[data-slide="problem"] .problem {
+  font-family: "League Spartan", sans-serif;
+  color: #FF0;
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+[data-slide="problem"] .text {
+  font-size: 3rem;
+  font-style: italic;
+}

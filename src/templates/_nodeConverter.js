@@ -10,6 +10,8 @@ const poster = require('./poster');
 const question = require('./question');
 const section = require('./section');
 const text = require('./text');
+const problem = require('./problem');
+const webComponents = require('./web-components');
 const todo = require('./todo');
 const video = require('./video');
 
@@ -25,8 +27,11 @@ module.exports = {
     if (attrs.slide === 'question') {
       return question(node);
     }
-    if (attrs.slide === 'todo') {
+    if (attrs.slide != null && attrs.slide.startsWith('todo')) {
       return todo(node);
+    }
+    if (attrs.slide === 'problem') {
+      return problem(node);
     }
     if (attrs.slide === 'text') {
       return text(node);
@@ -34,8 +39,17 @@ module.exports = {
     if (attrs.slide === 'blank') {
       return blank(node);
     }
+    if (attrs.slide === 'web-components') {
+      return webComponents(node);
+    }
     if (Object.keys(attrs).length === 0) {
       return notes(node);
+    }
+  },
+  ulist: (node) => {
+    const attrs = node.getAttributes();
+    if (attrs.slide === 'web-components') {
+      return webComponents(node);
     }
   },
   // pass through

@@ -2,9 +2,9 @@
 
 == Slides HTML CSS
 
-[slide=todo-problem]
-Problème numéro x
-Sous texte: bla bla
+//[slide=todo-problem]
+//Problème numéro x
+//Sous texte: bla bla
 
 [slide=todo-needs]
 titre besoins utilisateur et besoins développeur
@@ -18,11 +18,8 @@ avec la liste highligted
 [slide=todo-quote]
 quote
 
-[slide=todo-text]
-simple text/title used from time to time
-
-[slide=todo-css]
-slide standard du web (CE, shadow DOM...)
+//[slide=todo-text]
+//simple text/title used from time to time
 
 [slide=wc-limits]
 slide limitation d'un standard du web (CE, shadow DOM...)

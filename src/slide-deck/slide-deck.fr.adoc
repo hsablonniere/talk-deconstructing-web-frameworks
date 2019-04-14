@@ -84,9 +84,10 @@ Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
 
 😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
-[slide=todo-problem]
-Problème numéro 1 (même style qu'avant mais en grand)
-Sous texte: La solution avant/sans le problème
+.Problème n°1
+[slide=problem]
+//Problem #1
+Trouver la solution   avant de constater le problème
 
 😎 Problème numéro 1...
 😎 Quand on choisi un framework (ou une lib) frontend
@@ -113,9 +114,9 @@ cercle fermé
 😎 job hunting
 😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
 
-[slide=todo-problem]
-Problème numéro 1 (même style qu'avant mais en grand)
-Sous texte: La solution avant/sans le problème
+.Problème n°1
+[slide=problem]
+Trouver la solution   avant de constater le problème
 
 // Analogie de la voiture
 // À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
@@ -126,9 +127,9 @@ Sous texte: La solution avant/sans le problème
 // Euh, oui c'est un peu ça.
 // Oui bon après, on a quand même une majorité des bons exemples
 
-[slide=todo-problem]
-Problème numéro 2
-Sous texte: On s'enferme dans son propre écosystème
+.Problème n°2
+[slide=problem]
+S'enfermer dans son propre écosystème
 
 😎 Problème numéro 2...
 
@@ -162,9 +163,9 @@ silo/couloirs/portes séparés avec React/Vue/Angular
 
 😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
 
-[slide=todo-problem]
-Problème numéro 2
-Sous texte: On s'enferme dans son propre écosystème
+.//Problème n°2
+//[slide=problem]
+//S'enfermer dans son propre écosystème
 
 //😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 // Analogie conférences Apple
@@ -173,9 +174,9 @@ Sous texte: On s'enferme dans son propre écosystème
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
 
-[slide=todo-problem]
-Problème numéro 3
-Du code fortement couplé qui subit mal les effets du temps
+.Problème n°3
+[slide=problem]
+Écrire du code fortement couplé   qui subit mal des effets du temps
 
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
@@ -440,17 +441,20 @@ recap ?
 
 == Ce que les *standards*  nous apportent ?
 
-// exemple jquery => sizzle + ajax + API chainée sucre syntaxique
+[slide=todo]
+préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
-[slide=todo-text]
-web components
+.Web Components
+[slide=web-components]
+_
 
 [slide=todo-schema]
 // UTILISER LE SCHEMA DE LA TV
 schéma de la télé => analogie avec le Web component
 
-[slide=todo-text]
-1.custom element
+.Custom Elements
+[slide=web-components]
+_
 // custom element => modèle de composant avec lifecycle methods et "data binding" sur les attributs
 
 [slide=todo-schema]
@@ -476,18 +480,18 @@ exemples de noeuds du DOM avec des événements un peu custom
 [slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo-wc-limits]
-evoquer les "pb"
-// native elements
-// il faut des proxy ou des getter/setter pour le databinding sur autre chose que des strings ou des booleens
-// global registry & pas de rechargement à chaud
-// => pas de système simple pour le HMR
-// Scoped CustomElementRegistry propal
-// lazy definition propal
-// form associated elements
+.Custom Elements
+[slide=web-components]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
 
-[slide=todo-text]
-2.shadow DOM
+.Shadow DOM
+[slide=web-components]
+_
 //shadow DOM => isolation du CSS
 
 [slide=todo-schema]
@@ -504,24 +508,26 @@ exemples de noeuds du DOM avec des ::part ou des custom prop
 [slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo-wc-limits]
-evoquer les "pb"
-// custom pseudo class propal
-// pas de système simple pour faire du SSR
-// => propal pour un décorative shadow DOM, custom elements
+.Shadow DOM
+[slide=web-components]
+* 😡 Pas de SSR (sans bidouille)
+* 📜 Décorative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
 
-[slide=todo-text]
-3.<template>
+.`<template>`
+[slide=web-components]
+_
 // <template>, une manière "efficace" de cloner du DOM
 
 [slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
 
-[slide=todo-wc-limits]
-evoquer les "pb"
-// pas d'interpolation et de binding
-// une propal mais elle restera simple car pas de repeat (template instanciation)
-// HTML module propal
+.`<template>`
+[slide=web-components]
+* 😡 Pas d'interpolation ni de "data-binding"
+* 📜 Template instanciation (limitée à de simples valeurs)
+* 📜 HTML modules
 
 [slide=todo-screenshot]
 web component best practice
@@ -550,8 +556,8 @@ compte tweeter / RSS des features browser
 
 //== Le découplage chez *Clever Cloud*
 
-[slide=todo-text]
-notre contexte chez CC
+[slide=text]
+Notre contexte  chez *Clever Cloud*
 // une webapp qui a un peu vieilli (jquery, baconjs, routeur maison)
 // donnée qui vient d'appels REST et/ou de SSE
 // on va pas tout jeter pour tout réécrire
@@ -563,8 +569,10 @@ notre contexte chez CC
 [slide=todo-quote]
 quote: Code should be disposable, it's far easier to do when things are decoupled
 
-[slide=todo-text]
-Separation of concerns !== separation of files
+[slide=text]
+//Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
+Séparation des *préoccupations*   #!==#   Séparation des *fichiers*
+//Séparation des *préoccupations*  *!==* Séparation des *fichiers*
 
 [slide=todo-screenshot]
 storybook driven development
@@ -613,8 +621,8 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 
 == Ce que le *futur*  nous réserve...
 
-[slide=todo-text]
-Méfiez vous de ceux qui predisent le futur
+[slide=text]
+*Méfiez vous* de ceux qui  prédisent le futur *!*
 
 //See WC as the bytecode of the component isolation concept. It can be a compile to target
 //People don't have to worry on the sugar
@@ -632,7 +640,7 @@ article de tom dale sur le compiler framework
 [slide=todo-screenshot]
 Web Assembly
 
-[slide=todo-text]
+[slide=todo-schéma]
 // framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
 // bon ou mauvais ?
@@ -659,21 +667,21 @@ schéma browser avec le code qui passe du runtime et vers des implem du browser
 // Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
 // j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son contexte
 
-[slide=todo-problem]
-Problème numéro 1 (même style qu'avant mais en grand)
-Sous texte: La solution avant/sans le problème
+.Problème n°1
+[slide=problem]
+Trouver la solution   avant de constater le problème
 // J'ai essayé d'adresser le problème numéro 1 en remettant en lumière les besoins et les problèmes à régler quand on développe une web app
 // J'ai aussi essayé de déconstruire les différentes fonctionnalités des 3 écosystème du moment pour qu'on puisse avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale
 
-[slide=todo-problem]
-Problème numéro 2
-Sous texte: On s'enferme dans son propre écosystème
+.Problème n°2
+[slide=problem]
+S'enfermer dans son propre écosystème
 // Ça adresse également le problème numéro 2 car en comprenant mieux ces parties, on a moins peur des les remplacer par des implems plus simples ou mieux adaptés ou des nouveaux standard
 // Et vous leur avez parlé des TV magnétoscopes
 
-[slide=todo-problem]
-Problème numéro 3
-Du code fortement couplé qui subit mal les effets du temps
+.Problème n°3
+[slide=problem]
+Écrire du code fortement couplé   qui subit mal des effets du temps
 // Oui, le problème numéro 3, enfin, j'ai essayé ça reste un principe, il y a tjs des exceptions
 // En tout cas, ça va un peu mieux, je vous remercie beaucoup docteur
 // et je tiens également à remercie tous les membres du groupes qui m'ont écouté
