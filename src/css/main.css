@@ -13,6 +13,7 @@
 @import "new-font-10.css";
 @import "barlow-font.css";
 @import "chunk-font.css";
+@import "ptserif-font.css";
 @import "league-spartan-font.css";
 @import "bodoni-font.css";
 @import "responsive-slides.css";
@@ -28,6 +29,7 @@
 @import "slides/question.css";
 @import "slides/section.css";
 @import "slides/text.css";
+@import 'slides/quote.css';
 @import "slides/todo.css";
 @import "slides/web-components.css";
 @import "states.css";

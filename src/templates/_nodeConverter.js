@@ -10,6 +10,7 @@ const poster = require('./poster');
 const question = require('./question');
 const section = require('./section');
 const text = require('./text');
+const quote = require('./quote');
 const problem = require('./problem');
 const webComponents = require('./web-components');
 const todo = require('./todo');
@@ -54,6 +55,7 @@ module.exports = {
   },
   // pass through
   preamble: (node) => node.getContent(),
+  quote: (node) => quote(node),
   section: (node) => section(node) + node.getContent(),
   video: (node) => video(node),
 };

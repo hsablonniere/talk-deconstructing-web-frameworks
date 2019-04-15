@@ -1,0 +1,49 @@
+[data-slide="quote"] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 5rem;
+}
+
+[data-slide="quote"] .quote {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem;
+  font-style: italic;
+  quotes: '\201C' '\201D';
+  position: relative;
+}
+
+[data-slide="quote"] .quote:before,
+[data-slide="quote"] .quote:after {
+  color: hsl(200, 60%, 60%);
+  font-size: 12rem;
+  position: absolute;
+  display: block;
+  line-height: 1;
+}
+
+[data-slide="quote"] .quote:before {
+  content: '\201C';
+  left: -8rem;
+  top: -4rem;
+}
+
+/*[data-slide="quote"] .quote:after {*/
+/*  content: '\201D';*/
+/*  right: -5rem;*/
+/*  bottom: -2rem;*/
+/*  display: none;*/
+/*}*/
+
+/*.quote-author {*/
+/*  bottom: 0;*/
+/*  color: green;*/
+/*  font-size: 60px;*/
+/*  text-align: right;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.quote-author:before {*/
+/*  content: '\2014';*/
+/*  padding-right: 20px;*/
+/*}*/

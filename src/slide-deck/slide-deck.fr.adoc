@@ -25,7 +25,6 @@ image::img/drawings/thinking.svg[]
 Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
 
 image::img/drawings/thinking-words.svg[]
-// TODO : ajouter (sublime text, bower, ExtJS, KnockoutJS, CoffeeScript, Traceur, Grunt, Jasmine, jshint, jscs)
 
 C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande...
 
@@ -110,6 +109,8 @@ cercle fermé
 //[slide=problem]
 //Trouver la solution   avant de constater le problème
 
+image::img/drawings/talking-legos-r-talks.svg[]
+
 // Analogie de la voiture
 // À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
 // en oubliant se problème, on en vient à utiliser tout le temps la même solution sans se soucier des paramètres de départ
@@ -162,6 +163,8 @@ image::img/drawings/silos.svg[]
 //😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 // Analogie conférences Apple
 
+image::img/drawings/talking-legos-r-talks.svg[]
+
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
@@ -173,7 +176,10 @@ image::img/drawings/silos.svg[]
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
 
-[slide=todo-schema]
+image::img/drawings/layers-mixed.svg[]
+slide couches non mélangées
+
+image::img/drawings/layers.svg[]
 slide qui mélange les couches
 
 😎 Les changements de son propre ecosystème
@@ -215,7 +221,7 @@ télé + magnétoscope
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
 
-[slide=todo-schema]
+image::img/drawings/talking-legos-r-talks.svg[]
 lego qui conseille une thérapie de groupe
 
 // Attention à ne pas être trop négatif
@@ -227,7 +233,7 @@ lego qui conseille une thérapie de groupe
 // vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
 // et vous leur partagez vos préoccupations, votre analyse et votre démarche et puis voilà
 
-[slide=todo-schema]
+image::img/drawings/talking-legos-l-thinks.svg[]
 j'y vais mais j'ai peur
 
 // wow, mais ça fait peur non ?
@@ -287,8 +293,8 @@ listes besoins développeur
 // mais pourquoi c'est aussi compliqué
 // on a vraiment besoin d'autant d'outils
 
-[slide=todo-quote]
-quote: Pour comprendre où on va, il faut savoir d'où on vient.
+[quote]
+Pour comprendre où on va,   il faut savoir d'où on vient.
 
 // schémas avec le triangle
 
@@ -558,8 +564,8 @@ Notre contexte  chez *Clever Cloud*
 // Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
 // third party integration
 
-[slide=todo-quote]
-quote: Code should be disposable, it's far easier to do when things are decoupled
+[quote]
+Code should be disposable,   it's far easier to do when   things are decoupled.
 
 [slide=text]
 //Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
@@ -652,8 +658,15 @@ schéma browser avec le code qui passe du runtime et vers des implem du browser
 //Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
 //Compiler le i18n
 
+[slide=blank]
+Fondu vers le noir
+
 [.old]
 == ...Epilogue
+
+image::img/drawings/talking-legos.svg[]
+
+image::img/drawings/talking-legos-r-talks.svg[]
 
 // Alors, comment ça s'est passé cette thérapie de groupe
 // Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,

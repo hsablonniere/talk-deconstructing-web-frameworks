@@ -38,25 +38,40 @@
                     </g>
                 </g>
                 <g transform="matrix(1,0,0,1,2018.04,38.4552)">
-                    <g transform="matrix(6.7947,0,0,6.7947,-586.383,-871.966)">
-                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">jQuer<tspan x="123.898px " y="151.784px ">y</tspan></text>
+                    <g transform="matrix(6.7947,0,0,6.7947,-619.321,-916.005)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Grunt</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,-231.126,-796.441)">
+                    <g transform="matrix(6.7947,0,0,6.7947,77.8007,-940.676)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Sublime text</text>
+                    </g>
+                    <g transform="matrix(6.7947,0,0,6.7947,912.474,-942.106)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">ExtJS</text>
+                    </g>
+                    <g transform="matrix(6.7947,0,0,6.7947,-322.568,-858.336)">
                         <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Prototype</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,-555.861,-582.984)">
-                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Flash/Flex</text>
+                    <g transform="matrix(6.7947,0,0,6.7947,10.5504,-727.729)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">CoffeeScript</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,264.085,-750.577)">
+                    <g transform="matrix(6.7947,-5.55112e-16,5.55112e-16,6.7947,-620.708,-753.851)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">jQuer<tspan x="123.898px " y="151.784px ">y</tspan></text>
+                    </g>
+                    <g transform="matrix(6.7947,0,0,6.7947,539.845,-827.984)">
                         <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Mootoools</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,242.247,-931.326)">
+                    <g transform="matrix(6.7947,0,0,6.7947,975.927,-727.055)">
                         <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">GWT</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,681.222,-643.3)">
+                    <g transform="matrix(6.7947,0,0,6.7947,-522.78,-596.075)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Flash/Flex</text>
+                    </g>
+                    <g transform="matrix(6.7947,0,0,6.7947,653.284,-597.016)">
                         <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Backbone</text>
                     </g>
-                    <g transform="matrix(6.7947,0,0,6.7947,775.006,-872.961)">
+                    <g transform="matrix(6.7947,0,0,6.7947,-633.261,-443.168)">
+                        <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">Bower</text>
+                    </g>
+                    <g transform="matrix(6.7947,0,0,6.7947,840.268,-452.618)">
                         <text x="96.23px" y="151.784px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:14.717px;fill:white;">angular<tspan x="132.788px " y="151.784px ">.</tspan>js</text>
                     </g>
                 </g>

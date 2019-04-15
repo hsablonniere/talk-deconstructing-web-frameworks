@@ -2,10 +2,6 @@
 
 == Slides HTML CSS
 
-//[slide=todo-problem]
-//Problème numéro x
-//Sous texte: bla bla
-
 [slide=todo-needs]
 titre besoins utilisateur et besoins développeur
 avec la liste
@@ -15,11 +11,39 @@ titre besoins utilisateur et besoins développeur
 avec la liste highligted
 => avec nom de solution d'un framework
 
-[slide=todo-quote]
-quote
+== Contenu
 
-//[slide=todo-text]
-//simple text/title used from time to time
+* Terminer script intro
+* Terminer schéma intro
+** Slides avec texte des bulles dans AsciiDoc
+** Slides problème nuémero 1 projecteur dans AsciiDoc
+** schéma DX vs UX (balance)
+** schéma cercle fermé
+** screenshot jquery date
+** schéma cerveau fwk
+** schéma cerveau patterns
+** schéma layers
+** schéma corbeille vide
+** schéma corbeille cerveau
+** schéma corbeille cerveau + fichiers
+** schéma TV
 
-[slide=wc-limits]
-slide limitation d'un standard du web (CE, shadow DOM...)
+* emojis dans les listes
+
+* écran avec listes besoins user/dev
+* écran avec listes besoins user/dev + solution framework
+
+* schéma ères du Web
+
+* schéma 3 portes en positif
+
+* schéma Web component TV
+
+* screenshots
+** TC39
+** WC github...
+** TC39
+
+== À décider
+
+* Exemples DOM
