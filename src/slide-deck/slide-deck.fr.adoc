@@ -90,8 +90,7 @@ Trouver la solution   avant de constater le problème
 😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
 
-[slide=todo-schema]
-DX > UX ?
+image::img/drawings/dx-ux.svg[]
 
 😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
 
@@ -101,8 +100,8 @@ image::img/drawings/giant.svg[]
 
 😎 Parfois parcequ'elle est utilisée/créée par un géant du Web
 
-[slide=todo-schema]
-cercle fermé
+//[slide=todo-schema]
+//cercle fermé
 
 😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
 😎 job hunting
@@ -138,20 +137,20 @@ S'enfermer dans son propre écosystème
 
 😎 On fois qu'on a choisi un ecosystème (fwk/lib), on a tendance à s'enferme dedans
 
-[slide=todo-screenshot]
-jquery date (ou autre exemple)
+//[slide=todo-screenshot]
+//jquery date (ou autre exemple)
 
 😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
 😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
 
-[slide=todo-schema]
-cerveau avec conaissances fwk
+image::img/drawings/brain.svg[]
+
+image::img/drawings/brain-fwk.svg[]
 
 😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
 😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 
-[slide=todo-schema]
-cerveau avec conaissances un peu plus universelles
+image::img/drawings/brain-patterns.svg[]
 
 😎 On ne voit plus les défauts de nos propres outils
 😎 On soutient des fonctionnalités sans les comprendre
@@ -183,11 +182,11 @@ image::img/drawings/talking-legos-r-talks.svg[]
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
 
-image::img/drawings/layers-mixed.svg[]
-slide couches non mélangées
-
 image::img/drawings/layers.svg[]
 slide qui mélange les couches
+
+image::img/drawings/layers-mixed.svg[]
+slide couches non mélangées
 
 😎 Les changements de son propre ecosystème
 😎 Du code trop couplé au framework lui même
@@ -195,13 +194,13 @@ slide qui mélange les couches
 😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
 😎 Voire même sa disparition
 
-[slide=todo-schema]
-cerveau + corbeille
+image::img/drawings/trash.svg[]
+
+image::img/drawings/trash-brain.svg[]
 
 😎 On jette à la poubelle plein de connaissances
 
-[slide=todo-schema]
-code + corbeille
+image::img/drawings/trash-project.svg[]
 
 😎 On jette à la poubelle plein de code
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
@@ -215,23 +214,17 @@ image::img/drawings/talking-legos-r-talks.svg[]
 [slide=bubble]
 image::img/drawings/talking-legos-l-talks.svg[]
 
-[slide=todo-schema]
-télé
+image::img/drawings/tv.svg[]
 
-[slide=todo-schema]
-télé + freebox
+image::img/drawings/tv-pc.svg[]
 
-[slide=todo-schema]
-télé + raspberry pi
+image::img/drawings/tv-raspberry.svg[]
 
-[slide=todo-schema]
-télé + chromecast
+image::img/drawings/tv-androidtv.svg[]
 
-[slide=todo-schema]
-télé + switch
+image::img/drawings/tv-vcr.svg[]
 
-[slide=todo-schema]
-télé + magnétoscope
+image::img/drawings/tv-vcr-real.svg[]
 
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
