@@ -20,20 +20,20 @@ Fondu vers le noir
 #Voix off, grave, triste#
 Perdu dans la jungle du Web moderne, de ses frameworks et ses standards, notre personnage principal est perdu.
 
-image::img/drawings/thinking.svg[]
+image::img/drawings-optimized/thinking.svg[]
 
 Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
 
-image::img/drawings/thinking-words.svg[]
+image::img/drawings-optimized/thinking-words.svg[]
 
 C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande...
 
-image::img/drawings/rip.svg[]
+image::img/drawings-optimized/rip.svg[]
 //slide d'avant mais pierre tombale à la place du perso
 
 #Un peu de respect pour les disparus SVP!#
 
-image::img/drawings/radar.svg[]
+image::img/drawings-optimized/radar.svg[]
 //slide d'avant mais pierre radar à la place de la pierre tombale
 // TODO : ajouter (Webpack, ESlint, Prettier, TypeScript)
 
@@ -42,9 +42,9 @@ Cette situation l'inquiète, le questionne et l'empêche de dormir.
 Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
 C'est à ce moment là que notre personnage pris la décision d'aller voir un thérapeuthe.
 
-image::img/drawings/dr-sigma.svg[]
+image::img/drawings-optimized/dr-sigma.svg[]
 
-image::img/drawings/talking-legos.svg[]
+image::img/drawings-optimized/talking-legos.svg[]
 //deux personnages lego
 
 // Musique
@@ -57,14 +57,14 @@ image::img/drawings/talking-legos.svg[]
 
 .2 espaces,   c'est mieux !
 [slide=bubble]
-image::img/drawings/talking-legos-l-thinks.svg[]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 //Personnage H qui pense que les espaces c'est mieux.
 
 😎 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
 😎 Les effets de mode et de hype nous rendent beaucoup trop dépendant de nos outils.
 👩‍⚕️ Humm, dites mois en plus, je vois pas trop quel problèmes ça implique.
 
-image::img/drawings/projecteur.svg[]
+image::img/drawings-optimized/projecteur.svg[]
 //Problème numéro 1 sur un écran de projection
 
 // illustrer les pb avec des tweets
@@ -74,7 +74,7 @@ image::img/drawings/projecteur.svg[]
 
 .C'est même pas   PowerPoint en plus...
 [slide=bubble]
-image::img/drawings/talking-legos-l-thinks.svg[]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
 😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
@@ -90,11 +90,11 @@ Trouver la solution   avant de constater le problème
 😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
 
-image::img/drawings/dx-ux.svg[]
+image::img/drawings-optimized/dx-ux.svg[]
 
 😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
 
-image::img/drawings/giant.svg[]
+image::img/drawings-optimized/giant.svg[]
 //Géant du Web (utitliser les lettres GAFAMs)
 // https://i.pinimg.com/originals/9e/68/fc/9e68fc9933c28fbcdf01d9271fecc874.jpg
 
@@ -113,7 +113,7 @@ image::img/drawings/giant.svg[]
 
 .Comme ma voiture !
 [slide=bubble]
-image::img/drawings/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 // Analogie de la voiture
 // À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
@@ -143,19 +143,19 @@ S'enfermer dans son propre écosystème
 😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
 😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
 
-image::img/drawings/brain.svg[]
+image::img/drawings-optimized/brain.svg[]
 
-image::img/drawings/brain-fwk.svg[]
+image::img/drawings-optimized/brain-fwk.svg[]
 
 😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
 😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
 
-image::img/drawings/brain-patterns.svg[]
+image::img/drawings-optimized/brain-patterns.svg[]
 
 😎 On ne voit plus les défauts de nos propres outils
 😎 On soutient des fonctionnalités sans les comprendre
 
-image::img/drawings/silos.svg[]
+image::img/drawings-optimized/silos.svg[]
 //silo/couloirs/portes séparés avec React/Vue/Angular
 
 😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
@@ -169,7 +169,7 @@ image::img/drawings/silos.svg[]
 
 .Comme une    keynote d'Apple !
 [slide=bubble]
-image::img/drawings/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
@@ -182,10 +182,10 @@ image::img/drawings/talking-legos-r-talks.svg[]
 😎 Problème numéro 3...
 😎 On produit du code qui subit mal les effets du temps
 
-image::img/drawings/layers.svg[]
+image::img/drawings-optimized/layers.svg[]
 slide qui mélange les couches
 
-image::img/drawings/layers-mixed.svg[]
+image::img/drawings-optimized/layers-mixed.svg[]
 slide couches non mélangées
 
 😎 Les changements de son propre ecosystème
@@ -194,13 +194,13 @@ slide couches non mélangées
 😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
 😎 Voire même sa disparition
 
-image::img/drawings/trash.svg[]
+image::img/drawings-optimized/trash.svg[]
 
-image::img/drawings/trash-brain.svg[]
+image::img/drawings-optimized/trash-brain.svg[]
 
 😎 On jette à la poubelle plein de connaissances
 
-image::img/drawings/trash-project.svg[]
+image::img/drawings-optimized/trash-project.svg[]
 
 😎 On jette à la poubelle plein de code
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
@@ -208,30 +208,30 @@ image::img/drawings/trash-project.svg[]
 
 .WTF?
 [slide=bubble]
-image::img/drawings/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 .Comme ma télé !
 [slide=bubble]
-image::img/drawings/talking-legos-l-talks.svg[]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-image::img/drawings/tv.svg[]
+image::img/drawings-optimized/tv.svg[]
 
-image::img/drawings/tv-pc.svg[]
+image::img/drawings-optimized/tv-pc.svg[]
 
-image::img/drawings/tv-raspberry.svg[]
+image::img/drawings-optimized/tv-raspberry.svg[]
 
-image::img/drawings/tv-androidtv.svg[]
+image::img/drawings-optimized/tv-androidtv.svg[]
 
-image::img/drawings/tv-vcr.svg[]
+image::img/drawings-optimized/tv-vcr.svg[]
 
-image::img/drawings/tv-vcr-real.svg[]
+image::img/drawings-optimized/tv-vcr-real.svg[]
 
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
 
 .Allez, hop !   Thérapie de groupe !
 [slide=bubble]
-image::img/drawings/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 // Attention à ne pas être trop négatif
 //À la base, ces outils sont censés nous aider
@@ -244,7 +244,7 @@ image::img/drawings/talking-legos-r-talks.svg[]
 
 .J'y vais,   mais j'ai peur !
 [slide=bubble]
-image::img/drawings/talking-legos-l-thinks.svg[]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
 // wow, mais ça fait peur non ?
 // Mais non allez, ça va bien se passer
@@ -676,11 +676,11 @@ Fondu vers le noir
 [.old]
 == ...Epilogue
 
-image::img/drawings/talking-legos.svg[]
+image::img/drawings-optimized/talking-legos.svg[]
 
 .Alors ?
 [slide=bubble]
-image::img/drawings/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 // Alors, comment ça s'est passé cette thérapie de groupe
 // Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
