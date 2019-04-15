@@ -55,6 +55,8 @@ image::img/drawings/talking-legos.svg[]
 😎 Des jifs, vous voulez-dire ?
 😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 
+.2 espaces,   c'est mieux !
+[slide=bubble]
 image::img/drawings/talking-legos-l-thinks.svg[]
 //Personnage H qui pense que les espaces c'est mieux.
 
@@ -70,8 +72,9 @@ image::img/drawings/projecteur.svg[]
 😎 Problème numéro 1...
 👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
 
+.C'est même pas   PowerPoint en plus...
+[slide=bubble]
 image::img/drawings/talking-legos-l-thinks.svg[]
-Personnage H qui pense "mais j'utilise pas PowerPoint en plus"
 
 😎 Bah ouais pourquoi, je vois pas le problème. Bref.
 
@@ -109,6 +112,8 @@ cercle fermé
 //[slide=problem]
 //Trouver la solution   avant de constater le problème
 
+.Comme ma voiture !
+[slide=bubble]
 image::img/drawings/talking-legos-r-talks.svg[]
 
 // Analogie de la voiture
@@ -163,6 +168,8 @@ image::img/drawings/silos.svg[]
 //😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 // Analogie conférences Apple
 
+.Comme une    keynote d'Apple !
+[slide=bubble]
 image::img/drawings/talking-legos-r-talks.svg[]
 
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
@@ -200,6 +207,14 @@ code + corbeille
 // On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
 // Analogie de la TV
 
+.WTF?
+[slide=bubble]
+image::img/drawings/talking-legos-r-talks.svg[]
+
+.Comme ma télé !
+[slide=bubble]
+image::img/drawings/talking-legos-l-talks.svg[]
+
 [slide=todo-schema]
 télé
 
@@ -221,8 +236,9 @@ télé + magnétoscope
 // euh par contre, là j'ai rien compris
 // => analogie de la TV
 
+.Allez, hop !   Thérapie de groupe !
+[slide=bubble]
 image::img/drawings/talking-legos-r-talks.svg[]
-lego qui conseille une thérapie de groupe
 
 // Attention à ne pas être trop négatif
 //À la base, ces outils sont censés nous aider
@@ -233,8 +249,9 @@ lego qui conseille une thérapie de groupe
 // vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
 // et vous leur partagez vos préoccupations, votre analyse et votre démarche et puis voilà
 
+.J'y vais,   mais j'ai peur !
+[slide=bubble]
 image::img/drawings/talking-legos-l-thinks.svg[]
-j'y vais mais j'ai peur
 
 // wow, mais ça fait peur non ?
 // Mais non allez, ça va bien se passer
@@ -373,6 +390,7 @@ DX isolation impacts
 DX réutilisabilité code
 DX ne pas dépendre de mes outils, exit strat
 // => props, attrs, slots, methods, events, lifecycle
+// exemple Angular, React, Vue
 
 [slide=todo-needs-solution]
 Component authoring (DX)
@@ -386,6 +404,7 @@ UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => 1 file vs several files
 // => output pur JS, vs JS + CSS
 // Mvc, mvvm, template + vue model, computed properties
+// exemple Angular, React, Vue
 
 [slide=todo-needs-solution]
 CSS authoring
@@ -401,6 +420,10 @@ UX Fluidité, Pas trop de lag (async and scheduling microtask...)
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
 [slide=todo-needs-solution]
+SSR
+déjà abordé pas mal de fois
+
+[slide=todo-needs-solution]
 Routing
 UX chargerment rapide
 UX fluidité
@@ -410,10 +433,6 @@ UX fluidité
 State management
 DX modèle de pensée simple
 DX écrire un code propre
-
-[slide=todo-needs-solution]
-SSR
-déjà abordé pas mal de fois
 
 [slide=todo-needs-solution]
 en vrac car moins important pour notre discussion
@@ -666,6 +685,8 @@ Fondu vers le noir
 
 image::img/drawings/talking-legos.svg[]
 
+.Alors ?
+[slide=bubble]
 image::img/drawings/talking-legos-r-talks.svg[]
 
 // Alors, comment ça s'est passé cette thérapie de groupe

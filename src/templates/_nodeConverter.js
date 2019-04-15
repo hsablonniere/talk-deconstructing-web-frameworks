@@ -15,10 +15,17 @@ const problem = require('./problem');
 const webComponents = require('./web-components');
 const todo = require('./todo');
 const video = require('./video');
+const bubble = require('./bubble');
 
 module.exports = {
   document: node => document(node),
-  image: (node) => media(node),
+  image: (node) => {
+    const attrs = node.getAttributes();
+    if (attrs.slide === 'bubble') {
+      return bubble(node);
+    }
+    return media(node);
+  },
   listing: (node) => listing(node),
   paragraph: (node) => {
     const attrs = node.getAttributes();

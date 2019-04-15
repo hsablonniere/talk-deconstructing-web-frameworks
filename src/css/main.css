@@ -30,6 +30,7 @@
 @import "slides/section.css";
 @import "slides/text.css";
 @import 'slides/quote.css';
+@import 'slides/bubble.css';
 @import "slides/todo.css";
 @import "slides/web-components.css";
 @import "states.css";

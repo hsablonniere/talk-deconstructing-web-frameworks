@@ -17,7 +17,7 @@ export default function configurePlugin () {
         music.pause();
         music.currentTime = 0;
       }
-    }, 300);
+    }, 700);
 
     deck.on('toggle-slide-deck-state', ({ state, enabled }) => {
       document.body.classList.toggle(`state-${state}`, enabled);
