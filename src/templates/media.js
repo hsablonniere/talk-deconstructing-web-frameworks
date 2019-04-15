@@ -2,16 +2,13 @@
 
 const path = require('path');
 const fs = require('fs');
+const { takeScreenshot } = require('../../lib/screenshot');
 
 const slide = require('./_slide');
 
 module.exports = (node) => {
   const attrs = node.getAttributes();
   const classes = node.getRoles();
-
-  const $video = node.getRoles().includes('old')
-    ? `<video src="./videos/old-movie.webm" muted loop></video>`
-    : '';
 
   // let svgFile
   // if (attrs.target.endsWith('.svg')) {
@@ -26,6 +23,8 @@ module.exports = (node) => {
       viewport.width = Number(attrs.width);
     }
 
+    console.log('generating screenshot', attrs.url);
+
     if (attrs.url.startsWith('https://caniuse.com')) {
       viewport.deviceScaleFactor = 1.75;
       // takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
@@ -33,12 +32,15 @@ module.exports = (node) => {
     }
 
     if (attrs.url.startsWith('https://twitter.com')) {
+      if (attrs.url.includes('/status/')) {
+        classes.push('twitter');
+      }
       viewport.deviceScaleFactor = 3;
-      // takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
+      takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
       return slide('media', node, classes, `<img class="element" src="${attrs.target}">`);
     }
 
-    // takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
+    takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
     return slide('media', node, classes, `<div class="browser">
     <figcaption class="url"><a href="${attrs.url}" target="_blank" rel="noopener">${attrs.url}</a></figcaption>
     <img class="element" src="${attrs.target}">
@@ -56,6 +58,5 @@ module.exports = (node) => {
 
   return slide('media', node, classes, `<img class="element" src="${attrs.target}">
   ${author}
-  ${figcaption}
-  ${$video}`);
+  ${figcaption}`);
 };

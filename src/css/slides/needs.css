@@ -1,0 +1,46 @@
+[data-slide="needs"] {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+[data-slide="needs"] .needs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: hsl(108, 13%, 44%);
+}
+
+[data-slide="needs"] .solution {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+[data-slide="needs"] .needs-block:last-child {
+  text-align: right;
+  color: hsl(200, 60%, 44%);
+}
+
+[data-slide="needs"] .title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+[data-slide="needs"] .need-item {
+  font-family: Boogaloo, sans-serif;
+}
+
+[data-slide="needs"]  [data-hidden] {
+  visibility: hidden;
+}
+
+[data-slide="needs"]  [data-blur] {
+  opacity: 0.25;
+  filter: blur(0.25rem);
+}

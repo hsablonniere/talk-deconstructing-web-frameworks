@@ -28,3 +28,7 @@
 [data-slide="web-components"] li {
   padding: 0;
 }
+
+[data-slide="web-components"] .hidden {
+  visibility: hidden;
+}

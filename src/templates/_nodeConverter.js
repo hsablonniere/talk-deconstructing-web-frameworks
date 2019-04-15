@@ -15,6 +15,7 @@ const problem = require('./problem');
 const webComponents = require('./web-components');
 const todo = require('./todo');
 const video = require('./video');
+const needs = require('./needs');
 const bubble = require('./bubble');
 
 module.exports = {
@@ -31,6 +32,9 @@ module.exports = {
     const attrs = node.getAttributes();
     if (attrs.slide === 'poster') {
       return poster(node);
+    }
+    if (attrs.slide === 'needs') {
+      return needs(node);
     }
     if (attrs.slide === 'question') {
       return question(node);
@@ -58,6 +62,12 @@ module.exports = {
     const attrs = node.getAttributes();
     if (attrs.slide === 'web-components') {
       return webComponents(node);
+    }
+  },
+  open: (node) => {
+    const attrs = node.getAttributes();
+    if (attrs.slide === 'needs') {
+      return needs(node);
     }
   },
   // pass through

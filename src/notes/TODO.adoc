@@ -15,18 +15,7 @@ avec la liste highligted
 
 * Terminer script intro
 * Terminer schéma intro
-//** Slides avec texte des bulles dans AsciiDoc
 ** Slides problème nuémero 1 projecteur dans AsciiDoc
-** schéma DX vs UX (balance)
-** schéma cercle fermé
-** screenshot jquery date
-** schéma cerveau fwk
-** schéma cerveau patterns
-** schéma layers
-** schéma corbeille vide
-** schéma corbeille cerveau
-** schéma corbeille cerveau + fichiers
-** schéma TV
 
 * emojis dans les listes
 

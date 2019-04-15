@@ -167,6 +167,10 @@ image::img/drawings-optimized/silos.svg[]
 //😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
 // Analogie conférences Apple
 
+//image::img/screenshots/tweet-hooks.jpg[url=https://twitter.com/tomdale/status/1092613088191410176]
+
+image::img/screenshots/tweet-hooks2.jpg[url=https://twitter.com/devongovett/status/1095518197518745601]
+
 .Comme une    keynote d'Apple !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
@@ -260,16 +264,53 @@ et de ses standards.
 
 == C'était quoi  le *problème* ?
 
-[slide=todo-needs]
-titre besoins utilisateur et besoins développeur
+[slide=needs, display=0]
+_
+
+[slide=needs, display=1]
+_
+
+[slide=needs, display=2]
+_
+
+[slide=needs, display=3]
+_
+
+[slide=needs, display=4]
+_
+
+[slide=needs, display=5]
+_
+
+[slide=needs, display=6]
+_
+
+[slide=needs, display=7]
+_
+
+[slide=needs, display=8]
+_
+
+[slide=needs, display=9]
+_
+
+[slide=needs, display=10]
+_
+
+[slide=needs, display=11]
+_
+
+[slide=needs, display=12]
+_
+
 
 // j'ai essayé de spéparer en 2 :
 // * les problèmes qu'on a nous quand on écrit du code
 // * et les problèmes qu'on veut résoudre pour aider nos utilisateurs
 
-[slide=todo-needs]
-titre besoins utilisateur et besoins développeur
-+ list des besoins (un par un)
+//[slide=todo-needs]
+//titre besoins utilisateur et besoins développeur
+//+ list des besoins (un par un)
 
 // il faut vraiment que ça soit, en tant que, je veux
 listes besoins utilisateurs
@@ -355,6 +396,9 @@ schéma ères du web (SSR + hydratation + code splitting)
 //jquery
 //Frameworks are also their to prevent browser quirks
 
+[slide=todo]
+définition frameworks
+
 [slide=todo-schema]
 remettre les 3 portes aves les 3 frameworks
 
@@ -377,66 +421,84 @@ etagères
 
 // points importants à aborder
 
-[slide=todo-needs-solution]
-Component system (API + runtime)
-DX isolation impacts
-DX réutilisabilité code
-DX ne pas dépendre de mes outils, exit strat
+[slide=needs, focus=""]
+Système de composant (API + runtime)
+
+[slide=needs, focus="7,9,10"]
+Système de composant (API + runtime)
 // => props, attrs, slots, methods, events, lifecycle
 // exemple Angular, React, Vue
 
-[slide=todo-needs-solution]
-Component authoring (DX)
-DX gagner du temps
-DX moins de code possible
-DX modèle de pensée simple
-DX ne pas réinventer la roue
-DX faciliter le boulot du designer
-UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
+[slide=needs, focus=""]
+Component authoring
+
+[slide=needs, focus="0,6,7,8,9,11"]
+Component authoring
+//DX gagner du temps
+//DX moins de code possible
+//DX modèle de pensée simple
+//DX ne pas réinventer la roue
+//DX faciliter le boulot du designer
+//UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => JSX, templates
 // => 1 file vs several files
 // => output pur JS, vs JS + CSS
 // Mvc, mvvm, template + vue model, computed properties
 // exemple Angular, React, Vue
 
-[slide=todo-needs-solution]
+[slide=needs, focus=""]
 CSS authoring
-DX isolation des impacts
-UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
+
+[slide=needs, focus="0,9"]
+CSS authoring
+//DX isolation des impacts
+//UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => BEM, CSS-in-JS lib, encapsulation system
 
-[slide=todo-needs-solution]
+[slide=needs, focus=""]
 Manipulation du DOM
-UX Fluidité, Pas trop de lag (async and scheduling microtask...)
+
+[slide=needs, focus="2,3,4"]
+Manipulation du DOM
+//UX Fluidité, Pas trop de lag (async and scheduling microtask...)
 // => Direct binding vs Virtual DOM (+ scheduling microtask...)
 //The Virtual DOM was always a big marketing argument to sell React but why would we care.
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
-[slide=todo-needs-solution]
-SSR
-déjà abordé pas mal de fois
+[slide=needs, focus=""]
+SSR (Server Side Rendering)
 
-[slide=todo-needs-solution]
+[slide=needs, focus="0"]
+SSR (Server Side Rendering)
+//déjà abordé pas mal de fois
+
+[slide=needs, focus=""]
 Routing
-UX chargerment rapide
-UX fluidité
+
+[slide=needs, focus="0,2"]
+Routing
+//UX chargerment rapide
+//UX fluidité
 // dock ipod
 
-[slide=todo-needs-solution]
+[slide=needs, focus=""]
 State management
-DX modèle de pensée simple
-DX écrire un code propre
 
-[slide=todo-needs-solution]
-en vrac car moins important pour notre discussion
-CLI
-Devtools
-HTTP client
-Form handling
-Module system
-Dep inj
-i18n
-tests
+[slide=needs, focus="7,8"]
+State management
+//DX modèle de pensée simple
+//DX écrire un code propre
+
+//[slide=needs, focus="0"]
+//en vrac car moins important pour notre discussion
+//CLI
+//Devtools
+//HTTP client
+//Form handling
+//Module system
+//Dep inj
+//i18n
+//tests
 
 // https://www.npmjs.com/package/vue-axios
 // https://github.com/imcvampire/vue-axios
@@ -491,7 +553,61 @@ exemples de noeuds du DOM avec des événements un peu custom
 où ça se place dans notre tableau de solutions ?
 
 .Custom Elements
-[slide=web-components]
+[slide=web-components, display=0]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=1]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=2]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=3]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=4]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=5]
+* 🤔 Pas de customized built-in elements dans Safari
+* 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
+* 😡 Pas de HMR (sans bidouille)
+* 📜 Scoped CustomElementRegistry
+* 📜 Lazy definition
+* 📜 Form associated elements
+
+.Custom Elements
+[slide=web-components, display=6]
 * 🤔 Pas de customized built-in elements dans Safari
 * 😐 Pas de "data-binding" sur les propriétés (getter/setter ou proxy)
 * 😡 Pas de HMR (sans bidouille)
@@ -519,7 +635,35 @@ exemples de noeuds du DOM avec des ::part ou des custom prop
 où ça se place dans notre tableau de solutions ?
 
 .Shadow DOM
-[slide=web-components]
+[slide=web-components, display=0]
+* 😡 Pas de SSR (sans bidouille)
+* 📜 Décorative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=1]
+* 😡 Pas de SSR (sans bidouille)
+* 📜 Décorative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=2]
+* 😡 Pas de SSR (sans bidouille)
+* 📜 Décorative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=3]
+* 😡 Pas de SSR (sans bidouille)
+* 📜 Décorative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=4]
 * 😡 Pas de SSR (sans bidouille)
 * 📜 Décorative shadow DOM, custom elements
 * 📜 Custom pseudo class
@@ -534,7 +678,25 @@ _
 où ça se place dans notre tableau de solutions ?
 
 .`<template>`
-[slide=web-components]
+[slide=web-components, display=0]
+* 😡 Pas d'interpolation ni de "data-binding"
+* 📜 Template instanciation (limitée à de simples valeurs)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=1]
+* 😡 Pas d'interpolation ni de "data-binding"
+* 📜 Template instanciation (limitée à de simples valeurs)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=2]
+* 😡 Pas d'interpolation ni de "data-binding"
+* 📜 Template instanciation (limitée à de simples valeurs)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=3]
 * 😡 Pas d'interpolation ni de "data-binding"
 * 📜 Template instanciation (limitée à de simples valeurs)
 * 📜 HTML modules
@@ -545,17 +707,14 @@ https://developers.google.com/web/fundamentals/web-components/best-practices
 
 //comment surveiller la suite
 
-[slide=todo-screenshot]
-TC39
+image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
-[slide=todo-screenshot]
-web-components github
+image::img/screenshots/github-web-components.jpg[url=https://github.com/w3c/webcomponents]
 
-[slide=todo-screenshot]
-css ?
+image::img/screenshots/twitter-intenttoship.jpg[url=https://twitter.com/intenttoship]
 
-[slide=todo-screenshot]
-compte tweeter / RSS des features browser
+image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPlatformNews]
+
 
 // des resources pour surveiller les specs et les implems dans les browsers
 // TC39
@@ -637,18 +796,17 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 //See WC as the bytecode of the component isolation concept. It can be a compile to target
 //People don't have to worry on the sugar
 
-[slide=todo-screenshot]
-// disappearing frameworks
-un article de rich harris (ou parler de svelte)
+image::img/screenshots/article-frameworks-without-the-framework.jpg[url=https://svelte.technology/blog/frameworks-without-the-framework]
 
-[slide=todo-screenshot]
-article de tom dale sur le compiler framework
+image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://tomdale.net/2017/09/compilers-are-the-new-frameworks/]
+
+image::img/screenshots/tweet-future-web-assembly.jpg[url=https://twitter.com/getify/status/1111004737263075329]
+
 //* le i18n (inliné)
-
 //Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
 
-[slide=todo-screenshot]
-Web Assembly
+//[slide=todo-screenshot]
+//Web Assembly
 
 [slide=todo-schéma]
 // framework runtime => compilers
