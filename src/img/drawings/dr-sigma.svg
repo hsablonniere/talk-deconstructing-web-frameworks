@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1920 1081" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g transform="matrix(1,0,0,1,-1970,-2605)">
-        <g id="dr-sigma" transform="matrix(1,0,0,1,-3940,2605.84)">
+<svg width="100%" height="100%" viewBox="0 0 1921 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-8,-1180)">
+        <g id="dr-sigma" transform="matrix(1,0,0,1,-5901.87,1180)">
             <rect x="5910" y="0" width="1920" height="1080"/>
             <g transform="matrix(1,0,0,1,3940,-1255.01)">
                 <path d="M2376.13,1467.14C2429.56,1455.07 2487.37,1466.79 2541.62,1467.02C2604.02,1467.29 2666.53,1462.36 2728.76,1460.25C2779.33,1458.54 2828.46,1461.8 2879.14,1457.45C2960.2,1450.5 3041.85,1461.17 3122.97,1461.89C3200.87,1462.57 3278.94,1453.28 3356.84,1453.64C3379.44,1453.75 3489.38,1448.77 3500.24,1466.9C3512.99,1488.17 3498.96,1535.09 3498.47,1558.29C3496.59,1646.1 3484.45,1733.51 3487.33,1821.4C3489.8,1896.9 3485.49,1972.37 3488.49,2047.77C3489.18,2065.18 3494.44,2121.82 3480.59,2135.04C3466.23,2148.76 3437.8,2144.15 3420.05,2142.97C3364.97,2139.32 3310.9,2132.89 3255.54,2130.62C3039.27,2121.76 2822.91,2129.04 2606.56,2127.96C2544.93,2127.66 2483.36,2128.08 2421.92,2124.42C2408.28,2123.61 2372.78,2131.4 2363.04,2119.68C2340.32,2092.35 2355.75,1984.82 2355.47,1949.81C2354.84,1870.19 2360.48,1790.42 2359.38,1710.93C2358.25,1629.08 2353.5,1550.55 2365.64,1469.26" style="fill:none;stroke:white;stroke-width:19.8px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:0,0.99,0,0;"/>
