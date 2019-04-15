@@ -45,10 +45,10 @@
                 </g>
             </g>
             <g transform="matrix(3.66054,0,0,3.66054,-9804.67,-14642.9)">
-                <text x="4614.84px" y="4162.77px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:27.318px;fill:rgb(255,255,0);">DEV</text>
+                <text x="4607.16px" y="4162.77px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:27.318px;fill:rgb(255,255,0);">USER</text>
             </g>
             <g transform="matrix(3.66054,0,0,3.66054,-10400.2,-14480.7)">
-                <text x="4607.16px" y="4162.77px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:27.318px;fill:rgb(255,255,0);">USER</text>
+                <text x="4614.84px" y="4162.77px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:27.318px;fill:rgb(255,255,0);">DEV</text>
             </g>
         </g>
     </g>
