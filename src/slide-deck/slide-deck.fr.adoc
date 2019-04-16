@@ -346,7 +346,7 @@ que ça soit accessible à tous,
 [slide=needs, display=6]
 _
 
-et sur n'importe quel appareil.
+et que ça marche partout.
 ...
 Déjà là, on voit qu'le contexte joue à mort.
 C'est en fonction de *"ce que vous codez"* que l'importance de ces problèmes varie.
@@ -379,7 +379,8 @@ On veut une isolation des impacts de nos changements,
 [slide=needs, display=11]
 _
 
-ne pas trop dépendre de nos outils et petit bonus,
+éviter de faire certaines erreurs et autres bugs...
+et petit bonus,
 
 [slide=needs, display=12]
 _
@@ -391,62 +392,77 @@ Ici, c'est en fonction de *"avec qui vous codez"*, votre équipe et son expérie
 [slide=blank]
 Transition
 
+OK, donc là, si vous êtes plutôt backend et que vous n'avez pas suivi le monde du front/Web ces dernières années,
+vous vous dites :
+"Non mais attend Hubert, là tu viens de lister à peu près les mêmes problèmes qu'on essayait de régler il y a 10 ans."
+"Moi je maintiens un cluster de blockchain-kubernetes-serverless en prod alors ton truc de script là, ça m'a pas l'air si compliqué que ça."
+...
+OK, bonne remarque.
+
 == *Comment* en est-on  arrivé là ?
 
 [.time]#00:08:00#
-
-// mais pourquoi c'est aussi compliqué
-// on a vraiment besoin d'autant d'outils
+Comment est-ce qu'on en est arrivé là ?
+Est-ce qu'on a vraiment besoin de tous ces outils ?
 
 [quote]
 Pour comprendre où on va,   il faut savoir d'où on vient.
 
 image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (vide)
+À la base on avait un Web assez simple mais puissant dans ses concepts.
+Un utilisateur demande une URL à son navigateur,
+le navigateur fait une requête HTTP vers un serveur,
+le serveur applique un template et répond un document HTML,
+merci au revoir.
 
-bon anniversaire le web
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (old school ssr)
+Ensuite, on a rajouté des images, des CSS et surtout des formulaires.
+L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
+// click
+// POST
+// nouvelle page HTML
 
-[slide=todo-schema]
-schéma ères du web (images)
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (css)
+Ça a commencé à se complexifier assez tôt avec l'arrivée de JavaScript.
+On avait maintenant la possibilité en tant que dev de répondre directement à des inputs de l'utilisateurs.
+Sans faire d'aller/retour réseau.
+Au départ, on faisait de la manipulation de DOM.
 
-[slide=todo-schema]
-schéma ères du web (forms)
-// interactivité
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (SSR + JS)
-// ajout du JS
-// validation de form
+Ensuite avec la vague AJAX, jQuery et compagnie,
+on a commencé à faire faire de plus en plus de chose à cette partie JavaScript
+et du coup à charger de plus de plus de code.
 
-[slide=todo-schema]
-schéma ères du web (AJAX with jQuery)
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (SPA era, client side templating)
+On est passé d'appels AJAX pour récupérer des bouts de templates HTML
+à faire ne récupérer que du JSON pour faire du templating côté client
+et surtout du routing côté client
+on gagnait bcp en perf sur les navigations consécutives
 
-[slide=todo-schema]
-schéma ères du web (SPA era, client side routing)
-// anchor/hash => push state
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (the mega bundle era with empty body)
+par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
+l'ère du <body> vide avec le mega fat bundle javascript qui contient tout.
+et là le premier chargement, il est pas trop content
 
-[slide=todo-schema]
-schéma ères du web (SSR + hydratation + code splitting)
+image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schema]
-schéma ères du web (storage)
+C'est un peu pour revenir au meilleur des 2 mondes
+qu'on essaye aujourd'hui d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
+et de charger le reste au fur et à mesure.
 
-[slide=todo-schema]
-schéma ères du web (workers)
+image::img/drawings-optimized/browser.svg[]
+
+N'oublions pas que tout ça s'est fait pendant la période de
+l'arrivée des mobiles, du stockage local et des workers
+
+[slide=blank]
+Transition
 
 == Ce que les *frameworks*  nous apportent ?
 
@@ -485,25 +501,21 @@ image::img/drawings-optimized/silos-not.svg[]
 // points importants à aborder
 
 [slide=needs, focus=""]
-Système de composant (API + runtime)
+Système de composants (API + runtime)
 
-[slide=needs, focus="7,9,10"]
-Système de composant (API + runtime)
-// => props, attrs, slots, methods, events, lifecycle
+[slide=needs, focus="7,9"]
+// [slide=needs, ]
+Système de composants (API + runtime)
+// => props, attrs, slots, methods, events, lifecycle methods
 // exemple Angular, React, Vue
 
 image::img/drawings-optimized/silos-not.svg[]
 
 [slide=needs, focus=""]
-"Templating"
+"Templating" / ViewModel
 
-[slide=needs, focus="0,6,7,8,9,11"]
-"Templating"
-//DX gagner du temps
-//DX moins de code possible
-//DX modèle de pensée simple
-//DX ne pas réinventer la roue
-//DX faciliter le boulot du designer
+[slide=needs, focus="0,6,7,8,9,10,11"]
+"Templating" / ViewModel
 //UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
 // => JSX, templates
 // => 1 file vs several files
@@ -514,12 +526,10 @@ image::img/drawings-optimized/silos-not.svg[]
 image::img/drawings-optimized/silos-not.svg[]
 
 [slide=needs, focus=""]
-CSS authoring
+Gestion du CSS
 
 [slide=needs, focus="0,9"]
-CSS authoring
-//DX isolation des impacts
-//UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
+Gestion du CSS
 // => BEM, CSS-in-JS lib, encapsulation system
 
 image::img/drawings-optimized/silos-not.svg[]
@@ -527,9 +537,8 @@ image::img/drawings-optimized/silos-not.svg[]
 [slide=needs, focus=""]
 Manipulation du DOM
 
-[slide=needs, focus="2,3,4"]
+[slide=needs, focus="2,3,4,5"]
 Manipulation du DOM
-//UX Fluidité, Pas trop de lag (async and scheduling microtask...)
 // => Direct binding vs Virtual DOM (+ scheduling microtask...)
 //The Virtual DOM was always a big marketing argument to sell React but why would we care.
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
@@ -539,32 +548,26 @@ image::img/drawings-optimized/silos-not.svg[]
 [slide=needs, focus=""]
 SSR (Server Side Rendering)
 
-[slide=needs, focus="0"]
+[slide=needs, focus="0,5"]
 SSR (Server Side Rendering)
-//déjà abordé pas mal de fois
 
 image::img/drawings-optimized/silos-not.svg[]
 
 [slide=needs, focus=""]
-Routing
+Router
 
 [slide=needs, focus="0,2"]
-Routing
-//UX chargerment rapide
-//UX fluidité
-// dock ipod
+Router
 
 image::img/drawings-optimized/silos-not.svg[]
 
 [slide=needs, focus=""]
 State management
-
-image::img/drawings-optimized/silos-not.svg[]
 
 [slide=needs, focus="7,8"]
 State management
-//DX modèle de pensée simple
-//DX écrire un code propre
+
+image::img/drawings-optimized/silos-not.svg[]
 
 //[slide=needs, focus="0"]
 //en vrac car moins important pour notre discussion
@@ -587,6 +590,9 @@ image::img/drawings-optimized/silos-not.svg[]
 
 // en terme de conception de d'organisation des composants (et de séparation des concerns etc)
 // les 3 communautés ont des choses intéressantes à dire
+
+[slide=blank]
+Transition
 
 == Ce que les *standards*  nous apportent ?
 
@@ -807,6 +813,9 @@ image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 //Est-ce que votre outil est prêt demain à adopter un standard et jetter son implem pour vous faire profiter du support natif ?
 
+[slide=blank]
+Transition
+
 == *Séparons* nos  préoccupations
 
 [.time]#00:30:00#
@@ -889,6 +898,9 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 // packaging
 // Tests: do it like a  screen reader user wood do it
 // Tests: no a great fan of snapshots
+
+[slide=blank]
+Transition
 
 == Ce que le *futur*  nous réserve...
 

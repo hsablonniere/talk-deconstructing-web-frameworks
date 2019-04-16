@@ -44,7 +44,7 @@ module.exports = (node) => {
           <div class="need-item" ${hide(2)}>Fluidité + réactivité (60 fps)</div>
           <div class="need-item" ${hide(3)}>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" ${hide(4)}>Accessibilité</div>
-          <div class="need-item" ${hide(5)}>Responsive</div>
+          <div class="need-item" ${hide(5)}>Cross-device, cross-browser</div>
         </div>
       </div>
       <div class="needs-block">
@@ -54,8 +54,8 @@ module.exports = (node) => {
           <div class="need-item" ${hide(7)}>Code propre, réutilisable</div>
           <div class="need-item" ${hide(8)}>Modèle de pensée simple</div>
           <div class="need-item" ${hide(9)}>Isolation des impacts</div>
-          <div class="need-item" ${hide(10)}>Ne pas dépendre des outils</div>
-          <div class="need-item" ${hide(11)}>Collab. avec 1 designer</div>
+          <div class="need-item" ${hide(10)}>Éviter les erreurs/bugs</div>
+          <div class="need-item" ${hide(11)}>Collab. avec des non-devs</div>
         </div>
       </div>
     </div>

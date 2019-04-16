@@ -988,6 +988,19 @@
 
 === Web components
 
+* https://dev.to/webpadawan/the-journey-of-web-components-wrong-ways-lacking-parts-and-promising-paths-1d5a
+** The journey of Web Components: wrong ways, lacking parts and promising paths
+** MUST READ!!!!!!!
+** MUST READ!!!!!!!
+** MUST READ!!!!!!!
+** MUST READ!!!!!!!
+
+* https://component.kitchen/blog/posts/a-history-of-the-html-slot-element
+** A history of the HTML slot element
+
+* https://fronteers.nl/congres/2011/sessions/web-components-and-model-driven-views-alex-russell
+** Web Components and Model Driven Views by Alex Russell
+
 * https://blog.ionicframework.com/5-reasons-web-components-are-perfect-for-design-systems/
 ** 5 Reasons Web Components Are Perfect for Design Systems  |  The Ionic Blog
 
