@@ -30,5 +30,6 @@
 }
 
 [data-slide="web-components"] .hidden {
-  visibility: hidden;
+  opacity: 0.15;
+  filter: blur(0.25rem);
 }

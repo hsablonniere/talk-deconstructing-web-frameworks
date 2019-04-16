@@ -23,15 +23,19 @@ avec la liste highligted
 * écran avec listes besoins user/dev + solution framework
 
 * schéma ères du Web
+* schéma Web component TV
 
 * schéma 3 portes en positif
 
-* schéma Web component TV
+== Schémas importants
 
-* screenshots
-** TC39
-** WC github...
-** TC39
+* Schéma triangle
+** respecter user à gauche, dev à droite (couleurs)
+* Portes + couloirs
+* Étagères
+** Angular rouge
+** React bleu
+** Vue vert
 
 == À décider
 

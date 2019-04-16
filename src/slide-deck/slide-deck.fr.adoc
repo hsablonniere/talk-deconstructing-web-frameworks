@@ -430,10 +430,10 @@ Système de composant (API + runtime)
 // exemple Angular, React, Vue
 
 [slide=needs, focus=""]
-Component authoring
+"Templating"
 
 [slide=needs, focus="0,6,7,8,9,11"]
-Component authoring
+"Templating"
 //DX gagner du temps
 //DX moins de code possible
 //DX modèle de pensée simple
@@ -542,12 +542,21 @@ exemples de noeuds du DOM avec des attributs
 
 [slide=todo]
 exemples de noeuds du DOM avec des propriétés non string/boolean
+//* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
+//* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 
 [slide=todo]
 exemples de noeuds du DOM avec des méthodes
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
 
 [slide=todo]
 exemples de noeuds du DOM avec des événements un peu custom
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
 
 [slide=todo-schema]
 où ça se place dans notre tableau de solutions ?
@@ -701,13 +710,9 @@ où ça se place dans notre tableau de solutions ?
 * 📜 Template instanciation (limitée à de simples valeurs)
 * 📜 HTML modules
 
-[slide=todo-screenshot]
-web component best practice
-https://developers.google.com/web/fundamentals/web-components/best-practices
+image::img/screenshots/web-components-best-practices.jpg[url=https://developers.google.com/web/fundamentals/web-components/best-practices]
 
 //comment surveiller la suite
-
-image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 image::img/screenshots/github-web-components.jpg[url=https://github.com/w3c/webcomponents]
 
@@ -715,6 +720,7 @@ image::img/screenshots/twitter-intenttoship.jpg[url=https://twitter.com/intentto
 
 image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPlatformNews]
 
+image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 // des resources pour surveiller les specs et les implems dans les browsers
 // TC39
@@ -724,6 +730,8 @@ image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPl
 == *Séparons* nos  préoccupations
 
 //== Le découplage chez *Clever Cloud*
+
+// SOLID
 
 [slide=text]
 Notre contexte  chez *Clever Cloud*
@@ -800,7 +808,7 @@ image::img/screenshots/article-frameworks-without-the-framework.jpg[url=https://
 
 image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://tomdale.net/2017/09/compilers-are-the-new-frameworks/]
 
-image::img/screenshots/tweet-future-web-assembly.jpg[url=https://twitter.com/getify/status/1111004737263075329]
+//image::img/screenshots/tweet-future-web-assembly.jpg[url=https://twitter.com/getify/status/1111004737263075329]
 
 //* le i18n (inliné)
 //Discuter des webcomponent comme base pour l'authoring ou comme target de compilation

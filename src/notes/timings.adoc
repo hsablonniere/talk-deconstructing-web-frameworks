@@ -1,0 +1,30 @@
+= le  Web,  ses  Frameworks  et ses  Standards : déconstruire pour mieux (re?)construire...
+
+*  6 min / Prologue...
+
+// target 5min
+// moins d'exemple
+// SOLID => cerveau
+// ne garder que l'analogie de la TV
+
+*  2 min / C'était quoi  le *problème* ?
+
+*  2 min / *Comment* en est-on  arrivé là ?
+
+* 10 min / Ce que les *frameworks*  nous apportent ?
+
+// étagère avec traits estompées et sur toute la ligne le nom de la feature
+// faut-il afficher l'étagère au fur et à mesure
+
+* 10 min / Ce que les *standards*  nous apportent ?
+
+* 10 min / *Séparons* nos  préoccupations
+
+// se baser sur l'exemple des vars d'env
+// qui sait que X existe
+
+*  2 min / Ce que le *futur*  nous réserve...
+
+// web assembly
+
+*  2 min / ...Epilogue
