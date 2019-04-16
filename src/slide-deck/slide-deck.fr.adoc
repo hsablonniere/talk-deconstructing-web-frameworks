@@ -465,10 +465,10 @@ schéma ères du web (SSR + hydratation + code splitting)
 *Frameworks* vs. *libs* ?
 
 [slide=todo-schema]
-image::img/drawings-optimized/silos.svg[]
+image::img/drawings-optimized/silos-colors.svg[]
 
 [slide=todo-schema]
-afficher le plan vu de dessus 3 couloirs isolés
+image::img/drawings-optimized/silos-rooms.svg[]
 
 //Angular and ember are opinionated
 //React is supposed to be unopinionated
@@ -476,9 +476,7 @@ afficher le plan vu de dessus 3 couloirs isolés
 
 // special mention to ember
 
-[slide=todo-schema]
-vision horizontal avec des solutions à des problèmes
-etagères
+image::img/drawings-optimized/silos-not.svg[]
 
 // mentionner les étapes qui nécessitent un outil de build
 // est-ce que la source de l'outil de build est spécifique ou est-elle un peu standard ?
