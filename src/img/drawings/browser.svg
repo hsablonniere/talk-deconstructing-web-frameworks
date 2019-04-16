@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1081" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.56579;">
+    <g transform="matrix(1,0,0,1,0,-11080)">
+        <g id="browser" transform="matrix(1,0,0,1,-5910,11080.8)">
+            <rect x="5910" y="0" width="1920" height="1080" style="fill:white;"/>
+            <clipPath id="_clip1">
+                <rect x="5910" y="0" width="1920" height="1080"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,0,-45.1)">
+                    <g transform="matrix(1,0,0,1,5856,-11212.2)">
+                        <path d="M1014,11460L1293.73,11944.5L734.274,11944.5L1014,11460Z" style="fill:none;stroke:rgb(140,140,140);stroke-width:8px;stroke-dasharray:0,14.4,0,0;"/>
+                    </g>
+                    <g transform="matrix(1.40118e-17,0.22883,-0.695855,4.26088e-17,15191,-44.6015)">
+                        <path d="M392,11958L1278,11958" style="fill:none;stroke:black;stroke-width:20.35px;"/>
+                    </g>
+                    <g transform="matrix(0.767803,0.443291,-0.242317,0.419705,9746.37,-4460.26)">
+                        <path d="M392,11958L1278,11958" style="fill:none;stroke:black;stroke-width:14.76px;"/>
+                    </g>
+                    <g transform="matrix(-0.767803,0.443291,-0.392389,-0.679637,11583.4,8685.67)">
+                        <path d="M392,11958L1278,11958" style="fill:none;stroke:black;stroke-width:12.59px;"/>
+                    </g>
+                    <g transform="matrix(1.35874,0,0,1.35874,6423.66,-15099)">
+                        <text x="247.984px" y="11558.5px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:57.594px;">Browser</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.89257,0,0,1.89257,5653.08,-21738.8)">
+                    <text x="281.647px" y="11558.5px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:57.594px;">User</text>
+                </g>
+                <g transform="matrix(1.89257,0,0,1.89257,6779.64,-21737.8)">
+                    <text x="216.711px" y="11558.5px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:57.594px;">runtime JS</text>
+                </g>
+                <g transform="matrix(1.89257,0,0,1.89257,6251.29,-20859.1)">
+                    <text x="271.885px" y="11558.5px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:57.594px;">Reste</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

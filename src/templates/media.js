@@ -37,7 +37,9 @@ module.exports = (node) => {
       }
       viewport.deviceScaleFactor = 3;
       takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);
-      return slide('media', node, classes, `<img class="element" src="${attrs.target}">`);
+      if (attrs.url.includes('/status/')) {
+        return slide('media', node, classes, `<img class="element" src="${attrs.target}">`);
+      }
     }
 
     takeScreenshot(attrs.url, path.resolve('src', attrs.target), viewport);

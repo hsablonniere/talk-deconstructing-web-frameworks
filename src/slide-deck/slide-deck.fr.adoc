@@ -10,6 +10,8 @@ Hubert Sablonnière
 [slide=poster]
 Poster
 
+[.time]#00:00:00#
+
 [.stop-music, slide=blank]
 Fondu vers le noir
 
@@ -63,7 +65,6 @@ Vous commenciez votre premier job et vous aviez déclaré une crise existentiell
 .2 espaces,   c'est mieux !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
-//Personnage H qui pense que les espaces c'est mieux.
 
 😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
@@ -143,7 +144,6 @@ On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosy
 On ne voit plus les défauts de nos propres outils
 On soutient des fonctionnalités sans les comprendre
 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
-image::img/screenshots/tweet-hooks2.jpg[url=https://twitter.com/devongovett/status/1095518197518745601]
 
 image::img/drawings-optimized/brain.svg[]
 
@@ -285,6 +285,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 [.stop-music, slide=poster]
 Bonjour
 
+[.time]#00:06:00#
 Bonjour à *toutes* et tous !
 J'm'appelle Hubert Sablonnière,
 J'suis développeur Web chez #Clever Cloud#,
@@ -299,6 +300,7 @@ OK, alors on utilise tous pleins d'outils qui nous apportent des solutions...
 
 == C'était quoi  le *problème* ?
 
+[.time]#00:06:30#
 ...mais c'était quoi le problème à la base ?
 Sur cette partie, j'ai essayé de lister des problèmes auquels j'ai fait face dans mes différentes expériences de développement sur des web apps.
 
@@ -369,7 +371,6 @@ _
 
 Collab. avec 1 designer
 
-
 // j'ai essayé de spéparer en 2 :
 // * les problèmes qu'on a nous quand on écrit du code
 // * et les problèmes qu'on veut résoudre pour aider nos utilisateurs
@@ -406,6 +407,8 @@ listes besoins développeur
 // Donc on a identifié les problèmes qu'on veut résoudre
 
 == *Comment* en est-on  arrivé là ?
+
+[.time]#00:08:00#
 
 // mais pourquoi c'est aussi compliqué
 // on a vraiment besoin d'autant d'outils
@@ -452,6 +455,8 @@ schéma ères du web (the mega bundle era with empty body)
 schéma ères du web (SSR + hydratation + code splitting)
 
 == Ce que les *frameworks*  nous apportent ?
+
+[.time]#00:10:00#
 
 // framework => cadre de travail
 // opinionated set of libs/tools
@@ -591,6 +596,8 @@ image::img/drawings-optimized/silos-not.svg[]
 
 == Ce que les *standards*  nous apportent ?
 
+[.time]#00:20:00#
+
 [slide=todo]
 préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
@@ -598,6 +605,7 @@ préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 [slide=web-components]
 _
 
+image::img/drawings-optimized/tv-component.svg[]
 [slide=todo-schema]
 // UTILISER LE SCHEMA DE LA TV
 schéma de la télé => analogie avec le Web component
@@ -807,6 +815,8 @@ image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 == *Séparons* nos  préoccupations
 
+[.time]#00:30:00#
+
 //== Le découplage chez *Clever Cloud*
 
 // SOLID
@@ -821,17 +831,19 @@ Notre contexte  chez *Clever Cloud*
 // Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
 // third party integration
 
-[quote]
-Code should be disposable,   it's far easier to do when   things are decoupled.
+// [quote]
+// Code should be disposable,   it's far easier to do when   things are decoupled.
 
 //[slide=text]
-////Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
+//Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
 //Séparation des *préoccupations*   #!==#   Séparation des *fichiers*
-////Séparation des *préoccupations*  *!==* Séparation des *fichiers*
+//Séparation des *préoccupations*  *!==* Séparation des *fichiers*
 
-[slide=todo-screenshot]
+[slide=todo-screenshot, data-viewport=1]
 DÉMO: storybook driven development
 //YOU NEED A DESIGN SYSTEM
+
+image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
 
 [slide=todo-schema]
 design (papier) en partant du top => bottom
@@ -876,6 +888,8 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 
 == Ce que le *futur*  nous réserve...
 
+[.time]#00:40:00#
+
 [slide=text]
 *Méfiez vous* de ceux qui  prédisent le futur *!*
 
@@ -897,6 +911,8 @@ image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://
 //[slide=todo-screenshot]
 //Web Assembly
 
+image::img/drawings-optimized/browser.svg[]
+
 [slide=todo-schéma]
 // framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
@@ -917,54 +933,77 @@ schéma browser avec le code qui passe du runtime et vers des implem du browser
 //Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
 //Compiler le i18n
 
-[slide=blank]
+[.stop-music, slide=blank]
 Fondu vers le noir
 
-[.old]
+[.old.play-music]
 == ...Epilogue
 
-image::img/drawings-optimized/talking-legos.svg[]
+[.time]#00:42:00#
 
 .Alors ?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-// Alors, comment ça s'est passé cette thérapie de groupe
-// Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
-// j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son contexte
+// 😎 
+// 👩‍⚕ 
+👩‍⚕ Alors, comment ça s'est passé cette thérapie de groupe ?
+😎 Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
+j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son propre contexte.
 
 .Problème n°1
 [slide=problem]
 Trouver la solution   avant de constater le problème
-// J'ai essayé d'adresser le problème numéro 1 en remettant en lumière les besoins et les problèmes à régler quand on développe une web app
-// J'ai aussi essayé de déconstruire les différentes fonctionnalités des 3 écosystème du moment pour qu'on puisse avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale
+
+😎 Pour le problème numéro 1,
+J'ai essayé de remettre la priorité sur :
+1. Les besoins des utilisatrices et utilisateurs des produits qu'on développe
+2. Les besoins qu'on a nous les dev quand on bosse sur nos projets
+...
+Un navigateur Web est devenu aujourd'hui, *une plateforme applicative assez complexe*.
+Bien sûr qu'on a besoins d'outils à la hauteur des enjeux. L'idée n'est pas de tout faire à la main et de réinventer la roue.
+Après, ça veut pas dire qu'on a tous les mêmes contextes et les mêmes priorités.
+...
+J'espère que les gens auront le réflexe : 
+* "ah un nouvel outil qui brille !"
+* "ça résoud quel problème ?"
+* "est-ce que j'ai ce problème ?"
 
 .Problème n°2
 [slide=problem]
 S'enfermer dans son propre écosystème
-// Ça adresse également le problème numéro 2 car en comprenant mieux ces parties, on a moins peur des les remplacer par des implems plus simples ou mieux adaptés ou des nouveaux standard
-// Et vous leur avez parlé des TV magnétoscopes
+
+😎 J'ai aussi essayé de déconstruire les différentes fonctionnalités/solutions qu'apportent des 3 écosystèmes du moment.
+L'idée principale est bien d'avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale.
+Pour ma part, en comprenant mieux ces parties, j'ai moins peur des les remplacer par des implems plus simples ou mieux adaptés ou pars des nouveaux standards.
+En fait, au final, tous ces frameworks, ces librairies et ces standards, ça n'est que des outils.
+On a juste besoin de tous rester calmes et professionnels,
+les utiliser pour les supers fonctionnalités qu'ils nous apportent
+et arrêter de les idôlatrer aveuglement.
+👩‍⚕ Et vous leur avez parlé des TV magnétoscopes
 
 .Problème n°3
 [slide=problem]
 Écrire du code fortement couplé   qui subit mal des effets du temps
-// Oui, le problème numéro 3, enfin, j'ai essayé ça reste un principe, il y a tjs des exceptions
-// En tout cas, ça va un peu mieux, je vous remercie beaucoup docteur
-// et je tiens également à remercie tous les membres du groupes qui m'ont écouté
-// merci bcp !
 
-//In the end, frameworks are just tools. Let's all be smart persons and use them for the great things they bring us without worshiping them blindly and getting alienated...
+😎 Oui, j'ai expliqué comment chez Clever Cloud on essaye de réduire le couplage entre nos différents composants, modules et couche applicatives.
+J'ai évoqué ce que ça nous apporte dans notre contexte bien précis.
+On a rien inventé, on essaye d'appliquer les bons vieux patterns logiciels au Web moderne.
+Ça reste un principe, il y a tjs des exceptions.
+L'idée n'est pas de quadrupler les coûts de conception juste pour faire du "beau code" mais bien d'investir un minimum d'énergie pour réduire les effets du temps.
 
-// Revenir sur les problèmes et les solutions qu'on y a apporté
-//Ne vous enfermez pas dans un framework/écosystème !
-//Analysez les briques qui composent ce framework/écosystème, leur rôle et les avantages/inconvénients qu'il apporte
-//Intéressez vous aux standards pour savoir comment ils impacteront demain vos choix d'aujourd'hui
-//Découpler, isoler, séparer pour mieux maitriser (perf, sécu) s'adapter au futur
-//Intéressez vous à ce qui se fait dans tous ces écosystèmes (en particulier si vous êtes partisan du NIH et que vous avez votre propre framework)
+.Merci docteur !
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 Je vous remercie docteur, ça m'a bien aidé
+et je tiens également à remercie tous les membres du groupe qui m'ont écouté jusqu'au bout.
 
 .merci  beaucoup !
-[slide=poster]
+[.reset-music, slide=poster]
 Outro
+
+Merci bcp.
 
 //[slide=question]
 //Questions ?
