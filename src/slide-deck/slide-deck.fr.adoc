@@ -16,207 +16,207 @@ Fondu vers le noir
 [.old]
 == Prologue...
 
-#Mettre la musique (Gymnopedie)#
+[.four]#Mettre la musique (Gymnopedie)#
 #Voix off, grave, triste#
-Perdu dans la jungle du Web moderne, de ses frameworks et ses standards, notre personnage principal est perdu.
+Perdu dans la jungle du Web moderne, de ses frameworks et ses standards,
 
 image::img/drawings-optimized/thinking.svg[]
 
-Depuis le début de sa carrière, au fil des semaines, des mois et des années... il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs mais qui demain seront délaissés et remplacés par de nouveaux encore plus mieux.
+notre personnage principal est perdu.
+Depuis le début de sa carrière, au fil des semaines, des mois et des années...
 
 image::img/drawings-optimized/thinking-words.svg[]
 
-C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande...
+il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
+mais qui demain seront délaissés et remplacés par de nouveaux ... encore plus mieux.
+C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
 
 image::img/drawings-optimized/rip.svg[]
-//slide d'avant mais pierre tombale à la place du perso
 
-#Un peu de respect pour les disparus SVP!#
+#Un peu de respect SVP !#
+S'ils n'ont pas déjà disparus de nos projets,
+peut-être ont-ils déjà disparus de nos...
 
 image::img/drawings-optimized/radar.svg[]
-//slide d'avant mais pierre radar à la place de la pierre tombale
-// TODO : ajouter (Webpack, ESlint, Prettier, TypeScript)
 
-...qui s'ils n'ont pas déjà disparu de nos projets ont déjà disparu de nos radars de coolitude.
+...radars de coolitude.
 Cette situation l'inquiète, le questionne et l'empêche de dormir.
 Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
-C'est à ce moment là que notre personnage pris la décision d'aller voir un thérapeuthe.
+C'est à ce moment là que notre personnage pris la décision d'aller voir...
 
 image::img/drawings-optimized/dr-sigma.svg[]
 
-image::img/drawings-optimized/talking-legos.svg[]
-//deux personnages lego
+...un thérapeuthe.
+[.four]#Restart la musique (Gymnopedie)#
 
-// Musique
+image::img/drawings-optimized/talking-legos.svg[]
+
+#Voix lassée et fatiguée#
 😎 Bonjour docteur.
+#Voix confiante#
 👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène ?
-👩‍⚕️ La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
-👩‍⚕️ Vous commenciez votre premier job et vous étiez en pleine crise existentielle sur "est-ce qu'il faut utiliser des espaces ou des tabulations" et sur la "prononciation des guiffes animé"...
+La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
+Vous commenciez votre premier job et vous aviez déclaré une crise existentielle sur l'usage des "espaces ou des tabulations" et sur la prononciation des "guiffes animés".
 😎 Des jifs, vous voulez-dire ?
-😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 
 .2 espaces,   c'est mieux !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 //Personnage H qui pense que les espaces c'est mieux.
 
-😎 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
-😎 Les effets de mode et de hype nous rendent beaucoup trop dépendant de nos outils.
-👩‍⚕️ Humm, dites mois en plus, je vois pas trop quel problèmes ça implique.
+😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
+Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
+
+.Trop de hype,   on est addict !
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 Les effets de mode et de hype nous rendent beaucoup trop addict à nos outils.
+👩‍⚕️ Humm, dites mois en plus, quels problèmes ça implique ?
 
 image::img/drawings-optimized/projecteur.svg[]
-//Problème numéro 1 sur un écran de projection
 
-// illustrer les pb avec des tweets
-
-😎 Problème numéro 1...
-👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours en sortant un PowerPoint ?
+#Voix énergique#
+😎 Alors, problème numéro 1...
+#Voix blasée#
+👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours avec un PowerPoint ?
 
 .C'est même pas   PowerPoint en plus...
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-😎 Bah ouais pourquoi, je vois pas le problème. Bref.
+😎 Bah c'est vachement pratique en vrai. Bref.
 
 .Problème n°1
 [slide=problem]
-//Problem #1
 Trouver la solution   avant de constater le problème
 
 😎 Problème numéro 1...
-😎 Quand on choisi un framework (ou une lib) frontend
-//, mais finalement, c'est assez vrai avec n'importe quel outil,
-😎 on en oublie souvent le problème qu'on voulait résoudre à la base et pourtant on a l'impression d'avoir trouvé la bonne réponse, la solution à utiliser.
-😎 Parfois, c'était le bon outil et parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
+Quand on choisi un framework, une lib frontend et son écosystème,
+on en oublie souvent le problème qu'on voulait résoudre à la base
+et pourtant on a l'impression d'avoir déjà trouvé la bonne réponse,
+la bonne solution à utiliser.
+Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
 
 image::img/drawings-optimized/dx-ux.svg[]
 
-😎 Parfois le choix se fait parceque la techno est cool (DX vs UX)
+😎 Parfois le choix se fait parceque la techno est *cool*
+et ça nous pousse souvent à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
 
 image::img/drawings-optimized/giant.svg[]
-//Géant du Web (utitliser les lettres GAFAMs)
-// https://i.pinimg.com/originals/9e/68/fc/9e68fc9933c28fbcdf01d9271fecc874.jpg
 
-😎 Parfois parcequ'elle est utilisée/créée par un géant du Web
+😎 Parfois parceque la techno est utilisée, voire créée par un géant du Web !
+// Ça forme un cycle:
+// * les géants l'utilisent
+// * on l'utilise
+// * les recruteurs nous attirent avec
+// * les débutants se forment dessus
+// * on créé des confs dédiées
+// * on créé des meetups
 
-//[slide=todo-schema]
-//cercle fermé
-
-😎 Les recruteurs demandent tous cet outil, du coup, on se forme dessus, c'est un cercle qui s'auto alimente
-😎 job hunting
-😎 Il y a des confs sur le sujet et des meetups, ça doit forcément être bien
-
-//.Problème n°1
-//[slide=problem]
-//Trouver la solution   avant de constater le problème
-
-.Comme ma voiture !
+.Continuez, continuez... !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-// Analogie de la voiture
-// À force d'utiliser nos voitures, on en oublie qu'à la base on avait un problème, on veut se déplacer
-// en oubliant se problème, on en vient à utiliser tout le temps la même solution sans se soucier des paramètres de départ
-// et on finit par aller acheter du pain à 500m en polluant la planète.
-// Aaahhh
-// Ah oui, je vois, c'est un peu comme quand on est habitué à prendre sa voiture tout le temps, qu'on aime les belles bagnoles et que du coup on finit par l'utiliser pour aller chercher du pain à 500m.
-// Euh, oui c'est un peu ça.
-// Oui bon après, on a quand même une majorité des bons exemples
+👩‍⚕️ Continuez, continuez...
 
 .Problème n°2
 [slide=problem]
 S'enfermer dans son propre écosystème
 
 😎 Problème numéro 2...
+Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
+// https://en.wikipedia.org/wiki/Escalation_of_commitment
+// https://fr.wikipedia.org/wiki/Escalade_d%27engagement
+// https://en.wikipedia.org/wiki/Sunk_cost
+// https://fr.wikipedia.org/wiki/Co%C3%BBt_irr%C3%A9cup%C3%A9rable
 
-//https://en.wikipedia.org/wiki/Escalation_of_commitment
-//https://fr.wikipedia.org/wiki/Escalade_d%27engagement
-//https://en.wikipedia.org/wiki/Sunk_cost
-//https://fr.wikipedia.org/wiki/Co%C3%BBt_irr%C3%A9cup%C3%A9rable
+image::img/drawings-optimized/silos.svg[]
 
-😎 On fois qu'on a choisi un ecosystème (fwk/lib), on a tendance à s'enferme dedans
-
-//[slide=todo-screenshot]
-//jquery date (ou autre exemple)
-
-😎 On cherche systématiquement comment faire X ou Y avec l'écosystème foo alors que X ou Y sont universels (jQuery)
-😎 On code l'énième version de feature/composant X ou Y pour cet écosystème
+😎 On ouvre une porte et on reste à l'intérieur.
+On cherche systématiquement comment faire X ou Y avec cet écosystème alors que X ou Y sont universels.
+Un peu comme quand on cherchait à manipuler des dates ou des tableaux avec jQuery.
+Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
+On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
+On ne voit plus les défauts de nos propres outils
+On soutient des fonctionnalités sans les comprendre
+On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
+image::img/screenshots/tweet-hooks2.jpg[url=https://twitter.com/devongovett/status/1095518197518745601]
 
 image::img/drawings-optimized/brain.svg[]
 
+😎 On va remplir notre cerveau avec...
+
 image::img/drawings-optimized/brain-fwk.svg[]
 
-😎 Difficile de revenir en arrière quand on a investi du temps d'apprentissage
-😎 On rempli nos cerveaux avec des noms de features (au lieu de les remplir avec des noms de pattern)
+😎 ...des fonctionnalités et concepts spéciques à notre écosystème...
+// 😎 Difficile de changer de cap quand on a investi du temps d'apprentissage.
 
 image::img/drawings-optimized/brain-patterns.svg[]
 
-😎 On ne voit plus les défauts de nos propres outils
-😎 On soutient des fonctionnalités sans les comprendre
+😎 ...au lieu de les remplir avec des standards bien installés ou des patterns bien connus.
 
-image::img/drawings-optimized/silos.svg[]
-//silo/couloirs/portes séparés avec React/Vue/Angular
-
-😎 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
-
-//.//Problème n°2
-//[slide=problem]
-//S'enfermer dans son propre écosystème
-
-//😎 On compare un framework tel qu'Angular aux Web Components, ça n'a aucun sens
-// Analogie conférences Apple
-
-//image::img/screenshots/tweet-hooks.jpg[url=https://twitter.com/tomdale/status/1092613088191410176]
-
-image::img/screenshots/tweet-hooks2.jpg[url=https://twitter.com/devongovett/status/1095518197518745601]
-
-.Comme une    keynote d'Apple !
+.Comme une   keynote d'Apple ?
 [slide=bubble]
-image::img/drawings-optimized/talking-legos-r-talks.svg[]
+image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 
+👩‍⚕️ Continuez, continuez...
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
 
 .Problème n°3
 [slide=problem]
-Écrire du code fortement couplé   qui subit mal des effets du temps
+...
 
 😎 Problème numéro 3...
-😎 On produit du code qui subit mal les effets du temps
+Finalement celui là, il est assez universel,
+On oublie facilement les principes SOLID et la "separation of concerns".
+
+.Problème n°3
+[slide=problem]
+Écrire du code fortement couplé   qui subit mal des effets du temps
+
+Du coup, on à tendance à produire du code fortement couplé, qui subit mal les effets du temps.
 
 image::img/drawings-optimized/layers.svg[]
-slide qui mélange les couches
+
+😎 Au lieu d'avoir des couches bien identifiées et bien isolées...
 
 image::img/drawings-optimized/layers-mixed.svg[]
-slide couches non mélangées
 
-😎 Les changements de son propre ecosystème
-😎 Du code trop couplé au framework lui même
-😎 L'arrivée de nouveaux standards
-😎 Du code qui mélange les couches (souvent car on ne voit pas en quoi c'est un problème)
-😎 Voire même sa disparition
+😎 ...on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
+Du coup :
+* quand notre propre écosystème évolue,
+* quand il disparait
+* quand un nouveau standard arrive
+ça devient difficile de remplacer unitairement certaines parties.
 
 image::img/drawings-optimized/trash.svg[]
 
+😎 On va jeter à la poubelle...
+
 image::img/drawings-optimized/trash-brain.svg[]
 
-😎 On jette à la poubelle plein de connaissances
+😎 ...une partie de nos connaissances...
 
 image::img/drawings-optimized/trash-project.svg[]
 
-😎 On jette à la poubelle plein de code
-// On s'est laissé aller à produire du code qui rentre dans les clous de nos outils plutôt que d'exiger de nos outils qu'ils proposent des branchements pour s'adapter à notre code.
-// Analogie de la TV
+😎 ...et pas mal de code.
+Vive les refontes et autres migrations techniques !
 
 .WTF?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
+👩‍⚕️ Là par contre, j'ai rien compris.
+
 .Comme ma télé !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+
 
 image::img/drawings-optimized/tv.svg[]
 
