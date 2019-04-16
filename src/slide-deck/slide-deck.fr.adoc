@@ -211,47 +211,75 @@ Vive les refontes et autres migrations techniques !
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 👩‍⚕️ Là par contre, j'ai rien compris.
+😎 Bah en fait, c'est comme ma télé.
 
 .Comme ma télé !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-
+😎 La dernière fois que je suis venu vous voir il y a 10 ans,
+Je commençais mon job et je venais de m'acheter une nouvelle télé avec l'argent de mon stage.
 
 image::img/drawings-optimized/tv.svg[]
 
+😎 Cette télé, je l'ai toujours aujourd'hui,
+elle marche comme il y a 10 ans.
+Elle a tenu la route parque qu'elle fait une chose et elle le fait bien.
+Elle ne sait pas ce que je vais brancher dessus, elle impose juste une interface : de l'HDMI.
+
 image::img/drawings-optimized/tv-pc.svg[]
+
+😎 Du coup, au départ, j'ai branché un gros PC,
 
 image::img/drawings-optimized/tv-raspberry.svg[]
 
+😎 puis un plus petit PC.
+J'ai branché plein de trucs dont elle n'a pas besoin de connaitre l'existence ni même la provenance.
+
 image::img/drawings-optimized/tv-androidtv.svg[]
+
+😎 J'ai même découvert par accident qu'en plus de recevoir de l'HDMI,
+elle pouvait elle envoyer des signaux (tjs via l'HDMI) aux appareils branchés.
+Bref, aujourd'hui, dans le monde du frontend...
 
 image::img/drawings-optimized/tv-vcr.svg[]
 
-image::img/drawings-optimized/tv-vcr-real.svg[]
+😎 Je vois trop de télé comme ça !
+👩‍⚕️ Ah ouais, c'était bien au début ces trucs là car il n'y avait rien à brancher, c'était magique mais bon, quand la télé ou le magnétoscope était pété, il fallait tout racheter
 
-// euh par contre, là j'ai rien compris
-// => analogie de la TV
+// image::img/drawings-optimized/tv-vcr-real.svg[]
 
-.Allez, hop !   Thérapie de groupe !
+.Ah, vous voyez ?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 Ah vous voyez pourquoi je suis perdu alors ?
+
+.Je vois, je vois...
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-// Attention à ne pas être trop négatif
-//À la base, ces outils sont censés nous aider
-//C'est encore, le cas, je reste persuadé que le ratio de ce qu'ils apportent et des problèmes que j'évoque est du côté positif mais cela ne m'empêche pas de m'inquiéter.
-// Bon, j'ai pas tout compris alors
-// je vous prescris une thérapie de groupe
-// vous allez m'analyser tous ces trucs en détails comme vous savez faire
-// vous allez réunir un groupe de personnes qui bossent dans votre domaine (un bon groupe de 800, c'est bien)
-// et vous leur partagez vos préoccupations, votre analyse et votre démarche et puis voilà
+👩‍⚕️ Je vois, je vois...
+Le plus simple dans votre situation...
+
+.Thérapie de groupe !
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ C'est la thérapie de groupe avec des professionnels de votre domaine !
+Du coup, je vous ai réuni un petit groupe de gens là.
 
 .J'y vais,   mais j'ai peur !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-// wow, mais ça fait peur non ?
-// Mais non allez, ça va bien se passer
+😎 Euh... mais ils sont beaucoup là non ?
+
+.Allez, hop !
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Mais non, allez, hop !
 
 [slide=poster]
 Bonjour à *toutes* et tous !
