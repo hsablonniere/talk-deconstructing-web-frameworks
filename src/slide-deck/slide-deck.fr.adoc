@@ -12,7 +12,7 @@ Poster
 
 [.time]#00:00:00#
 
-[.stop-music, slide=blank]
+[.stop-music.dark, slide=blank]
 Fondu vers le noir
 
 [.old.play-music]
@@ -295,116 +295,101 @@ et aujourd'hui, j'ai envie de vous parler :
 * et de ses standards.
 On va essayer ensemble de déconstruire un peu tout ça
 dans l'espoir de pouvoir mieux construire nos web apps.
-...
-OK, alors on utilise tous pleins d'outils qui nous apportent des solutions...
+
+[slide=blank]
+Transition
+
+OK, alors on utilise tous pleins d'outils super cools qui nous apportent des solutions...
 
 == C'était quoi  le *problème* ?
 
 [.time]#00:06:30#
 ...mais c'était quoi le problème à la base ?
-Sur cette partie, j'ai essayé de lister des problèmes auquels j'ai fait face dans mes différentes expériences de développement sur des web apps.
+...
+Sur cette partie, j'ai essayé de lister les principaux problèmes auquels j'ai fait face dans mes différentes expériences de dev sur le Web.
 
 [slide=needs, display=0]
 _
 
-J'ai séparé ça en 2 :
-* Les problèmes que je veux résoudre pour les utilisatrices et utilisateurs du produit que je développe
-* Les problèmes que je rencontre moi en tant que dev
+D'un côté, on a les problèmes qu'on veux résoudre pour les utilisatrices et utilisateurs du produit qu'on développe,
+et de l'autre, on a les problèmes qu'on rencontre *NOUS* les devs.
+...
+Alors, en tant que user, on veut :
 
 [slide=needs, display=1]
 _
 
-Rapidité (1er chargement)
+Un 1er chargement rapide.
 
 [slide=needs, display=2]
 _
 
-Rapidité (navigations consécutives)
+Une fois la page chargée,
+on veut que les navigations consécutives soient rapides aussi.
+//C'est le critère qui a motivé le fait de faire du rendu côté client.
 
 [slide=needs, display=3]
 _
 
-Fluidité + réactivité
+On veut que ce soit fluide et réactif,
 
 [slide=needs, display=4]
 _
 
-Conso. (batterie, RAM, CPU)
+que la consommation batterie, CPU, RAM reste raisonnable,
 
 [slide=needs, display=5]
 _
 
-Accessibilité
+que ça soit accessible à tous,
 
 [slide=needs, display=6]
 _
 
-Responsive
+et sur n'importe quel appareil.
+...
+Déjà là, on voit qu'le contexte joue à mort.
+C'est en fonction de *"ce que vous codez"* que l'importance de ces problèmes varie.
+Si vous codez une app où l'utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c'est pas trop votre problème principal.
+Même chose de l'autre côté du spectre, si vous codez une site où l'utilisateur fait bcp de lecture et de navigation,
+la fluidité avec des animations à 60 fps, bah forcément, c'est pas un problème que vous avez.
+...
+Ne notre côté, en tant que dev, on veut :
 
 [slide=needs, display=7]
 _
 
-Gagner du temps
+Gagner du temps, ne pas réinventer la roue,
 
 [slide=needs, display=8]
 _
 
-Code propre, réutilisable
+écrire du code propre, réutilisable,
 
 [slide=needs, display=9]
 _
 
-Modèle de pensée simple
+avec des abstraction pour garder un modèle de pensée simple.
 
 [slide=needs, display=10]
 _
 
-Isolation des impacts
+On veut une isolation des impacts de nos changements,
 
 [slide=needs, display=11]
 _
 
-Ne pas dépendre des outils
+ne pas trop dépendre de nos outils et petit bonus,
 
 [slide=needs, display=12]
 _
 
-Collab. avec 1 designer
+si on peut facilement collaborer avec des non-dev, c'est cool.
+...
+Ici, c'est en fonction de *"avec qui vous codez"*, votre équipe et son expérience, que l'importance des problèmes varie.
 
-// j'ai essayé de spéparer en 2 :
-// * les problèmes qu'on a nous quand on écrit du code
-// * et les problèmes qu'on veut résoudre pour aider nos utilisateurs
-
-//[slide=todo-needs]
-//titre besoins utilisateur et besoins développeur
-//+ list des besoins (un par un)
-
-// il faut vraiment que ça soit, en tant que, je veux
-listes besoins utilisateurs
-// en tant qu'utilisateur, je veux un site
-* accessible
-* responsive
-* 1er chargement rapide
-* navigations rapides
-* fluidité, pas trop de lag
-* pas trop de conso batterie
-* pas trop de conso CPU
-//
-listes besoins développeur
-// en tant que développeur, je veux
-* gagner du temps (démarrer mon projet rapidement)
-* avoir des conventions
-* écrire le moins de code possible
-* écrire du code propre et lisible
-* ne pas trop réfléchir (modèle de pensée simple, abstractions)
-* isolation des impacts
-* écrire du code réutilisable (composants)
-* ne pas réinventer la roue
-* courbe d'apprentissage
-* ne pas dépendre des mes outils
-* pouvoir travailler avec un designer
-
-// Donc on a identifié les problèmes qu'on veut résoudre
+[slide=blank]
+Transition
 
 == *Comment* en est-on  arrivé là ?
 
@@ -430,6 +415,9 @@ schéma ères du web (old school ssr)
 schéma ères du web (images)
 
 [slide=todo-schema]
+schéma ères du web (css)
+
+[slide=todo-schema]
 schéma ères du web (forms)
 // interactivité
 
@@ -445,7 +433,7 @@ schéma ères du web (AJAX with jQuery)
 schéma ères du web (SPA era, client side templating)
 
 [slide=todo-schema]
-schéma ères du web (SPA era, routing)
+schéma ères du web (SPA era, client side routing)
 // anchor/hash => push state
 
 [slide=todo-schema]
@@ -453,6 +441,12 @@ schéma ères du web (the mega bundle era with empty body)
 
 [slide=todo-schema]
 schéma ères du web (SSR + hydratation + code splitting)
+
+[slide=todo-schema]
+schéma ères du web (storage)
+
+[slide=todo-schema]
+schéma ères du web (workers)
 
 == Ce que les *frameworks*  nous apportent ?
 
@@ -846,11 +840,17 @@ image::img/cc-rocket-man.png[]
 // The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
 // https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
+// on a essayé plusieurs librairies pour écrire des Web Components
+
+//* LitElement
+//* https://github.com/hybridsjs/hybrids
+
 [slide=todo-screenshot, data-viewport=1]
 DÉMO: storybook driven development
 //YOU NEED A DESIGN SYSTEM
 
-image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
+//image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
+image::img/talk-storybook-ml-thuret.jpg[]
 
 [slide=todo-schema]
 design (papier) en partant du top => bottom
@@ -937,7 +937,7 @@ schéma browser avec le code qui passe du runtime et vers des implem du browser
 //Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
 //Compiler le i18n
 
-[.stop-music, slide=blank]
+[.stop-music.dark, slide=blank]
 Fondu vers le noir
 
 [.old.play-music]

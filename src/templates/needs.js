@@ -37,18 +37,18 @@ module.exports = (node) => {
     ${solution}
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" ${hide(0)}>Rapidité (1er chargement)</div>
           <div class="need-item" ${hide(1)}>Rapidité (navigations consécutives)</div>
-          <div class="need-item" ${hide(2)}>Fluidité + réactivité</div>
-          <div class="need-item" ${hide(3)}>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" ${hide(2)}>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" ${hide(3)}>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" ${hide(4)}>Accessibilité</div>
           <div class="need-item" ${hide(5)}>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" ${hide(6)}>Gagner du temps</div>
           <div class="need-item" ${hide(7)}>Code propre, réutilisable</div>

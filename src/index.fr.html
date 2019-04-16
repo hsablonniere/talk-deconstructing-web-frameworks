@@ -43,7 +43,7 @@
   
 </section>
 <div class="notes"><span class="time">00:00:00</span></div>
-<section class="slide stop-music" data-slide="blank" data-sourceline="16" >
+<section class="slide stop-music dark" data-slide="blank" data-sourceline="16" >
   
 </section>
 <section class="slide old play-music" data-slide="section" data-sourceline="19" >
@@ -349,31 +349,35 @@
   </div>
   
 </section>
-<div class="notes"><span class="time">00:06:00</span><br>Bonjour à <strong>toutes</strong> et tous !<br>J&#8217;m&#8217;appelle Hubert Sablonnière,<br>J&#8217;suis développeur Web chez <mark>Clever Cloud</mark>,<br>et aujourd&#8217;hui, j&#8217;ai envie de vous parler :<br>* du Web,<br>* de ses frameworks et autres librairies<br>* et de ses standards.<br>On va essayer ensemble de déconstruire un peu tout ça<br>dans l&#8217;espoir de pouvoir mieux construire nos web apps.<br>&#8230;&#8203;<br>OK, alors on utilise tous pleins d&#8217;outils qui nous apportent des solutions&#8230;&#8203;</div>
-<section class="slide" data-slide="section" data-sourceline="301" >
+<div class="notes"><span class="time">00:06:00</span><br>Bonjour à <strong>toutes</strong> et tous !<br>J&#8217;m&#8217;appelle Hubert Sablonnière,<br>J&#8217;suis développeur Web chez <mark>Clever Cloud</mark>,<br>et aujourd&#8217;hui, j&#8217;ai envie de vous parler :<br>* du Web,<br>* de ses frameworks et autres librairies<br>* et de ses standards.<br>On va essayer ensemble de déconstruire un peu tout ça<br>dans l&#8217;espoir de pouvoir mieux construire nos web apps.</div>
+<section class="slide" data-slide="blank" data-sourceline="300" >
+  
+</section>
+<div class="notes">OK, alors on utilise tous pleins d&#8217;outils super cools qui nous apportent des solutions&#8230;&#8203;</div>
+<section class="slide" data-slide="section" data-sourceline="304" >
   
     <div class="pretitle"></div>
     <div class="title" >C&#8217;était&nbsp;quoi<br>le&nbsp;<strong>problème</strong>&nbsp;?</div>
     
   
-</section><div class="notes"><span class="time">00:06:30</span><br>&#8230;&#8203;mais c&#8217;était quoi le problème à la base ?<br>Sur cette partie, j&#8217;ai essayé de lister des problèmes auquels j&#8217;ai fait face dans mes différentes expériences de développement sur des web apps.</div>
-<section class="slide" data-slide="needs" data-sourceline="308" >
+</section><div class="notes"><span class="time">00:06:30</span><br>&#8230;&#8203;mais c&#8217;était quoi le problème à la base ?<br>&#8230;&#8203;<br>Sur cette partie, j&#8217;ai essayé de lister les principaux problèmes auquels j&#8217;ai fait face dans mes différentes expériences de dev sur le Web.</div>
+<section class="slide" data-slide="needs" data-sourceline="312" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-hidden>Rapidité (1er chargement)</div>
           <div class="need-item" data-hidden>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-hidden>Fluidité + réactivité</div>
-          <div class="need-item" data-hidden>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-hidden>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-hidden>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-hidden>Accessibilité</div>
           <div class="need-item" data-hidden>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -386,54 +390,24 @@
     </div>
   
 </section>
-<div class="notes">J&#8217;ai séparé ça en 2 :<br>* Les problèmes que je veux résoudre pour les utilisatrices et utilisateurs du produit que je développe<br>* Les problèmes que je rencontre moi en tant que dev</div>
-<section class="slide" data-slide="needs" data-sourceline="315" >
-  
-    
-    <div class="needs">
-      <div class="needs-block">
-        <div class="title">User</div>
-        <div class="list">
-          <div class="need-item" >Rapidité (1er chargement)</div>
-          <div class="need-item" data-hidden>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-hidden>Fluidité + réactivité</div>
-          <div class="need-item" data-hidden>Conso. (batterie, RAM, CPU)</div>
-          <div class="need-item" data-hidden>Accessibilité</div>
-          <div class="need-item" data-hidden>Responsive</div>
-        </div>
-      </div>
-      <div class="needs-block">
-        <div class="title">Dev</div>
-        <div class="list">
-          <div class="need-item" data-hidden>Gagner du temps</div>
-          <div class="need-item" data-hidden>Code propre, réutilisable</div>
-          <div class="need-item" data-hidden>Modèle de pensée simple</div>
-          <div class="need-item" data-hidden>Isolation des impacts</div>
-          <div class="need-item" data-hidden>Ne pas dépendre des outils</div>
-          <div class="need-item" data-hidden>Collab. avec 1 designer</div>
-        </div>
-      </div>
-    </div>
-  
-</section>
-<div class="notes">Rapidité (1er chargement)</div>
+<div class="notes">D&#8217;un côté, on a les problèmes qu&#8217;on veux résoudre pour les utilisatrices et utilisateurs du produit qu&#8217;on développe,<br>et de l&#8217;autre, on a les problèmes qu&#8217;on rencontre <strong>NOUS</strong> les devs.<br>&#8230;&#8203;<br>Alors, en tant que user, on veut :</div>
 <section class="slide" data-slide="needs" data-sourceline="320" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
-          <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-hidden>Fluidité + réactivité</div>
-          <div class="need-item" data-hidden>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-hidden>Rapidité (navigations consécutives)</div>
+          <div class="need-item" data-hidden>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-hidden>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-hidden>Accessibilité</div>
           <div class="need-item" data-hidden>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -446,24 +420,24 @@
     </div>
   
 </section>
-<div class="notes">Rapidité (navigations consécutives)</div>
+<div class="notes">Un 1er chargement rapide.</div>
 <section class="slide" data-slide="needs" data-sourceline="325" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" data-hidden>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-hidden>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-hidden>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-hidden>Accessibilité</div>
           <div class="need-item" data-hidden>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -476,24 +450,24 @@
     </div>
   
 </section>
-<div class="notes">Fluidité + réactivité</div>
-<section class="slide" data-slide="needs" data-sourceline="330" >
+<div class="notes">Une fois la page chargée,<br>on veut que les navigations consécutives soient rapides aussi.</div>
+<section class="slide" data-slide="needs" data-sourceline="332" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-hidden>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-hidden>Accessibilité</div>
           <div class="need-item" data-hidden>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -506,24 +480,54 @@
     </div>
   
 </section>
-<div class="notes">Conso. (batterie, RAM, CPU)</div>
-<section class="slide" data-slide="needs" data-sourceline="335" >
+<div class="notes">On veut que ce soit fluide et réactif,</div>
+<section class="slide" data-slide="needs" data-sourceline="337" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
+          <div class="need-item" data-hidden>Accessibilité</div>
+          <div class="need-item" data-hidden>Responsive</div>
+        </div>
+      </div>
+      <div class="needs-block">
+        <div class="title">Devs</div>
+        <div class="list">
+          <div class="need-item" data-hidden>Gagner du temps</div>
+          <div class="need-item" data-hidden>Code propre, réutilisable</div>
+          <div class="need-item" data-hidden>Modèle de pensée simple</div>
+          <div class="need-item" data-hidden>Isolation des impacts</div>
+          <div class="need-item" data-hidden>Ne pas dépendre des outils</div>
+          <div class="need-item" data-hidden>Collab. avec 1 designer</div>
+        </div>
+      </div>
+    </div>
+  
+</section>
+<div class="notes">que la consommation batterie, CPU, RAM reste raisonnable,</div>
+<section class="slide" data-slide="needs" data-sourceline="342" >
+  
+    
+    <div class="needs">
+      <div class="needs-block">
+        <div class="title">Users</div>
+        <div class="list">
+          <div class="need-item" >Rapidité (1er chargement)</div>
+          <div class="need-item" >Rapidité (navigations consécutives)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" data-hidden>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -536,24 +540,24 @@
     </div>
   
 </section>
-<div class="notes">Accessibilité</div>
-<section class="slide" data-slide="needs" data-sourceline="340" >
+<div class="notes">que ça soit accessible à tous,</div>
+<section class="slide" data-slide="needs" data-sourceline="347" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-hidden>Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -566,24 +570,24 @@
     </div>
   
 </section>
-<div class="notes">Responsive</div>
-<section class="slide" data-slide="needs" data-sourceline="345" >
+<div class="notes">et sur n&#8217;importe quel appareil.<br>&#8230;&#8203;<br>Déjà là, on voit qu&#8217;le contexte joue à mort.<br>C&#8217;est en fonction de <strong>"ce que vous codez"</strong> que l&#8217;importance de ces problèmes varie.<br>Si vous codez une app où l&#8217;utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c&#8217;est pas trop votre problème principal.<br>Même chose de l&#8217;autre côté du spectre, si vous codez une site où l&#8217;utilisateur fait bcp de lecture et de navigation,<br>la fluidité avec des animations à 60 fps, bah forcément, c&#8217;est pas un problème que vous avez.<br>&#8230;&#8203;<br>Ne notre côté, en tant que dev, on veut :</div>
+<section class="slide" data-slide="needs" data-sourceline="360" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" data-hidden>Code propre, réutilisable</div>
@@ -596,24 +600,24 @@
     </div>
   
 </section>
-<div class="notes">Gagner du temps</div>
-<section class="slide" data-slide="needs" data-sourceline="350" >
+<div class="notes">Gagner du temps, ne pas réinventer la roue,</div>
+<section class="slide" data-slide="needs" data-sourceline="365" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -626,24 +630,24 @@
     </div>
   
 </section>
-<div class="notes">Code propre, réutilisable</div>
-<section class="slide" data-slide="needs" data-sourceline="355" >
+<div class="notes">écrire du code propre, réutilisable,</div>
+<section class="slide" data-slide="needs" data-sourceline="370" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -656,24 +660,24 @@
     </div>
   
 </section>
-<div class="notes">Modèle de pensée simple</div>
-<section class="slide" data-slide="needs" data-sourceline="360" >
+<div class="notes">avec des abstraction pour garder un modèle de pensée simple.</div>
+<section class="slide" data-slide="needs" data-sourceline="375" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -686,24 +690,24 @@
     </div>
   
 </section>
-<div class="notes">Isolation des impacts</div>
-<section class="slide" data-slide="needs" data-sourceline="365" >
+<div class="notes">On veut une isolation des impacts de nos changements,</div>
+<section class="slide" data-slide="needs" data-sourceline="380" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -716,24 +720,24 @@
     </div>
   
 </section>
-<div class="notes">Ne pas dépendre des outils</div>
-<section class="slide" data-slide="needs" data-sourceline="370" >
+<div class="notes">ne pas trop dépendre de nos outils et petit bonus,</div>
+<section class="slide" data-slide="needs" data-sourceline="385" >
   
     
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" >Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" >Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -746,116 +750,133 @@
     </div>
   
 </section>
-<div class="notes">Collab. avec 1 designer</div>
-<div class="notes">listes besoins utilisateurs<br>* accessible<br>* responsive<br>* 1er chargement rapide<br>* navigations rapides<br>* fluidité, pas trop de lag<br>* pas trop de conso batterie<br>* pas trop de conso CPU<br>listes besoins développeur<br>* gagner du temps (démarrer mon projet rapidement)<br>* avoir des conventions<br>* écrire le moins de code possible<br>* écrire du code propre et lisible<br>* ne pas trop réfléchir (modèle de pensée simple, abstractions)<br>* isolation des impacts<br>* écrire du code réutilisable (composants)<br>* ne pas réinventer la roue<br>* courbe d&#8217;apprentissage<br>* ne pas dépendre des mes outils<br>* pouvoir travailler avec un designer</div>
-<section class="slide" data-slide="section" data-sourceline="409" >
+<div class="notes">si on peut facilement collaborer avec des non-dev, c&#8217;est cool.<br>&#8230;&#8203;<br>Ici, c&#8217;est en fonction de <strong>"avec qui vous codez"</strong>, votre équipe et son expérience, que l&#8217;importance des problèmes varie.</div>
+<section class="slide" data-slide="blank" data-sourceline="392" >
+  
+</section>
+<section class="slide" data-slide="section" data-sourceline="394" >
   
     <div class="pretitle"></div>
     <div class="title" ><strong>Comment</strong>&nbsp;en&nbsp;est-on<br>arrivé&nbsp;là&nbsp;?</div>
     
   
 </section><div class="notes"><span class="time">00:08:00</span></div>
-<section class="slide" data-slide="quote" data-sourceline="417" >
+<section class="slide" data-slide="quote" data-sourceline="402" >
   <div class="quote"><span class="one-line">Pour comprendre où on va,<br>il faut savoir d&#8217;où on vient.</span></div>
 </section>
-<section class="slide" data-slide="media" data-sourceline="419" >
+<section class="slide" data-slide="media" data-sourceline="404" >
   <img class="element" src="img/drawings-optimized/browser.svg">
   
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="422" >
+<section class="slide" data-slide="todo" data-sourceline="407" >
   
     <div>schéma ères du web (vide)</div>
   
 </section>
 <div class="notes">bon anniversaire le web</div>
-<section class="slide" data-slide="todo" data-sourceline="427" >
+<section class="slide" data-slide="todo" data-sourceline="412" >
   
     <div>schéma ères du web (old school ssr)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="430" >
+<section class="slide" data-slide="todo" data-sourceline="415" >
   
     <div>schéma ères du web (images)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="433" >
+<section class="slide" data-slide="todo" data-sourceline="418" >
+  
+    <div>schéma ères du web (css)</div>
+  
+</section>
+<section class="slide" data-slide="todo" data-sourceline="421" >
   
     <div>schéma ères du web (forms)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="437" >
+<section class="slide" data-slide="todo" data-sourceline="425" >
   
     <div>schéma ères du web (SSR + JS)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="442" >
+<section class="slide" data-slide="todo" data-sourceline="430" >
   
     <div>schéma ères du web (AJAX with jQuery)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="445" >
+<section class="slide" data-slide="todo" data-sourceline="433" >
   
     <div>schéma ères du web (SPA era, client side templating)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="448" >
+<section class="slide" data-slide="todo" data-sourceline="436" >
   
-    <div>schéma ères du web (SPA era, routing)</div>
+    <div>schéma ères du web (SPA era, client side routing)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="452" >
+<section class="slide" data-slide="todo" data-sourceline="440" >
   
     <div>schéma ères du web (the mega bundle era with empty body)</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="455" >
+<section class="slide" data-slide="todo" data-sourceline="443" >
   
     <div>schéma ères du web (SSR + hydratation + code splitting)</div>
   
 </section>
-<section class="slide" data-slide="section" data-sourceline="457" >
+<section class="slide" data-slide="todo" data-sourceline="446" >
+  
+    <div>schéma ères du web (storage)</div>
+  
+</section>
+<section class="slide" data-slide="todo" data-sourceline="449" >
+  
+    <div>schéma ères du web (workers)</div>
+  
+</section>
+<section class="slide" data-slide="section" data-sourceline="451" >
   
     <div class="pretitle"></div>
     <div class="title" >Ce&nbsp;que&nbsp;les&nbsp;<strong>frameworks</strong><br>nous&nbsp;apportent&nbsp;?</div>
     
   
 </section><div class="notes"><span class="time">00:10:00</span></div>
-<section class="slide" data-slide="text" data-sourceline="471" >
+<section class="slide" data-slide="text" data-sourceline="465" >
   <div><strong>Frameworks</strong> vs. <strong>libs</strong> ?</div>
 </section>
-<section class="slide" data-slide="media" data-sourceline="474" >
+<section class="slide" data-slide="media" data-sourceline="468" >
   <img class="element" src="img/drawings-optimized/silos-colors.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="477" >
+<section class="slide" data-slide="media" data-sourceline="471" >
   <img class="element" src="img/drawings-optimized/silos-rooms.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="485" >
+<section class="slide" data-slide="media" data-sourceline="479" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="494" >
+<section class="slide" data-slide="needs" data-sourceline="488" >
   
     <div class="solution">Système de composant (API + runtime)</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -868,23 +889,23 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="497" >
+<section class="slide" data-slide="needs" data-sourceline="491" >
   
     <div class="solution">Système de composant (API + runtime)</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -897,28 +918,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="501" >
+<section class="slide" data-slide="media" data-sourceline="495" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="504" >
+<section class="slide" data-slide="needs" data-sourceline="498" >
   
     <div class="solution">"Templating"</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -931,23 +952,23 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="507" >
+<section class="slide" data-slide="needs" data-sourceline="501" >
   
     <div class="solution">"Templating"</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" >Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -960,28 +981,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="520" >
+<section class="slide" data-slide="media" data-sourceline="514" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="523" >
+<section class="slide" data-slide="needs" data-sourceline="517" >
   
     <div class="solution">CSS authoring</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -994,23 +1015,23 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="526" >
+<section class="slide" data-slide="needs" data-sourceline="520" >
   
     <div class="solution">CSS authoring</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1023,28 +1044,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="531" >
+<section class="slide" data-slide="media" data-sourceline="525" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="534" >
+<section class="slide" data-slide="needs" data-sourceline="528" >
   
     <div class="solution">Manipulation du DOM</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1057,23 +1078,23 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="537" >
+<section class="slide" data-slide="needs" data-sourceline="531" >
   
     <div class="solution">Manipulation du DOM</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" >Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" >Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" >Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1086,28 +1107,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="543" >
+<section class="slide" data-slide="media" data-sourceline="537" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="546" >
+<section class="slide" data-slide="needs" data-sourceline="540" >
   
     <div class="solution">SSR (Server Side Rendering)</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1118,25 +1139,59 @@
         </div>
       </div>
     </div>
+  
+</section>
+<section class="slide" data-slide="needs" data-sourceline="543" >
+  
+    <div class="solution">SSR (Server Side Rendering)</div>
+    <div class="needs">
+      <div class="needs-block">
+        <div class="title">Users</div>
+        <div class="list">
+          <div class="need-item" >Rapidité (1er chargement)</div>
+          <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
+          <div class="need-item" data-blur>Accessibilité</div>
+          <div class="need-item" data-blur>Responsive</div>
+        </div>
+      </div>
+      <div class="needs-block">
+        <div class="title">Devs</div>
+        <div class="list">
+          <div class="need-item" data-blur>Gagner du temps</div>
+          <div class="need-item" data-blur>Code propre, réutilisable</div>
+          <div class="need-item" data-blur>Modèle de pensée simple</div>
+          <div class="need-item" data-blur>Isolation des impacts</div>
+          <div class="need-item" data-blur>Ne pas dépendre des outils</div>
+          <div class="need-item" data-blur>Collab. avec 1 designer</div>
+        </div>
+      </div>
+    </div>
+  
+</section>
+<section class="slide" data-slide="media" data-sourceline="546" >
+  <img class="element" src="img/drawings-optimized/silos-not.svg">
+  
   
 </section>
 <section class="slide" data-slide="needs" data-sourceline="549" >
   
-    <div class="solution">SSR (Server Side Rendering)</div>
+    <div class="solution">Routing</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
-          <div class="need-item" >Rapidité (1er chargement)</div>
+          <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1149,57 +1204,23 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="552" >
-  <img class="element" src="img/drawings-optimized/silos-not.svg">
-  
-  
-</section>
-<section class="slide" data-slide="needs" data-sourceline="555" >
+<section class="slide" data-slide="needs" data-sourceline="552" >
   
     <div class="solution">Routing</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
-        <div class="list">
-          <div class="need-item" data-blur>Rapidité (1er chargement)</div>
-          <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
-          <div class="need-item" data-blur>Accessibilité</div>
-          <div class="need-item" data-blur>Responsive</div>
-        </div>
-      </div>
-      <div class="needs-block">
-        <div class="title">Dev</div>
-        <div class="list">
-          <div class="need-item" data-blur>Gagner du temps</div>
-          <div class="need-item" data-blur>Code propre, réutilisable</div>
-          <div class="need-item" data-blur>Modèle de pensée simple</div>
-          <div class="need-item" data-blur>Isolation des impacts</div>
-          <div class="need-item" data-blur>Ne pas dépendre des outils</div>
-          <div class="need-item" data-blur>Collab. avec 1 designer</div>
-        </div>
-      </div>
-    </div>
-  
-</section>
-<section class="slide" data-slide="needs" data-sourceline="558" >
-  
-    <div class="solution">Routing</div>
-    <div class="needs">
-      <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" >Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" >Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" >Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1212,28 +1233,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="563" >
+<section class="slide" data-slide="media" data-sourceline="557" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="566" >
+<section class="slide" data-slide="needs" data-sourceline="560" >
   
     <div class="solution">State management</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" data-blur>Code propre, réutilisable</div>
@@ -1246,28 +1267,28 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="568" >
+<section class="slide" data-slide="media" data-sourceline="562" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="571" >
+<section class="slide" data-slide="needs" data-sourceline="565" >
   
     <div class="solution">State management</div>
     <div class="needs">
       <div class="needs-block">
-        <div class="title">User</div>
+        <div class="title">Users</div>
         <div class="list">
           <div class="need-item" data-blur>Rapidité (1er chargement)</div>
           <div class="need-item" data-blur>Rapidité (navigations consécutives)</div>
-          <div class="need-item" data-blur>Fluidité + réactivité</div>
-          <div class="need-item" data-blur>Conso. (batterie, RAM, CPU)</div>
+          <div class="need-item" data-blur>Fluidité + réactivité (60 fps)</div>
+          <div class="need-item" data-blur>Conso. (batterie, CPU, RAM)</div>
           <div class="need-item" data-blur>Accessibilité</div>
           <div class="need-item" data-blur>Responsive</div>
         </div>
       </div>
       <div class="needs-block">
-        <div class="title">Dev</div>
+        <div class="title">Devs</div>
         <div class="list">
           <div class="need-item" data-blur>Gagner du temps</div>
           <div class="need-item" >Code propre, réutilisable</div>
@@ -1280,82 +1301,82 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="591" >
+<section class="slide" data-slide="media" data-sourceline="585" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="section" data-sourceline="597" >
+<section class="slide" data-slide="section" data-sourceline="591" >
   
     <div class="pretitle"></div>
     <div class="title" >Ce&nbsp;que&nbsp;les&nbsp;<strong>standards</strong><br>nous&nbsp;apportent&nbsp;?</div>
     
   
 </section><div class="notes"><span class="time">00:20:00</span></div>
-<section class="slide" data-slide="todo" data-sourceline="602" >
+<section class="slide" data-slide="todo" data-sourceline="596" >
   
     <div>préambule exemple jquery &#8658; sizzle + ajax + API chainée sucre syntaxique</div>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="606" >
+<section class="slide" data-slide="web-components" data-sourceline="600" >
   
     <div class="title">Web Components</div>
     
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="608" >
+<section class="slide" data-slide="media" data-sourceline="602" >
   <img class="element" src="img/drawings-optimized/tv-component.svg">
   
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="611" >
+<section class="slide" data-slide="todo" data-sourceline="605" >
   
     <div>schéma de la télé &#8658; analogie avec le Web component</div>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="615" >
+<section class="slide" data-slide="web-components" data-sourceline="609" >
   
     <div class="title">Custom Elements</div>
     
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="619" >
+<section class="slide" data-slide="todo" data-sourceline="613" >
   
     <div>schéma de la télé &#8658; analogie avec le Web component
 API (attr, prop, methods, events) + lifecycle methods</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="624" >
+<section class="slide" data-slide="todo" data-sourceline="618" >
   
     <div>exemple de code de custom element</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="627" >
+<section class="slide" data-slide="todo" data-sourceline="621" >
   
     <div>exemples de noeuds du DOM avec des attributs</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="630" >
+<section class="slide" data-slide="todo" data-sourceline="624" >
   
     <div>exemples de noeuds du DOM avec des propriétés non string/boolean</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="635" >
+<section class="slide" data-slide="todo" data-sourceline="629" >
   
     <div>exemples de noeuds du DOM avec des méthodes</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="643" >
+<section class="slide" data-slide="todo" data-sourceline="637" >
   
     <div>exemples de noeuds du DOM avec des événements un peu custom</div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="647" >
+<section class="slide" data-slide="media" data-sourceline="641" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="652" >
+<section class="slide" data-slide="web-components" data-sourceline="646" >
   
     <div class="title">Custom Elements</div>
     <ul><li class="hidden">🤔 Pas de customized built-in elements dans Safari</li>
@@ -1366,7 +1387,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="661" >
+<section class="slide" data-slide="web-components" data-sourceline="655" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1377,7 +1398,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="670" >
+<section class="slide" data-slide="web-components" data-sourceline="664" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1388,7 +1409,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="679" >
+<section class="slide" data-slide="web-components" data-sourceline="673" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1399,7 +1420,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="688" >
+<section class="slide" data-slide="web-components" data-sourceline="682" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1410,7 +1431,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="697" >
+<section class="slide" data-slide="web-components" data-sourceline="691" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1421,7 +1442,7 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li class="hidden">📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="706" >
+<section class="slide" data-slide="web-components" data-sourceline="700" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 Pas de customized built-in elements dans Safari</li>
@@ -1432,29 +1453,29 @@ API (attr, prop, methods, events) + lifecycle methods</div>
 <li >📜 Form associated elements</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="715" >
+<section class="slide" data-slide="web-components" data-sourceline="709" >
   
     <div class="title">Shadow DOM</div>
     
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="719" >
+<section class="slide" data-slide="todo" data-sourceline="713" >
   
     <div>schéma de la télé &#8658; analogie avec le Web component
 Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
   
 </section>
-<section class="slide" data-slide="todo" data-sourceline="727" >
+<section class="slide" data-slide="todo" data-sourceline="721" >
   
     <div>exemples de noeuds du DOM avec des ::part ou des custom prop</div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="729" >
+<section class="slide" data-slide="media" data-sourceline="723" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="734" >
+<section class="slide" data-slide="web-components" data-sourceline="728" >
   
     <div class="title">Shadow DOM</div>
     <ul><li class="hidden">😡 Pas de SSR (sans bidouille)</li>
@@ -1463,7 +1484,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 <li class="hidden">📜 CSS modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="741" >
+<section class="slide" data-slide="web-components" data-sourceline="735" >
   
     <div class="title">Shadow DOM</div>
     <ul><li >😡 Pas de SSR (sans bidouille)</li>
@@ -1472,7 +1493,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 <li class="hidden">📜 CSS modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="748" >
+<section class="slide" data-slide="web-components" data-sourceline="742" >
   
     <div class="title">Shadow DOM</div>
     <ul><li >😡 Pas de SSR (sans bidouille)</li>
@@ -1481,7 +1502,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 <li class="hidden">📜 CSS modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="755" >
+<section class="slide" data-slide="web-components" data-sourceline="749" >
   
     <div class="title">Shadow DOM</div>
     <ul><li >😡 Pas de SSR (sans bidouille)</li>
@@ -1490,7 +1511,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 <li class="hidden">📜 CSS modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="762" >
+<section class="slide" data-slide="web-components" data-sourceline="756" >
   
     <div class="title">Shadow DOM</div>
     <ul><li >😡 Pas de SSR (sans bidouille)</li>
@@ -1499,21 +1520,29 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 <li >📜 CSS modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="769" >
+<section class="slide" data-slide="web-components" data-sourceline="763" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="772" >
+<section class="slide" data-slide="media" data-sourceline="766" >
   <img class="element" src="img/drawings-optimized/silos-not.svg">
   
+  
+</section>
+<section class="slide" data-slide="web-components" data-sourceline="771" >
+  
+    <div class="title"><code>&lt;template&gt;</code></div>
+    <ul><li class="hidden">😡 Pas d'interpolation ni de "data-binding"</li>
+<li class="hidden">📜 Template instanciation (limitée à de simples valeurs)</li>
+<li class="hidden">📜 HTML modules</li></ul>
   
 </section>
 <section class="slide" data-slide="web-components" data-sourceline="777" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
-    <ul><li class="hidden">😡 Pas d'interpolation ni de "data-binding"</li>
+    <ul><li >😡 Pas d'interpolation ni de "data-binding"</li>
 <li class="hidden">📜 Template instanciation (limitée à de simples valeurs)</li>
 <li class="hidden">📜 HTML modules</li></ul>
   
@@ -1522,7 +1551,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
   
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li >😡 Pas d'interpolation ni de "data-binding"</li>
-<li class="hidden">📜 Template instanciation (limitée à de simples valeurs)</li>
+<li >📜 Template instanciation (limitée à de simples valeurs)</li>
 <li class="hidden">📜 HTML modules</li></ul>
   
 </section>
@@ -1531,69 +1560,60 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li >😡 Pas d'interpolation ni de "data-binding"</li>
 <li >📜 Template instanciation (limitée à de simples valeurs)</li>
-<li class="hidden">📜 HTML modules</li></ul>
-  
-</section>
-<section class="slide" data-slide="web-components" data-sourceline="795" >
-  
-    <div class="title"><code>&lt;template&gt;</code></div>
-    <ul><li >😡 Pas d'interpolation ni de "data-binding"</li>
-<li >📜 Template instanciation (limitée à de simples valeurs)</li>
 <li >📜 HTML modules</li></ul>
   
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="799" >
+<section class="slide dark" data-slide="media" data-sourceline="793" >
   <div class="browser">
     <figcaption class="url"><a href="https://developers.google.com/web/fundamentals/web-components/best-practices" target="_blank" rel="noopener">https://developers.google.com/web/fundamentals/web-components/best-practices</a></figcaption>
     <img class="element" src="img/screenshots/web-components-best-practices.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="803" >
+<section class="slide dark" data-slide="media" data-sourceline="797" >
   <div class="browser">
     <figcaption class="url"><a href="https://github.com/w3c/webcomponents" target="_blank" rel="noopener">https://github.com/w3c/webcomponents</a></figcaption>
     <img class="element" src="img/screenshots/github-web-components.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="805" >
+<section class="slide dark" data-slide="media" data-sourceline="799" >
   <div class="browser">
     <figcaption class="url"><a href="https://twitter.com/intenttoship" target="_blank" rel="noopener">https://twitter.com/intenttoship</a></figcaption>
     <img class="element" src="img/screenshots/twitter-intenttoship.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="807" >
+<section class="slide dark" data-slide="media" data-sourceline="801" >
   <div class="browser">
     <figcaption class="url"><a href="https://twitter.com/WebPlatformNews" target="_blank" rel="noopener">https://twitter.com/WebPlatformNews</a></figcaption>
     <img class="element" src="img/screenshots/twitter-WebPlatformNews.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="809" >
+<section class="slide dark" data-slide="media" data-sourceline="803" >
   <div class="browser">
     <figcaption class="url"><a href="https://github.com/tc39/proposals" target="_blank" rel="noopener">https://github.com/tc39/proposals</a></figcaption>
     <img class="element" src="img/screenshots/github-tc39.jpg">
   </div>
 </section>
-<section class="slide" data-slide="section" data-sourceline="816" >
+<section class="slide" data-slide="section" data-sourceline="810" >
   
     <div class="pretitle"></div>
     <div class="title" ><strong>Séparons</strong>&nbsp;nos<br>préoccupations</div>
     
   
 </section><div class="notes"><span class="time">00:30:00</span></div>
-<section class="slide logo" data-slide="media" data-sourceline="827" >
+<section class="slide logo" data-slide="media" data-sourceline="821" >
   <img class="element" src="img/cc-rocket-man.png">
   
   <figcaption class="caption">Le contexte <strong>Clever Cloud</strong></figcaption>
 </section>
-<section class="slide" data-slide="todo" data-sourceline="850" data-viewport="1">
+<section class="slide" data-slide="todo" data-sourceline="849" data-viewport="1">
   
     <div>DÉMO: storybook driven development</div>
   
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="853" >
-  <div class="browser">
-    <figcaption class="url"><a href="https://www.youtube.com/watch?v=a-fsVBaiv5A" target="_blank" rel="noopener">https://www.youtube.com/watch?v=a-fsVBaiv5A</a></figcaption>
-    <img class="element" src="img/talk-storybook-ml-thuret.jpg">
-  </div>
+<section class="slide" data-slide="media" data-sourceline="853" >
+  <img class="element" src="img/talk-storybook-ml-thuret.jpg">
+  
+  
 </section>
 <section class="slide" data-slide="todo" data-sourceline="856" >
   
@@ -1659,7 +1679,7 @@ Ajouter à l&#8217;API les custom prop, les slots et les ::part</div>
 schéma browser avec le code qui passe du runtime et vers des implem du browser</div>
   
 </section>
-<section class="slide stop-music" data-slide="blank" data-sourceline="941" >
+<section class="slide stop-music dark" data-slide="blank" data-sourceline="941" >
   
 </section>
 <section class="slide old play-music" data-slide="section" data-sourceline="944" >

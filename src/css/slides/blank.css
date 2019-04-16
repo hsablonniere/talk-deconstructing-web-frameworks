@@ -1,6 +1,6 @@
 [data-slide="blank"],
 .before-blank {
-  transition: opacity 2s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
   position: absolute;
 }
 
@@ -12,9 +12,16 @@
 [data-slide="blank"][data-relative-index="1"],
 .before-blank[data-relative-index="-1"] {
   display: flex !important;
+}
+
+[data-slide="blank"][data-relative-index="1"] {
   opacity: 0;
 }
 
 [data-slide="blank"] {
+  background-color: #fff;
+}
+
+[data-slide="blank"].dark {
   background-color: #000;
 }
