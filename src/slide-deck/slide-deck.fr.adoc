@@ -282,54 +282,91 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 👩‍⚕️ Mais non, allez, hop !
 
 [slide=poster]
+Bonjour
+
 Bonjour à *toutes* et tous !
 J'm'appelle Hubert Sablonnière,
 J'suis développeur Web chez #Clever Cloud#,
 et aujourd'hui, j'ai envie de vous parler :
-du Web,
-de ses frameworks et autres librairies
-et de ses standards.
+* du Web,
+* de ses frameworks et autres librairies
+* et de ses standards.
+On va essayer ensemble de déconstruire un peu tout ça
+dans l'espoir de pouvoir mieux construire nos web apps.
+OK, on utilise tous pleins d'outils qui nous apportent des solutions...
 
 == C'était quoi  le *problème* ?
+
+...mais c'était quoi le problème à la base ?
+Alors, j'ai essayé de lister des problèmes auquels j'ai fait face dans mes différentes expériences
+de développement sur des web apps.
 
 [slide=needs, display=0]
 _
 
+J'ai séparé ça en 2 :
+* Les problèmes que je veux résoudre pour les utilisatrices et utilisateurs du produit que je développe
+* Les problèmes que je rencontre moi en tant que dev
+
 [slide=needs, display=1]
 _
+
+Rapidité (1er chargement)
 
 [slide=needs, display=2]
 _
 
+Rapidité (navigations consécutives)
+
 [slide=needs, display=3]
 _
+
+Fluidité + réactivité
 
 [slide=needs, display=4]
 _
 
+Conso. (batterie, RAM, CPU)
+
 [slide=needs, display=5]
 _
+
+Accessibilité
 
 [slide=needs, display=6]
 _
 
+Responsive
+
 [slide=needs, display=7]
 _
+
+Gagner du temps
 
 [slide=needs, display=8]
 _
 
+Code propre, réutilisable
+
 [slide=needs, display=9]
 _
+
+Modèle de pensée simple
 
 [slide=needs, display=10]
 _
 
+Isolation des impacts
+
 [slide=needs, display=11]
 _
 
+Ne pas dépendre des outils
+
 [slide=needs, display=12]
 _
+
+Collab. avec 1 designer
 
 
 // j'ai essayé de spéparer en 2 :
@@ -424,11 +461,11 @@ schéma ères du web (SSR + hydratation + code splitting)
 //jquery
 //Frameworks are also their to prevent browser quirks
 
-[slide=todo]
-définition frameworks
+[slide=text]
+*Frameworks* vs. *libs* ?
 
 [slide=todo-schema]
-remettre les 3 portes aves les 3 frameworks
+image::img/drawings-optimized/silos.svg[]
 
 [slide=todo-schema]
 afficher le plan vu de dessus 3 couloirs isolés
