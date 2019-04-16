@@ -41,7 +41,7 @@ export default function configurePlugin () {
 
         const ts = new Date().getTime();
         events.push({ ts: ts - recordingTs, cursor });
-        localStorage.setItem(`recording-${recordingTs}`, JSON.stringify(events));
+        // localStorage.setItem(`recording-${recordingTs}`, JSON.stringify(events));
 
         return source.postMessage({ event: 'set-viewport', eventData: { viewport } }, '*');
       }

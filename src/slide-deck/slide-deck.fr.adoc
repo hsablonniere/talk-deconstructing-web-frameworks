@@ -10,10 +10,10 @@ Hubert Sablonnière
 [slide=poster]
 Poster
 
-[slide=blank]
+[.stop-music, slide=blank]
 Fondu vers le noir
 
-[.old]
+[.old.play-music]
 == Prologue...
 
 [.four]#Mettre la musique (Gymnopedie)#
@@ -41,9 +41,10 @@ image::img/drawings-optimized/radar.svg[]
 
 ...radars de coolitude.
 Cette situation l'inquiète, le questionne et l'empêche de dormir.
-Dans le cadre de son travail, il doit faire des choix techniques mais il ne sais plus quoi faire.
+Dans le cadre de son travail, il doit faire des choix techniques mais il ne sait plus quoi faire.
 C'est à ce moment là que notre personnage pris la décision d'aller voir...
 
+[.reset-music]
 image::img/drawings-optimized/dr-sigma.svg[]
 
 ...un thérapeuthe.
@@ -281,7 +282,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 👩‍⚕️ Mais non, allez, hop !
 
-[slide=poster]
+[.stop-music, slide=poster]
 Bonjour
 
 Bonjour à *toutes* et tous !
@@ -293,13 +294,13 @@ et aujourd'hui, j'ai envie de vous parler :
 * et de ses standards.
 On va essayer ensemble de déconstruire un peu tout ça
 dans l'espoir de pouvoir mieux construire nos web apps.
-OK, on utilise tous pleins d'outils qui nous apportent des solutions...
+...
+OK, alors on utilise tous pleins d'outils qui nous apportent des solutions...
 
 == C'était quoi  le *problème* ?
 
 ...mais c'était quoi le problème à la base ?
-Alors, j'ai essayé de lister des problèmes auquels j'ai fait face dans mes différentes expériences
-de développement sur des web apps.
+Sur cette partie, j'ai essayé de lister des problèmes auquels j'ai fait face dans mes différentes expériences de développement sur des web apps.
 
 [slide=needs, display=0]
 _
@@ -412,7 +413,7 @@ listes besoins développeur
 [quote]
 Pour comprendre où on va,   il faut savoir d'où on vient.
 
-// schémas avec le triangle
+image::img/drawings-optimized/browser.svg[]
 
 [slide=todo-schema]
 schéma ères du web (vide)

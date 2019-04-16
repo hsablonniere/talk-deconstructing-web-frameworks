@@ -3,9 +3,7 @@
 const slide = require('./_slide');
 
 module.exports = (node) => {
-  const classes = node.getRoles().includes('old')
-    ? ['old']
-    : [];
+  const classes = node.getRoles();
   const $video = node.getRoles().includes('old')
     ? `<video src="./videos/old-movie.webm" muted loop></video>`
     : '';
