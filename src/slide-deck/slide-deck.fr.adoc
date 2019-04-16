@@ -821,8 +821,11 @@ image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 // SOLID
 
-[slide=text]
-Notre contexte  chez *Clever Cloud*
+.Le contexte *Clever Cloud*
+[.logo]
+//image::img/clever-cloud-logo.svg[]
+image::img/cc-rocket-man.png[]
+
 // une webapp qui a un peu vieilli (jquery, baconjs, routeur maison)
 // donnée qui vient d'appels REST et/ou de SSE
 // on va pas tout jeter pour tout réécrire
@@ -838,6 +841,10 @@ Notre contexte  chez *Clever Cloud*
 //Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
 //Séparation des *préoccupations*   #!==#   Séparation des *fichiers*
 //Séparation des *préoccupations*  *!==* Séparation des *fichiers*
+
+// [quote]
+// The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
+// https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
 [slide=todo-screenshot, data-viewport=1]
 DÉMO: storybook driven development
@@ -877,9 +884,6 @@ réduire la surface de trucs qui sont globaux
 
 [slide=todo]
 exemple des vars d'env et comment s'isolation au bon niveau, nous permet de passer du mode simple au mode expert
-
-//The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
-// https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
 // i18n
 // packaging

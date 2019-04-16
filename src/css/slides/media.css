@@ -88,9 +88,16 @@
 
 [data-slide="media"].logo .caption {
   background-color: transparent;
-  color: var(--color-bb);
-  font-size: 5rem;
+  font-size: 3rem;
   position: static;
+  padding-top: 2rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: normal;
+}
+
+[data-slide="media"].logo .caption strong {
+  color: hsl(108, 13%, 44%);
+  font-weight: normal;
 }
 
 /* BROWSER */
