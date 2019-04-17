@@ -509,6 +509,9 @@ image::img/drawings-optimized/silos-rooms.svg[]
 
 // special mention to ember
 
+[slide=blank]
+on efface
+
 image::img/drawings/bookshelf-empty.jpg[]
 
 // mentionner les étapes qui nécessitent un outil de build
@@ -526,7 +529,7 @@ Système de composants (API + runtime)
 // => props, attrs, slots, methods, events, lifecycle methods
 // exemple Angular, React, Vue
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-1.jpg[]
 
 [slide=needs, focus=""]
 "Templating" / ViewModel
@@ -540,7 +543,7 @@ image::img/drawings/bookshelf-.jpg[]
 // Mvc, mvvm, template + vue model, computed properties
 // exemple Angular, React, Vue
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-2.jpg[]
 
 [slide=needs, focus=""]
 Gestion du CSS
@@ -549,7 +552,7 @@ Gestion du CSS
 Gestion du CSS
 // => BEM, CSS-in-JS lib, encapsulation system
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-3.jpg[]
 
 [slide=needs, focus=""]
 Manipulation du DOM
@@ -560,7 +563,7 @@ Manipulation du DOM
 //The Virtual DOM was always a big marketing argument to sell React but why would we care.
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-4.jpg[]
 
 [slide=needs, focus=""]
 SSR (Server Side Rendering)
@@ -568,7 +571,7 @@ SSR (Server Side Rendering)
 [slide=needs, focus="0,5"]
 SSR (Server Side Rendering)
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-5.jpg[]
 
 [slide=needs, focus=""]
 Router
@@ -576,7 +579,7 @@ Router
 [slide=needs, focus="0,2"]
 Router
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-6.jpg[]
 
 [slide=needs, focus=""]
 State management
@@ -584,7 +587,7 @@ State management
 [slide=needs, focus="7,8"]
 State management
 
-image::img/drawings/bookshelf-.jpg[]
+image::img/drawings/bookshelf-7.jpg[]
 
 //[slide=needs, focus="0"]
 //en vrac car moins important pour notre discussion
