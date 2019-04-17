@@ -831,6 +831,9 @@ et du coup, il est temps d'appliquer...
 ...les principes SOLID à notre frontend préféré.
 Je vais prendre l'exemple du travail que je fais en ce moment...
 
+[quote]
+Code should be disposable,   it's far easier to do when   things are decoupled.
+
 .Le contexte *Clever Cloud*
 [.logo]
 image::img/cc-rocket-man.png[]
@@ -862,13 +865,53 @@ Pas de SSR
 Router maison (merci quentin)
 Pas vrmt de state manager (bacon)
 
-[slide=todo]
-besoins
-: bacon + lodash => new
-: modules avec interface et isolation
-: réutilisabilité
-: on veut pas tout jeter pour tout réécrire
-: introduire des nouvelles technos feature après feature
+.Nos besoins
+[slide=web-components, display=0]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
+
+.Nos besoins
+[slide=web-components, display=1]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
+
+.Nos besoins
+[slide=web-components, display=2]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
+
+.Nos besoins
+[slide=web-components, display=3]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
+
+.Nos besoins
+[slide=web-components, display=4]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
+
+.Nos besoins
+[slide=web-components, display=5]
+* 👋 Au revoir (Bacon.js + lodash templates)
+* 💪 Composants avec interface et isolation
+* ♻️ Réutilisabilité (marque blanche/grise)
+* 🤯 Pas de refonte "big-bang"
+* 🔢 Introduction des nouvelles technos feature après feature
 
 sur certaines parties de l'app, on avait déjà un modèle
 comme les frameworks moderne avec un one way data flow
@@ -878,15 +921,50 @@ on a isolé les "modules" dans des fichiers mais on a du CSS global et on a pas 
 on va avoir besoin que notre UI soit réutilisée en marque blanche ou marque grise
 du coup, on doit pouvoir fournir certains parties de manière indépendantes un peu comme des légos
 // donnée qui vient d'appels REST et/ou de SSE
+...
+on va introduire des nouvelles technos feature après feature
+le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
+Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+
+[slide=text]
+Phase de conception :   du *haut* vers le *bas*
+
+// [slide=todo]
+// mock-up top => bottom des vars d'env
+
+[slide=text]
+Phase de développement :   du *bas* vers le *haut*
+
+les enfants ne savent pas qui les utilisent
+mais ils ont une idées de comment ils seront utilisés ou plutôt de ce qu'ils doivent faire
+les parents savent à quoi servent leur enfants mais ne se soucis pas de comment ça marche à l'interieur
+tu ne sais pas qu'il y a un router
+tu ne sais pas qu'il y a un state manager
+tu ne sais pas d'où vient la donnée
+
+[slide=text]
+*Storybook* **D**riven **D**evelopment
+
+YOU NEED A DESIGN SYSTEM
+
+//image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
+image::img/talk-storybook-ml-thuret.jpg[]
+
+[slide=todo-screenshot, data-viewport=1]
+DÉMO: le storybook de clever
+
+montrer les boutons avec leur interface
+montrer le composant env-var-input
+montrer le composant env-var-editor-simple
+montrer le composant env-var-editor-expert
+expliquer qu'ils ont la même signature et son donc très facilement interchangeable aux yeux du parent
 
 [slide=todo]
-constats
-// on va introduire des nouvelles technos feature après feature
-// le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
-// Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+choix techniques (étagère)
 
-// [quote]
-// Code should be disposable,   it's far easier to do when   things are decoupled.
+// * web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
+// * lit-element + lit-html (petites libs)
+// * on en a testé d'autres mais celles si nous convenait le mieux
 
 //[slide=text]
 //Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
@@ -897,50 +975,26 @@ constats
 // The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
 // https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
-// on a essayé plusieurs librairies pour écrire des Web Components
-
-//* LitElement
-//* https://github.com/hybridsjs/hybrids
-
-[slide=todo-screenshot, data-viewport=1]
-DÉMO: storybook driven development
-//YOU NEED A DESIGN SYSTEM
-
-//image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
-image::img/talk-storybook-ml-thuret.jpg[]
-
-[slide=todo-schema]
-design (papier) en partant du top => bottom
-
-[slide=todo-schema]
-implem bottom => top
-// memento
-// tu ne sais pas qu'il y a un router
-// tu ne sais pas qu'il y a un state manager
-// tu ne sais pas d'où vient la donnée
-
 [slide=todo]
 composition pour ajouter des layers
-// layer data aware
-// layer auth aware
-// elements qui font des appels REST
 
-[slide=todo]
-remonter l'accès à la donnée le plus haut possible
+layer data aware
+layer auth aware
+elements qui font des appels REST
 
-[slide=todo]
-réduire la surface de trucs qui sont globaux
-* Gestion des données (appels REST)
+// [slide=todo]
+// remonter l'accès à la donnée le plus haut possible
+
+.Réduire l'adhérence avec le global
+[slide=web-components]
+* Gestion des données (REST, WS, SSE...)
 * Gestion de l'état
-* Global progress indicator
-* Global messages (errors, info...)
-* title
-* favicon
-* keyboard shortcuts
-* Global modal boxes
-
-[slide=todo]
-exemple des vars d'env et comment s'isolation au bon niveau, nous permet de passer du mode simple au mode expert
+* Indicateur de chargement
+* Messages, notifs (info, erreur...)
+* Modal box
+* Raccourcis clavier
+* document.title
+// i18n
 
 // i18n
 // packaging
@@ -979,25 +1033,24 @@ image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://
 
 image::img/drawings-optimized/browser.svg[]
 
-[slide=todo-schéma]
-// framework runtime => compilers
+framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
-// bon ou mauvais ?
-// l'idéal serait que l'input du compiler fonctionne sans build step et que l'output soit optimisé aux petits oignons, comme ce qu'on fait quand on minifie
+bon ou mauvais ?
+l'idéal serait que l'input du compiler fonctionne sans build step et que l'output soit optimisé aux petits oignons, comme ce qu'on fait quand on minifie
 schéma browser avec le code qui passe du runtime et vers des implem du browser
-
-//Convaincre les gens que :
-//Le passé se répète
-//Les outils vont et viennent
-//La constante, c'est le modèle des éléments du DOM (sorte de HDMI du Web)
-//Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d'apprentissage
-//Ne pas hésiter à questionner les standards ou les frameworks à la mode
-//Qu'est-ce qui est important ? L'UX, la DX, les perfs ?
-//On est trop dépendant de nos outils
-//On est pas tjs assez exigent avec nos outils
-//Il faut plus de compilation (html, css, js) et donc une étape intermédiaire
-//Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
-//Compiler le i18n
+...
+Convaincre les gens que :
+Le passé se répète
+Les outils vont et viennent
+La constante, c'est le modèle des éléments du DOM (sorte de HDMI du Web)
+Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d'apprentissage
+// Ne pas hésiter à questionner les standards ou les frameworks à la mode
+// Qu'est-ce qui est important ? L'UX, la DX, les perfs ?
+// On est trop dépendant de nos outils
+// On est pas tjs assez exigent avec nos outils
+// Il faut plus de compilation (html, css, js) et donc une étape intermédiaire
+// Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
+// Compiler le i18n
 
 [.stop-music.dark, slide=blank]
 Fondu vers le noir
@@ -1032,6 +1085,9 @@ J'espère que les gens auront le réflexe :
 * "ah un nouvel outil qui brille !"
 * "ça résoud quel problème ?"
 * "est-ce que j'ai ce problème ?"
+et de savoir :
+* ce que vous codez
+* et avec qui vous codez
 
 .Problème n°2
 [slide=problem]
