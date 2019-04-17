@@ -589,30 +589,21 @@ State management
 
 image::img/drawings/bookshelf-7.jpg[]
 
-//[slide=needs, focus="0"]
-//en vrac car moins important pour notre discussion
-//CLI
-//Devtools
-//HTTP client
-//Form handling
-//Module system
-//Dep inj
-//i18n
-//tests
-
-// https://www.npmjs.com/package/vue-axios
-// https://github.com/imcvampire/vue-axios
-// https://alligator.io/react/axios-react/
-// https://www.npmjs.com/package/react-axios
-
-image::img/drawings/bookshelf-.jpg[]
-//recap ?
-
-// en terme de conception de d'organisation des composants (et de séparation des concerns etc)
-// les 3 communautés ont des choses intéressantes à dire
+en vrac car moins important pour notre discussion
+CLI
+Devtools
+HTTP client
+Form handling
+Module system
+Dep inj
+i18n
+tests
 
 [slide=blank]
 Transition
+
+en terme de conception de d'organisation des composants (et de séparation des concerns etc)
+les 3 communautés ont des choses intéressantes à dire
 
 == Ce que les *standards*  nous apportent ?
 
