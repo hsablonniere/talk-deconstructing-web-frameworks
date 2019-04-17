@@ -76,6 +76,15 @@
                     <path d="M2563.27,4632.95L2563.26,5003.52" style="fill:none;stroke:black;stroke-width:25.75px;stroke-linecap:square;stroke-miterlimit:2.56579;"/>
                 </g>
             </g>
+            <g transform="matrix(1,0,0,1,4006.86,-3950.78)">
+                <text x="2133.3px" y="4179.25px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:123px;fill:white;">Angular</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4567.51,-3950.78)">
+                <text x="2180.53px" y="4179.25px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:123px;">React</text>
+            </g>
+            <g transform="matrix(1,0,0,1,5134.81,-3947.83)">
+                <text x="2223.4px" y="4179.25px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:123px;fill:white;">V<tspan x="2277.39px " y="4179.25px ">u</tspan>e</text>
+            </g>
         </g>
     </g>
 </svg>
