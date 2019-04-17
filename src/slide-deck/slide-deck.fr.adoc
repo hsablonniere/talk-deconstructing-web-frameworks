@@ -485,29 +485,28 @@ Transition
 
 [.time]#00:10:00#
 
-// framework => cadre de travail
-// opinionated set of libs/tools
-// problem is when this set of libs/tools is only compatible with itself
-// de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
-
-// historique
-//jquery
-//Frameworks are also their to prevent browser quirks
-
 [slide=text]
 *Frameworks* vs. *libs* ?
+
+framework => cadre de travail
+opinionated set of libs/tools
+problem is when this set of libs/tools is only compatible with itself
+de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
+...
+historique
+jquery
+Frameworks are also their to prevent browser quirks
 
 [slide=todo-schema]
 image::img/drawings-optimized/silos-colors.svg[]
 
+Angular and ember are opinionated
+React is supposed to be unopinionated
+Vue is a bit in the middle
+special mention to ember
+
 [slide=todo-schema]
 image::img/drawings-optimized/silos-rooms.svg[]
-
-//Angular and ember are opinionated
-//React is supposed to be unopinionated
-//Vue is a bit in the middle
-
-// special mention to ember
 
 [slide=blank]
 on efface
@@ -524,46 +523,52 @@ image::img/drawings/bookshelf-empty.jpg[]
 Système de composants (API + runtime)
 
 [slide=needs, focus="7,9"]
-// [slide=needs, ]
 Système de composants (API + runtime)
-// => props, attrs, slots, methods, events, lifecycle methods
-// exemple Angular, React, Vue
 
 image::img/drawings/bookshelf-1.jpg[]
+
+Angular et Vue "data down, events up"
+=> methods
+React "data down, action up" (ou callback called)
+=> props pour les children
+Tous: attrs et lifecycle methods
+Slots ?
 
 [slide=needs, focus=""]
 "Templating" / ViewModel
 
 [slide=needs, focus="0,6,7,8,9,10,11"]
 "Templating" / ViewModel
-//UX chargement rapide (SSR, compilation de tmpl donc minif, tree shaking)
-// => JSX, templates
-// => 1 file vs several files
-// => output pur JS, vs JS + CSS
-// Mvc, mvvm, template + vue model, computed properties
-// exemple Angular, React, Vue
 
 image::img/drawings/bookshelf-2.jpg[]
+
+=> JSX, templates
+=> 1 file vs several files
+=> output pur JS, vs JS + CSS
+Mvc, mvvm, template + vue model, computed properties
+exemple Angular, React, Vue
 
 [slide=needs, focus=""]
 Gestion du CSS
 
 [slide=needs, focus="0,9"]
 Gestion du CSS
-// => BEM, CSS-in-JS lib, encapsulation system
 
 image::img/drawings/bookshelf-3.jpg[]
+
+=> BEM, CSS-in-JS lib, encapsulation system
 
 [slide=needs, focus=""]
 Manipulation du DOM
 
 [slide=needs, focus="2,3,4,5"]
 Manipulation du DOM
-// => Direct binding vs Virtual DOM (+ scheduling microtask...)
-//The Virtual DOM was always a big marketing argument to sell React but why would we care.
-//It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
 image::img/drawings/bookshelf-4.jpg[]
+
+=> Direct binding vs Virtual DOM (+ scheduling microtask...)
+The Virtual DOM was always a big marketing argument to sell React but why would we care.
+It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
 [slide=needs, focus=""]
 SSR (Server Side Rendering)
@@ -695,7 +700,7 @@ exemples de noeuds du DOM avec des événements un peu custom
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
 
-image::img/drawings/silos-not.jpg[]
+image::img/drawings/bookshelf-wc-ce.jpg[]
 //où ça se place dans notre tableau de solutions ?
 //système de composant (API + runtime)
 
@@ -778,7 +783,7 @@ Ajouter à l'API les custom prop, les slots et les ::part
 [slide=todo]
 exemples de noeuds du DOM avec des ::part ou des custom prop
 
-image::img/drawings/silos-not.jpg[]
+image::img/drawings/bookshelf-wc-sd.jpg[]
 //où ça se place dans notre tableau de solutions ?
 //système de composants
 //isolation du CSS
@@ -823,7 +828,7 @@ image::img/drawings/silos-not.jpg[]
 _
 // <template>, une manière "efficace" de cloner du DOM
 
-image::img/drawings/silos-not.jpg[]
+image::img/drawings/bookshelf-wc-tpl.jpg[]
 //où ça se place dans notre tableau de solutions ?
 //pas vraiment équivalent à la définition de template qu'on a évoqué mais bon
 
