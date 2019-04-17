@@ -8,7 +8,7 @@ module.exports = (node) => {
 
   const attrs = node.getAttributes();
   const title = node.getTitle()
-    ? `<div class="title ${attrs.language === 'url' ? 'title--url' : ''}">${node.getTitle()}</div>`
+    ? `<div class="title">${node.getTitle()}</div>`
     : '';
 
   return slide('listing', node, `${title}

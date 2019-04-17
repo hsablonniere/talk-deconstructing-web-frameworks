@@ -600,8 +600,10 @@ Transition
 
 image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
 
-[slide=todo]
 préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
+
+[slide=todo]
+schéma cycle
 
 .Web Components
 [slide=web-components]
@@ -622,8 +624,44 @@ schéma de la télé => analogie avec le Web component
 API (attr, prop, methods, events) + lifecycle methods
 // une API standard entrée/sortie (attr, prop, methods, events)
 
-[slide=todo]
-exemple de code de custom element
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    /* ... */
+}
+
+customElements.define('env-var-input', EnvVarInput);
+--
+
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    connectedCallback() {
+        /* ... */
+    }
+    disconnectedCallback() {
+        /* ... */
+    }
+    adoptedCallback() {
+        /* ... */
+    }
+}
+--
+
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    static get observedAttributes() {
+        return ['name', 'value'];
+    }
+    attributeChangedCallback() {
+        /* ... */
+    }
+}
+--
 
 [slide=todo]
 exemples de noeuds du DOM avec des attributs
@@ -844,9 +882,10 @@ image::img/cc-rocket-man.png[]
 ...chez Clever Cloud,
 en espérant que ça vous donne des idées pour votre contexte et votre stack.
 
-[slide=todo]
-démo console
+[slide=blank, data-viewport=1]
+_
 
+Démo console
 ça c'est ce qu'on appelle notre console,
 c'est le tableau de bord qui permet à nos clients d'administrer leurs apps, leurs bdd, leurs addons...
 montrer la console web en démo
@@ -952,34 +991,55 @@ YOU NEED A DESIGN SYSTEM
 //image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
 image::img/talk-storybook-ml-thuret.jpg[]
 
-[slide=todo-screenshot, data-viewport=1]
+[slide=blank, data-viewport=1]
 DÉMO: le storybook de clever
 
+DÉMO: le storybook de clever
 montrer les boutons avec leur interface
 montrer le composant env-var-input
 montrer le composant env-var-editor-simple
 montrer le composant env-var-editor-expert
 expliquer qu'ils ont la même signature et son donc très facilement interchangeable aux yeux du parent
 
-[slide=todo]
-choix techniques (étagère)
+image::img/drawings/silos-not.jpg[]
+
+: web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
+: lit-element + lit-html (petites libs)
+: on en a testé d'autres mais celles si nous convenait le mieux
 
 image::img/screenshots/site-lit-html.jpg[url=https://lit-html.polymer-project.org/]
 
+.lit-html
+[source, language=javascript, subs="none"]
+--
+import { html, render } from 'lit-html';
+
+let envVarInput = (envVar) => html`
+    <span class="name">${envVar.name}</span>
+    <input name=${envVar.name} .value=${envVar.value}>
+`;
+
+render(envVarInput({ name: 'FOO', value: 'BAR' }), someDomNode);
+--
+
 image::img/screenshots/site-lit-element.jpg[url=https://lit-element.polymer-project.org/]
 
-// * web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
-// * lit-element + lit-html (petites libs)
-// * on en a testé d'autres mais celles si nous convenait le mieux
+.LitElement
+[source, language=javascript, subs="none"]
+--
+import { LitElement, html } from 'lit-element';
 
-[slide=todo]
-exemple lit-html
+class EnvVarInput extends LitElement {
 
-[source, language=javascript]
-foo
+  render() {
+    return html`
+      <!-- Mon template ici -->
+    `;
+  }
+}
 
-[slide=todo]
-exemple lit-element (très bref)
+customElements.define('env-var-input', EnvVarInput);
+--
 
 //[slide=text]
 //Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
@@ -991,7 +1051,7 @@ exemple lit-element (très bref)
 // https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
 [slide=todo]
-composition pour ajouter des layers
+schéma composition pour ajouter des layers
 
 layer data aware
 layer auth aware

@@ -1,10 +1,14 @@
 [data-slide="listing"] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 [data-slide="listing"] .title {
-}
-
-[data-slide="listing"] .title.title--url {
+  color: hsl(108, 13%, 44%);
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.5rem;
 }
 
 [data-slide="listing"] .title a {
@@ -14,4 +18,11 @@
 }
 
 [data-slide="listing"] .codeBlock {
+  background-color: #f7f7f7;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  font-family: "Operator Mono Book", monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
 }

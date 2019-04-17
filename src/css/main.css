@@ -1,4 +1,6 @@
 /*@import "../vendors/highlight.js/atom-one-light.css";*/
+@import "../vendors/highlight.js/styles/atom-one-light.css";
+@import "../vendors/highlight.js/styles/vs.css";
 @import "font-just-another-hand.css";
 @import "font-pt-sans-narrow.css";
 @import "new-font-01.css";
