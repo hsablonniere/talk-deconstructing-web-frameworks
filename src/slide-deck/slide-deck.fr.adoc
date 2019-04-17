@@ -25,17 +25,18 @@ Perdu dans la jungle du Web moderne, de ses frameworks et ses standards,
 image::img/drawings-optimized/thinking.svg[]
 
 notre personnage principal est perdu.
-Depuis le début de sa carrière, au fil des semaines, des mois et des années...
+Depuis le début de sa carrière, au fil des semaines, des mois et des années,
 
 image::img/drawings-optimized/thinking-words.svg[]
 
 il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
-mais qui demain seront délaissés et remplacés par de nouveaux ... encore plus mieux.
+mais qui demain seront délaissés et remplacés par de nouveaux ... *encore plus mieux*.
 C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
 
 image::img/drawings-optimized/rip.svg[]
 
-#Un peu de respect SVP !#
+#Chuchoter#
+Un peu de respect SVP !
 S'ils n'ont pas déjà disparus de nos projets,
 peut-être ont-ils déjà disparus de nos...
 
@@ -49,7 +50,7 @@ C'est à ce moment là que notre personnage pris la décision d'aller voir...
 [.reset-music]
 image::img/drawings-optimized/dr-sigma.svg[]
 
-...un thérapeuthe.
+...une thérapeuthe.
 [.four]#Restart la musique (Gymnopedie)#
 
 image::img/drawings-optimized/talking-legos.svg[]
@@ -60,12 +61,14 @@ image::img/drawings-optimized/talking-legos.svg[]
 👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène ?
 La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
 Vous commenciez votre premier job et vous aviez déclaré une crise existentielle sur l'usage des "espaces ou des tabulations" et sur la prononciation des "guiffes animés".
+#Regard blasé de djeuns#
 😎 Des jifs, vous voulez-dire ?
 
 .2 espaces,   c'est mieux !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
+#Se la péter dev sénior ++#
 😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
 
@@ -87,28 +90,29 @@ image::img/drawings-optimized/projecteur.svg[]
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-😎 Bah c'est vachement pratique en vrai. Bref.
+#Hyper content#
+😎 Bah c'est vachement pratique en vrai.
+#Redescend d'un étage#
+Bref.
 
 .Problème n°1
 [slide=problem]
 Trouver la solution   avant de constater le problème
 
 😎 Problème numéro 1...
-Quand on choisi un framework, une lib frontend et son écosystème,
-on en oublie souvent le problème qu'on voulait résoudre à la base
-et pourtant on a l'impression d'avoir déjà trouvé la bonne réponse,
-la bonne solution à utiliser.
+Quand on choisi un framework, une lib frontend et son écosystème, on en oublie souvent le problème qu'on voulait résoudre à la base...
+*et pourtant*, on a l'impression d'avoir déjà trouvé *LA* bonne réponse, *LA* bonne solution à utiliser.
 Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
 
 image::img/drawings-optimized/dx-ux.svg[]
 
-😎 Parfois le choix se fait parceque la techno est *cool*
-et ça nous pousse souvent à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
+😎 Bah parfois le choix se fait parceque la techno est *cool* !
+Mais du coup, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
 
 image::img/drawings-optimized/giant.svg[]
 
-😎 Parfois parceque la techno est utilisée, voire créée par un géant du Web !
+😎 Parfois parceque la techno est utilisée, voire créée et maintenue par un géant du Web ! Oh yeah !
 // Ça forme un cycle:
 // * les géants l'utilisent
 // * on l'utilise
@@ -136,15 +140,15 @@ Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
 
 image::img/drawings-optimized/silos.svg[]
 
-😎 On ouvre une porte et on reste à l'intérieur.
-On cherche systématiquement comment faire X ou Y avec cet écosystème alors que X ou Y sont universels.
-Un peu comme quand on cherchait à manipuler des dates ou des tableaux avec jQuery.
+😎 On ouvre une porte et on reste bien au chaud à l'intérieur.
+Mais du coup, on va cherche systématiquement comment faire X ou Y avec *cet* écosystème alors que X ou Y sont peut-être un peu plus universels.
+Un peu comme quand on cherchait à manipuler des dates ou trier des tableaux avec jQuery.
 Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
 On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
-On est devenu des *gros fanboys/fangirls* avec nos outils,
-On ne voit plus leurs défauts,
-On soutient des fonctionnalités sans les comprendre,
-On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
+En fait, on est devenu des *gros fanboys/fangirls* avec nos outils.
+On ne voit pas toujours leurs défauts,
+et on se persuade de l'intêret de certaines fonctionnalités sans les comprendre.
+On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert.
 
 image::img/drawings-optimized/brain.svg[]
 
@@ -174,7 +178,7 @@ image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 
 😎 Problème numéro 3...
 Finalement celui là, il est assez universel,
-On oublie facilement les principes SOLID et la "separation of concerns".
+On oublie facilement les principes et patterns de base comme SOLID ou la "separation of concerns".
 
 .Problème n°3
 [slide=problem]
@@ -191,8 +195,8 @@ image::img/drawings-optimized/layers-mixed.svg[]
 😎 ...on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
 Du coup :
 * quand notre propre écosystème évolue,
-* quand il disparait
-* quand un nouveau standard arrive
+* quand il disparait,
+* ou quand un nouveau standard arrive,
 ça devient difficile de remplacer unitairement certaines parties.
 
 image::img/drawings-optimized/trash.svg[]
@@ -206,21 +210,27 @@ image::img/drawings-optimized/trash-brain.svg[]
 image::img/drawings-optimized/trash-project.svg[]
 
 😎 ...et pas mal de code.
-Vive les refontes et autres migrations techniques !
+
+.#RefontesTechniques
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+Hashtag "J'aime les refontes techniques"
 
 .WTF?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Là par contre, j'ai rien compris.
-😎 Bah en fait, c'est comme ma télé.
+👩‍⚕️ Bah là par contre, j'ai rien compris.
+😎 Ah...
+Bah en fait, c'est comme ma télé.
 
 .Comme ma télé !
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
 😎 La dernière fois que je suis venu vous voir il y a 10 ans,
-Je commençais mon job et je venais de m'acheter une nouvelle télé avec l'argent de mon stage.
+Je commençais mon premier job et je venais de m'acheter une nouvelle télé avec l'argent de mon stage.
 
 image::img/drawings-optimized/tv.svg[]
 
@@ -294,8 +304,9 @@ et aujourd'hui, j'ai envie de vous parler :
 * du Web,
 * de ses frameworks et autres librairies
 * et de ses standards.
+Un sujet facile sans aucune guerre de chapelle, ni polémique.
 On va essayer ensemble de déconstruire un peu tout ça
-dans l'espoir de pouvoir mieux construire nos web apps.
+dans l'espoir de pouvoir mieux construire nos web apps demain.
 
 [slide=blank]
 Transition
@@ -396,9 +407,9 @@ Transition
 OK, donc là, si vous êtes plutôt backend et que vous n'avez pas suivi le monde du front/Web ces dernières années,
 vous vous dites :
 "Non mais attend Hubert, là tu viens de lister à peu près les mêmes problèmes qu'on essayait de régler il y a 10 ans."
-"Moi je maintiens un cluster de blockchain-kubernetes-serverless en prod alors ton truc de script là, ça m'a pas l'air si compliqué que ça."
+"J'ai vraiment l'impression que vous vous êtes complexifié la vie avec tous vos outils compliqué alors que le problème est simple."
 ...
-OK, bonne remarque.
+OK, mettons de côté l'ironie de cette remarque et posons nous la question :
 
 == *Comment* en est-on  arrivé là ?
 
@@ -408,6 +419,10 @@ Est-ce qu'on a vraiment besoin de tous ces outils ?
 
 [quote]
 Pour comprendre où on va,   il faut savoir d'où on vient.
+
+Pour comprendre où on va,   il faut savoir d'où on vient.
+#blasé#
+Je sais pas trop qui a dit ça, déso.
 
 image::img/drawings-optimized/browser.svg[]
 
@@ -1077,10 +1092,27 @@ elements qui font des appels REST
 // Tests: do it like a  screen reader user wood do it
 // Tests: no a great fan of snapshots
 
+[slide=text]
+Est-ce qu'on a fait le *bon choix* ?
+
+[slide=text]
+OSEF !!!!!!
+
+[slide=text]
+On S'En Fout !!!!!!
+
+Est-ce qu'on a fait le bon choix avec cette stack ?
+Oui, pas au sens ou on a choisi la bonne solution.
+Au sens ou on pourra changer d'avis demain,
+garder des composants longtemps avec ce choix sans les retoucher, et tant pis car ils sont petit
+les réécrire avec des outils différents car l'impact sur les autres couches sera faible.
+On s'en fout !
+On a fait un choix qui ne nous demande pas trop d'apprentissage spécifique (lit-element, lit-html),
+qui nous donne des connaissances de nouveaux standards du Web,
+ça ne peut qu'être positif !
+
 [slide=blank]
 Transition
-
-
 
 == Ce que le *futur*  nous réserve...
 
