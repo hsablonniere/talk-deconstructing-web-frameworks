@@ -866,7 +866,7 @@ image::img/screenshots/twitter-intenttoship.jpg[url=https://twitter.com/intentto
 
 image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPlatformNews]
 
-image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
+// image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 
 // des resources pour surveiller les specs et les implems dans les browsers
 // TC39
