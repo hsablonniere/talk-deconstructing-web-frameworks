@@ -598,6 +598,8 @@ Transition
 
 [.time]#00:20:00#
 
+image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
+
 [slide=todo]
 préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
@@ -962,9 +964,22 @@ expliquer qu'ils ont la même signature et son donc très facilement interchange
 [slide=todo]
 choix techniques (étagère)
 
+image::img/screenshots/site-lit-html.jpg[url=https://lit-html.polymer-project.org/]
+
+image::img/screenshots/site-lit-element.jpg[url=https://lit-element.polymer-project.org/]
+
 // * web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
 // * lit-element + lit-html (petites libs)
 // * on en a testé d'autres mais celles si nous convenait le mieux
+
+[slide=todo]
+exemple lit-html
+
+[source, language=javascript]
+foo
+
+[slide=todo]
+exemple lit-element (très bref)
 
 //[slide=text]
 //Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
