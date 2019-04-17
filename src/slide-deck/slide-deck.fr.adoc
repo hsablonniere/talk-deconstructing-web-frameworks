@@ -141,8 +141,9 @@ On cherche systématiquement comment faire X ou Y avec cet écosystème alors qu
 Un peu comme quand on cherchait à manipuler des dates ou des tableaux avec jQuery.
 Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
 On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
-On ne voit plus les défauts de nos propres outils
-On soutient des fonctionnalités sans les comprendre
+On est devenu des *gros fanboys/fangirls* avec nos outils,
+On ne voit plus leurs défauts,
+On soutient des fonctionnalités sans les comprendre,
 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert (silo)
 
 image::img/drawings-optimized/brain.svg[]
@@ -162,7 +163,7 @@ image::img/drawings-optimized/brain-patterns.svg[]
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 
-👩‍⚕️ Continuez, continuez...
+👩‍⚕️ Hum, hum, je vois...
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
