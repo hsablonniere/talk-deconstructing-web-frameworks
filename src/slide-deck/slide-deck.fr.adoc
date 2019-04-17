@@ -492,7 +492,7 @@ image::img/drawings-optimized/silos-rooms.svg[]
 
 // special mention to ember
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 // mentionner les étapes qui nécessitent un outil de build
 // est-ce que la source de l'outil de build est spécifique ou est-elle un peu standard ?
@@ -509,7 +509,7 @@ Système de composants (API + runtime)
 // => props, attrs, slots, methods, events, lifecycle methods
 // exemple Angular, React, Vue
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 "Templating" / ViewModel
@@ -523,7 +523,7 @@ image::img/drawings-optimized/silos-not.svg[]
 // Mvc, mvvm, template + vue model, computed properties
 // exemple Angular, React, Vue
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 Gestion du CSS
@@ -532,7 +532,7 @@ Gestion du CSS
 Gestion du CSS
 // => BEM, CSS-in-JS lib, encapsulation system
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 Manipulation du DOM
@@ -543,7 +543,7 @@ Manipulation du DOM
 //The Virtual DOM was always a big marketing argument to sell React but why would we care.
 //It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 SSR (Server Side Rendering)
@@ -551,7 +551,7 @@ SSR (Server Side Rendering)
 [slide=needs, focus="0,5"]
 SSR (Server Side Rendering)
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 Router
@@ -559,7 +559,7 @@ Router
 [slide=needs, focus="0,2"]
 Router
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 [slide=needs, focus=""]
 State management
@@ -567,7 +567,7 @@ State management
 [slide=needs, focus="7,8"]
 State management
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 
 //[slide=needs, focus="0"]
 //en vrac car moins important pour notre discussion
@@ -585,7 +585,7 @@ image::img/drawings-optimized/silos-not.svg[]
 // https://alligator.io/react/axios-react/
 // https://www.npmjs.com/package/react-axios
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 //recap ?
 
 // en terme de conception de d'organisation des composants (et de séparation des concerns etc)
@@ -644,8 +644,9 @@ exemples de noeuds du DOM avec des événements un peu custom
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 //où ça se place dans notre tableau de solutions ?
+//système de composant (API + runtime)
 
 .Custom Elements
 [slide=web-components, display=0]
@@ -726,8 +727,10 @@ Ajouter à l'API les custom prop, les slots et les ::part
 [slide=todo]
 exemples de noeuds du DOM avec des ::part ou des custom prop
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 //où ça se place dans notre tableau de solutions ?
+//système de composants
+//isolation du CSS
 
 .Shadow DOM
 [slide=web-components, display=0]
@@ -769,8 +772,9 @@ image::img/drawings-optimized/silos-not.svg[]
 _
 // <template>, une manière "efficace" de cloner du DOM
 
-image::img/drawings-optimized/silos-not.svg[]
+image::img/drawings/silos-not.jpg[]
 //où ça se place dans notre tableau de solutions ?
+//pas vraiment équivalent à la définition de template qu'on a évoqué mais bon
 
 .`<template>`
 [slide=web-components, display=0]
@@ -816,26 +820,70 @@ image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
 [slide=blank]
 Transition
 
-== *Séparons* nos  préoccupations
+Maintenant qu'on a déconstruit un peu les différentes solutions qu'apportent les frameworks et les standards,
+on a une meilleure vision des différentes couches qui composent un projet Web,
+et du coup, il est temps d'appliquer...
+
+// == *Séparons* nos  préoccupations
+== Le Web,  c'est du **SOLID**e
 
 [.time]#00:30:00#
-
-//== Le découplage chez *Clever Cloud*
-
-// SOLID
+...les principes SOLID à notre frontend préféré.
+Je vais prendre l'exemple du travail que je fais en ce moment...
 
 .Le contexte *Clever Cloud*
 [.logo]
-//image::img/clever-cloud-logo.svg[]
 image::img/cc-rocket-man.png[]
+//image::img/clever-cloud-logo.svg[]
 
-// une webapp qui a un peu vieilli (jquery, baconjs, routeur maison)
+...chez Clever Cloud,
+en espérant que ça vous donne des idées pour votre contexte et votre stack.
+
+[slide=todo]
+démo console
+
+ça c'est ce qu'on appelle notre console,
+c'est le tableau de bord qui permet à nos clients d'administrer leurs apps, leurs bdd, leurs addons...
+montrer la console web en démo
+(écran overview)
+citer logs, monitoring...
+(switcher sur les vars d'env)
+
+image::img/drawings/silos-not.jpg[]
+
+la stack Clever
+...
+codebase qui a 7 ans
+Système de composants (séparation du code mais pas d'API ni de système runtime)
+Templating (lodash)
+CSS (global) avec qq règle de nommage parfois
+DOM (jquery + bacon)
+Pas de SSR
+Router maison (merci quentin)
+Pas vrmt de state manager (bacon)
+
+[slide=todo]
+besoins
+: bacon + lodash => new
+: modules avec interface et isolation
+: réutilisabilité
+: on veut pas tout jeter pour tout réécrire
+: introduire des nouvelles technos feature après feature
+
+sur certaines parties de l'app, on avait déjà un modèle
+comme les frameworks moderne avec un one way data flow
+je modifie de la donnée, ça par dans un stream bacon et ça modifie le DOM
+on a un peu atteint les limites de ce modèle bacon + lodash (perfs et modèle de pensée)
+on a isolé les "modules" dans des fichiers mais on a du CSS global et on a pas d'interface clairement définie sur nos composants
+on va avoir besoin que notre UI soit réutilisée en marque blanche ou marque grise
+du coup, on doit pouvoir fournir certains parties de manière indépendantes un peu comme des légos
 // donnée qui vient d'appels REST et/ou de SSE
-// on va pas tout jeter pour tout réécrire
+
+[slide=todo]
+constats
 // on va introduire des nouvelles technos feature après feature
 // le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
 // Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
-// third party integration
 
 // [quote]
 // Code should be disposable,   it's far easier to do when   things are decoupled.
@@ -882,14 +930,14 @@ remonter l'accès à la donnée le plus haut possible
 
 [slide=todo]
 réduire la surface de trucs qui sont globaux
-//* Gestion des données (appels REST)
-//* Gestion de l'état
-//* Global progress indicator
-//* Global messages (errors, info...)
-//* title
-//* favicon
-//* keyboard shortcuts
-//* Global modal boxes
+* Gestion des données (appels REST)
+* Gestion de l'état
+* Global progress indicator
+* Global messages (errors, info...)
+* title
+* favicon
+* keyboard shortcuts
+* Global modal boxes
 
 [slide=todo]
 exemple des vars d'env et comment s'isolation au bon niveau, nous permet de passer du mode simple au mode expert
@@ -901,6 +949,8 @@ exemple des vars d'env et comment s'isolation au bon niveau, nous permet de pass
 
 [slide=blank]
 Transition
+
+
 
 == Ce que le *futur*  nous réserve...
 
@@ -961,9 +1011,7 @@ Fondu vers le noir
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-// 😎 
-// 👩‍⚕ 
-👩‍⚕ Alors, comment ça s'est passé cette thérapie de groupe ?
+👩‍⚕️ Alors, comment ça s'est passé cette thérapie de groupe ?
 😎 Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
 j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son propre contexte.
 
@@ -996,7 +1044,7 @@ En fait, au final, tous ces frameworks, ces librairies et ces standards, ça n'e
 On a juste besoin de tous rester calmes et professionnels,
 les utiliser pour les supers fonctionnalités qu'ils nous apportent
 et arrêter de les idôlatrer aveuglement.
-👩‍⚕ Et vous leur avez parlé des TV magnétoscopes
+👩‍⚕️ Et vous leur avez parlé des TV magnétoscopes
 
 .Problème n°3
 [slide=problem]

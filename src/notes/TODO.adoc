@@ -1,42 +1,51 @@
 = TODO
 
-== Slides HTML CSS
-
-[slide=todo-needs]
-titre besoins utilisateur et besoins développeur
-avec la liste
-
-[slide=todo-needs-solution]
-titre besoins utilisateur et besoins développeur
-avec la liste highligted
-=> avec nom de solution d'un framework
-
-== Contenu
-
-* Terminer script intro
-* Terminer schéma intro
-** Slides problème nuémero 1 projecteur dans AsciiDoc
-
 * emojis dans les listes
 
-* écran avec listes besoins user/dev
-* écran avec listes besoins user/dev + solution framework
+== Éléments sur lesquels je bloque
 
-* schéma ères du Web
-* schéma Web component TV
-
-* schéma 3 portes en positif
-
-== Schémas importants
-
-* Schéma triangle
+* schéma ères du Web (triangles)
 ** respecter user à gauche, dev à droite (couleurs)
-* Portes + couloirs
-* Étagères
-** Angular rouge
-** React bleu
-** Vue vert
+// Je ne sais pas trop si le schéma est compréhensible (et utile)
+// POUR: Le fait d'avoir un rappel à la fin pendant l'ouverture est bien
+// CONTRE: C'est pas évident de produire les différentes étapes du Web avec
 
-== À décider
+* Schéma avec les portes et les pièces
+// Mouais
 
-* Exemples DOM
+* schéma horizontal/étagères
+// Je sais pas...
+// IL FAUT SIMPLIFIER CE SCHÉMA
+// Est-ce qu'il faut garder les étiquettes avec les 3 fwks ?
+// Est-ce qu'il ne faudrai pas juste le récap à la fin ?
+// Comment s'en reservir pour matcher les standards des Web Components ?
+// Pourquoi pas les 3 étiquettes + WC pour enfin conclure que ça n'a pas de sens de les comparer
+// Mettre les étiquettes sur le côté droit de l'étagère (différencier le natif du projet à part) (garder les couleurs) (garder que la lettre ?)
+// S'en reservir pour le contexte clever
+
+// Système de composants (séparation du code mais pas d'API ni de système runtime)
+// Templating (lodash)
+// CSS (global)
+// DOM (jquery + bacon)
+// Pas de SSR
+// Router maison (merci quentin)
+// Pas de state manager (bacon)
+
+* schéma Web component TV
+// Bah faut y aller là !!
+
+* mockup/schéma composants Clever Cloud 
+* top to bottom
+* bottom to top
+
+== À faire pour la partie Clever
+
+* Exemple contexte actuel
+* Exemple console actuelle
+* Schéma top => bottom
+* Schéma bottom => tom
+* Démo storybook
+* remonter la donnée au plus haut
+* ce qui est global
+* => le mode expert
+* => demain les inputs intelligent pour les types de vars
