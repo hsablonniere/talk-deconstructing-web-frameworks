@@ -600,6 +600,8 @@ State management
 
 image::img/drawings/bookshelf-7.jpg[]
 
+image::img/drawings/bookshelf-8.jpg[]
+
 en vrac car moins important pour notre discussion
 CLI
 Devtools
@@ -650,6 +652,8 @@ class EnvVarInput extends HTMLElement {
 }
 
 customElements.define('env-var-input', EnvVarInput);
+
+<env-var-input name="FOO" value="BAR"></env-var-input>
 --
 
 image::img/drawings-optimized/web-component-attr.svg[]
@@ -781,6 +785,12 @@ image::img/drawings/bookshelf-wc-ce.jpg[]
 [slide=web-components]
 _
 //shadow DOM => isolation du CSS
+
+image::img/drawings-optimized/web-component.svg[]
+
+image::img/drawings-optimized/web-component-slot.svg[]
+
+image::img/drawings-optimized/web-component-events.svg[]
 
 image::img/drawings-optimized/web-component-sd.svg[]
 
