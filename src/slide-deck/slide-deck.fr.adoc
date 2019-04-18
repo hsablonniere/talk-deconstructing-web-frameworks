@@ -618,8 +618,8 @@ image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
 
 préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 
-[slide=todo]
-schéma cycle
+// [slide=todo]
+// schéma cycle
 
 .Web Components
 [slide=web-components]
@@ -909,7 +909,7 @@ montrer la console web en démo
 citer logs, monitoring...
 (switcher sur les vars d'env)
 
-image::img/drawings/silos-not.jpg[]
+image::img/drawings/bookshelf-cc-before.jpg[]
 
 la stack Clever
 ...
@@ -1017,7 +1017,7 @@ montrer le composant env-var-editor-simple
 montrer le composant env-var-editor-expert
 expliquer qu'ils ont la même signature et son donc très facilement interchangeable aux yeux du parent
 
-image::img/drawings/silos-not.jpg[]
+image::img/drawings/bookshelf-cc-after.jpg[]
 
 : web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
 : lit-element + lit-html (petites libs)
@@ -1096,10 +1096,10 @@ elements qui font des appels REST
 Est-ce qu'on a fait le *bon choix* ?
 
 [slide=text]
-OSEF !!!!!!
+*OSEF™️*
 
 [slide=text]
-On S'En Fout !!!!!!
+**O**n **S**'**E**n **F**out !!!!!!
 
 Est-ce qu'on a fait le bon choix avec cette stack ?
 Oui, pas au sens ou on a choisi la bonne solution.
