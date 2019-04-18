@@ -1,0 +1,193 @@
+------------------------------------------
+PROLOGUE...
+------------------------------------------
+
+<span class="four">Mettre la musique (Gymnopedie)</span>
+<mark>Voix off, grave, triste</mark>
+Perdu dans la jungle du Web moderne, de ses frameworks et ses standards,
+
+notre personnage principal est perdu.
+Depuis le début de sa carrière, au fil des semaines, des mois et des années,
+
+il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
+mais qui demain seront délaissés et remplacés par de nouveaux …​ <strong>encore plus mieux</strong>.
+C’est avec tristesse et mélancholie qu’il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
+
+<mark>Chuchoter</mark>
+Un peu de respect SVP !
+S’ils n’ont pas déjà disparus de nos projets,
+peut-être ont-ils déjà disparus de nos…​
+
+…​radars de coolitude.
+Cette situation l’inquiète, le questionne et l’empêche de dormir.
+Dans le cadre de son travail, il doit faire des choix techniques mais il ne sait plus quoi faire.
+C’est à ce moment là que notre personnage pris la décision d’aller voir…​
+
+…​une thérapeuthe.
+<span class="four">Restart la musique (Gymnopedie)</span>
+
+<mark>Voix lassée et fatiguée</mark>
+😎 Bonjour docteur.
+<mark>Voix confiante</mark>
+👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu’est-ce qui vous amène ?
+La dernière fois que je vous ai vu, c’était il y a bien 10 ans…​
+Vous commenciez votre premier job et vous aviez déclaré une crise existentielle sur l’usage des "espaces ou des tabulations" et sur la prononciation des "guiffes animés".
+<mark>Regard blasé de djeuns</mark>
+😎 Des jifs, vous voulez-dire ?
+
+<mark>Se la péter dev sénior ++</mark>
+😎 Non mais ça c’est du passé, j’étais jeune et débutant, je ne me posais pas les bonnes questions.
+Aujourd’hui, je prends du recul sur le monde du frontend Web et je fais un constat :
+
+😎 Les effets de mode et de hype nous rendent beaucoup trop addict à nos outils.
+👩‍⚕️ Humm, dites mois en plus, quels problèmes ça implique ?
+
+<mark>Voix énergique</mark>
+😎 Alors, problème numéro 1…​
+<mark>Voix blasée</mark>
+👩‍⚕️ Euh…​ quand on vous pose une question, vous répondez toujours avec un PowerPoint ?
+
+<mark>Hyper content</mark>
+😎 Bah c’est vachement pratique en vrai.
+<mark>Redescend d’un étage</mark>
+Bref.
+
+😎 Problème numéro 1…​
+Quand on choisi un framework, une lib frontend et son écosystème, on en oublie souvent le problème qu’on voulait résoudre à la base…​
+<strong>et pourtant</strong>, on a l’impression d’avoir déjà trouvé <strong>LA</strong> bonne réponse, <strong>LA</strong> bonne solution à utiliser.
+Bon, souvent c’était le bon outil et mais parfois la solution est adaptée à des problèmes qu’on a pas vraiment.
+👩‍⚕️ Mais pourquoi vous faites ça ?
+
+😎 Bah parfois le choix se fait parceque la techno est <strong>cool</strong> !
+Mais du coup, ça nous pousse à faire passer l’expérience de développement avant cette des utilisateurs du produit qu’on développe.
+
+😎 Parfois parceque la techno est utilisée, voire créée et maintenue par un géant du Web ! Oh yeah !
+
+👩‍⚕️ Continuez, continuez…​
+
+😎 Problème numéro 2…​
+Une fois qu’on a choisi un écosystème, on a tendance à s’enfermer dedans.
+
+😎 On ouvre une porte et on reste bien au chaud à l’intérieur.
+Mais du coup, on va cherche systématiquement comment faire X ou Y avec <strong>cet</strong> écosystème alors que X ou Y sont peut-être un peu plus universels.
+Un peu comme quand on cherchait à manipuler des dates ou trier des tableaux avec jQuery.
+Du coup on va réécrire l’énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
+On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
+En fait, on est devenu des <strong>gros fanboys/fangirls</strong> avec nos outils.
+On ne voit pas toujours leurs défauts,
+et on se persuade de l’intêret de certaines fonctionnalités sans les comprendre.
+On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert.
+
+😎 On va remplir notre cerveau avec…​
+
+😎 …​des fonctionnalités et concepts spéciques à notre écosystème…​
+
+😎 …​au lieu de les remplir avec des standards bien installés ou des patterns bien connus.
+
+👩‍⚕️ Hum, hum, je vois…​
+
+😎 Problème numéro 3…​
+Finalement celui là, il est assez universel,
+On oublie facilement les principes et patterns de base comme SOLID ou la "separation of concerns".
+
+Du coup, on à tendance à produire du code fortement couplé, qui subit mal les effets du temps.
+
+😎 Au lieu d’avoir des couches bien identifiées et bien isolées…​
+
+😎 …​on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
+Du coup :
+* quand notre propre écosystème évolue,
+* quand il disparait,
+* ou quand un nouveau standard arrive,
+ça devient difficile de remplacer unitairement certaines parties.
+
+😎 On va jeter à la poubelle…​
+
+😎 …​une partie de nos connaissances…​
+
+😎 …​et pas mal de code.
+
+Hashtag "J’aime les refontes techniques"
+
+👩‍⚕️ Bah là par contre, j’ai rien compris.
+😎 Ah…​
+Bah en fait, c’est comme ma télé.
+
+😎 La dernière fois que je suis venu vous voir il y a 10 ans,
+Je commençais mon premier job et je venais de m’acheter une nouvelle télé avec l’argent de mon stage.
+
+😎 Cette télé, je l’ai toujours aujourd’hui,
+elle marche comme il y a 10 ans.
+Elle a tenu la route parque qu’elle fait une chose et elle le fait bien.
+Elle ne sait pas ce que je vais brancher dessus, elle impose juste une interface : de l’HDMI.
+
+😎 Du coup, au départ, j’ai branché un gros PC,
+
+😎 puis un plus petit PC.
+J’ai branché plein de trucs dont elle n’a pas besoin de connaitre l’existence ni même la provenance.
+
+😎 J’ai même découvert par accident qu’en plus de recevoir de l’HDMI,
+elle pouvait elle envoyer des signaux (tjs via l’HDMI) aux appareils branchés.
+Bref, aujourd’hui, dans le monde du frontend…​
+
+😎 Je vois trop de télé comme ça !
+👩‍⚕️ Ah ouais, c’était bien au début ces trucs là car il n’y avait rien à brancher, c’était magique mais bon, quand la télé ou le magnétoscope était pété, il fallait tout racheter
+
+😎 Ah vous voyez pourquoi je suis perdu alors ?
+
+👩‍⚕️ Je vois, je vois…​
+Le plus simple dans votre situation…​
+
+👩‍⚕️ C’est la thérapie de groupe avec des professionnels de votre domaine !
+Du coup, je vous ai réuni un petit groupe de gens là.
+
+😎 Euh…​ mais ils sont beaucoup là non ?
+
+👩‍⚕️ Mais non, allez, hop !
+
+Bonjour à <strong>toutes</strong> et tous !
+
+------------------------------------------
+...EPILOGUE
+------------------------------------------
+
+👩‍⚕️ Alors, comment ça s’est passé cette thérapie de groupe ?
+😎 Je sais pas trop, j’ai pas forcément eu le temps de rentrer dans chaque détails du coup,
+j’ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son propre contexte.
+
+😎 Pour le problème numéro 1,
+J’ai essayé de remettre la priorité sur :
+1. Les besoins des utilisatrices et utilisateurs des produits qu’on développe
+2. Les besoins qu’on a nous les dev quand on bosse sur nos projets
+…​
+Un navigateur Web est devenu aujourd’hui, <strong>une plateforme applicative assez complexe</strong>.
+Bien sûr qu’on a besoins d’outils à la hauteur des enjeux. L’idée n’est pas de tout faire à la main et de réinventer la roue.
+Après, ça veut pas dire qu’on a tous les mêmes contextes et les mêmes priorités.
+…​
+J’espère que les gens auront le réflexe :
+* "ah un nouvel outil qui brille !"
+* "ça résoud quel problème ?"
+* "est-ce que j’ai ce problème ?"
+et de savoir :
+* ce que vous codez
+* et avec qui vous codez
+
+😎 J’ai aussi essayé de déconstruire les différentes fonctionnalités/solutions qu’apportent des 3 écosystèmes du moment.
+L’idée principale est bien d’avoir un regard plus critique et une vision horizontale plutôt qu’une vision verticale.
+Pour ma part, en comprenant mieux ces parties, j’ai moins peur des les remplacer par des implems plus simples ou mieux adaptés ou pars des nouveaux standards.
+En fait, au final, tous ces frameworks, ces librairies et ces standards, ça n’est que des outils.
+On a juste besoin de tous rester calmes et professionnels,
+les utiliser pour les supers fonctionnalités qu’ils nous apportent
+et arrêter de les idôlatrer aveuglement.
+👩‍⚕️ Et vous leur avez parlé des TV magnétoscopes
+
+😎 Oui, j’ai expliqué comment chez Clever Cloud on essaye de réduire le couplage entre nos différents composants, modules et couche applicatives.
+J’ai évoqué ce que ça nous apporte dans notre contexte bien précis.
+On a rien inventé, on essaye d’appliquer les bons vieux patterns logiciels au Web moderne.
+Ça reste un principe, il y a tjs des exceptions.
+L’idée n’est pas de quadrupler les coûts de conception juste pour faire du "beau code" mais bien d’investir un minimum d’énergie pour réduire les effets du temps.
+
+😎 Je vous remercie docteur, ça m’a bien aidé
+et je tiens également à remercie tous les membres du groupe qui m’ont écouté jusqu’au bout.
+
+Merci bcp.

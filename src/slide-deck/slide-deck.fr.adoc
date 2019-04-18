@@ -567,7 +567,7 @@ image::img/drawings/bookshelf-3.jpg[]
 [slide=needs, focus=""]
 Manipulation du DOM
 
-[slide=needs, focus="2,3,4,5"]
+[slide=needs, focus="2,3,4,5,8"]
 Manipulation du DOM
 
 image::img/drawings/bookshelf-4.jpg[]
@@ -587,7 +587,7 @@ image::img/drawings/bookshelf-5.jpg[]
 [slide=needs, focus=""]
 Router
 
-[slide=needs, focus="0,2"]
+[slide=needs, focus="1"]
 Router
 
 image::img/drawings/bookshelf-6.jpg[]
