@@ -1255,7 +1255,7 @@ L'idée n'est pas de quadrupler les coûts de conception juste pour faire du "be
 
 .Merci docteur !
 [slide=bubble]
-image::img/drawings-optimized/talking-legos-l-talks.svg[]
+image::img/drawings-optimized/talking-legos-l-love.svg[]
 
 😎 Je vous remercie docteur, ça m'a bien aidé
 et je tiens également à remercie tous les membres du groupe qui m'ont écouté jusqu'au bout.
