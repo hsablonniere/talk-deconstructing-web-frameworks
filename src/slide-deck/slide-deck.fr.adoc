@@ -636,11 +636,6 @@ image::img/drawings-optimized/web-component.svg[]
 _
 // custom element => modèle de composant avec lifecycle methods et "data binding" sur les attributs
 
-[slide=todo-schema]
-schéma de la télé => analogie avec le Web component
-API (attr, prop, methods, events) + lifecycle methods
-// une API standard entrée/sortie (attr, prop, methods, events)
-
 .Custom Element
 [source, language=javascript, subs="none"]
 --
@@ -650,6 +645,14 @@ class EnvVarInput extends HTMLElement {
 
 customElements.define('env-var-input', EnvVarInput);
 --
+
+image::img/drawings-optimized/web-component-attr.svg[]
+
+image::img/drawings-optimized/web-component-prop.svg[]
+
+image::img/drawings-optimized/web-component-methods.svg[]
+
+image::img/drawings-optimized/web-component-events.svg[]
 
 .Custom Element
 [source, language=javascript, subs="none"]
@@ -680,24 +683,24 @@ class EnvVarInput extends HTMLElement {
 }
 --
 
-[slide=todo]
-exemples de noeuds du DOM avec des attributs
+// [slide=todo]
+// exemples de noeuds du DOM avec des attributs
 
-[slide=todo]
-exemples de noeuds du DOM avec des propriétés non string/boolean
+// [slide=todo]
+// exemples de noeuds du DOM avec des propriétés non string/boolean
 //* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
 //* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 
-[slide=todo]
-exemples de noeuds du DOM avec des méthodes
+// [slide=todo]
+// exemples de noeuds du DOM avec des méthodes
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
 
-[slide=todo]
-exemples de noeuds du DOM avec des événements un peu custom
+// [slide=todo]
+// exemples de noeuds du DOM avec des événements un peu custom
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
 //* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
 
@@ -773,21 +776,21 @@ image::img/drawings/bookshelf-wc-ce.jpg[]
 _
 //shadow DOM => isolation du CSS
 
-[slide=todo-schema]
-schéma de la télé => analogie avec le Web component
-Ajouter à l'API les custom prop, les slots et les ::part
-// la suite de l'API standard entrée/sortie (custom prop, ::part)
-// système de slots :+1
-// transperce le shadow root avec des custom props
-// transperce le shadow root avec des ::part (et ::theme)
+image::img/drawings-optimized/web-component-sd.svg[]
 
-[slide=todo]
-exemples de noeuds du DOM avec des ::part ou des custom prop
+la suite de l'API standard entrée/sortie (custom prop, ::part)
+système de slots :+1
+transperce le shadow root avec des custom props
+transperce le shadow root avec des ::part (et ::theme)
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des ::part ou des custom prop
 
 image::img/drawings/bookshelf-wc-sd.jpg[]
-//où ça se place dans notre tableau de solutions ?
-//système de composants
-//isolation du CSS
+
+où ça se place dans notre tableau de solutions ?
+système de composants
+isolation du CSS
 
 .Shadow DOM
 [slide=web-components, display=0]
@@ -1079,6 +1082,7 @@ elements qui font des appels REST
 
 .Réduire l'adhérence avec le global
 [slide=web-components]
+* Routeur
 * Gestion des données (REST, WS, SSE...)
 * Gestion de l'état
 * Indicateur de chargement
