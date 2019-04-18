@@ -786,8 +786,6 @@ image::img/drawings/bookshelf-wc-ce.jpg[]
 _
 //shadow DOM => isolation du CSS
 
-image::img/drawings-optimized/web-component.svg[]
-
 image::img/drawings-optimized/web-component-slot.svg[]
 
 image::img/drawings-optimized/web-component-events.svg[]
@@ -847,6 +845,17 @@ isolation du CSS
 [slide=web-components]
 _
 // <template>, une manière "efficace" de cloner du DOM
+
+.<template>
+[source, language=html, subs="none"]
+--
+<template id="foobar">
+  <div>Awesome!!</div>
+</template>
+
+const awesome = foobar.content.cloneNode(true);
+parent.appendChild(awesome)
+--
 
 image::img/drawings/bookshelf-wc-tpl.jpg[]
 //où ça se place dans notre tableau de solutions ?
@@ -1027,7 +1036,7 @@ YOU NEED A DESIGN SYSTEM
 //image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
 image::img/talk-storybook-ml-thuret.jpg[]
 
-[slide=blank, data-viewport=1]
+[slide=blank, data-viewport=2]
 DÉMO: le storybook de clever
 
 DÉMO: le storybook de clever
@@ -1086,8 +1095,9 @@ customElements.define('env-var-input', EnvVarInput);
 // The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
 // https://hueniverse.com/http-frameworks-must-die-717a37b6b164
 
-[slide=todo]
-schéma composition pour ajouter des layers
+image::img/drawings-optimized/layers-mixed-light.svg[]
+
+image::img/drawings-optimized/layers-light.svg[]
 
 layer data aware
 layer auth aware
@@ -1116,7 +1126,7 @@ elements qui font des appels REST
 [slide=text]
 Est-ce qu'on a fait le *bon choix* ?
 
-[slide=text]
+[.osef, slide=text]
 *OSEF™️*
 
 [slide=text]

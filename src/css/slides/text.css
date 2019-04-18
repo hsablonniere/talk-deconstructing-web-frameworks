@@ -13,6 +13,10 @@
   font-family: "Operator Mono Bold", monospace;
 }
 
+[data-slide="text"].osef {
+  font-size: 15rem;
+}
+
 [data-slide="text"] mark {
   background-color: hsl(108, 13%, 44%);
   /*background-color: #ff0;*/

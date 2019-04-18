@@ -5,5 +5,6 @@ const { balanceText } = require('./lib');
 
 module.exports = (node) => {
   const text = node.getContent();
-  return slide('text', node, `<div>${balanceText(text)}</div>`);
+  const classes = node.getRoles();
+  return slide('text', node, classes, `<div>${balanceText(text)}</div>`);
 };
