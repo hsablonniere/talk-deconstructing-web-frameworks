@@ -425,7 +425,7 @@ Pour comprendre où on va, il faut savoir d'où on vient.
 Je sais pas trop qui a dit ça, déso.
 Mais il a bien raison !
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-1.jpg[]
 
 À la base on avait un Web assez simple mais puissant dans ses concepts.
 Un utilisateur demande une URL à son navigateur,
@@ -433,7 +433,7 @@ le navigateur fait une requête HTTP vers un serveur,
 le serveur applique un template et répond un document HTML,
 merci au revoir.
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-2.jpg[]
 
 Ensuite, on a rajouté des images, des CSS et surtout des formulaires.
 L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
@@ -441,42 +441,48 @@ L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
 // POST
 // nouvelle page HTML
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-3.jpg[]
 
 Ça a commencé à se complexifier assez tôt avec l'arrivée de JavaScript.
 On avait maintenant la possibilité en tant que dev de répondre directement à des inputs de l'utilisateurs.
 Sans faire d'aller/retour réseau.
 Au départ, on faisait de la manipulation de DOM.
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-4.jpg[]
 
 Ensuite avec la vague AJAX, jQuery et compagnie,
 on a commencé à faire faire de plus en plus de chose à cette partie JavaScript
 et du coup à charger de plus de plus de code.
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-5.jpg[]
 
 On est passé d'appels AJAX pour récupérer des bouts de templates HTML
 à faire ne récupérer que du JSON pour faire du templating côté client
 et surtout du routing côté client
 on gagnait bcp en perf sur les navigations consécutives
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-6.jpg[]
 
 par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
 l'ère du <body> vide avec le mega fat bundle javascript qui contient tout.
 et là le premier chargement, il est pas trop content
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-7.jpg[]
 
 C'est un peu pour revenir au meilleur des 2 mondes
 qu'on essaye aujourd'hui d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
 et de charger le reste au fur et à mesure.
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-8.jpg[]
 
 N'oublions pas que tout ça s'est fait pendant la période de
 l'arrivée des mobiles, du stockage local et des workers
+
+image::img/drawings/browser-9.jpg[]
+
+image::img/drawings/browser-10.jpg[]
+
+image::img/drawings/browser-11.jpg[]
 
 [slide=blank]
 Transition
@@ -1144,7 +1150,9 @@ image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://
 //[slide=todo-screenshot]
 //Web Assembly
 
-image::img/drawings-optimized/browser.svg[]
+image::img/drawings/browser-12.jpg[]
+
+image::img/drawings/browser-13.jpg[]
 
 framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
