@@ -625,10 +625,11 @@ préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 [slide=web-components]
 _
 
-image::img/drawings-optimized/tv-component.svg[]
-[slide=todo-schema]
+image::img/drawings-optimized/web-component-tv.svg[]
 // UTILISER LE SCHEMA DE LA TV
 schéma de la télé => analogie avec le Web component
+
+image::img/drawings-optimized/web-component.svg[]
 
 .Custom Elements
 [slide=web-components]
