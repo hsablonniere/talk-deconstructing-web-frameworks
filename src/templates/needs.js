@@ -39,23 +39,23 @@ module.exports = (node) => {
       <div class="needs-block">
         <div class="title">Users</div>
         <div class="list">
-          <div class="need-item" ${hide(0)}>Rapidité (1er chargement)</div>
-          <div class="need-item" ${hide(1)}>Rapidité (navigations consécutives)</div>
-          <div class="need-item" ${hide(2)}>Fluidité + réactivité (60 fps)</div>
-          <div class="need-item" ${hide(3)}>Conso. (batterie, CPU, RAM)</div>
-          <div class="need-item" ${hide(4)}>Accessibilité</div>
+          <div class="need-item" ${hide(0)}>Fast (1st load)</div>
+          <div class="need-item" ${hide(1)}>Fast (following navigations)</div>
+          <div class="need-item" ${hide(2)}>Smooth and reactive (60 fps)</div>
+          <div class="need-item" ${hide(3)}>Careful with battery, CPU, RAM...</div>
+          <div class="need-item" ${hide(4)}>Accessibility</div>
           <div class="need-item" ${hide(5)}>Cross-device, cross-browser</div>
         </div>
       </div>
       <div class="needs-block">
         <div class="title">Devs</div>
         <div class="list">
-          <div class="need-item" ${hide(6)}>Gagner du temps</div>
-          <div class="need-item" ${hide(7)}>Code propre, réutilisable</div>
-          <div class="need-item" ${hide(8)}>Modèle de pensée simple</div>
-          <div class="need-item" ${hide(9)}>Isolation des impacts</div>
-          <div class="need-item" ${hide(10)}>Éviter les erreurs/bugs</div>
-          <div class="need-item" ${hide(11)}>Collab. avec des non-devs</div>
+          <div class="need-item" ${hide(6)}>Save time</div>
+          <div class="need-item" ${hide(7)}>Clean code, reusability</div>
+          <div class="need-item" ${hide(8)}>Simple mind model</div>
+          <div class="need-item" ${hide(9)}>Isolation of impacts</div>
+          <div class="need-item" ${hide(10)}>Avoid errors/bugs</div>
+          <div class="need-item" ${hide(11)}>Collab. with non-devs</div>
         </div>
       </div>
     </div>

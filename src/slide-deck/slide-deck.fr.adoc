@@ -909,7 +909,6 @@ Maintenant qu'on a déconstruit un peu les différentes solutions qu'apportent l
 on a une meilleure vision des différentes couches qui composent un projet Web,
 et du coup, il est temps d'appliquer...
 
-// == *Séparons* nos  préoccupations
 == Le Web,  c'est du **SOLID**e
 
 [.time]#00:30:00#

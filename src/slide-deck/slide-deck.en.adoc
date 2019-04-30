@@ -8,37 +8,1269 @@ Hubert Sablonnière
 :date: may 1st, 2019
 
 [slide=poster]
-Intro
+Poster
 
-//[slide=blank]
-//outro
+[.time]#00:00:00#
 
-[.old]
+[.stop-music.dark, slide=blank]
+Fading to black
+
+[.old.play-music]
 == Prologue...
 
-== *How* did we  get here?
+[.four]#Mettre la musique (Gymnopedie)#
+#Voix off, grave, triste#
+Perdu dans la jungle du Web moderne, de ses frameworks et ses standards,
 
-[slide=todo]
-schéma eras of web
+image::img/drawings-optimized/thinking.svg[]
+
+notre personnage principal est perdu.
+Depuis le début de sa carrière, au fil des semaines, des mois et des années,
+
+image::img/drawings-optimized/thinking-words.svg[]
+
+il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
+mais qui demain seront délaissés et remplacés par de nouveaux ... *encore plus mieux*.
+C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
+
+image::img/drawings-optimized/rip.svg[]
+
+#Chuchoter#
+Un peu de respect SVP !
+S'ils n'ont pas déjà disparus de nos projets,
+peut-être ont-ils déjà disparus de nos...
+
+image::img/drawings-optimized/radar.svg[]
+
+...radars de coolitude.
+Cette situation l'inquiète, le questionne et l'empêche de dormir.
+Dans le cadre de son travail, il doit faire des choix techniques mais il ne sait plus quoi faire.
+C'est à ce moment là que notre personnage pris la décision d'aller voir...
+
+[.reset-music]
+image::img/drawings-optimized/dr-sigma.svg[]
+
+...une thérapeuthe.
+[.four]#Restart la musique (Gymnopedie)#
+
+image::img/drawings-optimized/talking-legos.svg[]
+
+#Voix lassée et fatiguée#
+😎 Bonjour docteur.
+#Voix confiante#
+👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène ?
+La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
+Vous commenciez votre premier job et vous aviez déclaré une crise existentielle sur l'usage des "espaces ou des tabulations" et sur la prononciation des "guiffes animés".
+#Regard blasé de djeuns#
+😎 Des jifs, vous voulez-dire ?
+
+.2 spaces,   it's better!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
+
+#Se la péter dev sénior ++#
+😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
+Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
+
+.Too much hype,   we've become addicts!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 Les effets de mode et de hype nous rendent beaucoup trop addict à nos outils.
+👩‍⚕️ Humm, dites mois en plus, quels problèmes ça implique ?
+
+image::img/drawings-optimized/projecteur.svg[]
+
+#Voix énergique#
+😎 Alors, problème numéro 1...
+#Voix blasée#
+👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours avec un PowerPoint ?
+
+.I AM NOT   using PowerPoint!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
+
+#Hyper content#
+😎 Bah c'est vachement pratique en vrai.
+#Redescend d'un étage#
+Bref.
+
+.Problem #1
+[slide=problem]
+Finding solutions   to problems we don't have (yet)
+
+😎 Problème numéro 1...
+Quand on choisi un framework, une lib frontend et son écosystème, on en oublie souvent le problème qu'on voulait résoudre à la base...
+*et pourtant*, on a l'impression d'avoir déjà trouvé *LA* bonne réponse, *LA* bonne solution à utiliser.
+Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
+👩‍⚕️ Mais pourquoi vous faites ça ?
+
+image::img/drawings-optimized/dx-ux.svg[]
+
+😎 Bah parfois le choix se fait parceque la techno est *cool* !
+Mais du coup, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
+
+image::img/drawings-optimized/giant.svg[]
+
+😎 Parfois parceque la techno est utilisée, voire créée et maintenue par un géant du Web ! Oh yeah !
+// Ça forme un cycle:
+// * les géants l'utilisent
+// * on l'utilise
+// * les recruteurs nous attirent avec
+// * les débutants se forment dessus
+// * on créé des confs dédiées
+// * on créé des meetups
+
+.Go on, go on... !
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Continuez, continuez...
+
+.Problem #2
+[slide=problem]
+Getting locked into our own ecosystem
+
+😎 Problème numéro 2...
+Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
+// https://en.wikipedia.org/wiki/Escalation_of_commitment
+// https://fr.wikipedia.org/wiki/Escalade_d%27engagement
+// https://en.wikipedia.org/wiki/Sunk_cost
+// https://fr.wikipedia.org/wiki/Co%C3%BBt_irr%C3%A9cup%C3%A9rable
+
+image::img/drawings-optimized/silos.svg[]
+
+😎 On ouvre une porte et on reste bien au chaud à l'intérieur.
+Mais du coup, on va cherche systématiquement comment faire X ou Y avec *cet* écosystème alors que X ou Y sont peut-être un peu plus universels.
+Un peu comme quand on cherchait à manipuler des dates ou trier des tableaux avec jQuery.
+Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
+On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
+En fait, on est devenu des *gros fanboys/fangirls* avec nos outils.
+On ne voit pas toujours leurs défauts,
+et on se persuade de l'intêret de certaines fonctionnalités sans les comprendre.
+On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert.
+
+image::img/drawings-optimized/brain.svg[]
+
+😎 On va remplir notre cerveau avec...
+
+image::img/drawings-optimized/brain-fwk.svg[]
+
+😎 ...des fonctionnalités et concepts spéciques à notre écosystème...
+// 😎 Difficile de changer de cap quand on a investi du temps d'apprentissage.
+
+image::img/drawings-optimized/brain-patterns.svg[]
+
+😎 ...au lieu de les remplir avec des standards bien installés ou des patterns bien connus.
+
+.Oh, so just like   Apple keynotes?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-thinks.svg[]
+
+👩‍⚕️ Hum, hum, je vois...
+// Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
+// Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
+// Rant sur les exemples de code décorés apple
+
+.Problem #3
+[slide=problem]
+...
+
+😎 Problème numéro 3...
+Finalement celui là, il est assez universel,
+On oublie facilement les principes et patterns de base comme SOLID ou la "separation of concerns".
+
+.Problem #3
+[slide=problem]
+Writing strongly coupled code   that does not age well with time
+
+Du coup, on à tendance à produire du code fortement couplé, qui subit mal les effets du temps.
+
+image::img/drawings-optimized/layers.svg[]
+
+😎 Au lieu d'avoir des couches bien identifiées et bien isolées...
+
+image::img/drawings-optimized/layers-mixed.svg[]
+
+😎 ...on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
+Du coup :
+* quand notre propre écosystème évolue,
+* quand il disparait,
+* ou quand un nouveau standard arrive,
+ça devient difficile de remplacer unitairement certaines parties.
+
+image::img/drawings-optimized/trash.svg[]
+
+😎 On va jeter à la poubelle...
+
+image::img/drawings-optimized/trash-brain.svg[]
+
+😎 ...une partie de nos connaissances...
+
+image::img/drawings-optimized/trash-project.svg[]
+
+😎 ...et pas mal de code.
+
+.#FeatureLessRefactoring
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+Hashtag "J'aime les refontes techniques"
+
+.WTF?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Bah là par contre, j'ai rien compris.
+😎 Ah...
+Bah en fait, c'est comme ma télé.
+
+.Just like my TV!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 La dernière fois que je suis venu vous voir il y a 10 ans,
+Je commençais mon premier job et je venais de m'acheter une nouvelle télé avec l'argent de mon stage.
+
+image::img/drawings-optimized/tv.svg[]
+
+😎 Cette télé, je l'ai toujours aujourd'hui,
+elle marche comme il y a 10 ans.
+Elle a tenu la route parque qu'elle fait une chose et elle le fait bien.
+Elle ne sait pas ce que je vais brancher dessus, elle impose juste une interface : de l'HDMI.
+
+image::img/drawings-optimized/tv-pc.svg[]
+
+😎 Du coup, au départ, j'ai branché un gros PC,
+
+image::img/drawings-optimized/tv-raspberry.svg[]
+
+😎 puis un plus petit PC.
+J'ai branché plein de trucs dont elle n'a pas besoin de connaitre l'existence ni même la provenance.
+
+image::img/drawings-optimized/tv-androidtv.svg[]
+
+😎 J'ai même découvert par accident qu'en plus de recevoir de l'HDMI,
+elle pouvait elle envoyer des signaux (tjs via l'HDMI) aux appareils branchés.
+Bref, aujourd'hui, dans le monde du frontend...
+
+image::img/drawings-optimized/tv-vcr.svg[]
+
+😎 Je vois trop de télé comme ça !
+👩‍⚕️ Ah ouais, c'était bien au début ces trucs là car il n'y avait rien à brancher, c'était magique mais bon, quand la télé ou le magnétoscope était pété, il fallait tout racheter
+
+// image::img/drawings-optimized/tv-vcr-real.svg[]
+
+.Ah, you see?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-talks.svg[]
+
+😎 Ah vous voyez pourquoi je suis perdu alors ?
+
+.OK, OK, I see...
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Je vois, je vois...
+Le plus simple dans votre situation...
+
+.Group therapy!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ C'est la thérapie de groupe avec des professionnels de votre domaine !
+Du coup, je vous ai réuni un petit groupe de gens là.
+
+.I'll go   but I'm scared!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-thinks.svg[]
+
+😎 Euh... mais ils sont beaucoup là non ?
+
+.Everything's    gonna be alright!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Mais non, allez, hop !
+
+[.stop-music, slide=poster]
+Bonjour
+
+[.time]#00:06:00#
+Bonjour à *toutes* et tous !
+J'm'appelle Hubert Sablonnière,
+J'suis développeur Web chez #Clever Cloud#,
+et aujourd'hui, j'ai envie de vous parler :
+* du Web,
+* de ses frameworks et autres librairies
+* et de ses standards.
+Un sujet facile sans aucune guerre de chapelle, ni polémique.
+On va essayer ensemble de déconstruire un peu tout ça
+dans l'espoir de pouvoir mieux construire nos web apps demain.
+
+[slide=blank]
+Transition
+
+OK, alors on utilise tous pleins d'outils super cools qui nous apportent des solutions...
 
 == What was the  *problem* anyway?
 
+[.time]#00:06:30#
+...mais c'était quoi le problème à la base ?
+...
+Sur cette partie, j'ai essayé de lister les principaux problèmes auquels j'ai fait face dans mes différentes expériences de dev sur le Web.
+
+[slide=needs, display=0]
+_
+
+D'un côté, on a les problèmes qu'on veux résoudre pour les utilisatrices et utilisateurs du produit qu'on développe,
+et de l'autre, on a les problèmes qu'on rencontre *NOUS* les devs.
+...
+Alors, en tant que user, on veut :
+
+[slide=needs, display=1]
+_
+
+Un 1er chargement rapide.
+
+[slide=needs, display=2]
+_
+
+Une fois la page chargée,
+on veut que les navigations consécutives soient rapides aussi.
+//C'est le critère qui a motivé le fait de faire du rendu côté client.
+
+[slide=needs, display=3]
+_
+
+On veut que ce soit fluide et réactif,
+
+[slide=needs, display=4]
+_
+
+que la consommation batterie, CPU, RAM reste raisonnable,
+
+[slide=needs, display=5]
+_
+
+que ça soit accessible à tous,
+
+[slide=needs, display=6]
+_
+
+et que ça marche partout.
+...
+Déjà là, on voit qu'le contexte joue à mort.
+C'est en fonction de *"ce que vous codez"* que l'importance de ces problèmes varie.
+Si vous codez une app où l'utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c'est pas trop votre problème principal.
+Même chose de l'autre côté du spectre, si vous codez une site où l'utilisateur fait bcp de lecture et de navigation,
+la fluidité avec des animations à 60 fps, bah forcément, c'est pas un problème que vous avez.
+...
+Ne notre côté, en tant que dev, on veut :
+
+[slide=needs, display=7]
+_
+
+Gagner du temps, ne pas réinventer la roue,
+
+[slide=needs, display=8]
+_
+
+écrire du code propre, réutilisable,
+
+[slide=needs, display=9]
+_
+
+avec des abstraction pour garder un modèle de pensée simple.
+
+[slide=needs, display=10]
+_
+
+On veut une isolation des impacts de nos changements,
+
+[slide=needs, display=11]
+_
+
+éviter de faire certaines erreurs et autres bugs...
+et petit bonus,
+
+[slide=needs, display=12]
+_
+
+si on peut facilement collaborer avec des non-dev, c'est cool.
+...
+Ici, c'est en fonction de *"avec qui vous codez"*, votre équipe et son expérience, que l'importance des problèmes varie.
+
+[slide=blank]
+Transition
+
+OK, donc là, si vous êtes plutôt backend et que vous n'avez pas suivi le monde du front/Web ces dernières années,
+vous vous dites :
+"Non mais attend Hubert, là tu viens de lister à peu près les mêmes problèmes qu'on essayait de régler il y a 10 ans."
+"J'ai vraiment l'impression que vous vous êtes complexifié la vie avec tous vos outils compliqué alors que le problème est simple."
+...
+OK, mettons de côté l'ironie de cette remarque et posons nous la question :
+
+== *How* did we  get here?
+
+
+[.time]#00:08:00#
+Comment est-ce qu'on en est arrivé là ?
+Est-ce qu'on a vraiment besoin de tous ces outils ?
+
+[quote]
+In order to understand where we're going,   we need to know where we come from.
+
+Pour comprendre où on va, il faut savoir d'où on vient.
+#blasé#
+Je sais pas trop qui a dit ça, déso.
+Mais il a bien raison !
+
+image::img/drawings/browser-1.jpg[]
+
+À la base on avait un Web assez simple mais puissant dans ses concepts.
+Un utilisateur demande une URL à son navigateur,
+le navigateur fait une requête HTTP vers un serveur,
+le serveur applique un template et répond un document HTML,
+merci au revoir.
+
+image::img/drawings/browser-2.jpg[]
+
+Ensuite, on a rajouté des images, des CSS et surtout des formulaires.
+L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
+// click
+// POST
+// nouvelle page HTML
+
+image::img/drawings/browser-3.jpg[]
+
+Ça a commencé à se complexifier assez tôt avec l'arrivée de JavaScript.
+On avait maintenant la possibilité en tant que dev de répondre directement à des inputs de l'utilisateurs.
+Sans faire d'aller/retour réseau.
+Au départ, on faisait de la manipulation de DOM.
+
+image::img/drawings/browser-4.jpg[]
+
+Ensuite avec la vague AJAX, jQuery et compagnie,
+on a commencé à faire faire de plus en plus de chose à cette partie JavaScript
+et du coup à charger de plus de plus de code.
+
+image::img/drawings/browser-5.jpg[]
+
+On est passé d'appels AJAX pour récupérer des bouts de templates HTML
+à faire ne récupérer que du JSON pour faire du templating côté client
+et surtout du routing côté client
+on gagnait bcp en perf sur les navigations consécutives
+
+image::img/drawings/browser-6.jpg[]
+
+par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
+l'ère du <body> vide avec le mega fat bundle javascript qui contient tout.
+et là le premier chargement, il est pas trop content
+
+image::img/drawings/browser-7.jpg[]
+
+C'est un peu pour revenir au meilleur des 2 mondes
+qu'on essaye aujourd'hui d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
+et de charger le reste au fur et à mesure.
+
+image::img/drawings/browser-8.jpg[]
+
+N'oublions pas que tout ça s'est fait pendant la période de
+l'arrivée des mobiles, du stockage local et des workers
+
+image::img/drawings/browser-9.jpg[]
+
+image::img/drawings/browser-10.jpg[]
+
+image::img/drawings/browser-11.jpg[]
+
+[slide=blank]
+Transition
+
 == What do *frameworks*  bring to the table?
 
-== Let's *separate*  our concerns
+
+[.time]#00:10:00#
+
+[slide=text]
+*Frameworks* vs. *libs* ?
+
+framework => cadre de travail
+opinionated set of libs/tools
+problem is when this set of libs/tools is only compatible with itself
+de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
+...
+historique
+jquery
+Frameworks are also their to prevent browser quirks
+
+[slide=todo-schema]
+image::img/drawings-optimized/silos-colors.svg[]
+
+Angular and ember are opinionated
+React is supposed to be unopinionated
+Vue is a bit in the middle
+special mention to ember
+
+[slide=todo-schema]
+image::img/drawings-optimized/silos-rooms.svg[]
+
+[slide=blank]
+on efface
+
+image::img/drawings/bookshelf-empty.jpg[]
+
+// mentionner les étapes qui nécessitent un outil de build
+// est-ce que la source de l'outil de build est spécifique ou est-elle un peu standard ?
+// mentionner des détails sur les implémentations
+
+// points importants à aborder
+
+[slide=needs, focus=""]
+Component system (API + runtime)
+
+[slide=needs, focus="7,9"]
+Component system (API + runtime)
+
+image::img/drawings/bookshelf-1.jpg[]
+
+Angular et Vue "data down, events up"
+=> methods
+React "data down, action up" (ou callback called)
+=> props pour les children
+Tous: attrs et lifecycle methods
+Slots ?
+
+[slide=needs, focus=""]
+"Templating" / ViewModel
+
+[slide=needs, focus="0,6,7,8,9,10,11"]
+"Templating" / ViewModel
+
+image::img/drawings/bookshelf-2.jpg[]
+
+=> JSX, templates
+=> 1 file vs several files
+=> output pur JS, vs JS + CSS
+Mvc, mvvm, template + vue model, computed properties
+exemple Angular, React, Vue
+
+[slide=needs, focus=""]
+CSS authoring
+
+[slide=needs, focus="0,9"]
+CSS authoring
+
+image::img/drawings/bookshelf-3.jpg[]
+
+=> BEM, CSS-in-JS lib, encapsulation system
+
+[slide=needs, focus=""]
+DOM manipulation
+
+[slide=needs, focus="2,3,4,5,8"]
+DOM manipulation
+
+image::img/drawings/bookshelf-4.jpg[]
+
+=> Direct binding vs Virtual DOM (+ scheduling microtask...)
+The Virtual DOM was always a big marketing argument to sell React but why would we care.
+It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
+
+[slide=needs, focus=""]
+SSR (Server Side Rendering)
+
+[slide=needs, focus="0,5"]
+SSR (Server Side Rendering)
+
+image::img/drawings/bookshelf-5.jpg[]
+
+[slide=needs, focus=""]
+Router
+
+[slide=needs, focus="1"]
+Router
+
+image::img/drawings/bookshelf-6.jpg[]
+
+[slide=needs, focus=""]
+State management
+
+[slide=needs, focus="7,8"]
+State management
+
+image::img/drawings/bookshelf-7.jpg[]
+
+image::img/drawings/bookshelf-8.jpg[]
+
+en vrac car moins important pour notre discussion
+CLI
+Devtools
+HTTP client
+Form handling
+Module system
+Dep inj
+i18n
+tests
+
+[slide=blank]
+Transition
+
+en terme de conception de d'organisation des composants (et de séparation des concerns etc)
+les 3 communautés ont des choses intéressantes à dire
 
 == What do *standards*  bring to the table?
 
-== The *perfect*  solution!
+
+[.time]#00:20:00#
+
+image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
+
+préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
+
+// [slide=todo]
+// schéma cycle
+
+.Web Components
+[slide=web-components]
+_
+
+image::img/drawings-optimized/web-component-tv.svg[]
+// UTILISER LE SCHEMA DE LA TV
+schéma de la télé => analogie avec le Web component
+
+image::img/drawings-optimized/web-component.svg[]
+
+.Custom Elements
+[slide=web-components]
+_
+// custom element => modèle de composant avec lifecycle methods et "data binding" sur les attributs
+
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    /* ... */
+}
+
+customElements.define('env-var-input', EnvVarInput);
+
+<env-var-input name="FOO" value="BAR"></env-var-input>
+--
+
+image::img/drawings-optimized/web-component-attr.svg[]
+
+image::img/drawings-optimized/web-component-prop.svg[]
+
+image::img/drawings-optimized/web-component-methods.svg[]
+
+image::img/drawings-optimized/web-component-events.svg[]
+
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    connectedCallback() {
+        /* ... */
+    }
+    disconnectedCallback() {
+        /* ... */
+    }
+    adoptedCallback() {
+        /* ... */
+    }
+}
+--
+
+.Custom Element
+[source, language=javascript, subs="none"]
+--
+class EnvVarInput extends HTMLElement {
+    static get observedAttributes() {
+        return ['name', 'value'];
+    }
+    attributeChangedCallback() {
+        /* ... */
+    }
+}
+--
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des attributs
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des propriétés non string/boolean
+//* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
+//* RO https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des méthodes
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des événements un peu custom
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event
+//* https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event
+
+image::img/drawings/bookshelf-wc-ce.jpg[]
+//où ça se place dans notre tableau de solutions ?
+//système de composant (API + runtime)
+
+.Custom Elements
+[slide=web-components, display=0]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=1]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=2]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=3]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=4]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=5]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Custom Elements
+[slide=web-components, display=6]
+* 🤔 No customized built-in elements in Safari
+* 😐 No real "data-binding" on properties (getter/setter or proxy)
+* 😡 No HMR (without hacks)
+* 📜 Scoped CustomElementRegistry
+* 📜 Form associated elements
+* 📜 Lazy definition
+
+.Shadow DOM
+[slide=web-components]
+_
+//shadow DOM => isolation du CSS
+
+image::img/drawings-optimized/web-component-slot.svg[]
+
+image::img/drawings-optimized/web-component-events.svg[]
+
+image::img/drawings-optimized/web-component-sd.svg[]
+
+la suite de l'API standard entrée/sortie (custom prop, ::part)
+système de slots :+1
+transperce le shadow root avec des custom props
+transperce le shadow root avec des ::part (et ::theme)
+
+// [slide=todo]
+// exemples de noeuds du DOM avec des ::part ou des custom prop
+
+image::img/drawings/bookshelf-wc-sd.jpg[]
+
+où ça se place dans notre tableau de solutions ?
+système de composants
+isolation du CSS
+
+.Shadow DOM
+[slide=web-components, display=0]
+* 😡 No SSR (without hacks)
+* 📜 Declarative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=1]
+* 😡 No SSR (without hacks)
+* 📜 Declarative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=2]
+* 😡 No SSR (without hacks)
+* 📜 Declarative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=3]
+* 😡 No SSR (without hacks)
+* 📜 Declarative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.Shadow DOM
+[slide=web-components, display=4]
+* 😡 No SSR (without hacks)
+* 📜 Declarative shadow DOM, custom elements
+* 📜 Custom pseudo class
+* 📜 CSS modules
+
+.`<template>`
+[slide=web-components]
+_
+// <template>, une manière "efficace" de cloner du DOM
+
+.<template>
+[source, language=html, subs="none"]
+--
+<template id="foobar">
+  <div>Awesome!!</div>
+</template>
+
+const awesome = foobar.content.cloneNode(true);
+parent.appendChild(awesome)
+--
+
+image::img/drawings/bookshelf-wc-tpl.jpg[]
+//où ça se place dans notre tableau de solutions ?
+//pas vraiment équivalent à la définition de template qu'on a évoqué mais bon
+
+.`<template>`
+[slide=web-components, display=0]
+* 😡 No interpolation or reactive "data-binding"
+* 📜 Template instanciation (limited to simple values)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=1]
+* 😡 No interpolation or reactive "data-binding"
+* 📜 Template instanciation (limited to simple values)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=2]
+* 😡 No interpolation or reactive "data-binding"
+* 📜 Template instanciation (limited to simple values)
+* 📜 HTML modules
+
+.`<template>`
+[slide=web-components, display=3]
+* 😡 No interpolation or reactive "data-binding"
+* 📜 Template instanciation (limited to simple values)
+* 📜 HTML modules
+
+image::img/screenshots/web-components-best-practices.jpg[url=https://developers.google.com/web/fundamentals/web-components/best-practices]
+
+//comment surveiller la suite
+
+image::img/screenshots/github-web-components.jpg[url=https://github.com/w3c/webcomponents]
+
+image::img/screenshots/twitter-intenttoship.jpg[url=https://twitter.com/intenttoship]
+
+image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPlatformNews]
+
+// image::img/screenshots/github-tc39.jpg[url=https://github.com/tc39/proposals]
+
+// des resources pour surveiller les specs et les implems dans les browsers
+// TC39
+
+//Est-ce que votre outil est prêt demain à adopter un standard et jetter son implem pour vous faire profiter du support natif ?
+
+[slide=blank]
+Transition
+
+Maintenant qu'on a déconstruit un peu les différentes solutions qu'apportent les frameworks et les standards,
+on a une meilleure vision des différentes couches qui composent un projet Web,
+et du coup, il est temps d'appliquer...
+
+== A *SOLID* Web!
+
+[.time]#00:30:00#
+...les principes SOLID à notre frontend préféré.
+Je vais prendre l'exemple du travail que je fais en ce moment...
+
+[quote]
+Code should be disposable,   it's far easier to do when   things are decoupled.
+
+.Our context at *Clever Cloud*
+[.logo]
+image::img/cc-rocket-man.png[]
+//image::img/clever-cloud-logo.svg[]
+
+...chez Clever Cloud,
+en espérant que ça vous donne des idées pour votre contexte et votre stack.
+
+[slide=blank, data-viewport=1]
+_
+
+Démo console
+ça c'est ce qu'on appelle notre console,
+c'est le tableau de bord qui permet à nos clients d'administrer leurs apps, leurs bdd, leurs addons...
+montrer la console web en démo
+(écran overview)
+citer logs, monitoring...
+(switcher sur les vars d'env)
+
+image::img/drawings/bookshelf-cc-before.jpg[]
+
+la stack Clever
+...
+codebase qui a 7 ans
+Component system (séparation du code mais pas d'API ni de système runtime)
+Templating (lodash)
+CSS (global) avec qq règle de nommage parfois
+DOM (jquery + bacon)
+Pas de SSR
+Router maison (merci quentin)
+Pas vrmt de state manager (bacon)
+
+.Our needs
+[slide=web-components, display=0]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+.Our needs
+[slide=web-components, display=1]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+.Our needs
+[slide=web-components, display=2]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+.Our needs
+[slide=web-components, display=3]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+.Our needs
+[slide=web-components, display=4]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+.Our needs
+[slide=web-components, display=5]
+* 👋 Goodbye (Bacon.js + lodash templates)
+* 💪 Components with an API and isolation
+* ♻️ Reusability (white label products)
+* 🤯 No feature less "big-bang" refactoring
+* 🔢 Introduce new tools feature by feature
+
+sur certaines parties de l'app, on avait déjà un modèle
+comme les frameworks moderne avec un one way data flow
+je modifie de la donnée, ça par dans un stream bacon et ça modifie le DOM
+on a un peu atteint les limites de ce modèle bacon + lodash (perfs et modèle de pensée)
+on a isolé les "modules" dans des fichiers mais on a du CSS global et on a pas d'interface clairement définie sur nos composants
+on va avoir besoin que notre UI soit réutilisée en marque blanche ou marque grise
+du coup, on doit pouvoir fournir certains parties de manière indépendantes un peu comme des légos
+// donnée qui vient d'appels REST et/ou de SSE
+...
+on va introduire des nouvelles technos feature après feature
+le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
+Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+
+[slide=text]
+Design phase:   from *top* to *bottom*
+
+// [slide=todo]
+// mock-up top => bottom des vars d'env
+
+[slide=text]
+Development phase:   from *bottom* to *top*
+
+les enfants ne savent pas qui les utilisent
+mais ils ont une idées de comment ils seront utilisés ou plutôt de ce qu'ils doivent faire
+les parents savent à quoi servent leur enfants mais ne se soucis pas de comment ça marche à l'interieur
+tu ne sais pas qu'il y a un router
+tu ne sais pas qu'il y a un state manager
+tu ne sais pas d'où vient la donnée
+
+[slide=text]
+*Storybook* **D**riven **D**evelopment
+
+YOU NEED A DESIGN SYSTEM
+
+//image::img/talk-storybook-ml-thuret.jpg[url=https://www.youtube.com/watch?v=a-fsVBaiv5A]
+image::img/talk-storybook-ml-thuret.en.jpg[]
+
+[slide=blank, data-viewport=2]
+DÉMO: le storybook de clever
+
+DÉMO: le storybook de clever
+montrer les boutons avec leur interface
+montrer le composant env-var-input
+montrer le composant env-var-editor-simple
+montrer le composant env-var-editor-expert
+expliquer qu'ils ont la même signature et son donc très facilement interchangeable aux yeux du parent
+
+image::img/drawings/bookshelf-cc-after.jpg[]
+
+: web component pour la réutilisabilité et le côté agnostique du fwk et l'aspect standard
+: lit-element + lit-html (petites libs)
+: on en a testé d'autres mais celles si nous convenait le mieux
+
+image::img/screenshots/site-lit-html.jpg[url=https://lit-html.polymer-project.org/]
+
+.lit-html
+[source, language=javascript, subs="none"]
+--
+import { html, render } from 'lit-html';
+
+let envVarInput = (envVar) => html`
+    <span class="name">${envVar.name}</span>
+    <input name=${envVar.name} .value=${envVar.value}>
+`;
+
+render(envVarInput({ name: 'FOO', value: 'BAR' }), someDomNode);
+--
+
+image::img/screenshots/site-lit-element.jpg[url=https://lit-element.polymer-project.org/]
+
+.LitElement
+[source, language=javascript, subs="none"]
+--
+import { LitElement, html } from 'lit-element';
+
+class EnvVarInput extends LitElement {
+
+  render() {
+    return html`
+      <!-- My template here -->
+    `;
+  }
+}
+
+customElements.define('env-var-input', EnvVarInput);
+--
+
+//[slide=text]
+//Séparation des *préoccupations*   #≠#   Séparation des *fichiers*
+//Séparation des *préoccupations*   #!==#   Séparation des *fichiers*
+//Séparation des *préoccupations*  *!==* Séparation des *fichiers*
+
+// [quote]
+// The more experienced a developer is, the less they are willing to be constraint by a framework. They tend to look for tools that help them and get out of the way.
+// https://hueniverse.com/http-frameworks-must-die-717a37b6b164
+
+image::img/drawings-optimized/layers-mixed-light.svg[]
+
+image::img/drawings-optimized/layers-light.svg[]
+
+layer data aware
+layer auth aware
+elements qui font des appels REST
+
+// [slide=todo]
+// remonter l'accès à la donnée le plus haut possible
+
+.Reduce coupling with global stuffs
+[slide=web-components]
+* Router
+* Data management (REST, WS, SSE...)
+* State management
+* Loading indicators
+* Messages, notifs (info, error...)
+* Modal box
+* Keyboard shortcuts
+//* document.title
+// i18n
+
+// i18n
+// packaging
+// Tests: do it like a  screen reader user wood do it
+// Tests: no a great fan of snapshots
+
+[slide=text]
+Did we choose the *right tool*?
+
+[.osef, slide=text]
+*IDGAS™️*
+
+[slide=text]
+Not the *right* question!
+
+[slide=text]
+How much does it *cost*   to *change* our minds?
+
+Est-ce qu'on a fait le bon choix avec cette stack ?
+Oui, pas au sens ou on a choisi la bonne solution.
+Au sens ou on pourra changer d'avis demain,
+garder des composants longtemps avec ce choix sans les retoucher, et tant pis car ils sont petit
+les réécrire avec des outils différents car l'impact sur les autres couches sera faible.
+On s'en fout !
+On a fait un choix qui ne nous demande pas trop d'apprentissage spécifique (lit-element, lit-html),
+qui nous donne des connaissances de nouveaux standards du Web,
+ça ne peut qu'être positif !
+
+[slide=blank]
+Transition
 
 == Looking into  the *future*...
 
-[.old]
+
+[.time]#00:40:00#
+
+[slide=text]
+*Beware* of those who   predict the future**!**
+
+//See WC as the bytecode of the component isolation concept. It can be a compile to target
+//People don't have to worry on the sugar
+
+image::img/screenshots/article-frameworks-without-the-framework.jpg[url=https://svelte.technology/blog/frameworks-without-the-framework]
+
+Vous pensez que 100k de JS, c'est pareil que 100k d'image => faux
+Le JS est téléchargé, parsé, éxécuté, tout ça, ça prend du temps.
+
+image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://tomdale.net/2017/09/compilers-are-the-new-frameworks/]
+
+//image::img/screenshots/tweet-future-web-assembly.jpg[url=https://twitter.com/getify/status/1111004737263075329]
+
+//* le i18n (inliné)
+//Discuter des webcomponent comme base pour l'authoring ou comme target de compilation
+
+//[slide=todo-screenshot]
+//Web Assembly
+
+image::img/drawings/browser-12.jpg[]
+
+image::img/drawings/browser-13.jpg[]
+
+framework runtime => compilers
+schéma browser avec le code qui passe du runtime au build
+bon ou mauvais ?
+l'idéal serait que l'input du compiler fonctionne sans build step et que l'output soit optimisé aux petits oignons, comme ce qu'on fait quand on minifie
+schéma browser avec le code qui passe du runtime et vers des implem du browser
+...
+Convaincre les gens que :
+Le passé se répète
+Les outils vont et viennent
+La constante, c'est le modèle des éléments du DOM (sorte de HDMI du Web)
+Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d'apprentissage
+// Ne pas hésiter à questionner les standards ou les frameworks à la mode
+// Qu'est-ce qui est important ? L'UX, la DX, les perfs ?
+// On est trop dépendant de nos outils
+// On est pas tjs assez exigent avec nos outils
+// Il faut plus de compilation (html, css, js) et donc une étape intermédiaire
+// Ça facilite le SSR, le HMR, plus résilient aux vieux browsers
+// Compiler le i18n
+
+[.stop-music.dark, slide=blank]
+Fondu vers le noir
+
+[.old.play-music]
 == ...Epilogue
 
-.thank  you!
-[slide=poster]
+[.time]#00:42:00#
+
+.So?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Alors, comment ça s'est passé cette thérapie de groupe ?
+😎 Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
+j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son propre contexte.
+
+.Problem #1
+[slide=problem]
+Finding solutions   to problems we don't have (yet)
+
+😎 Pour le problème numéro 1,
+J'ai essayé de remettre la priorité sur :
+1. Les besoins des utilisatrices et utilisateurs des produits qu'on développe
+2. Les besoins qu'on a nous les dev quand on bosse sur nos projets
+...
+Un navigateur Web est devenu aujourd'hui, *une plateforme applicative assez complexe*.
+Bien sûr qu'on a besoins d'outils à la hauteur des enjeux. L'idée n'est pas de tout faire à la main et de réinventer la roue.
+Après, ça veut pas dire qu'on a tous les mêmes contextes et les mêmes priorités.
+...
+J'espère que les gens auront le réflexe :
+* "ah un nouvel outil qui brille !"
+* "ça résoud quel problème ?"
+* "est-ce que j'ai ce problème ?"
+et de savoir :
+* ce que vous codez
+* et avec qui vous codez
+
+.Problem #2
+[slide=problem]
+Getting locked into our own ecosystem
+
+😎 J'ai aussi essayé de déconstruire les différentes fonctionnalités/solutions qu'apportent des 3 écosystèmes du moment.
+L'idée principale est bien d'avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale.
+Pour ma part, en comprenant mieux ces parties, j'ai moins peur des les remplacer par des implems plus simples ou mieux adaptés ou pars des nouveaux standards.
+En fait, au final, tous ces frameworks, ces librairies et ces standards, ça n'est que des outils.
+On a juste besoin de tous rester calmes et professionnels,
+les utiliser pour les supers fonctionnalités qu'ils nous apportent
+et arrêter de les idôlatrer aveuglement.
+👩‍⚕️ Et vous leur avez parlé des TV magnétoscopes
+
+.Problem #3
+[slide=problem]
+Writing strongly coupled code   that does not age well with time
+
+😎 Oui, j'ai expliqué comment chez Clever Cloud on essaye de réduire le couplage entre nos différents composants, modules et couche applicatives.
+J'ai évoqué ce que ça nous apporte dans notre contexte bien précis.
+On a rien inventé, on essaye d'appliquer les bons vieux patterns logiciels au Web moderne.
+Ça reste un principe, il y a tjs des exceptions.
+L'idée n'est pas de quadrupler les coûts de conception juste pour faire du "beau code" mais bien d'investir un minimum d'énergie pour réduire les effets du temps.
+
+.Thanks doctor!
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-l-love.svg[]
+
+😎 Je vous remercie docteur, ça m'a bien aidé
+et je tiens également à remercie tous les membres du groupe qui m'ont écouté jusqu'au bout.
+
+.thank  you !
+[.reset-music, slide=poster]
 Outro
 
-[slide=question]
-Questions ?
+Merci bcp.
+
+//[slide=question]
+//Questions ?
