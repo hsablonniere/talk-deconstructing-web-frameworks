@@ -15,104 +15,111 @@ Poster
 [.stop-music.dark, slide=blank]
 Fading to black
 
+
 [.old.play-music]
 == Prologue...
 
-[.four]#Mettre la musique (Gymnopedie)#
-#Voix off, grave, triste#
-Perdu dans la jungle du Web moderne, de ses frameworks et ses standards,
+#Wait for music#
+#Deep and sad voice#
+Wandering in the jungle of the modern Web,
 
 image::img/drawings-optimized/thinking.svg[]
 
-notre personnage principal est perdu.
-Depuis le début de sa carrière, au fil des semaines, des mois et des années,
+our main character is lost.
+Since he started his career, weeks after weeks, years after years,
 
 image::img/drawings-optimized/thinking-words.svg[]
 
-il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
-mais qui demain seront délaissés et remplacés par de nouveaux ... *encore plus mieux*.
-C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
+he saw the birth of many revolutionary and promising tools,
+but tomorrow, maybe, those could all vanish and be replaced by new ones ... *even more better*.
+It is with lots of sadness and a bit of melancholia that he remembers all these frameworks, librairies, code editors and other command line tools.
 
 image::img/drawings-optimized/rip.svg[]
 
-#Chuchoter#
-Un peu de respect SVP !
-S'ils n'ont pas déjà disparus de nos projets,
-peut-être ont-ils déjà disparus de nos...
+#Whisper#
+Please show some respect!
+If they haven't already disappeared from our projects,
+maybe they already have disappeared from our...
 
 image::img/drawings-optimized/radar.svg[]
 
-...radars de coolitude.
-Cette situation l'inquiète, le questionne et l'empêche de dormir.
-Dans le cadre de son travail, il doit faire des choix techniques mais il ne sait plus quoi faire.
-C'est à ce moment là que notre personnage pris la décision d'aller voir...
+coolness radards.
+This situation worries him and keeps him up at nights.
+In his current job, he has to make technical choices, yet he doesn't know what to do anymore.
+It is at this very moment that our main character decided to see...
 
 [.reset-music]
 image::img/drawings-optimized/dr-sigma.svg[]
 
-...une thérapeuthe.
+...a therapist.
 [.four]#Restart la musique (Gymnopedie)#
 
 image::img/drawings-optimized/talking-legos.svg[]
 
-#Voix lassée et fatiguée#
-😎 Bonjour docteur.
-#Voix confiante#
-👩‍⚕️ Bonjour Monsieur Sablonnière, alors, qu'est-ce qui vous amène ?
-La dernière fois que je vous ai vu, c'était il y a bien 10 ans...
-Vous commenciez votre premier job et vous aviez déclaré une crise existentielle sur l'usage des "espaces ou des tabulations" et sur la prononciation des "guiffes animés".
-#Regard blasé de djeuns#
-😎 Des jifs, vous voulez-dire ?
+#Tired and sad voice#
+😎 Hello doctor.
+#Confident voice#
+👩‍⚕️ Hello Mr Sablonnière? So? What can I do for you?
+Last time I saw you, it was like 10 years ago...
+You just started your first job and you had some kind of PTSD about wether to use "spaces or tabs" and on the pronunciation of "animated guiffs".
+#Like a millenial#
+😎 You mean djifs, right?
 
 .2 spaces,   it's better!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-#Se la péter dev sénior ++#
-😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
-Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
+#Brag about being a senior dev#
+😎 Yeah but that's all in the past now, I was young, I wasn't asking myself the right questions.
+I recently took a few steps back about the frontend Web and I made an observation:
 
 .Too much hype,   we've become addicts!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-😎 Les effets de mode et de hype nous rendent beaucoup trop addict à nos outils.
-👩‍⚕️ Humm, dites mois en plus, quels problèmes ça implique ?
+😎 There's way too much hype around tools and we've all become addicted to them.
+👩‍⚕️ Humm, tell me more, what kind of problems does it imply?
 
 image::img/drawings-optimized/projecteur.svg[]
 
-#Voix énergique#
-😎 Alors, problème numéro 1...
-#Voix blasée#
-👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours avec un PowerPoint ?
+#Energy voice#
+😎 So, problem number 1...
+#Surprised voice#
+👩‍⚕️ Hummm... when someone asks you a question, do you always answer with a PowerPoint?
 
 .I AM NOT   using PowerPoint!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-#Hyper content#
-😎 Bah c'est vachement pratique en vrai.
-#Redescend d'un étage#
-Bref.
+#Really happy#
+😎 Oh yeah! It's very handy, you know.
+#Steps down#
+Anyway.
 
 .Problem #1
 [slide=problem]
 Finding solutions   to problems we don't have (yet)
 
 😎 Problème numéro 1...
-Quand on choisi un framework, une lib frontend et son écosystème, on en oublie souvent le problème qu'on voulait résoudre à la base...
-*et pourtant*, on a l'impression d'avoir déjà trouvé *LA* bonne réponse, *LA* bonne solution à utiliser.
-Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
-👩‍⚕️ Mais pourquoi vous faites ça ?
+When we choose a framework, a frontend library and its ecosystem, we often forget the original problem we wanted to solve.
+*And yet*, we feel like we already found *the right answer*, *the right solution* to use.
+Most of the time, it's the right tool for the right job but sometimes, the solution was designed to solve problems we don't really have.
+
+.Why?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
+
+👩‍⚕️ Why on earth would you do that?
 
 image::img/drawings-optimized/dx-ux.svg[]
 
-😎 Bah parfois le choix se fait parceque la techno est *cool* !
-Mais du coup, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
+😎 Well, sometimes it's because it's **cool**!
+But it forces us to put the developer experience before the user experience,
+the user of the very product we're trying to build.
 
 image::img/drawings-optimized/giant.svg[]
 
-😎 Parfois parceque la techno est utilisée, voire créée et maintenue par un géant du Web ! Oh yeah !
+😎 Sometime it's because it's used or even created by a Web giant, one of the big 5. Oh yeah!
 // Ça forme un cycle:
 // * les géants l'utilisent
 // * on l'utilise
@@ -125,14 +132,14 @@ image::img/drawings-optimized/giant.svg[]
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Continuez, continuez...
+👩‍⚕️ Go on, go on...
 
 .Problem #2
 [slide=problem]
 Getting locked into our own ecosystem
 
-😎 Problème numéro 2...
-Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
+😎 Problem number 2...
+Once we chose an ecosystem, we tend to get locked into it.
 // https://en.wikipedia.org/wiki/Escalation_of_commitment
 // https://fr.wikipedia.org/wiki/Escalade_d%27engagement
 // https://en.wikipedia.org/wiki/Sunk_cost
@@ -140,34 +147,33 @@ Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
 
 image::img/drawings-optimized/silos.svg[]
 
-😎 On ouvre une porte et on reste bien au chaud à l'intérieur.
-Mais du coup, on va cherche systématiquement comment faire X ou Y avec *cet* écosystème alors que X ou Y sont peut-être un peu plus universels.
-Un peu comme quand on cherchait à manipuler des dates ou trier des tableaux avec jQuery.
-Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
-On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
-En fait, on est devenu des *gros fanboys/fangirls* avec nos outils.
-On ne voit pas toujours leurs défauts,
-et on se persuade de l'intêret de certaines fonctionnalités sans les comprendre.
-On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert.
+😎 We open a specific door and we stay cosy inside without looking outside, at what others do.
+This means we're going to look for "how to do X or Y" with *THIS* ecosytem even if X or Y a pretty much universal frontend problems.
+A bit like when we wanted to maniulate arrays or dates with jQuery.
+We're going to rewrite yet another "select" or "datagrid" component dedicated to this ecosystem.
+We'll prefix all our stackoverflow questions with "angular", "react" or "vue".
+And like all fanboys/fangirls,
+we don't always see the limitations of what we love,
+and we convince ourselves that we need those shiny new features without understanding them very well.
 
 image::img/drawings-optimized/brain.svg[]
 
-😎 On va remplir notre cerveau avec...
+😎 We're going to fill our brains with...
 
 image::img/drawings-optimized/brain-fwk.svg[]
 
-😎 ...des fonctionnalités et concepts spéciques à notre écosystème...
+😎 ...features and concepts specific to our own ecosystem...
 // 😎 Difficile de changer de cap quand on a investi du temps d'apprentissage.
 
 image::img/drawings-optimized/brain-patterns.svg[]
 
-😎 ...au lieu de les remplir avec des standards bien installés ou des patterns bien connus.
+😎 ...instead of filling them with well known standards and patterns.
 
 .Oh, so just like   Apple keynotes?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 
-👩‍⚕️ Hum, hum, je vois...
+👩‍⚕️ Hum, hum, I see...
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
@@ -176,88 +182,92 @@ image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 [slide=problem]
 ...
 
-😎 Problème numéro 3...
-Finalement celui là, il est assez universel,
-On oublie facilement les principes et patterns de base comme SOLID ou la "separation of concerns".
+😎 Problem number 3...
+This one is pretty universal,
+We easily forget the basics, the patterns and best practices like SOLID or "separation of concerns".
 
 .Problem #3
 [slide=problem]
 Writing strongly coupled code   that does not age well with time
 
-Du coup, on à tendance à produire du code fortement couplé, qui subit mal les effets du temps.
+We tend to write code that is strongly coupled and that does not age well with time.
 
 image::img/drawings-optimized/layers.svg[]
 
-😎 Au lieu d'avoir des couches bien identifiées et bien isolées...
+😎 Instead of having well defined and isolated layers...
 
 image::img/drawings-optimized/layers-mixed.svg[]
 
-😎 ...on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
-Du coup :
-* quand notre propre écosystème évolue,
-* quand il disparait,
-* ou quand un nouveau standard arrive,
-ça devient difficile de remplacer unitairement certaines parties.
+😎 ...we write modules that mix several responsibilities and we couple our code to the implementation of global stuffs in the project.
+In the end,
+* when our own ecosystem evolves,
+* when it disappears,
+* or when a new standard rises,
+it becomes very hard to replace pieces one at a time.
 
 image::img/drawings-optimized/trash.svg[]
 
-😎 On va jeter à la poubelle...
+😎 We're going to throw away...
 
 image::img/drawings-optimized/trash-brain.svg[]
 
-😎 ...une partie de nos connaissances...
+😎 ...parts of our knowledge...
 
 image::img/drawings-optimized/trash-project.svg[]
 
-😎 ...et pas mal de code.
+😎 ...and lots of code.
 
 .#FeatureLessRefactoring
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-Hashtag "J'aime les refontes techniques"
+Hashtag "I love feature less refactors"
 
 .WTF?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Bah là par contre, j'ai rien compris.
+
+👩‍⚕️ OK, I'm completely lost.
 😎 Ah...
-Bah en fait, c'est comme ma télé.
+Humm, it's a but like my TV.
 
 .Just like my TV!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-😎 La dernière fois que je suis venu vous voir il y a 10 ans,
-Je commençais mon premier job et je venais de m'acheter une nouvelle télé avec l'argent de mon stage.
+😎 Last time I went to see you 10 years ago,
+I just started my first job but I also just bought a new TV with my internship money.
 
 image::img/drawings-optimized/tv.svg[]
 
-😎 Cette télé, je l'ai toujours aujourd'hui,
-elle marche comme il y a 10 ans.
-Elle a tenu la route parque qu'elle fait une chose et elle le fait bien.
-Elle ne sait pas ce que je vais brancher dessus, elle impose juste une interface : de l'HDMI.
+😎 I still have this TV,
+and it works *just* like it did 10 years ago.
+Its still working and relevant because it only does one thing and it does it well.
+It doesn't know what I'm going to plug into it, it just enforces an interface : HDMI.
 
 image::img/drawings-optimized/tv-pc.svg[]
 
-😎 Du coup, au départ, j'ai branché un gros PC,
+😎 At first, I plugged a huge desktop computer with some movies,
 
 image::img/drawings-optimized/tv-raspberry.svg[]
 
-😎 puis un plus petit PC.
-J'ai branché plein de trucs dont elle n'a pas besoin de connaitre l'existence ni même la provenance.
+😎 then I went for a smaller one.
+I plugged many different devices that didn't exist back then,
+but it worked.
 
 image::img/drawings-optimized/tv-androidtv.svg[]
 
-😎 J'ai même découvert par accident qu'en plus de recevoir de l'HDMI,
-elle pouvait elle envoyer des signaux (tjs via l'HDMI) aux appareils branchés.
-Bref, aujourd'hui, dans le monde du frontend...
+😎 I even discovered by accident that on top of receiving audio/video via HDMI,
+it could send signals (via HDMI-CEC) to source devices.
+Anyway, today, when I look at frontend projects...
 
 image::img/drawings-optimized/tv-vcr.svg[]
 
-😎 Je vois trop de télé comme ça !
-👩‍⚕️ Ah ouais, c'était bien au début ces trucs là car il n'y avait rien à brancher, c'était magique mais bon, quand la télé ou le magnétoscope était pété, il fallait tout racheter
+😎 I see *this!*
+👩‍⚕️ Oh yeah, TV+VCR combos!
+I had one of those! It was really handy, you didn't have to worry about configuration and wires, it was almost magical.
+But when our VCR broke, we had to throw both away and buy something new.
 
 // image::img/drawings-optimized/tv-vcr-real.svg[]
 
@@ -265,48 +275,49 @@ image::img/drawings-optimized/tv-vcr.svg[]
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-😎 Ah vous voyez pourquoi je suis perdu alors ?
+😎 Oh, so you see what I mean?
+😎 You see why I'm lost?
 
 .OK, OK, I see...
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Je vois, je vois...
-Le plus simple dans votre situation...
+👩‍⚕️ OK, OK, I see...
+The best solution in your case...
 
 .Group therapy!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ C'est la thérapie de groupe avec des professionnels de votre domaine !
-Du coup, je vous ai réuni un petit groupe de gens là.
+👩‍⚕️ ...is group therapy with profesionnals from your industry !
+so I gathered a small group of people here.
 
 .I'll go   but I'm scared!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
-😎 Euh... mais ils sont beaucoup là non ?
+😎 Well... it's not what I call a small group...
 
 .Everything's    gonna be alright!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Mais non, allez, hop !
+👩‍⚕️ Don't worry, everything's gonna be alright!
 
 [.stop-music, slide=poster]
-Bonjour
+Hello
 
 [.time]#00:06:00#
-Bonjour à *toutes* et tous !
-J'm'appelle Hubert Sablonnière,
-J'suis développeur Web chez #Clever Cloud#,
-et aujourd'hui, j'ai envie de vous parler :
-* du Web,
-* de ses frameworks et autres librairies
-* et de ses standards.
-Un sujet facile sans aucune guerre de chapelle, ni polémique.
-On va essayer ensemble de déconstruire un peu tout ça
-dans l'espoir de pouvoir mieux construire nos web apps demain.
+Hello everyone!
+I'm Hubert Sablonnière,
+I'm a Web Developer at #Clever Cloud#,
+and today, I want to talk about:
+* the Web,
+* its frameworks and librairies
+* and its standards.
+A very simple topic without any polemics or drama.
+We're gonna try to deconstruct all this
+in the hope of building better web apps tomorrow.
 
 [slide=blank]
 Transition
@@ -595,10 +606,10 @@ Router
 image::img/drawings/bookshelf-6.jpg[]
 
 [slide=needs, focus=""]
-State management
+State manager
 
 [slide=needs, focus="7,8"]
-State management
+State manager
 
 image::img/drawings/bookshelf-7.jpg[]
 
@@ -1180,6 +1191,8 @@ image::img/drawings/browser-12.jpg[]
 
 image::img/drawings/browser-13.jpg[]
 
+image::img/drawings/browser-14.jpg[]
+
 framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
 bon ou mauvais ?
@@ -1211,18 +1224,18 @@ Fondu vers le noir
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ Alors, comment ça s'est passé cette thérapie de groupe ?
-😎 Je sais pas trop, j'ai pas forcément eu le temps de rentrer dans chaque détails du coup,
-j'ai plutôt essayé de partager mes grilles de lecture pour que chacun les adapte à son propre contexte.
+👩‍⚕️ So? How was your group therapy?
+😎 I don't know, it didn't have time to go into each details so instead,
+I tried to share the way I see things so people can adapt to their own context.
 
 .Problem #1
 [slide=problem]
 Finding solutions   to problems we don't have (yet)
 
-😎 Pour le problème numéro 1,
-J'ai essayé de remettre la priorité sur :
-1. Les besoins des utilisatrices et utilisateurs des produits qu'on développe
-2. Les besoins qu'on a nous les dev quand on bosse sur nos projets
+😎 For problem number 1,
+I tried to insist and move the focus back on needs:
+1. Needs of the people using the products we build
+2. Needs of the development team who works on the project
 ...
 Un navigateur Web est devenu aujourd'hui, *une plateforme applicative assez complexe*.
 Bien sûr qu'on a besoins d'outils à la hauteur des enjeux. L'idée n'est pas de tout faire à la main et de réinventer la roue.
