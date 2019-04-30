@@ -1237,53 +1237,56 @@ I tried to insist and move the focus back on needs:
 1. Needs of the people using the products we build
 2. Needs of the development team who works on the project
 ...
-Un navigateur Web est devenu aujourd'hui, *une plateforme applicative assez complexe*.
-Bien sûr qu'on a besoins d'outils à la hauteur des enjeux. L'idée n'est pas de tout faire à la main et de réinventer la roue.
-Après, ça veut pas dire qu'on a tous les mêmes contextes et les mêmes priorités.
+I mean nowadays, Web browsers have become those *complex application platform/runtime*.
+Of course we need tools to reduce this complexity.
+This idea is not to reinvent the wheel.
+But, it's not a reason to say or think that we all have the same contexts and the same priorities.
 ...
-J'espère que les gens auront le réflexe :
-* "ah un nouvel outil qui brille !"
-* "ça résoud quel problème ?"
-* "est-ce que j'ai ce problème ?"
-et de savoir :
-* ce que vous codez
-* et avec qui vous codez
+I really hope people will get this reflex:
+* "Oh look, new shiny tool!"
+* "OK, what problem does it solve?"
+* "Do I have this problem?"
+and to rememeber :
+* what you're developing
+* with whom you're developing
 
 .Problem #2
 [slide=problem]
 Getting locked into our own ecosystem
 
-😎 J'ai aussi essayé de déconstruire les différentes fonctionnalités/solutions qu'apportent des 3 écosystèmes du moment.
-L'idée principale est bien d'avoir un regard plus critique et une vision horizontale plutôt qu'une vision verticale.
-Pour ma part, en comprenant mieux ces parties, j'ai moins peur des les remplacer par des implems plus simples ou mieux adaptés ou pars des nouveaux standards.
-En fait, au final, tous ces frameworks, ces librairies et ces standards, ça n'est que des outils.
-On a juste besoin de tous rester calmes et professionnels,
-les utiliser pour les supers fonctionnalités qu'ils nous apportent
-et arrêter de les idôlatrer aveuglement.
-👩‍⚕️ Et vous leur avez parlé des TV magnétoscopes
+😎 I also tried to deconstruct the different features/solutions that the current top 3 ecosytems bring.
+The main idea is to keep a sharp point of view and to have an horizontal vision instead of a narrowed vertical vision.
+In my opinion and my own experience, having a better understanding of those parts really helps me NOT TO fear change.
+I know how I could replace something with a better/simpler implementation or something smaller using a new standard.
+In the end, all those frameworks, librairies and standards are just tools.
+We just need to take it easy and stay professional,
+that means using them for the great features they bring
+and stop worshiping them blindly.
+👩‍⚕️ Oh, and you talked about TV+VCR combos?
 
 .Problem #3
 [slide=problem]
 Writing strongly coupled code   that does not age well with time
 
-😎 Oui, j'ai expliqué comment chez Clever Cloud on essaye de réduire le couplage entre nos différents composants, modules et couche applicatives.
-J'ai évoqué ce que ça nous apporte dans notre contexte bien précis.
-On a rien inventé, on essaye d'appliquer les bons vieux patterns logiciels au Web moderne.
-Ça reste un principe, il y a tjs des exceptions.
-L'idée n'est pas de quadrupler les coûts de conception juste pour faire du "beau code" mais bien d'investir un minimum d'énergie pour réduire les effets du temps.
+😎 Yes, I tried to explain what we're currently trying to do at Clever Cloud to reduce coupling between our components, modules and the various layers.
+I explained what our approach brings us in our own context.
+We didn't invent anything, we're just trying to apply good old software patterns to the modern Web.
+And those are just principles, there are always exceptions.
+The idea is not to triple your design costs just to write "beautiful code" but just to invest the minimum of energy to reduce the impact of time.
 
 .Thanks doctor!
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-love.svg[]
 
 😎 Je vous remercie docteur, ça m'a bien aidé
-et je tiens également à remercie tous les membres du groupe qui m'ont écouté jusqu'au bout.
+😎 Thank you very much doctor, it really helped me,
+and I also would like to thank every member of the group for listening to me to the end.
 
 .thank  you !
 [.reset-music, slide=poster]
 Outro
 
-Merci bcp.
+Thank you very much.
 
 //[slide=question]
 //Questions ?
