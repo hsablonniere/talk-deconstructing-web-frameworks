@@ -100,7 +100,7 @@ Anyway.
 [slide=problem]
 Finding solutions   to problems we don't have (yet)
 
-😎 Problème numéro 1...
+😎 Problem number 1...
 When we choose a framework, a frontend library and its ecosystem, we often forget the original problem we wanted to solve.
 *And yet*, we feel like we already found *the right answer*, *the right solution* to use.
 Most of the time, it's the right tool for the right job but sometimes, the solution was designed to solve problems we don't really have.
@@ -322,173 +322,178 @@ in the hope of building better web apps tomorrow.
 [slide=blank]
 Transition
 
-OK, alors on utilise tous pleins d'outils super cools qui nous apportent des solutions...
+OK, so everyday, we're using super cool & shiny tools that bring us solutions...
 
 == What was the  *problem* anyway?
 
 [.time]#00:06:30#
-...mais c'était quoi le problème à la base ?
+...but what was the problem anyway?
 ...
-Sur cette partie, j'ai essayé de lister les principaux problèmes auquels j'ai fait face dans mes différentes expériences de dev sur le Web.
+In this part, I tried to list the main problems I encountered during my many experiences working on Web projects.
 
 [slide=needs, display=0]
 _
 
-D'un côté, on a les problèmes qu'on veux résoudre pour les utilisatrices et utilisateurs du produit qu'on développe,
-et de l'autre, on a les problèmes qu'on rencontre *NOUS* les devs.
+On one side, we have the problems we want to solve for the users of the product we're building,
+on the other side, we have the problems *WE* face,
 ...
-Alors, en tant que user, on veut :
+So, as a user, I want:
 
 [slide=needs, display=1]
 _
 
+A *blazing* fast first load.
 Un 1er chargement rapide.
 
 [slide=needs, display=2]
 _
 
-Une fois la page chargée,
-on veut que les navigations consécutives soient rapides aussi.
-//C'est le critère qui a motivé le fait de faire du rendu côté client.
+Once the page is loaded,
+I want following navigations to be as fast.
 
 [slide=needs, display=3]
 _
 
-On veut que ce soit fluide et réactif,
+I want the web app to be smooth and reactive,
 
 [slide=needs, display=4]
 _
 
-que la consommation batterie, CPU, RAM reste raisonnable,
+I don't smart usage of my battery, CPU and RAM,
 
 [slide=needs, display=5]
 _
 
-que ça soit accessible à tous,
+I want it to be accessible to everyone,
 
 [slide=needs, display=6]
 _
 
-et que ça marche partout.
+and everywhere.
 ...
-Déjà là, on voit qu'le contexte joue à mort.
-C'est en fonction de *"ce que vous codez"* que l'importance de ces problèmes varie.
-Si vous codez une app où l'utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c'est pas trop votre problème principal.
-Même chose de l'autre côté du spectre, si vous codez une site où l'utilisateur fait bcp de lecture et de navigation,
-la fluidité avec des animations à 60 fps, bah forcément, c'est pas un problème que vous avez.
+Here, we already see that the context is key.
+The importance of those problems depends on *what you are coding*.
+If you're working on something where the user is active (like gMail or Slack), a fast first load is not your main problem.
+Same for the opposite case, if you work on something where the user mainly does reading and navigation,
+having 60 fps refreshes and animations may not be a problem you have.
 ...
-Ne notre côté, en tant que dev, on veut :
+On our side, as developers, we want:
 
 [slide=needs, display=7]
 _
 
-Gagner du temps, ne pas réinventer la roue,
+to save time, without reinventing the wheel,
 
 [slide=needs, display=8]
 _
 
-écrire du code propre, réutilisable,
+to write clean and reusable code,
 
 [slide=needs, display=9]
 _
 
-avec des abstraction pour garder un modèle de pensée simple.
+with abstractions to keep a simple thinking model.
 
 [slide=needs, display=10]
 _
 
+We want to isolate the impacts when we change stuffs,
 On veut une isolation des impacts de nos changements,
 
 [slide=needs, display=11]
 _
 
-éviter de faire certaines erreurs et autres bugs...
-et petit bonus,
+to avoir some errors and bugs as early as possible...
+and small bonus,
 
 [slide=needs, display=12]
 _
 
-si on peut facilement collaborer avec des non-dev, c'est cool.
+if we can collaborate with muggles, non-devs, it's nice.
 ...
-Ici, c'est en fonction de *"avec qui vous codez"*, votre équipe et son expérience, que l'importance des problèmes varie.
+Here, the importance of those problems depends on *with whom you're coding*, your team, its experience.
+You may not have the same team as the Big 5 or the latest 2 persons start-up.
 
 [slide=blank]
 Transition
 
-OK, donc là, si vous êtes plutôt backend et que vous n'avez pas suivi le monde du front/Web ces dernières années,
-vous vous dites :
-"Non mais attend Hubert, là tu viens de lister à peu près les mêmes problèmes qu'on essayait de régler il y a 10 ans."
-"J'ai vraiment l'impression que vous vous êtes complexifié la vie avec tous vos outils compliqué alors que le problème est simple."
+OK, so if you're a backend dev and you were a bit behind what happened in the frontend in the past few years,
+you may think:
+"OK Hubert, you just listed basically the same problems we've been trying to solve for the past 10 years."
+"Web should be simple, you frontend people really made things complex for the sake of it."
 ...
-OK, mettons de côté l'ironie de cette remarque et posons nous la question :
+Ah, ah, ah... backend devs saying frontend is too complex.
+OK, let's put the irony of this remark on the side,
+and let's really ask the question:
 
 == *How* did we  get here?
 
-
 [.time]#00:08:00#
-Comment est-ce qu'on en est arrivé là ?
-Est-ce qu'on a vraiment besoin de tous ces outils ?
+How did we get here?
+Do we really need all those complex tools?
 
 [quote]
 In order to understand where we're going,   we need to know where we come from.
 
-Pour comprendre où on va, il faut savoir d'où on vient.
+In order to understand where we're going, we need to know where we come from.
 #blasé#
-Je sais pas trop qui a dit ça, déso.
-Mais il a bien raison !
+I don't remember who said that, #sorry,
+but he or she's definitely right!
 
 image::img/drawings/browser-1.jpg[]
 
-À la base on avait un Web assez simple mais puissant dans ses concepts.
-Un utilisateur demande une URL à son navigateur,
-le navigateur fait une requête HTTP vers un serveur,
-le serveur applique un template et répond un document HTML,
-merci au revoir.
+At the beginning of the Web, we had simple but powerful conceps.
+A user asks for a URL to the browser,
+the browser does an HTTP request to the server,
+the server applies a template and answers with an HTML document,
+OK, thank you, bye bye.
 
 image::img/drawings/browser-2.jpg[]
 
-Ensuite, on a rajouté des images, des CSS et surtout des formulaires.
-L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
+Then we added images, and CSS and also forms,
+The first time the user could interract with the document after first load.
 // click
 // POST
 // nouvelle page HTML
 
 image::img/drawings/browser-3.jpg[]
 
-Ça a commencé à se complexifier assez tôt avec l'arrivée de JavaScript.
-On avait maintenant la possibilité en tant que dev de répondre directement à des inputs de l'utilisateurs.
-Sans faire d'aller/retour réseau.
-Au départ, on faisait de la manipulation de DOM.
+Then JavaScript arrived and we opened the door of complexity.
+First time we had the possibility as devs to react directly to user inputs,
+without server round trips.
+We started with simple DOM manipulation.
 
 image::img/drawings/browser-4.jpg[]
 
-Ensuite avec la vague AJAX, jQuery et compagnie,
-on a commencé à faire faire de plus en plus de chose à cette partie JavaScript
-et du coup à charger de plus de plus de code.
+Then came the AJAX era with jQuery and friends,
+and we started to do more and more with this JavaScript,
 
 image::img/drawings/browser-5.jpg[]
 
-On est passé d'appels AJAX pour récupérer des bouts de templates HTML
-à faire ne récupérer que du JSON pour faire du templating côté client
-et surtout du routing côté client
-on gagnait bcp en perf sur les navigations consécutives
+We did AJAX calls to fetch some server side templated HTML,
+then we only fetched JSON and did the templating client side,
+and finally, we did routing on the client side too.
+We were improving the experience once the page was loaded but...
 
 image::img/drawings/browser-6.jpg[]
 
-par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
-l'ère du <body> vide avec le mega fat bundle javascript qui contient tout.
-et là le premier chargement, il est pas trop content
+...this JavaScript-mania came to the *empty-body-megabytes-of-js era*
+Which meant:
+* more and more code to download
+* more and more code to parse
+* more and more code to execute
+* first load was bad
+* and too much stuffs relying on JS code to run well
 
 image::img/drawings/browser-7.jpg[]
 
-C'est un peu pour revenir au meilleur des 2 mondes
-qu'on essaye aujourd'hui d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
-et de charger le reste au fur et à mesure.
+Today, all of our tooling is here to help us write good code but also to try to get the best of both
+having a first load rendered on the server side, downloading only what's necessary,
+and load the rest piece by piece.
 
 image::img/drawings/browser-8.jpg[]
 
-N'oublions pas que tout ça s'est fait pendant la période de
-l'arrivée des mobiles, du stockage local et des workers
+And all of this happened during this phase where we saw mobile Web take off and getting browser storage, workers etc...
 
 image::img/drawings/browser-9.jpg[]
 
@@ -499,10 +504,14 @@ image::img/drawings/browser-11.jpg[]
 [slide=blank]
 Transition
 
+Those problems are complex so I'm asking the question:
+
 == What do *frameworks*  bring to the table?
 
-
 [.time]#00:10:00#
+
+What do *frameworks* bring to the table?
+What would I miss if I were writing only "vanilla JS"?
 
 [slide=text]
 *Frameworks* vs. *libs* ?
@@ -510,7 +519,7 @@ Transition
 framework => cadre de travail
 opinionated set of libs/tools
 problem is when this set of libs/tools is only compatible with itself
-de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
+in my experience, projects with frameworks X ou Y don't look alike that much when the context is different,
 ...
 historique
 jquery
@@ -628,13 +637,16 @@ tests
 [slide=blank]
 Transition
 
-en terme de conception de d'organisation des composants (et de séparation des concerns etc)
-les 3 communautés ont des choses intéressantes à dire
+All those frameworks/ecosystems have interesting solutions for modern Web projects,
+but again, they may solve problems you don't have or they may solve them for some kind of devs you don't have in your team.
+...
+Because I often here, browsers should just put react in the browser and be done with it,
+I'm going to address the question:
 
 == What do *standards*  bring to the table?
 
-
 [.time]#00:20:00#
+What do *standards* bring to the table?
 
 image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
 
@@ -919,15 +931,16 @@ image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPl
 [slide=blank]
 Transition
 
-Maintenant qu'on a déconstruit un peu les différentes solutions qu'apportent les frameworks et les standards,
-on a une meilleure vision des différentes couches qui composent un projet Web,
-et du coup, il est temps d'appliquer...
+Now that we deconstructed the different solutions frameworks and standards bring,
+I think we have a better vision of the different layers that compose a Web project.
+//I really encourage you to do this analysis on your projects and your very context.
+It's pretty hard to do it well, but this vision should help us to write...
 
 == A *SOLID* Web!
 
 [.time]#00:30:00#
-...les principes SOLID à notre frontend préféré.
-Je vais prendre l'exemple du travail que je fais en ce moment...
+...code that will age well and for this we need good old software practices,
+battle-tested patterns that will help us to separate concerns and limit coupling between layers.
 
 [quote]
 Code should be disposable,   it's far easier to do when   things are decoupled.
@@ -1148,23 +1161,23 @@ Not the *right* question!
 [slide=text]
 How much does it *cost*   to *change* our minds?
 
-Est-ce qu'on a fait le bon choix avec cette stack ?
-Oui, pas au sens ou on a choisi la bonne solution.
-Au sens ou on pourra changer d'avis demain,
-garder des composants longtemps avec ce choix sans les retoucher, et tant pis car ils sont petit
-les réécrire avec des outils différents car l'impact sur les autres couches sera faible.
-On s'en fout !
-On a fait un choix qui ne nous demande pas trop d'apprentissage spécifique (lit-element, lit-html),
-qui nous donne des connaissances de nouveaux standards du Web,
-ça ne peut qu'être positif !
+Did we choose the right tool, the right stack?
+It's not important,
+What is important is will we be able to changed our mind and what will be the cost?
+To that question, I would answer yes.
+The choices we made required some new knowledge about Web Components but I can only bet that this will be helpful in the future,
+The abstraction librairies we chose are small and simple to learn.
+Rewriting them would have almost no impact on the rest.
 
 [slide=blank]
 Transition
 
+The last question is:
+
 == Looking into  the *future*...
 
-
 [.time]#00:40:00#
+what about the future?
 
 [slide=text]
 *Beware* of those who   predict the future**!**
