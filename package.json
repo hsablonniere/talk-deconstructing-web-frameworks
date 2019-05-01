@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "scripts": {
         "build": "node lib/build-prod.js",
-        "dev": "node lib/run-dev-mode.js"
+        "dev": "node lib/run-dev-mode.js",
+	"start": "static -a 0.0.0.0 src"
     },
     "dependencies": {
         "asciidoctor.js": "^1.5.7-rc.1",
