@@ -931,15 +931,18 @@ image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPl
 [slide=blank]
 Transition
 
+Web Components will not "replace" your frameworks.
+Their scope is not exactly the same, but current ecosystem will evolve and new one will rise.
 Now that we deconstructed the different solutions frameworks and standards bring,
 I think we have a better vision of the different layers that compose a Web project.
 //I really encourage you to do this analysis on your projects and your very context.
-It's pretty hard to do it well, but this vision should help us to write...
+It's pretty hard to do it well, but this vision should help us to write code that will age well,
+and for this we need...
 
 == A *SOLID* Web!
 
 [.time]#00:30:00#
-...code that will age well and for this we need good old software practices,
+...good old software practices,
 battle-tested patterns that will help us to separate concerns and limit coupling between layers.
 
 [quote]
@@ -966,16 +969,16 @@ citer logs, monitoring...
 
 image::img/drawings/bookshelf-cc-before.jpg[]
 
-la stack Clever
+Clever stack
 ...
-codebase qui a 7 ans
-Component system (séparation du code mais pas d'API ni de système runtime)
+7 years old
+Component system (code separation but no clear API nor real runtime system)
 Templating (lodash)
-CSS (global) avec qq règle de nommage parfois
+CSS (global) avec with a few rules like BEM
 DOM (jquery + bacon)
-Pas de SSR
-Router maison (merci quentin)
-Pas vrmt de state manager (bacon)
+No SSR
+Home made router (merci quentin)
+No real state manager (bacon)
 
 .Our needs
 [slide=web-components, display=0]
@@ -1036,7 +1039,8 @@ du coup, on doit pouvoir fournir certains parties de manière indépendantes un 
 ...
 on va introduire des nouvelles technos feature après feature
 le fait que notre code n'était pas enfermé dans un framework nous facilite cette migration
-Les commentaires, c'est pour tes collègues, mais c'est surtout pr toi dans 6 mois un an. Les composants Web c'est pareil. C'est pour que des tiers puissent les utiliser dans d'autres contextes et pour que toi tu puisses changer ta stack dans 6 mois.
+*Code comments are for your colleagues but also for yourself in 6 months or a year.*
+*Web Components are the same, they should be designed in a reusable way so third parties can reuse them but also so you can use them in a different stack tomorrow*
 
 [slide=text]
 Design phase:   from *top* to *bottom*
