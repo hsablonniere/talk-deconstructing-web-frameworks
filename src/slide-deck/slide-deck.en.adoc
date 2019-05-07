@@ -15,7 +15,6 @@ Poster
 [.stop-music.dark, slide=blank]
 Fading to black
 
-
 [.old.play-music]
 == Prologue...
 
@@ -30,13 +29,15 @@ Since he started his career, weeks after weeks, years after years,
 
 image::img/drawings-optimized/thinking-words.svg[]
 
-he saw the birth of many revolutionary and promising tools,
-but tomorrow, maybe, those could all vanish and be replaced by new ones ... *even more better*.
+he saw the birth of many revolutionary tools,
+but tomorrow...
+maybe...
+those could all vanish and be replaced by new ones, *even more better*.
 It is with lots of sadness and a bit of melancholia that he remembers all these frameworks, librairies, code editors and other command line tools.
 
 image::img/drawings-optimized/rip.svg[]
 
-#Whisper#
+#Whisper voice#
 Please show some respect!
 If they haven't already disappeared from our projects,
 maybe they already have disappeared from our...
@@ -45,21 +46,22 @@ image::img/drawings-optimized/radar.svg[]
 
 coolness radards.
 This situation worries him and keeps him up at nights.
-In his current job, he has to make technical choices, yet he doesn't know what to do anymore.
+In his current job, he has to make technical choices,
+yet he doesn't know what to do anymore.
 It is at this very moment that our main character decided to see...
 
 [.reset-music]
 image::img/drawings-optimized/dr-sigma.svg[]
 
 ...a therapist.
-[.four]#Restart la musique (Gymnopedie)#
+#Wait for music#
 
 image::img/drawings-optimized/talking-legos.svg[]
 
 #Tired and sad voice#
 😎 Hello doctor.
 #Confident voice#
-👩‍⚕️ Hello Mr Sablonnière? So? What can I do for you?
+👩‍⚕️ Hello Mr Sablonnière. So? What can I do for you?
 Last time I saw you, it was like 10 years ago...
 You just started your first job and you had some kind of PTSD about wether to use "spaces or tabs" and on the pronunciation of "animated guiffs".
 #Like a millenial#
@@ -70,8 +72,9 @@ You just started your first job and you had some kind of PTSD about wether to us
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
 #Brag about being a senior dev#
-😎 Yeah but that's all in the past now, I was young, I wasn't asking myself the right questions.
-I recently took a few steps back about the frontend Web and I made an observation:
+😎 Yeah but that's all in the past,
+I was young, I wasn't asking myself the right questions.
+I recently took a few steps back about frontend Web development and I made an observation:
 
 .Too much hype,   we've become addicts!
 [slide=bubble]
@@ -101,25 +104,28 @@ Anyway.
 Finding solutions   to problems we don't have (yet)
 
 😎 Problem number 1...
-When we choose a framework, a frontend library and its ecosystem, we often forget the original problem we wanted to solve.
-*And yet*, we feel like we already found *the right answer*, *the right solution* to use.
-Most of the time, it's the right tool for the right job but sometimes, the solution was designed to solve problems we don't really have.
+When we choose a framework, a frontend library and its ecosystem,
+we often forget the original problem we wanted to solve.
+*And yet*, we feel like we've already found *the right answer*, *the right solution* to use.
+Most of the time, it's the right tool for the right job but sometimes,
+the solution was designed to solve problems we don't really have.
 
 .Why?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 👩‍⚕️ Why on earth would you do that?
+😎 Well, sometimes it's because it's **cool**!
 
 image::img/drawings-optimized/dx-ux.svg[]
 
-😎 Well, sometimes it's because it's **cool**!
 But it forces us to put the developer experience before the user experience,
-the user of the very product we're trying to build.
+the users of the very product we're trying to build.
 
 image::img/drawings-optimized/giant.svg[]
 
-😎 Sometime it's because it's used or even created by a Web giant, one of the big 5. Oh yeah!
+😎 Sometime it's because it's used or even created by a Web giant, one of the big 5.
+Oh yeah!
 // Ça forme un cycle:
 // * les géants l'utilisent
 // * on l'utilise
@@ -147,12 +153,12 @@ Once we chose an ecosystem, we tend to get locked into it.
 
 image::img/drawings-optimized/silos.svg[]
 
-😎 We open a specific door and we stay cosy inside without looking outside, at what others do.
-This means we're going to look for "how to do X or Y" with *THIS* ecosytem even if X or Y a pretty much universal frontend problems.
+😎 We open a specific door and we stay cosy inside without looking at what others do outside.
+We're going to prefix all our stackoverflow questions with "angular", "react" or "vue",
+event if the problem we're trying to solve is pretty much universal frontend problems.
 A bit like when we wanted to maniulate arrays or dates with jQuery.
 We're going to rewrite yet another "select" or "datagrid" component dedicated to this ecosystem.
-We'll prefix all our stackoverflow questions with "angular", "react" or "vue".
-And like all fanboys/fangirls,
+And like any good fanboy or fangirl,
 we don't always see the limitations of what we love,
 and we convince ourselves that we need those shiny new features without understanding them very well.
 
@@ -173,7 +179,7 @@ image::img/drawings-optimized/brain-patterns.svg[]
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 
-👩‍⚕️ Hum, hum, I see...
+👩‍⚕️ Hummmm, I see...
 // Ah vous entendre, on dirait mon fils devant une conférence Apple, quand ils sortent l'iPod ou l'iPhone, je comprends qu'il soit émerveillé
 // Mais quand Apple dit "on a viré le jack" il dit, "ah mais ces vraiment des génies" alors qu'il a pas de casque bluetooth
 // Rant sur les exemples de code décorés apple
@@ -183,8 +189,9 @@ image::img/drawings-optimized/talking-legos-r-thinks.svg[]
 ...
 
 😎 Problem number 3...
-This one is pretty universal,
-We easily forget the basics, the patterns and best practices like SOLID or "separation of concerns".
+This one is pretty much universal,
+Because we're so concerned about our tooling,
+we easily forget the basics, the patterns and best practices like SOLID or "separation of concerns".
 
 .Problem #3
 [slide=problem]
@@ -217,7 +224,7 @@ image::img/drawings-optimized/trash-project.svg[]
 
 😎 ...and lots of code.
 
-.#FeatureLessRefactoring
+.#FeatureLessRefactors
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
@@ -230,7 +237,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 👩‍⚕️ OK, I'm completely lost.
 😎 Ah...
-Humm, it's a but like my TV.
+Humm, it's a bit like my TV.
 
 .Just like my TV!
 [slide=bubble]
@@ -243,8 +250,7 @@ image::img/drawings-optimized/tv.svg[]
 
 😎 I still have this TV,
 and it works *just* like it did 10 years ago.
-Its still working and relevant because it only does one thing and it does it well.
-It doesn't know what I'm going to plug into it, it just enforces an interface : HDMI.
+It's still working and still relevant because it only does one thing and it does it well.
 
 image::img/drawings-optimized/tv-pc.svg[]
 
@@ -255,6 +261,8 @@ image::img/drawings-optimized/tv-raspberry.svg[]
 😎 then I went for a smaller one.
 I plugged many different devices that didn't exist back then,
 but it worked.
+It doesn't need to know what I'm going to plug into it,
+it just enforces an interface : HDMI.
 
 image::img/drawings-optimized/tv-androidtv.svg[]
 
@@ -289,8 +297,8 @@ The best solution in your case...
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
-👩‍⚕️ ...is group therapy with profesionnals from your industry !
-so I gathered a small group of people here.
+👩‍⚕️ ...is group therapy with profesionnals from your industry!
+So I gathered a small group of people here.
 
 .I'll go   but I'm scared!
 [slide=bubble]
@@ -315,9 +323,8 @@ and today, I want to talk about:
 * the Web,
 * its frameworks and librairies
 * and its standards.
-A very simple topic without any polemics or drama.
-We're gonna try to deconstruct all this
-in the hope of building better web apps tomorrow.
+A very simple topic without any polemics or drama, isn't it?
+We're gonna try to deconstruct all of this in the hope of building better web apps tomorrow.
 
 [slide=blank]
 Transition
@@ -343,13 +350,13 @@ So, as a user, I want:
 _
 
 A *blazing* fast first load.
-Un 1er chargement rapide.
 
 [slide=needs, display=2]
 _
 
 Once the page is loaded,
 I want following navigations to be as fast.
+It's the reason we started to build SPA.
 
 [slide=needs, display=3]
 _
@@ -359,7 +366,7 @@ I want the web app to be smooth and reactive,
 [slide=needs, display=4]
 _
 
-I don't smart usage of my battery, CPU and RAM,
+I don't want my battery, CPU and RAM to go crazy,
 
 [slide=needs, display=5]
 _
@@ -372,8 +379,8 @@ _
 and everywhere.
 ...
 Here, we already see that the context is key.
-The importance of those problems depends on *what you are coding*.
-If you're working on something where the user is active (like gMail or Slack), a fast first load is not your main problem.
+The importance of those problems depends on *WHAT YOU ARE CODING*.
+If you're working on something where the user is active (like GMail or Slack), a fast first load is not your main problem.
 Same for the opposite case, if you work on something where the user mainly does reading and navigation,
 having 60 fps refreshes and animations may not be a problem you have.
 ...
@@ -398,33 +405,35 @@ with abstractions to keep a simple thinking model.
 _
 
 We want to isolate the impacts when we change stuffs,
-On veut une isolation des impacts de nos changements,
 
 [slide=needs, display=11]
 _
 
-to avoir some errors and bugs as early as possible...
+to avoid some errors and bugs as early as possible...
 and small bonus,
 
 [slide=needs, display=12]
 _
 
-if we can collaborate with muggles, non-devs, it's nice.
+if we can collaborate with muggles, non-devs,
+it's nice.
 ...
-Here, the importance of those problems depends on *with whom you're coding*, your team, its experience.
+Here again, context is key.
+The importance of those problems depends on *WITH WHOM YOU'RE CODING*, your team, its experience.
 You may not have the same team as the Big 5 or the latest 2 persons start-up.
 
 [slide=blank]
 Transition
 
-OK, so if you're a backend dev and you were a bit behind what happened in the frontend in the past few years,
-you may think:
+#Question#
+Who's a backend developer here?
+So if you're a bit behind what happened in the frontend in the past few years, you may be thinking:
 "OK Hubert, you just listed basically the same problems we've been trying to solve for the past 10 years."
-"Web should be simple, you frontend people really made things complex for the sake of it."
+"Web stuffs should be simple, you frontend people really made things complex for the sake of it."
 ...
-Ah, ah, ah... backend devs saying frontend is too complex.
+Ah, ah, ah... backend devs saying frontend became too complex.
 OK, let's put the irony of this remark on the side,
-and let's really ask the question:
+and really ask the question:
 
 == *How* did we  get here?
 
@@ -442,40 +451,58 @@ but he or she's definitely right!
 
 image::img/drawings/browser-1.jpg[]
 
-At the beginning of the Web, we had simple but powerful conceps.
-A user asks for a URL to the browser,
-the browser does an HTTP request to the server,
-the server applies a template and answers with an HTML document,
-OK, thank you, bye bye.
+At the beginning of the Web, we had simple but powerful concepts.
 
 image::img/drawings/browser-2.jpg[]
 
-Then we added images, and CSS and also forms,
-The first time the user could interract with the document after first load.
+A user asks for a URL to the browser,
 // click
 // POST
 // nouvelle page HTML
 
 image::img/drawings/browser-3.jpg[]
 
-Then JavaScript arrived and we opened the door of complexity.
-First time we had the possibility as devs to react directly to user inputs,
-without server round trips.
-We started with simple DOM manipulation.
+the browser does an HTTP request to the server,
+the server applies a template and answers with an HTML document,
 
 image::img/drawings/browser-4.jpg[]
 
-Then came the AJAX era with jQuery and friends,
-and we started to do more and more with this JavaScript,
+The user can read it, OK, thank you, bye bye.
 
 image::img/drawings/browser-5.jpg[]
 
-We did AJAX calls to fetch some server side templated HTML,
-then we only fetched JSON and did the templating client side,
-and finally, we did routing on the client side too.
-We were improving the experience once the page was loaded but...
+Then we added images, and CSS...
 
 image::img/drawings/browser-6.jpg[]
+
+and then forms,
+This was the first time the user could interract with the document after first load.
+
+image::img/drawings/browser-7.jpg[]
+
+Then JavaScript arrived and we opened the door of complexity land.
+
+image::img/drawings/browser-8.jpg[]
+
+The JS engine was introduced,
+and for the 1st time devs had the possibility to react directly to user inputs, without server round trips.
+
+image::img/drawings/browser-9.jpg[]
+
+It all started with simple DOM manipulations.
+But then came the AJAX era with jQuery and friends,
+and we started to do more and more with this JavaScript,
+
+image::img/drawings/browser-10.jpg[]
+
+We did AJAX calls
+to submit forms
+to fetch some server-side templated HTML,
+then we only fetched JSON and did the templating on the client side,
+and finally, we ended up doing the routing on the client side too.
+We were improving the experience once the page was loaded but...
+
+image::img/drawings/browser-11.jpg[]
 
 ...this JavaScript-mania came to the *empty-body-megabytes-of-js era*
 Which meant:
@@ -484,22 +511,10 @@ Which meant:
 * more and more code to execute
 * first load was bad
 * and too much stuffs relying on JS code to run well
-
-image::img/drawings/browser-7.jpg[]
-
 Today, all of our tooling is here to help us write good code but also to try to get the best of both
 having a first load rendered on the server side, downloading only what's necessary,
 and load the rest piece by piece.
-
-image::img/drawings/browser-8.jpg[]
-
 And all of this happened during this phase where we saw mobile Web take off and getting browser storage, workers etc...
-
-image::img/drawings/browser-9.jpg[]
-
-image::img/drawings/browser-10.jpg[]
-
-image::img/drawings/browser-11.jpg[]
 
 [slide=blank]
 Transition
