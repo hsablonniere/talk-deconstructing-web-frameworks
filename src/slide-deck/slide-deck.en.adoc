@@ -4,8 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:event: Voxxed CERN
-:date: may 1st, 2019
+:event: Devoxx UK
+:date: may 9th, 2019
 
 [slide=poster]
 Poster
