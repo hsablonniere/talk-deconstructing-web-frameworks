@@ -329,12 +329,12 @@ We're gonna try to deconstruct all of this in the hope of building better web ap
 [slide=blank]
 Transition
 
-OK, so everyday, we're using super cool & shiny tools that bring us solutions...
+OK, so everyday, we're using super cool & shiny tools that bring us solutions but...
 
 == What was the  *problem* anyway?
 
 [.time]#00:06:30#
-...but what was the problem anyway?
+...what was the problem anyway?
 ...
 In this part, I tried to list the main problems I encountered during my many experiences working on Web projects.
 
@@ -342,7 +342,7 @@ In this part, I tried to list the main problems I encountered during my many exp
 _
 
 On one side, we have the problems we want to solve for the users of the product we're building,
-on the other side, we have the problems *WE* face,
+on the other side, we have the problems *WE* face as developers,
 ...
 So, as a user, I want:
 
@@ -378,9 +378,10 @@ _
 
 and everywhere.
 ...
-Here, we already see that the context is key.
+Here, we already see that the *context is key*.
 The importance of those problems depends on *WHAT YOU ARE CODING*.
-If you're working on something where the user is active (like GMail or Slack), a fast first load is not your main problem.
+If you're working on something where the user is active (like GMail or Slack),
+a fast first load is not your main problem.
 Same for the opposite case, if you work on something where the user mainly does reading and navigation,
 having 60 fps refreshes and animations may not be a problem you have.
 ...
@@ -409,16 +410,15 @@ We want to isolate the impacts when we change stuffs,
 [slide=needs, display=11]
 _
 
-to avoid some errors and bugs as early as possible...
+to avoid errors and bugs as early as possible...
 and small bonus,
 
 [slide=needs, display=12]
 _
 
-if we can collaborate with muggles, non-devs,
-it's nice.
+if we can collaborate with muggles, non-devs, it's nice.
 ...
-Here again, context is key.
+Here again, *context is really important*.
 The importance of those problems depends on *WITH WHOM YOU'RE CODING*, your team, its experience.
 You may not have the same team as the Big 5 or the latest 2 persons start-up.
 
