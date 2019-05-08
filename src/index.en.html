@@ -772,7 +772,7 @@
 <section class="slide" data-slide="blank" data-sourceline="426" >
   
 </section>
-<div class="notes"><mark>Question</mark><br>Who&#8217;s a backend developer here?<br>So if you&#8217;re a bit behind what happened in the frontend in the past few years, you may be thinking:<br>"OK Hubert, you just listed basically the same problems we&#8217;ve been trying to solve for the past 10 years."<br>"Web stuffs should be simple, you frontend people really made things complex for the sake of it."<br>&#8230;&#8203;<br>Ah, ah, ah&#8230;&#8203; backend devs saying frontend became too complex.<br>OK, let&#8217;s put the irony of this remark on the side,<br>and really ask the question:</div>
+<div class="notes"><mark>Question</mark><br>Who&#8217;s a backend developer here?<br>So if you&#8217;re backend dev and a bit behind what happened in frontend in the past few years, you may be thinking:<br>"OK Hubert, you just basically listed the same problems we&#8217;ve been trying to solve for the past 10 years."<br>"Web stuffs should be simple, you frontend people really made things complex for the sake of it."<br>&#8230;&#8203;<br>Ah, ah, ah&#8230;&#8203; backend devs saying frontend became too complex.<br>OK, let&#8217;s put the irony of this remark on the side,<br>and really ask the question:</div>
 <section class="slide" data-slide="section" data-sourceline="438" >
   
     <div class="pretitle"></div>
@@ -783,109 +783,108 @@
 <section class="slide" data-slide="quote" data-sourceline="445" >
   <div class="quote"><span class="one-line">In order to understand where we&#8217;re going,<br>we need to know where we come from.</span></div>
 </section>
-<div class="notes">In order to understand where we&#8217;re going, we need to know where we come from.<br><mark>blasé</mark><br>I don&#8217;t remember who said that, #sorry,<br>but he or she&#8217;s definitely right!</div>
-<section class="slide" data-slide="media" data-sourceline="452" >
+<div class="notes">In order to understand where we&#8217;re going, we need to know where we come from.<br>I don&#8217;t remember who said that,<br>but he or she&#8217;s definitely right!</div>
+<section class="slide" data-slide="media" data-sourceline="451" >
   <img class="element" src="img/drawings/browser-1.jpg">
   
   
 </section>
 <div class="notes">At the beginning of the Web, we had simple but powerful concepts.</div>
-<section class="slide" data-slide="media" data-sourceline="456" >
+<section class="slide" data-slide="media" data-sourceline="455" >
   <img class="element" src="img/drawings/browser-2.jpg">
   
   
 </section>
 <div class="notes">A user asks for a URL to the browser,</div>
-<section class="slide" data-slide="media" data-sourceline="463" >
+<section class="slide" data-slide="media" data-sourceline="462" >
   <img class="element" src="img/drawings/browser-3.jpg">
   
   
 </section>
 <div class="notes">the browser does an HTTP request to the server,<br>the server applies a template and answers with an HTML document,</div>
-<section class="slide" data-slide="media" data-sourceline="468" >
+<section class="slide" data-slide="media" data-sourceline="467" >
   <img class="element" src="img/drawings/browser-4.jpg">
   
   
 </section>
 <div class="notes">The user can read it, OK, thank you, bye bye.</div>
-<section class="slide" data-slide="media" data-sourceline="472" >
+<section class="slide" data-slide="media" data-sourceline="471" >
   <img class="element" src="img/drawings/browser-5.jpg">
   
   
 </section>
 <div class="notes">Then we added images, and CSS&#8230;&#8203;</div>
-<section class="slide" data-slide="media" data-sourceline="476" >
+<section class="slide" data-slide="media" data-sourceline="475" >
   <img class="element" src="img/drawings/browser-6.jpg">
   
   
 </section>
 <div class="notes">and then forms,<br>This was the first time the user could interract with the document after first load.</div>
-<section class="slide" data-slide="media" data-sourceline="481" >
+<section class="slide" data-slide="media" data-sourceline="480" >
   <img class="element" src="img/drawings/browser-7.jpg">
   
   
 </section>
-<div class="notes">Then JavaScript arrived and we opened the door of complexity land.</div>
-<section class="slide" data-slide="media" data-sourceline="485" >
+<div class="notes">Then JavaScript arrived, welcome to "complexity land".</div>
+<section class="slide" data-slide="media" data-sourceline="484" >
   <img class="element" src="img/drawings/browser-8.jpg">
   
   
 </section>
-<div class="notes">The JS engine was introduced,<br>and for the 1st time devs had the possibility to react directly to user inputs, without server round trips.</div>
+<div class="notes">New player in town: the JS engine.<br>For the 1st time devs had the possibility to react directly to user inputs,<br>without server round trips.</div>
 <section class="slide" data-slide="media" data-sourceline="490" >
   <img class="element" src="img/drawings/browser-9.jpg">
   
   
 </section>
-<div class="notes">It all started with simple DOM manipulations.<br>But then came the AJAX era with jQuery and friends,<br>and we started to do more and more with this JavaScript,</div>
+<div class="notes">We gently started with some innocent form validation,<br>but then came the <strong>AJAX era</strong> with jQuery and friends.<br>We started to do more and more with JavaScript:</div>
 <section class="slide" data-slide="media" data-sourceline="496" >
   <img class="element" src="img/drawings/browser-10.jpg">
   
   
 </section>
-<div class="notes">We did AJAX calls<br>to submit forms<br>to fetch some server-side templated HTML,<br>then we only fetched JSON and did the templating on the client side,<br>and finally, we ended up doing the routing on the client side too.<br>We were improving the experience once the page was loaded but&#8230;&#8203;</div>
-<section class="slide" data-slide="media" data-sourceline="505" >
+<div class="notes">_<br>* submitting forms<br>* fetching server-side templated HTML,<br>* then we only fetched JSON and did the templating on the client side,<br>* and finally, we ended up doing the routing on the client side too.<br>&#8230;&#8203;<br>We were improving the user experience once the page was loaded but&#8230;&#8203;</div>
+<section class="slide" data-slide="media" data-sourceline="506" >
   <img class="element" src="img/drawings/browser-11.jpg">
   
   
 </section>
-<div class="notes">&#8230;&#8203;this JavaScript-mania came to the <strong>empty-body-megabytes-of-js era</strong><br>Which meant:<br>* more and more code to download<br>* more and more code to parse<br>* more and more code to execute<br>* first load was bad<br>* and too much stuffs relying on JS code to run well<br>Today, all of our tooling is here to help us write good code but also to try to get the best of both<br>having a first load rendered on the server side, downloading only what&#8217;s necessary,<br>and load the rest piece by piece.<br>And all of this happened during this phase where we saw mobile Web take off and getting browser storage, workers etc&#8230;&#8203;</div>
-<section class="slide" data-slide="blank" data-sourceline="520" >
+<div class="notes">&#8230;&#8203;we ended up with empty HTML bodies and <strong>megabytes of JS</strong>.<br>Which meant more and more code<br>* to download<br>* to parse<br>* and to execute<br>&#8230;&#8203;</div>
+<section class="slide" data-slide="blank" data-sourceline="516" >
   
 </section>
-<div class="notes">Those problems are complex so I&#8217;m asking the question:</div>
-<section class="slide" data-slide="section" data-sourceline="524" >
+<div class="notes">Today, our tooling is trying to get the best of both world:<br>* a blazing fast first load, rendered on the server side, downloading only what&#8217;s necessary for the view<br>* and quick following navigations with client side routing and code splitting.<br>&#8230;&#8203;<br>And all those evolutions happened while the Web got:<br>* real on mobile<br>* and new featues like browser storage, workers&#8230;&#8203;<br>&#8230;&#8203;<br>Those are not easy problems to solve.<br>If you write everything by yourself, you&#8217;ll be missing lots of stuffs that frameworks take care of.</div>
+<section class="slide" data-slide="section" data-sourceline="529" >
   
     <div class="pretitle"></div>
     <div class="title" >What&nbsp;do&nbsp;<strong>frameworks</strong><br>bring&nbsp;to&nbsp;the&nbsp;table?</div>
     
   
-</section><div class="notes"><span class="time">00:10:00</span></div>
-<div class="notes">What do <strong>frameworks</strong> bring to the table?<br>What would I miss if I were writing only "vanilla JS"?</div>
-<section class="slide" data-slide="text" data-sourceline="532" >
+</section><div class="notes"><span class="time">00:10:00</span><br>So, what do <strong>frameworks</strong> bring to the table?</div>
+<section class="slide" data-slide="text" data-sourceline="535" >
   <div><strong>Frameworks</strong> vs. <strong>libs</strong> ?</div>
 </section>
-<div class="notes">framework &#8658; cadre de travail<br>opinionated set of libs/tools<br>problem is when this set of libs/tools is only compatible with itself<br>in my experience, projects with frameworks X ou Y don&#8217;t look alike that much when the context is different,<br>&#8230;&#8203;<br>historique<br>jquery<br>Frameworks are also their to prevent browser quirks</div>
-<section class="slide" data-slide="media" data-sourceline="544" >
+<div class="notes">but React is not a framework!!<br>&#8658; ecosystems</div>
+<section class="slide" data-slide="media" data-sourceline="549" >
   <img class="element" src="img/drawings-optimized/silos-colors.svg">
   
   
 </section>
 <div class="notes">Angular and ember are opinionated<br>React is supposed to be unopinionated<br>Vue is a bit in the middle<br>special mention to ember</div>
-<section class="slide" data-slide="media" data-sourceline="552" >
+<section class="slide" data-slide="media" data-sourceline="557" >
   <img class="element" src="img/drawings-optimized/silos-rooms.svg">
   
   
 </section>
-<section class="slide" data-slide="blank" data-sourceline="555" >
+<section class="slide" data-slide="blank" data-sourceline="560" >
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="557" >
+<section class="slide" data-slide="media" data-sourceline="562" >
   <img class="element" src="img/drawings/bookshelf-empty.jpg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="566" >
+<section class="slide" data-slide="needs" data-sourceline="571" >
   
     <div class="solution">Component system (API + runtime)</div>
     <div class="needs">
@@ -914,7 +913,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="569" >
+<section class="slide" data-slide="needs" data-sourceline="574" >
   
     <div class="solution">Component system (API + runtime)</div>
     <div class="needs">
@@ -943,13 +942,13 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="571" >
+<section class="slide" data-slide="media" data-sourceline="576" >
   <img class="element" src="img/drawings/bookshelf-1.jpg">
   
   
 </section>
 <div class="notes">Angular et Vue "data down, events up"<br>&#8658; methods<br>React "data down, action up" (ou callback called)<br>&#8658; props pour les children<br>Tous: attrs et lifecycle methods<br>Slots ?</div>
-<section class="slide" data-slide="needs" data-sourceline="581" >
+<section class="slide" data-slide="needs" data-sourceline="586" >
   
     <div class="solution">"Templating" / ViewModel</div>
     <div class="needs">
@@ -978,7 +977,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="584" >
+<section class="slide" data-slide="needs" data-sourceline="589" >
   
     <div class="solution">"Templating" / ViewModel</div>
     <div class="needs">
@@ -1007,13 +1006,13 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="586" >
+<section class="slide" data-slide="media" data-sourceline="591" >
   <img class="element" src="img/drawings/bookshelf-2.jpg">
   
   
 </section>
 <div class="notes">&#8658; JSX, templates<br>&#8658; 1 file vs several files<br>&#8658; output pur JS, vs JS + CSS<br>Mvc, mvvm, template + vue model, computed properties<br>exemple Angular, React, Vue</div>
-<section class="slide" data-slide="needs" data-sourceline="595" >
+<section class="slide" data-slide="needs" data-sourceline="600" >
   
     <div class="solution">CSS authoring</div>
     <div class="needs">
@@ -1042,7 +1041,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="598" >
+<section class="slide" data-slide="needs" data-sourceline="603" >
   
     <div class="solution">CSS authoring</div>
     <div class="needs">
@@ -1071,13 +1070,13 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="600" >
+<section class="slide" data-slide="media" data-sourceline="605" >
   <img class="element" src="img/drawings/bookshelf-3.jpg">
   
   
 </section>
 <div class="notes">&#8658; BEM, CSS-in-JS lib, encapsulation system</div>
-<section class="slide" data-slide="needs" data-sourceline="605" >
+<section class="slide" data-slide="needs" data-sourceline="610" >
   
     <div class="solution">DOM manipulation</div>
     <div class="needs">
@@ -1106,7 +1105,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="608" >
+<section class="slide" data-slide="needs" data-sourceline="613" >
   
     <div class="solution">DOM manipulation</div>
     <div class="needs">
@@ -1135,13 +1134,13 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="610" >
+<section class="slide" data-slide="media" data-sourceline="615" >
   <img class="element" src="img/drawings/bookshelf-4.jpg">
   
   
 </section>
 <div class="notes">&#8658; Direct binding vs Virtual DOM (+ scheduling microtask&#8230;&#8203;)<br>The Virtual DOM was always a big marketing argument to sell React but why would we care.<br>It&#8217;s an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.</div>
-<section class="slide" data-slide="needs" data-sourceline="617" >
+<section class="slide" data-slide="needs" data-sourceline="622" >
   
     <div class="solution">SSR (Server Side Rendering)</div>
     <div class="needs">
@@ -1170,7 +1169,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="620" >
+<section class="slide" data-slide="needs" data-sourceline="625" >
   
     <div class="solution">SSR (Server Side Rendering)</div>
     <div class="needs">
@@ -1199,12 +1198,12 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="622" >
+<section class="slide" data-slide="media" data-sourceline="627" >
   <img class="element" src="img/drawings/bookshelf-5.jpg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="625" >
+<section class="slide" data-slide="needs" data-sourceline="630" >
   
     <div class="solution">Router</div>
     <div class="needs">
@@ -1233,7 +1232,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="628" >
+<section class="slide" data-slide="needs" data-sourceline="633" >
   
     <div class="solution">Router</div>
     <div class="needs">
@@ -1262,12 +1261,12 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="630" >
+<section class="slide" data-slide="media" data-sourceline="635" >
   <img class="element" src="img/drawings/bookshelf-6.jpg">
   
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="633" >
+<section class="slide" data-slide="needs" data-sourceline="638" >
   
     <div class="solution">State manager</div>
     <div class="needs">
@@ -1296,7 +1295,7 @@
     </div>
   
 </section>
-<section class="slide" data-slide="needs" data-sourceline="636" >
+<section class="slide" data-slide="needs" data-sourceline="641" >
   
     <div class="solution">State manager</div>
     <div class="needs">
@@ -1325,59 +1324,59 @@
     </div>
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="638" >
+<section class="slide" data-slide="media" data-sourceline="643" >
   <img class="element" src="img/drawings/bookshelf-7.jpg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="640" >
+<section class="slide" data-slide="media" data-sourceline="645" >
   <img class="element" src="img/drawings/bookshelf-8.jpg">
   
   
 </section>
 <div class="notes">en vrac car moins important pour notre discussion<br>CLI<br>Devtools<br>HTTP client<br>Form handling<br>Module system<br>Dep inj<br>i18n<br>tests</div>
-<section class="slide" data-slide="blank" data-sourceline="653" >
+<section class="slide" data-slide="blank" data-sourceline="658" >
   
 </section>
-<div class="notes">All those frameworks/ecosystems have interesting solutions for modern Web projects,<br>but again, they may solve problems you don&#8217;t have or they may solve them for some kind of devs you don&#8217;t have in your team.<br>&#8230;&#8203;<br>Because I often here, browsers should just put react in the browser and be done with it,<br>I&#8217;m going to address the question:</div>
-<section class="slide" data-slide="section" data-sourceline="661" >
+<div class="notes">All those frameworks/ecosystems have interesting solutions for modern Web projects, but again:<br>* they may solve problems you don&#8217;t have<br>* they may solve problems for some kind of devs you don&#8217;t have in your team<br>* and they often<br>&#8230;&#8203;<br>Because I often hear, browsers should just put react in the browser and be done with it,<br>I&#8217;m going to address the question:</div>
+<section class="slide" data-slide="section" data-sourceline="668" >
   
     <div class="pretitle"></div>
     <div class="title" >What&nbsp;do&nbsp;<strong>standards</strong><br>bring&nbsp;to&nbsp;the&nbsp;table?</div>
     
   
 </section><div class="notes"><span class="time">00:20:00</span><br>What do <strong>standards</strong> bring to the table?</div>
-<section class="slide dark" data-slide="media" data-sourceline="666" >
+<section class="slide dark" data-slide="media" data-sourceline="673" >
   <div class="browser">
     <figcaption class="url"><a href="https://jquery.com/" target="_blank" rel="noopener">https://jquery.com/</a></figcaption>
     <img class="element" src="img/screenshots/site-jquery.jpg">
   </div>
 </section>
 <div class="notes">préambule exemple jquery &#8658; sizzle + ajax + API chainée sucre syntaxique</div>
-<section class="slide" data-slide="web-components" data-sourceline="675" >
+<section class="slide" data-slide="web-components" data-sourceline="682" >
   
     <div class="title">Web Components</div>
     
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="677" >
+<section class="slide" data-slide="media" data-sourceline="684" >
   <img class="element" src="img/drawings-optimized/web-component-tv.svg">
   
   
 </section>
 <div class="notes">schéma de la télé &#8658; analogie avec le Web component</div>
-<section class="slide" data-slide="media" data-sourceline="681" >
+<section class="slide" data-slide="media" data-sourceline="688" >
   <img class="element" src="img/drawings-optimized/web-component.svg">
   
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="685" >
+<section class="slide" data-slide="web-components" data-sourceline="692" >
   
     <div class="title">Custom Elements</div>
     
   
 </section>
-<section class="slide" data-slide="listing" data-sourceline="690" >
+<section class="slide" data-slide="listing" data-sourceline="697" >
   <div class="title">Custom Element</div>
 <pre class="codeBlock" data-lang="javascript">
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EnvVarInput</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HTMLElement</span> </span>{
@@ -1389,27 +1388,27 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">env-var-input</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"FOO"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"BAR"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">env-var-input</span>&gt;</span></span>
 </pre>
 </section>
-<section class="slide" data-slide="media" data-sourceline="700" >
+<section class="slide" data-slide="media" data-sourceline="707" >
   <img class="element" src="img/drawings-optimized/web-component-attr.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="702" >
+<section class="slide" data-slide="media" data-sourceline="709" >
   <img class="element" src="img/drawings-optimized/web-component-prop.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="704" >
+<section class="slide" data-slide="media" data-sourceline="711" >
   <img class="element" src="img/drawings-optimized/web-component-methods.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="706" >
+<section class="slide" data-slide="media" data-sourceline="713" >
   <img class="element" src="img/drawings-optimized/web-component-events.svg">
   
   
 </section>
-<section class="slide" data-slide="listing" data-sourceline="710" >
+<section class="slide" data-slide="listing" data-sourceline="717" >
   <div class="title">Custom Element</div>
 <pre class="codeBlock" data-lang="javascript">
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EnvVarInput</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HTMLElement</span> </span>{
@@ -1425,7 +1424,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 }
 </pre>
 </section>
-<section class="slide" data-slide="listing" data-sourceline="726" >
+<section class="slide" data-slide="listing" data-sourceline="733" >
   <div class="title">Custom Element</div>
 <pre class="codeBlock" data-lang="javascript">
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EnvVarInput</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HTMLElement</span> </span>{
@@ -1438,12 +1437,12 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 }
 </pre>
 </section>
-<section class="slide" data-slide="media" data-sourceline="758" >
+<section class="slide" data-slide="media" data-sourceline="765" >
   <img class="element" src="img/drawings/bookshelf-wc-ce.jpg">
   
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="764" >
+<section class="slide" data-slide="web-components" data-sourceline="771" >
   
     <div class="title">Custom Elements</div>
     <ul><li class="hidden">🤔 No customized built-in elements in Safari</li>
@@ -1454,7 +1453,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="773" >
+<section class="slide" data-slide="web-components" data-sourceline="780" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1465,7 +1464,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="782" >
+<section class="slide" data-slide="web-components" data-sourceline="789" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1476,7 +1475,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="791" >
+<section class="slide" data-slide="web-components" data-sourceline="798" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1487,7 +1486,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="800" >
+<section class="slide" data-slide="web-components" data-sourceline="807" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1498,7 +1497,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="809" >
+<section class="slide" data-slide="web-components" data-sourceline="816" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1509,7 +1508,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li class="hidden">📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="818" >
+<section class="slide" data-slide="web-components" data-sourceline="825" >
   
     <div class="title">Custom Elements</div>
     <ul><li >🤔 No customized built-in elements in Safari</li>
@@ -1520,47 +1519,38 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li >📜 Lazy definition</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="827" >
+<section class="slide" data-slide="web-components" data-sourceline="834" >
   
     <div class="title">Shadow DOM</div>
     
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="830" >
+<section class="slide" data-slide="media" data-sourceline="837" >
   <img class="element" src="img/drawings-optimized/web-component-slot.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="832" >
+<section class="slide" data-slide="media" data-sourceline="839" >
   <img class="element" src="img/drawings-optimized/web-component-events.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="834" >
+<section class="slide" data-slide="media" data-sourceline="841" >
   <img class="element" src="img/drawings-optimized/web-component-sd.svg">
   
   
 </section>
 <div class="notes">la suite de l&#8217;API standard entrée/sortie (custom prop, ::part)<br>système de slots :+1<br>transperce le shadow root avec des custom props<br>transperce le shadow root avec des ::part (et ::theme)</div>
-<section class="slide" data-slide="media" data-sourceline="844" >
+<section class="slide" data-slide="media" data-sourceline="851" >
   <img class="element" src="img/drawings/bookshelf-wc-sd.jpg">
   
   
 </section>
 <div class="notes">où ça se place dans notre tableau de solutions ?<br>système de composants<br>isolation du CSS</div>
-<section class="slide" data-slide="web-components" data-sourceline="852" >
-  
-    <div class="title">Shadow DOM</div>
-    <ul><li class="hidden">😡 No SSR (without hacks)</li>
-<li class="hidden">📜 Declarative shadow DOM, custom elements</li>
-<li class="hidden">📜 Custom pseudo class</li>
-<li class="hidden">📜 CSS modules</li></ul>
-  
-</section>
 <section class="slide" data-slide="web-components" data-sourceline="859" >
   
     <div class="title">Shadow DOM</div>
-    <ul><li >😡 No SSR (without hacks)</li>
+    <ul><li class="hidden">😡 No SSR (without hacks)</li>
 <li class="hidden">📜 Declarative shadow DOM, custom elements</li>
 <li class="hidden">📜 Custom pseudo class</li>
 <li class="hidden">📜 CSS modules</li></ul>
@@ -1570,7 +1560,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
   
     <div class="title">Shadow DOM</div>
     <ul><li >😡 No SSR (without hacks)</li>
-<li >📜 Declarative shadow DOM, custom elements</li>
+<li class="hidden">📜 Declarative shadow DOM, custom elements</li>
 <li class="hidden">📜 Custom pseudo class</li>
 <li class="hidden">📜 CSS modules</li></ul>
   
@@ -1580,7 +1570,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
     <div class="title">Shadow DOM</div>
     <ul><li >😡 No SSR (without hacks)</li>
 <li >📜 Declarative shadow DOM, custom elements</li>
-<li >📜 Custom pseudo class</li>
+<li class="hidden">📜 Custom pseudo class</li>
 <li class="hidden">📜 CSS modules</li></ul>
   
 </section>
@@ -1590,16 +1580,25 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
     <ul><li >😡 No SSR (without hacks)</li>
 <li >📜 Declarative shadow DOM, custom elements</li>
 <li >📜 Custom pseudo class</li>
-<li >📜 CSS modules</li></ul>
+<li class="hidden">📜 CSS modules</li></ul>
   
 </section>
 <section class="slide" data-slide="web-components" data-sourceline="887" >
+  
+    <div class="title">Shadow DOM</div>
+    <ul><li >😡 No SSR (without hacks)</li>
+<li >📜 Declarative shadow DOM, custom elements</li>
+<li >📜 Custom pseudo class</li>
+<li >📜 CSS modules</li></ul>
+  
+</section>
+<section class="slide" data-slide="web-components" data-sourceline="894" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     
   
 </section>
-<section class="slide" data-slide="listing" data-sourceline="892" >
+<section class="slide" data-slide="listing" data-sourceline="899" >
   <div class="title">&lt;template&gt;</div>
 <pre class="codeBlock" data-lang="html">
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"foobar"</span>&gt;</span>
@@ -1610,12 +1609,12 @@ const awesome = foobar.content.cloneNode(true);
 parent.appendChild(awesome)
 </pre>
 </section>
-<section class="slide" data-slide="media" data-sourceline="901" >
+<section class="slide" data-slide="media" data-sourceline="908" >
   <img class="element" src="img/drawings/bookshelf-wc-tpl.jpg">
   
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="907" >
+<section class="slide" data-slide="web-components" data-sourceline="914" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li class="hidden">😡 No interpolation or reactive "data-binding"</li>
@@ -1623,7 +1622,7 @@ parent.appendChild(awesome)
 <li class="hidden">📜 HTML modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="913" >
+<section class="slide" data-slide="web-components" data-sourceline="920" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li >😡 No interpolation or reactive "data-binding"</li>
@@ -1631,7 +1630,7 @@ parent.appendChild(awesome)
 <li class="hidden">📜 HTML modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="919" >
+<section class="slide" data-slide="web-components" data-sourceline="926" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li >😡 No interpolation or reactive "data-binding"</li>
@@ -1639,7 +1638,7 @@ parent.appendChild(awesome)
 <li class="hidden">📜 HTML modules</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="925" >
+<section class="slide" data-slide="web-components" data-sourceline="932" >
   
     <div class="title"><code>&lt;template&gt;</code></div>
     <ul><li >😡 No interpolation or reactive "data-binding"</li>
@@ -1647,61 +1646,61 @@ parent.appendChild(awesome)
 <li >📜 HTML modules</li></ul>
   
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="929" >
+<section class="slide dark" data-slide="media" data-sourceline="936" >
   <div class="browser">
     <figcaption class="url"><a href="https://developers.google.com/web/fundamentals/web-components/best-practices" target="_blank" rel="noopener">https://developers.google.com/web/fundamentals/web-components/best-practices</a></figcaption>
     <img class="element" src="img/screenshots/web-components-best-practices.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="933" >
+<section class="slide dark" data-slide="media" data-sourceline="940" >
   <div class="browser">
     <figcaption class="url"><a href="https://github.com/w3c/webcomponents" target="_blank" rel="noopener">https://github.com/w3c/webcomponents</a></figcaption>
     <img class="element" src="img/screenshots/github-web-components.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="935" >
+<section class="slide dark" data-slide="media" data-sourceline="942" >
   <div class="browser">
     <figcaption class="url"><a href="https://twitter.com/intenttoship" target="_blank" rel="noopener">https://twitter.com/intenttoship</a></figcaption>
     <img class="element" src="img/screenshots/twitter-intenttoship.jpg">
   </div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="937" >
+<section class="slide dark" data-slide="media" data-sourceline="944" >
   <div class="browser">
     <figcaption class="url"><a href="https://twitter.com/WebPlatformNews" target="_blank" rel="noopener">https://twitter.com/WebPlatformNews</a></figcaption>
     <img class="element" src="img/screenshots/twitter-WebPlatformNews.jpg">
   </div>
 </section>
-<section class="slide" data-slide="blank" data-sourceline="947" >
+<section class="slide" data-slide="blank" data-sourceline="954" >
   
 </section>
 <div class="notes">Web Components will not "replace" your frameworks.<br>Their scope is not exactly the same, but current ecosystem will evolve and new one will rise.<br>Now that we deconstructed the different solutions frameworks and standards bring,<br>I think we have a better vision of the different layers that compose a Web project.<br>It&#8217;s pretty hard to do it well, but this vision should help us to write code that will age well,<br>and for this we need&#8230;&#8203;</div>
-<section class="slide" data-slide="section" data-sourceline="957" >
+<section class="slide" data-slide="section" data-sourceline="964" >
   
     <div class="pretitle"></div>
     <div class="title" >A <strong>SOLID</strong> Web!</div>
     
   
 </section><div class="notes"><span class="time">00:30:00</span><br>&#8230;&#8203;good old software practices,<br>battle-tested patterns that will help us to separate concerns and limit coupling between layers.</div>
-<section class="slide" data-slide="quote" data-sourceline="964" >
+<section class="slide" data-slide="quote" data-sourceline="971" >
   <div class="quote"><span class="one-line">Code should be disposable,<br>it&#8217;s far easier to do when<br>things are decoupled.</span></div>
 </section>
-<section class="slide logo" data-slide="media" data-sourceline="968" >
+<section class="slide logo" data-slide="media" data-sourceline="975" >
   <img class="element" src="img/cc-rocket-man.png">
   
   <figcaption class="caption">Our context at <strong>Clever Cloud</strong></figcaption>
 </section>
 <div class="notes">&#8230;&#8203;chez Clever Cloud,<br>en espérant que ça vous donne des idées pour votre contexte et votre stack.</div>
-<section class="slide" data-slide="blank" data-sourceline="975" data-viewport="1">
+<section class="slide" data-slide="blank" data-sourceline="982" data-viewport="1">
   
 </section>
 <div class="notes">Démo console<br>ça c&#8217;est ce qu&#8217;on appelle notre console,<br>c&#8217;est le tableau de bord qui permet à nos clients d&#8217;administrer leurs apps, leurs bdd, leurs addons&#8230;&#8203;<br>montrer la console web en démo<br>(écran overview)<br>citer logs, monitoring&#8230;&#8203;<br>(switcher sur les vars d&#8217;env)</div>
-<section class="slide" data-slide="media" data-sourceline="985" >
+<section class="slide" data-slide="media" data-sourceline="992" >
   <img class="element" src="img/drawings/bookshelf-cc-before.jpg">
   
   
 </section>
 <div class="notes">Clever stack<br>&#8230;&#8203;<br>7 years old<br>Component system (code separation but no clear API nor real runtime system)<br>Templating (lodash)<br>CSS (global) avec with a few rules like BEM<br>DOM (jquery + bacon)<br>No SSR<br>Home made router (merci quentin)<br>No real state manager (bacon)</div>
-<section class="slide" data-slide="web-components" data-sourceline="1000" >
+<section class="slide" data-slide="web-components" data-sourceline="1007" >
   
     <div class="title">Our needs</div>
     <ul><li class="hidden">👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1711,7 +1710,7 @@ parent.appendChild(awesome)
 <li class="hidden">🔢 Introduce new tools feature by feature</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="1008" >
+<section class="slide" data-slide="web-components" data-sourceline="1015" >
   
     <div class="title">Our needs</div>
     <ul><li >👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1721,7 +1720,7 @@ parent.appendChild(awesome)
 <li class="hidden">🔢 Introduce new tools feature by feature</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="1016" >
+<section class="slide" data-slide="web-components" data-sourceline="1023" >
   
     <div class="title">Our needs</div>
     <ul><li >👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1731,7 +1730,7 @@ parent.appendChild(awesome)
 <li class="hidden">🔢 Introduce new tools feature by feature</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="1024" >
+<section class="slide" data-slide="web-components" data-sourceline="1031" >
   
     <div class="title">Our needs</div>
     <ul><li >👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1741,7 +1740,7 @@ parent.appendChild(awesome)
 <li class="hidden">🔢 Introduce new tools feature by feature</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="1032" >
+<section class="slide" data-slide="web-components" data-sourceline="1039" >
   
     <div class="title">Our needs</div>
     <ul><li >👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1751,7 +1750,7 @@ parent.appendChild(awesome)
 <li class="hidden">🔢 Introduce new tools feature by feature</li></ul>
   
 </section>
-<section class="slide" data-slide="web-components" data-sourceline="1040" >
+<section class="slide" data-slide="web-components" data-sourceline="1047" >
   
     <div class="title">Our needs</div>
     <ul><li >👋 Goodbye (Bacon.js + lodash templates)</li>
@@ -1762,39 +1761,39 @@ parent.appendChild(awesome)
   
 </section>
 <div class="notes">sur certaines parties de l&#8217;app, on avait déjà un modèle<br>comme les frameworks moderne avec un one way data flow<br>je modifie de la donnée, ça par dans un stream bacon et ça modifie le DOM<br>on a un peu atteint les limites de ce modèle bacon + lodash (perfs et modèle de pensée)<br>on a isolé les "modules" dans des fichiers mais on a du CSS global et on a pas d&#8217;interface clairement définie sur nos composants<br>on va avoir besoin que notre UI soit réutilisée en marque blanche ou marque grise<br>du coup, on doit pouvoir fournir certains parties de manière indépendantes un peu comme des légos<br>&#8230;&#8203;<br>on va introduire des nouvelles technos feature après feature<br>le fait que notre code n&#8217;était pas enfermé dans un framework nous facilite cette migration<br><strong>Code comments are for your colleagues but also for yourself in 6 months or a year.</strong><br><strong>Web Components are the same, they should be designed in a reusable way so third parties can reuse them but also so you can use them in a different stack tomorrow</strong></div>
-<section class="slide" data-slide="text" data-sourceline="1061" >
+<section class="slide" data-slide="text" data-sourceline="1068" >
   <div><span class="one-line">Design phase:<br>from <strong>top</strong> to <strong>bottom</strong></span></div>
 </section>
-<section class="slide" data-slide="text" data-sourceline="1067" >
+<section class="slide" data-slide="text" data-sourceline="1074" >
   <div><span class="one-line">Development phase:<br>from <strong>bottom</strong> to <strong>top</strong></span></div>
 </section>
 <div class="notes">les enfants ne savent pas qui les utilisent<br>mais ils ont une idées de comment ils seront utilisés ou plutôt de ce qu&#8217;ils doivent faire<br>les parents savent à quoi servent leur enfants mais ne se soucis pas de comment ça marche à l&#8217;interieur<br>tu ne sais pas qu&#8217;il y a un router<br>tu ne sais pas qu&#8217;il y a un state manager<br>tu ne sais pas d&#8217;où vient la donnée</div>
-<section class="slide" data-slide="text" data-sourceline="1077" >
+<section class="slide" data-slide="text" data-sourceline="1084" >
   <div><strong>Storybook</strong> <strong>D</strong>riven <strong>D</strong>evelopment</div>
 </section>
 <div class="notes">YOU NEED A DESIGN SYSTEM</div>
-<section class="slide" data-slide="media" data-sourceline="1082" >
+<section class="slide" data-slide="media" data-sourceline="1089" >
   <img class="element" src="img/talk-storybook-ml-thuret.en.jpg">
   
   
 </section>
-<section class="slide" data-slide="blank" data-sourceline="1085" data-viewport="2">
+<section class="slide" data-slide="blank" data-sourceline="1092" data-viewport="2">
   
 </section>
 <div class="notes">DÉMO: le storybook de clever<br>montrer les boutons avec leur interface<br>montrer le composant env-var-input<br>montrer le composant env-var-editor-simple<br>montrer le composant env-var-editor-expert<br>expliquer qu&#8217;ils ont la même signature et son donc très facilement interchangeable aux yeux du parent</div>
-<section class="slide" data-slide="media" data-sourceline="1094" >
+<section class="slide" data-slide="media" data-sourceline="1101" >
   <img class="element" src="img/drawings/bookshelf-cc-after.jpg">
   
   
 </section>
 <div class="notes">: web component pour la réutilisabilité et le côté agnostique du fwk et l&#8217;aspect standard<br>: lit-element + lit-html (petites libs)<br>: on en a testé d&#8217;autres mais celles si nous convenait le mieux</div>
-<section class="slide dark" data-slide="media" data-sourceline="1100" >
+<section class="slide dark" data-slide="media" data-sourceline="1107" >
   <div class="browser">
     <figcaption class="url"><a href="https://lit-html.polymer-project.org/" target="_blank" rel="noopener">https://lit-html.polymer-project.org/</a></figcaption>
     <img class="element" src="img/screenshots/site-lit-html.jpg">
   </div>
 </section>
-<section class="slide" data-slide="listing" data-sourceline="1104" >
+<section class="slide" data-slide="listing" data-sourceline="1111" >
   <div class="title">lit-html</div>
 <pre class="codeBlock" data-lang="javascript">
 <span class="hljs-keyword">import</span> { html, render } <span class="hljs-keyword">from</span> <span class="hljs-string">'lit-html'</span>;
@@ -1807,13 +1806,13 @@ parent.appendChild(awesome)
 render(envVarInput({ <span class="hljs-attr">name</span>: <span class="hljs-string">'FOO'</span>, <span class="hljs-attr">value</span>: <span class="hljs-string">'BAR'</span> }), someDomNode);
 </pre>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="1115" >
+<section class="slide dark" data-slide="media" data-sourceline="1122" >
   <div class="browser">
     <figcaption class="url"><a href="https://lit-element.polymer-project.org/" target="_blank" rel="noopener">https://lit-element.polymer-project.org/</a></figcaption>
     <img class="element" src="img/screenshots/site-lit-element.jpg">
   </div>
 </section>
-<section class="slide" data-slide="listing" data-sourceline="1119" >
+<section class="slide" data-slide="listing" data-sourceline="1126" >
   <div class="title">LitElement</div>
 <pre class="codeBlock" data-lang="javascript">
 <span class="hljs-keyword">import</span> { LitElement, html } <span class="hljs-keyword">from</span> <span class="hljs-string">'lit-element'</span>;
@@ -1830,18 +1829,18 @@ render(envVarInput({ <span class="hljs-attr">name</span>: <span class="hljs-stri
 customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarInput);
 </pre>
 </section>
-<section class="slide" data-slide="media" data-sourceline="1143" >
+<section class="slide" data-slide="media" data-sourceline="1150" >
   <img class="element" src="img/drawings-optimized/layers-mixed-light.svg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="1145" >
+<section class="slide" data-slide="media" data-sourceline="1152" >
   <img class="element" src="img/drawings-optimized/layers-light.svg">
   
   
 </section>
 <div class="notes">layer data aware<br>layer auth aware<br>elements qui font des appels REST</div>
-<section class="slide" data-slide="web-components" data-sourceline="1156" >
+<section class="slide" data-slide="web-components" data-sourceline="1163" >
   
     <div class="title">Reduce coupling with global stuffs</div>
     <ul><li >Router</li>
@@ -1853,73 +1852,73 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
 <li >Keyboard shortcuts</li></ul>
   
 </section>
-<section class="slide" data-slide="text" data-sourceline="1172" >
+<section class="slide" data-slide="text" data-sourceline="1179" >
   <div>Did we choose the <strong>right tool</strong>?</div>
 </section>
-<section class="slide osef" data-slide="text" data-sourceline="1175" >
+<section class="slide osef" data-slide="text" data-sourceline="1182" >
   <div><strong>IDGAS™️</strong></div>
 </section>
-<section class="slide" data-slide="text" data-sourceline="1178" >
+<section class="slide" data-slide="text" data-sourceline="1185" >
   <div>Not the <strong>right</strong> question!</div>
 </section>
-<section class="slide" data-slide="text" data-sourceline="1181" >
+<section class="slide" data-slide="text" data-sourceline="1188" >
   <div><span class="one-line">How much does it <strong>cost</strong><br>to <strong>change</strong> our minds?</span></div>
 </section>
 <div class="notes">Did we choose the right tool, the right stack?<br>It&#8217;s not important,<br>What is important is will we be able to changed our mind and what will be the cost?<br>To that question, I would answer yes.<br>The choices we made required some new knowledge about Web Components but I can only bet that this will be helpful in the future,<br>The abstraction librairies we chose are small and simple to learn.<br>Rewriting them would have almost no impact on the rest.</div>
-<section class="slide" data-slide="blank" data-sourceline="1192" >
+<section class="slide" data-slide="blank" data-sourceline="1199" >
   
 </section>
 <div class="notes">The last question is:</div>
-<section class="slide" data-slide="section" data-sourceline="1196" >
+<section class="slide" data-slide="section" data-sourceline="1203" >
   
     <div class="pretitle"></div>
     <div class="title" >Looking&nbsp;into<br>the&nbsp;<strong>future</strong>&#8230;&#8203;</div>
     
   
 </section><div class="notes"><span class="time">00:40:00</span><br>what about the future?</div>
-<section class="slide" data-slide="text" data-sourceline="1202" >
+<section class="slide" data-slide="text" data-sourceline="1209" >
   <div><span class="one-line"><strong>Beware</strong> of those who<br>predict the future<strong>!</strong></span></div>
 </section>
-<section class="slide dark" data-slide="media" data-sourceline="1207" >
+<section class="slide dark" data-slide="media" data-sourceline="1214" >
   <div class="browser">
     <figcaption class="url"><a href="https://svelte.technology/blog/frameworks-without-the-framework" target="_blank" rel="noopener">https://svelte.technology/blog/frameworks-without-the-framework</a></figcaption>
     <img class="element" src="img/screenshots/article-frameworks-without-the-framework.jpg">
   </div>
 </section>
 <div class="notes">Vous pensez que 100k de JS, c&#8217;est pareil que 100k d&#8217;image &#8658; faux<br>Le JS est téléchargé, parsé, éxécuté, tout ça, ça prend du temps.</div>
-<section class="slide dark" data-slide="media" data-sourceline="1212" >
+<section class="slide dark" data-slide="media" data-sourceline="1219" >
   <div class="browser">
     <figcaption class="url"><a href="https://tomdale.net/2017/09/compilers-are-the-new-frameworks/" target="_blank" rel="noopener">https://tomdale.net/2017/09/compilers-are-the-new-frameworks/</a></figcaption>
     <img class="element" src="img/screenshots/article-compilers-are-the-new-frameworks.jpg">
   </div>
 </section>
-<section class="slide" data-slide="media" data-sourceline="1222" >
+<section class="slide" data-slide="media" data-sourceline="1229" >
   <img class="element" src="img/drawings/browser-12.jpg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="1224" >
+<section class="slide" data-slide="media" data-sourceline="1231" >
   <img class="element" src="img/drawings/browser-13.jpg">
   
   
 </section>
-<section class="slide" data-slide="media" data-sourceline="1226" >
+<section class="slide" data-slide="media" data-sourceline="1233" >
   <img class="element" src="img/drawings/browser-14.jpg">
   
   
 </section>
 <div class="notes">framework runtime &#8658; compilers<br>schéma browser avec le code qui passe du runtime au build<br>bon ou mauvais ?<br>l&#8217;idéal serait que l&#8217;input du compiler fonctionne sans build step et que l&#8217;output soit optimisé aux petits oignons, comme ce qu&#8217;on fait quand on minifie<br>schéma browser avec le code qui passe du runtime et vers des implem du browser<br>&#8230;&#8203;<br>Convaincre les gens que :<br>Le passé se répète<br>Les outils vont et viennent<br>La constante, c&#8217;est le modèle des éléments du DOM (sorte de HDMI du Web)<br>Tout comme on a appris à apprendre mais on garde certaines bases fondamentales, ils faut capitaliser sur les bases fondamentales (le web et ses standards) et adopter des facilitants par dessus avec une courbe d&#8217;apprentissage</div>
-<section class="slide stop-music dark" data-slide="blank" data-sourceline="1248" >
+<section class="slide stop-music dark" data-slide="blank" data-sourceline="1255" >
   
 </section>
-<section class="slide old play-music" data-slide="section" data-sourceline="1251" >
+<section class="slide old play-music" data-slide="section" data-sourceline="1258" >
   
     <div class="pretitle"></div>
     <div class="title" >&#8230;&#8203;Epilogue</div>
     <video src="./videos/old-movie.webm" muted loop></video>
   
 </section><div class="notes"><span class="time">00:42:00</span></div>
-<section class="slide" data-slide="bubble" data-sourceline="1257" >
+<section class="slide" data-slide="bubble" data-sourceline="1264" >
   
     <div class="bubble-wrapper" data-position="right">
       <div class="bubble">So?</div>  
@@ -1928,28 +1927,28 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
   
 </section>
 <div class="notes">👩‍⚕️ So? How was your group therapy?<br>😎 I don&#8217;t know, it didn&#8217;t have time to go into each details so instead,<br>I tried to share the way I see things so people can adapt to their own context.</div>
-<section class="slide" data-slide="problem" data-sourceline="1265" >
+<section class="slide" data-slide="problem" data-sourceline="1272" >
   <div>
     <div class="problem">Problem #1</div>
     <div class="text"><span class="one-line">Finding solutions<br>to problems we don&#8217;t have (yet)</span></div>
   </div>
 </section>
 <div class="notes">😎 For problem number 1,<br>I tried to insist and move the focus back on needs:<br>1. Needs of the people using the products we build<br>2. Needs of the development team who works on the project<br>&#8230;&#8203;<br>I mean nowadays, Web browsers have become those <strong>complex application platform/runtime</strong>.<br>Of course we need tools to reduce this complexity.<br>This idea is not to reinvent the wheel.<br>But, it&#8217;s not a reason to say or think that we all have the same contexts and the same priorities.<br>&#8230;&#8203;<br>I really hope people will get this reflex:<br>* "Oh look, new shiny tool!"<br>* "OK, what problem does it solve?"<br>* "Do I have this problem?"<br>and to rememeber :<br>* what you&#8217;re developing<br>* with whom you&#8217;re developing</div>
-<section class="slide" data-slide="problem" data-sourceline="1287" >
+<section class="slide" data-slide="problem" data-sourceline="1294" >
   <div>
     <div class="problem">Problem #2</div>
     <div class="text">Getting locked into our own ecosystem</div>
   </div>
 </section>
 <div class="notes">😎 I also tried to deconstruct the different features/solutions that the current top 3 ecosytems bring.<br>The main idea is to keep a sharp point of view and to have an horizontal vision instead of a narrowed vertical vision.<br>In my opinion and my own experience, having a better understanding of those parts really helps me NOT TO fear change.<br>I know how I could replace something with a better/simpler implementation or something smaller using a new standard.<br>In the end, all those frameworks, librairies and standards are just tools.<br>We just need to take it easy and stay professional,<br>that means using them for the great features they bring<br>and stop worshiping them blindly.<br>👩‍⚕️ Oh, and you talked about TV+VCR combos?</div>
-<section class="slide" data-slide="problem" data-sourceline="1301" >
+<section class="slide" data-slide="problem" data-sourceline="1308" >
   <div>
     <div class="problem">Problem #3</div>
     <div class="text"><span class="one-line">Writing strongly coupled code<br>that does not age well with time</span></div>
   </div>
 </section>
 <div class="notes">😎 Yes, I tried to explain what we&#8217;re currently trying to do at Clever Cloud to reduce coupling between our components, modules and the various layers.<br>I explained what our approach brings us in our own context.<br>We didn&#8217;t invent anything, we&#8217;re just trying to apply good old software patterns to the modern Web.<br>And those are just principles, there are always exceptions.<br>The idea is not to triple your design costs just to write "beautiful code" but just to invest the minimum of energy to reduce the impact of time.</div>
-<section class="slide" data-slide="bubble" data-sourceline="1311" >
+<section class="slide" data-slide="bubble" data-sourceline="1318" >
   
     <div class="bubble-wrapper" data-position="left">
       <div class="bubble">Thanks doctor!</div>  
@@ -1958,7 +1957,7 @@ customElements.define(<span class="hljs-string">'env-var-input'</span>, EnvVarIn
   
 </section>
 <div class="notes">😎 Je vous remercie docteur, ça m&#8217;a bien aidé<br>😎 Thank you very much doctor, it really helped me,<br>and I also would like to thank every member of the group for listening to me to the end.</div>
-<section class="slide reset-music" data-slide="poster" data-sourceline="1319" >
+<section class="slide reset-music" data-slide="poster" data-sourceline="1326" >
   
   <div class="header">
     <div class="details">
