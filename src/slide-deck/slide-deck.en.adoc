@@ -437,7 +437,7 @@ and really ask the question:
 
 == *How* did we  get here?
 
-[.time]#00:08:00#
+[.time]#00:09:30#
 How did we get here?
 Do we really need all those complex tools?
 
@@ -528,7 +528,7 @@ If you write everything by yourself, you'll be missing lots of stuffs that frame
 
 == What do *frameworks*  bring to the table?
 
-[.time]#00:10:00#
+[.time]#00:11:00#
 So, what do *frameworks* bring to the table?
 
 [slide=text]
@@ -660,30 +660,41 @@ Transition
 All those frameworks/ecosystems have interesting solutions for modern Web projects, but again:
 * they may solve problems you don't have
 * they may solve problems for some kind of devs you don't have in your team
-* and they often
+* and they often don't worry much about the fact that you may stop using them at some point
 ...
-Because I often hear, browsers should just put react in the browser and be done with it,
-I'm going to address the question:
+So beware on the technical and sentimental coupling you have with your frameworks.
+...
+While I was researching this subjects, I often saw:
+"hey, browsers should just standardize react and be done with it"
+This is not that simple so let's see...
 
 == What do *standards*  bring to the table?
 
-[.time]#00:20:00#
+[.time]#00:22:00#
 What do *standards* bring to the table?
+
+...what *standards* bring to the table?
+I observed a pattern.
+Library brings high-level solution,
+standard brings low-level solution,
+library uses standard under the hood and becomes a sugar layer on top of standard
 
 image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
 
-préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
-
-// [slide=todo]
-// schéma cycle
+If you think about jQuery for example,
+it's exactly what happened with the $('css-selector') which became standardized as querySelector,
+and we were still using jQuery for its chained APIs and its ecosystem of plugins.
 
 .Web Components
 [slide=web-components]
 _
 
+We need to talk about Web Components.
+In my opinion, Web Components are all about bringing a standard API to the component pattern we all use.
+
 image::img/drawings-optimized/web-component-tv.svg[]
-// UTILISER LE SCHEMA DE LA TV
-schéma de la télé => analogie avec le Web component
+
+A bit like my TV, what is the HDMI of components on the Web.
 
 image::img/drawings-optimized/web-component.svg[]
 
@@ -774,6 +785,8 @@ image::img/drawings/bookshelf-wc-ce.jpg[]
 * 📜 Scoped CustomElementRegistry
 * 📜 Form associated elements
 * 📜 Lazy definition
+
+Don't forget to question your tools wether they are frameworks or Web standards.
 
 .Custom Elements
 [slide=web-components, display=1]
@@ -953,19 +966,21 @@ image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPl
 [slide=blank]
 Transition
 
-Web Components will not "replace" your frameworks.
-Their scope is not exactly the same, but current ecosystem will evolve and new one will rise.
-Now that we deconstructed the different solutions frameworks and standards bring,
-I think we have a better vision of the different layers that compose a Web project.
-//I really encourage you to do this analysis on your projects and your very context.
-It's pretty hard to do it well, but this vision should help us to write code that will age well,
-and for this we need...
+SPOILER ALERT:
+Web Components will not "replace" beloved your frameworks.
+Their scope is not exactly the same, but the current ecosystems will evolve and new one will rise.
+Now that spent time looking at what the different solutions frameworks and standards bring,
+I got a better vision of the different layers that compose a Web project.
+I really encourage you to do this analysis in the details with your projects and your own context.
+I think it's the best way to be able to decouple stuffs and bring back...
 
 == A *SOLID* Web!
 
-[.time]#00:30:00#
-...good old software practices,
+[.time]#00:33:00#
+...good old software practices on the Web,
 battle-tested patterns that will help us to separate concerns and limit coupling between layers.
+We have sentimental and technical coupling with our tooling,
+be we also often couple different layers in our Web apps.
 
 [quote]
 Code should be disposable,   it's far easier to do when   things are decoupled.
@@ -1151,9 +1166,11 @@ image::img/drawings-optimized/layers-mixed-light.svg[]
 
 image::img/drawings-optimized/layers-light.svg[]
 
-layer data aware
-layer auth aware
-elements qui font des appels REST
+Just like my 10 year old TV did not know about what a Nintendo Switch is,
+your UI components *SHOULD NOT* know where the date comes from.
+That's the only way to move easily from REST API to SSE reactive data...
+Your UI component *SHOULD NOT* know that there is a router out there
+and especially not rely on its implementation details.
 
 // [slide=todo]
 // remonter l'accès à la donnée le plus haut possible
@@ -1178,17 +1195,24 @@ elements qui font des appels REST
 [slide=text]
 Did we choose the *right tool*?
 
+Did we choose the right tool, the right stack?
+
 [.osef, slide=text]
 *IDGAS™️*
+
+It's not important,
+We're so focused on finding the holy grail solution that
 
 [slide=text]
 Not the *right* question!
 
+we forgot it wasn't the right question.
+It does not exist.
+Thinkgs will evolve, new frameworks will rise.
+
 [slide=text]
 How much does it *cost*   to *change* our minds?
 
-Did we choose the right tool, the right stack?
-It's not important,
 What is important is will we be able to changed our mind and what will be the cost?
 To that question, I would answer yes.
 The choices we made required some new knowledge about Web Components but I can only bet that this will be helpful in the future,
@@ -1202,7 +1226,7 @@ The last question is:
 
 == Looking into  the *future*...
 
-[.time]#00:40:00#
+[.time]#00:45:00#
 what about the future?
 
 [slide=text]
@@ -1257,7 +1281,7 @@ Fondu vers le noir
 [.old.play-music]
 == ...Epilogue
 
-[.time]#00:42:00#
+[.time]#00:47:00#
 
 .So?
 [slide=bubble]
