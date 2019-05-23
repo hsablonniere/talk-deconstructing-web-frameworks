@@ -4,8 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:event: DevoxxFR
-:date: 17 avril 2019
+:event: MiXiT
+:date: 24 mai 2019
 
 [slide=poster]
 Poster
@@ -104,6 +104,10 @@ Quand on choisi un framework, une lib frontend et son écosystème, on en oublie
 *et pourtant*, on a l'impression d'avoir déjà trouvé *LA* bonne réponse, *LA* bonne solution à utiliser.
 Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
 👩‍⚕️ Mais pourquoi vous faites ça ?
+
+.Pourquoi ?
+[slide=bubble]
+image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 image::img/drawings-optimized/dx-ux.svg[]
 
@@ -1114,7 +1118,7 @@ elements qui font des appels REST
 * Messages, notifs (info, erreur...)
 * Modal box
 * Raccourcis clavier
-* document.title
+//* document.title
 // i18n
 
 // i18n
@@ -1130,6 +1134,9 @@ Est-ce qu'on a fait le *bon choix* ?
 
 [slide=text]
 **O**n **S**'**E**n **F**out !!!!!!
+
+[slide=text]
+Combien ça *coûte*   de *changer* d'avis ?
 
 Est-ce qu'on a fait le bon choix avec cette stack ?
 Oui, pas au sens ou on a choisi la bonne solution.
@@ -1172,6 +1179,8 @@ image::img/screenshots/article-compilers-are-the-new-frameworks.jpg[url=https://
 image::img/drawings/browser-12.jpg[]
 
 image::img/drawings/browser-13.jpg[]
+
+image::img/drawings/browser-14.jpg[]
 
 framework runtime => compilers
 schéma browser avec le code qui passe du runtime au build
