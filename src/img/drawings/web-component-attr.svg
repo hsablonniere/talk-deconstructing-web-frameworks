@@ -12,6 +12,9 @@
                     <text x="2363.08px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">W<tspan x="2417.12px " y="16783.7px ">e</tspan>b Component</text>
                 </g>
             </g>
+            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
+                <text x="2463.57px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributs</text>
+            </g>
             <g>
                 <g transform="matrix(1,0,0,1,1852.53,-16332.3)">
                     <path d="M4481.91,16479.8C4582.91,16527.1 4615.35,16660.2 4633.52,16760.9" style="fill:none;stroke:rgb(45,135,180);stroke-width:9px;"/>
@@ -19,9 +22,6 @@
                 <g transform="matrix(1,0,0,1,1852.53,-16332.3)">
                     <path d="M4609.37,16742C4609.03,16741.7 4607.62,16738.9 4606.92,16739.6C4605.93,16740.6 4634.22,16763.3 4634.53,16763C4634.99,16762.5 4642.66,16743.3 4646.76,16737.1C4648.42,16734.6 4656.4,16724.4 4654.44,16726.3" style="fill:none;stroke:rgb(45,135,180);stroke-width:9px;"/>
                 </g>
-            </g>
-            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
-                <text x="2447.75px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributes</text>
             </g>
         </g>
     </g>

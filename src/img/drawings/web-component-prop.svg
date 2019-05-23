@@ -12,6 +12,12 @@
                     <text x="2363.08px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">W<tspan x="2417.12px " y="16783.7px ">e</tspan>b Component</text>
                 </g>
             </g>
+            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
+                <text x="2463.57px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributs</text>
+            </g>
+            <g transform="matrix(1,0,0,1,3556.53,-16470)">
+                <text x="2449.05px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Propriétés</text>
+            </g>
             <g>
                 <g transform="matrix(1,0,0,1,1852.53,-16332.3)">
                     <path d="M4481.91,16479.8C4582.91,16527.1 4615.35,16660.2 4633.52,16760.9" style="fill:none;stroke:rgb(45,135,180);stroke-width:9px;"/>
@@ -27,12 +33,6 @@
                 <g transform="matrix(1,0,0,1,1852.53,-16332.3)">
                     <path d="M4545.62,16744.9C4544.74,16744.9 4547.71,16746.6 4548.62,16747.3C4550.78,16748.9 4571.39,16767.1 4572.79,16767.1C4572.87,16767.1 4572.47,16766.7 4572.49,16766.6C4572.73,16766.1 4575.91,16755.6 4576,16755C4576.25,16753.5 4579.74,16738.9 4581.04,16736.3C4581.47,16735.5 4582.22,16732.9 4581.94,16733.2" style="fill:none;stroke:rgb(45,135,180);stroke-width:9px;"/>
                 </g>
-            </g>
-            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
-                <text x="2447.75px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributes</text>
-            </g>
-            <g transform="matrix(1,0,0,1,3556.53,-16470)">
-                <text x="2449.05px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Properties</text>
             </g>
         </g>
     </g>

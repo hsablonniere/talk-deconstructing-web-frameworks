@@ -12,6 +12,18 @@
                     <text x="2363.08px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">W<tspan x="2417.12px " y="16783.7px ">e</tspan>b Component</text>
                 </g>
             </g>
+            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
+                <text x="2463.57px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributs</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4018.02,-16614)">
+                <text x="2458.87px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Méthodes</text>
+            </g>
+            <g transform="matrix(1,0,0,1,4958.31,-16614)">
+                <text x="2423.45px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Événements</text>
+            </g>
+            <g transform="matrix(1,0,0,1,3556.53,-16470)">
+                <text x="2449.05px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Propriétés</text>
+            </g>
             <g>
                 <g transform="matrix(1,0,0,1,1852.53,-16332.3)">
                     <path d="M4481.91,16479.8C4582.91,16527.1 4615.35,16660.2 4633.52,16760.9" style="fill:none;stroke:rgb(45,135,180);stroke-width:9px;"/>
@@ -57,18 +69,6 @@
                 <g transform="matrix(1,0,0,1,1834.44,-16321.5)">
                     <path d="M5721.81,16525.5C5721.58,16525.5 5729.1,16535.4 5731.62,16537.5C5735.77,16540.9 5736.41,16548.1 5740.21,16550.7C5741.23,16551.3 5742.23,16554.3 5742.97,16554.3" style="fill:none;stroke:rgb(103,127,98);stroke-width:9px;"/>
                 </g>
-            </g>
-            <g transform="matrix(1,0,0,1,3547.35,-16613.9)">
-                <text x="2447.75px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Attributes</text>
-            </g>
-            <g transform="matrix(1,0,0,1,4018.02,-16614)">
-                <text x="2474.68px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Methods</text>
-            </g>
-            <g transform="matrix(1,0,0,1,4958.31,-16614)">
-                <text x="2501.23px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Events</text>
-            </g>
-            <g transform="matrix(1,0,0,1,3556.53,-16470)">
-                <text x="2449.05px" y="16783.7px" style="font-family:'Boogaloo-Regular', 'Boogaloo', cursive;font-size:86.183px;">Properties</text>
             </g>
         </g>
     </g>
