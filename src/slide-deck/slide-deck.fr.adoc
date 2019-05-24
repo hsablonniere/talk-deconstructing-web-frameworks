@@ -29,8 +29,10 @@ Depuis le début de sa carrière, au fil des semaines, des mois et des années,
 
 image::img/drawings-optimized/thinking-words.svg[]
 
-il voit naitre tous ces nouveaux outils révolutionnaires et prometteurs,
-mais qui demain seront délaissés et remplacés par de nouveaux ... *encore plus mieux*.
+il voit naitre tous ces nouveaux outils prometteurs et révolutionnaires,
+mais qui demain,
+peut-être...
+seront délaissés et remplacés par de nouveaux ... *encore plus mieux*.
 C'est avec tristesse et mélancholie qu'il repense à tous ces frameworks, librairies, éditeurs de code et autres outils en ligne de commande.
 
 image::img/drawings-optimized/rip.svg[]
@@ -69,7 +71,7 @@ Vous commenciez votre premier job et vous aviez déclaré une crise existentiell
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
 #Se la péter dev sénior ++#
-😎 Non mais ça c'est du passé, j'étais jeune et débutant, je ne me posais pas les bonnes questions.
+😎 Non mais ça c'est du passé, j'étais jeune et débutant, j'me posais pas les bonnes questions.
 Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un constat :
 
 .Trop de hype,   on est addict !
@@ -82,7 +84,7 @@ image::img/drawings-optimized/talking-legos-l-talks.svg[]
 image::img/drawings-optimized/projecteur.svg[]
 
 #Voix énergique#
-😎 Alors, problème numéro 1...
+😎 Alors, problème numéro 1... (quand on choisi un framework)
 #Voix blasée#
 👩‍⚕️ Euh... quand on vous pose une question, vous répondez toujours avec un PowerPoint ?
 
@@ -91,7 +93,7 @@ image::img/drawings-optimized/projecteur.svg[]
 image::img/drawings-optimized/talking-legos-l-thinks.svg[]
 
 #Hyper content#
-😎 Bah c'est vachement pratique en vrai.
+😎 Bah ouais, c'est vachement pratique en vrai.
 #Redescend d'un étage#
 Bref.
 
@@ -100,19 +102,21 @@ Bref.
 Trouver la solution   avant de constater le problème
 
 😎 Problème numéro 1...
-Quand on choisi un framework, une lib frontend et son écosystème, on en oublie souvent le problème qu'on voulait résoudre à la base...
+Quand on choisi un framework, une lib frontend et son écosystème,
+on en oublie souvent le problème qu'on voulait résoudre à la base...
 *et pourtant*, on a l'impression d'avoir déjà trouvé *LA* bonne réponse, *LA* bonne solution à utiliser.
 Bon, souvent c'était le bon outil et mais parfois la solution est adaptée à des problèmes qu'on a pas vraiment.
-👩‍⚕️ Mais pourquoi vous faites ça ?
 
 .Pourquoi ?
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
+👩‍⚕️ Mais pourquoi vous faites ça ?
+
 image::img/drawings-optimized/dx-ux.svg[]
 
-😎 Bah parfois le choix se fait parceque la techno est *cool* !
-Mais du coup, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
+😎 Bah parfois on fait l'choix parceque la techno est *cool* !
+Bon par contre, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
 
 image::img/drawings-optimized/giant.svg[]
 
@@ -145,11 +149,11 @@ Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
 image::img/drawings-optimized/silos.svg[]
 
 😎 On ouvre une porte et on reste bien au chaud à l'intérieur.
-Mais du coup, on va cherche systématiquement comment faire X ou Y avec *cet* écosystème alors que X ou Y sont peut-être un peu plus universels.
-Un peu comme quand on cherchait à manipuler des dates ou trier des tableaux avec jQuery.
+On va préfixer nos recherche sur StackOverflow avec angular, react ou vue
+alors même qu'on essaye peut-être de résoudre un pb un peu plus universel.
+Ça me rappelle quand on cherchait à manipuler des dates ou trier des array avec jQuery.
 Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
-On va chercher sur stackoverflow en préfixant avec le petit nom de notre écosystème.
-En fait, on est devenu des *gros fanboys/fangirls* avec nos outils.
+En fait, on est devenu amoureux de nos outils.
 On ne voit pas toujours leurs défauts,
 et on se persuade de l'intêret de certaines fonctionnalités sans les comprendre.
 On ne regarde pas ce qui se fait ailleurs avec un oeil ouvert.
@@ -160,7 +164,7 @@ image::img/drawings-optimized/brain.svg[]
 
 image::img/drawings-optimized/brain-fwk.svg[]
 
-😎 ...des fonctionnalités et concepts spéciques à notre écosystème...
+😎 ...des fonctionnalités et concepts spécifiques à notre écosystème...
 // 😎 Difficile de changer de cap quand on a investi du temps d'apprentissage.
 
 image::img/drawings-optimized/brain-patterns.svg[]
@@ -196,7 +200,9 @@ image::img/drawings-optimized/layers.svg[]
 
 image::img/drawings-optimized/layers-mixed.svg[]
 
-😎 ...on écrit des modules qui font plusieurs choses à la fois et qui sont fortement liées au scope global du projet.
+😎 ...on écrit des modules en mode
+#Bruit de prout à la bouche#
+allez hop, vas-y que j'te mélange plusieurs couches et que je couple mes composants au scope global du projet.
 Du coup :
 * quand notre propre écosystème évolue,
 * quand il disparait,
@@ -227,7 +233,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 
 👩‍⚕️ Bah là par contre, j'ai rien compris.
 😎 Ah...
-Bah en fait, c'est comme ma télé.
+Bah en fait, c'est un peu comme ma télé.
 
 .Comme ma télé !
 [slide=bubble]
@@ -239,9 +245,12 @@ Je commençais mon premier job et je venais de m'acheter une nouvelle télé ave
 image::img/drawings-optimized/tv.svg[]
 
 😎 Cette télé, je l'ai toujours aujourd'hui,
-elle marche comme il y a 10 ans.
-Elle a tenu la route parque qu'elle fait une chose et elle le fait bien.
-Elle ne sait pas ce que je vais brancher dessus, elle impose juste une interface : de l'HDMI.
+elle marche aussi bien qu'il y a 10 ans,
+#Chuchoter#
+(sauf sur certains épisodes de GoT)
+Elle a tenu la route parque qu'elle fait *une* chose et elle le fait *bien*.
+Elle sait pas c'que j'vais brancher dessus,
+elle impose juste une interface : de l'HDMI.
 
 image::img/drawings-optimized/tv-pc.svg[]
 
@@ -254,13 +263,13 @@ J'ai branché plein de trucs dont elle n'a pas besoin de connaitre l'existence n
 
 image::img/drawings-optimized/tv-androidtv.svg[]
 
-😎 J'ai même découvert par accident qu'en plus de recevoir de l'HDMI,
-elle pouvait elle envoyer des signaux (tjs via l'HDMI) aux appareils branchés.
+😎 J'ai même découvert par accident qu'en plus de recevoir de la donnée via l'HDMI,
+elle pouvait envoyer des signaux (tjs via l'HDMI) aux appareils branchés.
 Bref, aujourd'hui, dans le monde du frontend...
 
 image::img/drawings-optimized/tv-vcr.svg[]
 
-😎 Je vois trop de télé comme ça !
+😎 J'ai l'impression de voir beaucoup trop de télés comme ça !
 👩‍⚕️ Ah ouais, c'était bien au début ces trucs là car il n'y avait rien à brancher, c'était magique mais bon, quand la télé ou le magnétoscope était pété, il fallait tout racheter
 
 // image::img/drawings-optimized/tv-vcr-real.svg[]
@@ -300,7 +309,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 [.stop-music, slide=poster]
 Bonjour
 
-[.time]#00:06:00#
+[.time]#00:06:30#
 Bonjour à *toutes* et tous !
 J'm'appelle Hubert Sablonnière,
 J'suis développeur Web chez #Clever Cloud#,
@@ -319,7 +328,7 @@ OK, alors on utilise tous pleins d'outils super cools qui nous apportent des sol
 
 == C'était quoi  le *problème* ?
 
-[.time]#00:06:30#
+[.time]#00:07:00#
 ...mais c'était quoi le problème à la base ?
 ...
 Sur cette partie, j'ai essayé de lister les principaux problèmes auquels j'ai fait face dans mes différentes expériences de dev sur le Web.
@@ -330,7 +339,7 @@ _
 D'un côté, on a les problèmes qu'on veux résoudre pour les utilisatrices et utilisateurs du produit qu'on développe,
 et de l'autre, on a les problèmes qu'on rencontre *NOUS* les devs.
 ...
-Alors, en tant que user, on veut :
+Alors, en tant qu'utilisateur, on veut :
 
 [slide=needs, display=1]
 _
@@ -353,6 +362,7 @@ On veut que ce soit fluide et réactif,
 _
 
 que la consommation batterie, CPU, RAM reste raisonnable,
+(faut en garder pour Chrome)
 
 [slide=needs, display=5]
 _
@@ -366,9 +376,9 @@ et que ça marche partout.
 ...
 Déjà là, on voit qu'le contexte joue à mort.
 C'est en fonction de *"ce que vous codez"* que l'importance de ces problèmes varie.
-Si vous codez une app où l'utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c'est pas trop votre problème principal.
+Si vous codez une app où l'utilisatrice est active (genre gMail ou Slack), la rapidité du 1er chargement c'est pas trop votre problème.
 Même chose de l'autre côté du spectre, si vous codez une site où l'utilisateur fait bcp de lecture et de navigation,
-la fluidité avec des animations à 60 fps, bah forcément, c'est pas un problème que vous avez.
+mettre à jour le DOM en mode 60 fps, bah forcément, c'est pas un problème que vous avez.
 ...
 Ne notre côté, en tant que dev, on veut :
 
@@ -411,13 +421,15 @@ Transition
 OK, donc là, si vous êtes plutôt backend et que vous n'avez pas suivi le monde du front/Web ces dernières années,
 vous vous dites :
 "Non mais attend Hubert, là tu viens de lister à peu près les mêmes problèmes qu'on essayait de régler il y a 10 ans."
-"J'ai vraiment l'impression que vous vous êtes complexifié la vie avec tous vos outils compliqué alors que le problème est simple."
+"Ah les gens du frontend, j'ai vraiment l'impression que vous vous êtes complexifié la vie avec tous vos outils compliqués alors que le problème est simple."
 ...
+#Faux rire#
+Ah ah ah, les devs backend qui disent que c'est devenu compliqué !
 OK, mettons de côté l'ironie de cette remarque et posons nous la question :
 
 == *Comment* en est-on  arrivé là ?
 
-[.time]#00:08:00#
+[.time]#00:09:00#
 Comment est-ce qu'on en est arrivé là ?
 Est-ce qu'on a vraiment besoin de tous ces outils ?
 
@@ -427,89 +439,99 @@ Pour comprendre où on va,   il faut savoir d'où on vient.
 Pour comprendre où on va, il faut savoir d'où on vient.
 #blasé#
 Je sais pas trop qui a dit ça, déso.
-Mais il a bien raison !
+Mais il ou elle a bien raison !
 
 image::img/drawings/browser-1.jpg[]
 
 À la base on avait un Web assez simple mais puissant dans ses concepts.
-Un utilisateur demande une URL à son navigateur,
-le navigateur fait une requête HTTP vers un serveur,
-le serveur applique un template et répond un document HTML,
-merci au revoir.
 
 image::img/drawings/browser-2.jpg[]
 
-Ensuite, on a rajouté des images, des CSS et surtout des formulaires.
-L'utilisateur pouvait interragir avec le document une fois qu'il était chargé.
-// click
-// POST
-// nouvelle page HTML
+Un utilisateur demande une URL à son navigateur,
 
 image::img/drawings/browser-3.jpg[]
 
-Ça a commencé à se complexifier assez tôt avec l'arrivée de JavaScript.
-On avait maintenant la possibilité en tant que dev de répondre directement à des inputs de l'utilisateurs.
-Sans faire d'aller/retour réseau.
-Au départ, on faisait de la manipulation de DOM.
+le navigateur fait une requête HTTP vers un serveur,
+le serveur applique un template et répond un document HTML,
 
 image::img/drawings/browser-4.jpg[]
 
-Ensuite avec la vague AJAX, jQuery et compagnie,
-on a commencé à faire faire de plus en plus de chose à cette partie JavaScript
-et du coup à charger de plus de plus de code.
+le document est chargé, merci, au revoir.
 
 image::img/drawings/browser-5.jpg[]
 
-On est passé d'appels AJAX pour récupérer des bouts de templates HTML
-à faire ne récupérer que du JSON pour faire du templating côté client
-et surtout du routing côté client
-on gagnait bcp en perf sur les navigations consécutives
+Ensuite, on a rajouté des images, des CSS et surtout
 
 image::img/drawings/browser-6.jpg[]
 
-par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
-l'ère du <body> vide avec le mega fat bundle javascript qui contient tout.
-et là le premier chargement, il est pas trop content
+des formulaires.
+L'utilisateur pouvait enfin interragir avec le document une fois qu'il était chargé.
 
 image::img/drawings/browser-7.jpg[]
 
-C'est un peu pour revenir au meilleur des 2 mondes
-qu'on essaye aujourd'hui d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
-et de charger le reste au fur et à mesure.
+Et ensuite, tout bascule, on a rajouté ...
+#Grosse voix#
+JavaScript
 
 image::img/drawings/browser-8.jpg[]
 
-N'oublions pas que tout ça s'est fait pendant la période de
-l'arrivée des mobiles, du stockage local et des workers
+Nouveau joueur dans la partie : le moteur JS.
+Enfin la possibilité en tant que dev de répondre directement à des inputs des utilisateurs.
+Sans faire d'aller/retour réseau.
+Bon, au départ, on faisait de la manipulation de DOM.
 
 image::img/drawings/browser-9.jpg[]
 
+de la validation de formulaire,
+mais ensuite avec la vague AJAX, jQuery et compagnie,
+
 image::img/drawings/browser-10.jpg[]
 
+on a commencé à faire faire de plus en plus de chose à cette partie JavaScript,
+On est passé d'appels AJAX pour récupérer des bouts de templates HTML
+à ne récupérer que du JSON pour faire du templating côté client
+et surtout du routing côté client.
+On gagnait bcp en perf sur les navigations consécutives,
+par contre, le jusqueboutisme de cette logique nous a amené à une ère qui nous est encore familère,
+
 image::img/drawings/browser-11.jpg[]
+
+l'ère des SPA (Single page Applications),
+l'ère du <body> vide avec un mega fat bundle JavaScript qui contient tout.
+Et du coup là, le premier chargement, bah il est pas trop content.
 
 [slide=blank]
 Transition
 
+Aujourd'hui, avec nos outils, on essaye de revenir au meilleur des 2 mondes,
+on essaye d'avoir un premier chargement avec rendu côté serveur qui ne contient que ce qui est nécessaire
+et de charger le reste au fur et à mesure.
+...
+N'oublions pas que pendant que cette transition à eu lieu,
+le Web est devenu sérieux sur mobile et on eu pas mal de nouvelles fonctionnalités, stockage dans le navigateur, workers, etc...
+...
+C'est pas des problèmes triviaux à résoudre,
+Si vous faites tout à la main en mode vanilla.js ou plutôt en mode yolo.js vous allez rater pas mal des trucs que nous apportent les frameworks.
+Mais du coup,
+
 == Ce que les *frameworks*  nous apportent ?
 
-[.time]#00:10:00#
+[.time]#00:11:00#
+Qu'est ce que les frameworks nous apportent ?
+Bon je parle de frameworks et je vois déjà dans les yeux de certains :
+#Voix raleur#
+"oui mais en fait React, c'est pas vraiment un framework"
 
 [slide=text]
 *Frameworks* vs. *libs* ?
 
-framework => cadre de travail
-opinionated set of libs/tools
-problem is when this set of libs/tools is only compatible with itself
-de mon expérience, les projets frameworks X ou Y ne se ressemble pas quand le contexte est différent
-...
-historique
-jquery
-Frameworks are also their to prevent browser quirks
+OK, d'accord, je suis d'accord,
+Comme le disait React au début, c'est le V de MVC,
 
 [slide=todo-schema]
 image::img/drawings-optimized/silos-colors.svg[]
 
+Quand on regarde les 3 fwks du moment,
 Angular and ember are opinionated
 React is supposed to be unopinionated
 Vue is a bit in the middle
@@ -619,12 +641,23 @@ tests
 [slide=blank]
 Transition
 
-en terme de conception de d'organisation des composants (et de séparation des concerns etc)
-les 3 communautés ont des choses intéressantes à dire
+Tous ces frameworks/ecosystème on des solutions pour vos projets Web modernes mais :
+* ils résolvent des problèmes que vous n'avez peut-être pas
+* ils résolvent des problèmes pour des catégories de devs que vous n'avez peut-être pas dans votre équipe
+* et surtout, c'est pas souvent leur priorité de gérer le fait qu'un jour vous arrêterez de les utiliser pour passer sur autre chose
+...
+Du coup, moi j'essaye de faire attention au couplage technique et surtout sentimental que je peux avoir avec eux.
+Et surtout, j'essaie de regarder ce qui se fait ailleurs dans les autres communautés.
+La communauté React est la plus prolifique en terme de contenus, blogs etc et a pas mal de choses intéressante sur la manière d'architecturer ses composants sans forcément que ces patterns soient spécifiques à React.
+...
+Pendant mes recherches, j'ai vu plusieurs fois des
+"non mais les navigateurs, ils devraient juste standardiser React et pi c'est tout, ça serait bien plus simple"
+C'est loin d'être aussi simple, du coup on va essayer de voir
 
 == Ce que les *standards*  nous apportent ?
 
-[.time]#00:20:00#
+[.time]#00:22:00#
+ce que les standards nous apportent
 
 image::img/screenshots/site-jquery.jpg[url=https://jquery.com/]
 
@@ -909,14 +942,16 @@ image::img/screenshots/twitter-WebPlatformNews.jpg[url=https://twitter.com/WebPl
 [slide=blank]
 Transition
 
-Maintenant qu'on a déconstruit un peu les différentes solutions qu'apportent les frameworks et les standards,
-on a une meilleure vision des différentes couches qui composent un projet Web,
-et du coup, il est temps d'appliquer...
+Alors là on pas eu le temps de rentrer dans les détails mais au fur et à mesure de mes recherches pour cette présentation,
+j'ai approfondi ma connaissance des différentes solutions qu'apportent les frameworks et les standards,
+et j'ai vraiment l'impression d'avoir une meilleure vision des différentes couches qui composent un projet Web.
+Je pense sincèrement que c'est la clé pour pouvoir appliquer...
 
 == Le Web,  c'est du **SOLID**e
 
-[.time]#00:30:00#
-...les principes SOLID à notre frontend préféré.
+[.time]#00:33:00#
+...des bons patterns sur notre frontend préféré et de découpler un peu tout ça,
+et pour produire du code un peu plus résistant au temps et aux modes.
 Je vais prendre l'exemple du travail que je fais en ce moment...
 
 [quote]
@@ -953,6 +988,8 @@ DOM (jquery + bacon)
 Pas de SSR
 Router maison (merci quentin)
 Pas vrmt de state manager (bacon)
+2 personnes plutôt expérimentés
+Quasi pas de turn over
 
 .Nos besoins
 [slide=web-components, display=0]
@@ -1121,39 +1158,48 @@ elements qui font des appels REST
 //* document.title
 // i18n
 
-// i18n
-// packaging
-// Tests: do it like a  screen reader user wood do it
-// Tests: no a great fan of snapshots
-
 [slide=text]
 Est-ce qu'on a fait le *bon choix* ?
+
+Est-ce qu'on a fait le bon choix avec cette stack ?
 
 [.osef, slide=text]
 *OSEF™️*
 
+On s'en fout.
+
 [slide=text]
 **O**n **S**'**E**n **F**out !!!!!!
+
+En posant cette question, on continue de penser qu'il existe qqpart une silver bullet,
+une solution qui répond à toutes les situations.
+La question devrait être, en fonction de notre contexte bien précis,
 
 [slide=text]
 Combien ça *coûte*   de *changer* d'avis ?
 
-Est-ce qu'on a fait le bon choix avec cette stack ?
-Oui, pas au sens ou on a choisi la bonne solution.
-Au sens ou on pourra changer d'avis demain,
-garder des composants longtemps avec ce choix sans les retoucher, et tant pis car ils sont petit
-les réécrire avec des outils différents car l'impact sur les autres couches sera faible.
-On s'en fout !
-On a fait un choix qui ne nous demande pas trop d'apprentissage spécifique (lit-element, lit-html),
-qui nous donne des connaissances de nouveaux standards du Web,
-ça ne peut qu'être positif !
+est-ce qu'on pourra changer d'avis demain ?
+Comment ?
+Pourquoi ?
+Et pour combien €€ ?
+Notre contexte :
+* petite équipe sans turn-over
+* application Web dans la durée +7 ans
+fait que non, ça ne nous coutera pas trop cher de changer d'avis.
+On a passé du temps à mieux comprendre un nouveau standard du Web,
+et de mon expérience, c'est rarement une perte de temps.
+On peut décider d'utiliser une autre librairie par dessus les Web Components demain,
+sans refactorer les composants existants parceque l'overhead en terme de taille de bundle est vraiment petit.
+Bla bla couches découplées
 
 [slide=blank]
 Transition
 
+Parlons du futur
+
 == Ce que le *futur*  nous réserve...
 
-[.time]#00:40:00#
+[.time]#00:45:00#
 
 [slide=text]
 *Méfiez vous* de ceux qui  prédisent le futur *!*
@@ -1207,7 +1253,7 @@ Fondu vers le noir
 [.old.play-music]
 == ...Epilogue
 
-[.time]#00:42:00#
+[.time]#00:47:00#
 
 .Alors ?
 [slide=bubble]

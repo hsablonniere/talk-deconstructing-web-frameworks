@@ -17,5 +17,5 @@ const deck = bespoke.from({ parentSelector: 'body', slidesSelector: 'section.sli
   // should be last
   hash(),
   protocol(),
-  multilang(),
+  //multilang(),
 ]);
