@@ -4,8 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:event: MiXiT
-:date: 24 mai 2019
+:event: Devfest Lille
+:date: 14 juin 2019
 
 [slide=poster]
 Poster
@@ -78,7 +78,7 @@ Aujourd'hui, je prends du recul sur le monde du frontend Web et je fais un const
 [slide=bubble]
 image::img/drawings-optimized/talking-legos-l-talks.svg[]
 
-😎 Les effets de mode et de hype nous rendent beaucoup trop addict à nos outils.
+😎 Il y a beaucoup trop de hype et d'effets de mode, on est devenus complètement addicts à nos outils.
 👩‍⚕️ Humm, dites mois en plus, quels problèmes ça implique ?
 
 image::img/drawings-optimized/projecteur.svg[]
@@ -116,7 +116,7 @@ image::img/drawings-optimized/talking-legos-r-talks.svg[]
 image::img/drawings-optimized/dx-ux.svg[]
 
 😎 Bah parfois on fait l'choix parceque la techno est *cool* !
-Bon par contre, ça nous pousse à faire passer l'expérience de développement avant cette des utilisateurs du produit qu'on développe.
+Bon par contre, ça nous pousse à faire passer l'expérience de développement avant celle des utilisateurs du produit qu'on développe.
 
 image::img/drawings-optimized/giant.svg[]
 
@@ -149,7 +149,7 @@ Une fois qu'on a choisi un écosystème, on a tendance à s'enfermer dedans.
 image::img/drawings-optimized/silos.svg[]
 
 😎 On ouvre une porte et on reste bien au chaud à l'intérieur.
-On va préfixer nos recherche sur StackOverflow avec angular, react ou vue
+On va préfixer nos recherches sur StackOverflow avec angular, react ou vue
 alors même qu'on essaye peut-être de résoudre un pb un peu plus universel.
 Ça me rappelle quand on cherchait à manipuler des dates ou trier des array avec jQuery.
 Du coup on va réécrire l'énième composant "select" ou "datagrid" dédié uniquement à cet écosystème.
@@ -543,6 +543,8 @@ image::img/drawings-optimized/silos-rooms.svg[]
 [slide=blank]
 on efface
 
+Oublier le silo vertical.
+
 image::img/drawings/bookshelf-empty.jpg[]
 
 // mentionner les étapes qui nécessitent un outil de build
@@ -565,6 +567,7 @@ React "data down, action up" (ou callback called)
 => props pour les children
 Tous: attrs et lifecycle methods
 Slots ?
+React +1 : démocratisation du "composant partout"
 
 [slide=needs, focus=""]
 "Templating" / ViewModel
@@ -572,13 +575,19 @@ Slots ?
 [slide=needs, focus="0,6,7,8,9,10,11"]
 "Templating" / ViewModel
 
+La manière dont vous codez vos templates (et vos composant de manière plus générale) n'a que très peu d'impacts sur l'utilisateur
+
 image::img/drawings/bookshelf-2.jpg[]
 
-=> JSX, templates
-=> 1 file vs several files
+=> Angular & Vue : ViewModel avec détection de changement
+=> Avec Vue qui propose un modèle de SFC
+Première prez de React 2013
+On modifie souvent le ViewModel et le template en même temps
+=> JSX (j'aime et j'aime pas)
+=> "Fork de JavaScript"
+Pas de soucis avec la separation of concerns
+Mais bcp d'impact sur l'outillage de l'écosystème (compiler, parser, bundlers, linters, editeur de code...)
 => output pur JS, vs JS + CSS
-Mvc, mvvm, template + vue model, computed properties
-exemple Angular, React, Vue
 
 [slide=needs, focus=""]
 Gestion du CSS
@@ -586,9 +595,15 @@ Gestion du CSS
 [slide=needs, focus="0,9"]
 Gestion du CSS
 
+La manière dont vous codez votre CSS n'a que très peu d'impacts sur l'utilisateur
+hormis le fait que votre fwk soit capable de manière intelligente de produire un vrai fichier CSS avec le strict minimum
+=> impact 1er chargement
+
 image::img/drawings/bookshelf-3.jpg[]
 
-=> BEM, CSS-in-JS lib, encapsulation system
+Angular & Vue : système d'encapsulation virtuel
+React (juste la vue) => communauté CSS-in-JS lib
+=> BEM, encapsulation system
 
 [slide=needs, focus=""]
 Manipulation du DOM
@@ -596,11 +611,18 @@ Manipulation du DOM
 [slide=needs, focus="2,3,4,5,8"]
 Manipulation du DOM
 
+Aucun impact sur les devs, c'est sous le capot
+
 image::img/drawings/bookshelf-4.jpg[]
 
-=> Direct binding vs Virtual DOM (+ scheduling microtask...)
-The Virtual DOM was always a big marketing argument to sell React but why would we care.
-It's an implementation detail an clearly, if they changed their impl and are still fast, we should not care at all.
+React & Vue => virtual DOM + diffing
+=> Modèle super intelligent mais pas silver bullet
+Stackovervlow "y'a un vDOM dans Angular ?"
+Mais c'est quoi ton problème ?
+Le vDOM a été au début un gros argument marketing pour vendre React mais en vrai, on s'en fout.
+C'est un détail d'implem, s'ils changent de modèle et que tout marche comme avant mais en plus perfs : bonne nouvelle.
+=> microlibs alternatives modernes
+Angular a un modèle différent
 
 [slide=needs, focus=""]
 SSR (Server Side Rendering)
@@ -608,13 +630,23 @@ SSR (Server Side Rendering)
 [slide=needs, focus="0,5"]
 SSR (Server Side Rendering)
 
+Impact user,
+SEO,
+perf
+cross-browser
+
 image::img/drawings/bookshelf-5.jpg[]
+
+projet de la communauté
+
 
 [slide=needs, focus=""]
 Router
 
 [slide=needs, focus="1"]
 Router
+
+attention, c'est pas si simple
 
 image::img/drawings/bookshelf-6.jpg[]
 
@@ -648,7 +680,7 @@ Tous ces frameworks/ecosystème on des solutions pour vos projets Web modernes m
 ...
 Du coup, moi j'essaye de faire attention au couplage technique et surtout sentimental que je peux avoir avec eux.
 Et surtout, j'essaie de regarder ce qui se fait ailleurs dans les autres communautés.
-La communauté React est la plus prolifique en terme de contenus, blogs etc et a pas mal de choses intéressante sur la manière d'architecturer ses composants sans forcément que ces patterns soient spécifiques à React.
+La communauté React est *la plus prolifique en terme de contenus, blogs etc et a pas mal de choses intéressantes* sur la manière d'architecturer ses composants sans forcément que ces patterns soient spécifiques à React.
 ...
 Pendant mes recherches, j'ai vu plusieurs fois des
 "non mais les navigateurs, ils devraient juste standardiser React et pi c'est tout, ça serait bien plus simple"
@@ -671,8 +703,10 @@ préambule exemple jquery => sizzle + ajax + API chainée sucre syntaxique
 _
 
 image::img/drawings-optimized/web-component-tv.svg[]
-// UTILISER LE SCHEMA DE LA TV
-schéma de la télé => analogie avec le Web component
+
+Je vais encore vous parler de ma TV.
+Parce que j'aime bien ma TV.
+Alors, luminosité à 75% sur l'épisode 803 de GoT, #LesVraisSavent
 
 image::img/drawings-optimized/web-component.svg[]
 
@@ -822,6 +856,14 @@ image::img/drawings/bookshelf-wc-ce.jpg[]
 [slide=web-components]
 _
 //shadow DOM => isolation du CSS
+
+Virtual DOM d'un côté
+Shadow DOM d'un côté
+vDOM: modèle pour modifier le DOM de manière efficace qui forcément du code amené par votre ecosystème
+Shadow DOM: Un standard pour isoler le CSS et le DOM de votre composant
+Ça n'a rien à voir,
+ça se ressemble,
+c'est chiant mais c'est la faute de personne au final.
 
 image::img/drawings-optimized/web-component-slot.svg[]
 
