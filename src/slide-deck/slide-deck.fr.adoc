@@ -4,8 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:event: Devfest Lille
-:date: 14 juin 2019
+:event: Ch'ti JUG
+:date: 25 juin 2019
 
 [slide=poster]
 Poster
