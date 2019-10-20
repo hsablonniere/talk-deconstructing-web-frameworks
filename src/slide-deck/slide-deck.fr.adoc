@@ -4,8 +4,8 @@ Hubert Sablonnière
 :author-avatar: img/hsablonniere-profil-2017.jpg
 :author-company: Clever Cloud
 :author-company-logo: img/clever-cloud-logo.svg
-:event: Ch'ti JUG
-:date: 25 juin 2019
+:event: DevFest Nantes
+:date: 21 octobre 2019
 
 [slide=poster]
 Poster
@@ -999,10 +999,9 @@ Je vais prendre l'exemple du travail que je fais en ce moment...
 [quote]
 Code should be disposable,   it's far easier to do when   things are decoupled.
 
-.Le contexte *Clever Cloud*
+.*Notre* contexte
 [.logo]
-image::img/cc-rocket-man.png[]
-//image::img/clever-cloud-logo.svg[]
+image::img/clever-cloud-logo.svg[]
 
 ...chez Clever Cloud,
 en espérant que ça vous donne des idées pour votre contexte et votre stack.

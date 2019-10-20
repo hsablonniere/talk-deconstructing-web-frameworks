@@ -5,7 +5,6 @@
 == Feedbacks after Devoxx FR and Voxxed CERN
 
 * Lacks some tips in the decoupling part
-* Bookshelf should be aligned
 * Insist on global stuffs to decouple
 * Insist on it's not a big deal to replace something if it's cheap
 * We want decoupled code so we can keep the code that does not move the longest possible and replace those who change a lot really quick
@@ -14,3 +13,7 @@
 ** ?? Some visuals maybe
 * Standards part is a bit confusing
 * Coupling part could be a bit more details
+
+== Pour Nantes
+
+* slide schéma browser/navigateur
